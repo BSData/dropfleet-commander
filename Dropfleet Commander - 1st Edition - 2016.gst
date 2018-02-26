@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="1" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="2" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -85,6 +85,30 @@
         <characteristicType id="d6c1-7d66-916c-88e8" name="Special"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="2c32-5f9e-952e-1e30" name="Sector">
+      <characteristicTypes>
+        <characteristicType id="9d35-735b-a456-9535" name="Hull"/>
+        <characteristicType id="6854-a747-70a9-dc3e" name="A"/>
+        <characteristicType id="e03e-9451-4084-7802" name="Value"/>
+        <characteristicType id="541c-a2de-0f94-bc77" name="Special"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="b12e-32e7-4e65-87e9" name="Cluster">
+      <characteristicTypes>
+        <characteristicType id="e183-0cbf-c34e-ed1b" name="Scan"/>
+        <characteristicType id="2291-2e61-b7dc-11f1" name="Hold"/>
+        <characteristicType id="bc31-563e-7797-6fa3" name="Contest"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="0786-d655-cdc7-42d3" name="Debris Field">
+      <characteristicTypes>
+        <characteristicType id="7cad-0cd8-c0be-af65" name="Lock"/>
+        <characteristicType id="808e-2023-a4ca-2e70" name="Attacks"/>
+        <characteristicType id="eeaa-e9a3-ddc1-1fc9" name="Damage"/>
+        <characteristicType id="853b-032c-9ab5-30f6" name="Lock Penalty"/>
+        <characteristicType id="f21a-dd5c-ad67-2490" name="Scan Penalty"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="b754-76e4-e1a6-8e7f" name="Pathfinder Battlegroups" hidden="false">
@@ -158,6 +182,34 @@
       <constraints/>
     </categoryEntry>
     <categoryEntry id="1096-0c29-3519-d830" name="Fleet" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="d454-56c9-ca87-79ce" name="Clusters" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="6b03-f33c-554a-8571" name="Space Stations" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="7ccb-96a9-0d54-6d4e" name="Debris Fields" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="bd1a-35ba-65e3-185b" name="Other" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -434,9 +486,128 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
+    <forceEntry id="053e-95bc-5ec1-51c5" name="Terrain" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="20ce-a80a-d9a5-c1b4" name="Clusters" hidden="false" targetId="d454-56c9-ca87-79ce" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b545-9c2f-b267-ebdf" name="Space Stations" hidden="false" targetId="6b03-f33c-554a-8571" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d58c-c23a-442f-7f7f" name="Debris Fields" hidden="false" targetId="7ccb-96a9-0d54-6d4e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ad24-e8c3-bfcc-c623" name="Other" hidden="false" targetId="bd1a-35ba-65e3-185b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <selectionEntries/>
-  <entryLinks/>
+  <entryLinks>
+    <entryLink id="6635-0050-3dd4-fc90" name="Dense Debris Field" hidden="false" targetId="b206-1a7f-6c1c-1cb5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="06e7-e796-74e8-3bef" name="Fine Debris Field" hidden="false" targetId="dfaa-0d8b-9424-d7e8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fa69-6fb1-21bd-36d8" name="Large Space Station" hidden="false" targetId="0d04-e909-0384-1cd6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="af32-3f42-ab4b-3158" name="Large Cluster" hidden="false" targetId="66fd-e501-8ce7-a35f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2e91-f6cf-a8eb-7e16" name="Medium Cluster" hidden="false" targetId="9150-2f97-14e6-ac3c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="faad-aa0b-0103-280f" name="Medium Space Station" hidden="false" targetId="3f23-ae01-996c-9dbd" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fd9a-a334-d290-3a4e" name="Small Cluster" hidden="false" targetId="9ea0-2d05-f377-5ab0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e5dd-ad97-0a06-4e2f" name="Small Space Station" hidden="false" targetId="df4f-4a71-603a-020b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e89a-2cf4-b9e5-5eb5" name="Planetary Ring" hidden="false" targetId="c03a-0b9f-1847-3b1b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="dfd8-2080-6725-20aa" name="Large Solid Object" hidden="false" targetId="f839-e810-46d3-38dd" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3209-572d-007e-c797" name="Light" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -544,8 +715,1210 @@
         <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9ea0-2d05-f377-5ab0" name="Small Cluster" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="6188-16fa-99ca-0fff" name="Small Cluster" book="RB" page="74" hidden="false" profileTypeId="b12e-32e7-4e65-87e9" profileTypeName="Cluster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="e183-0cbf-c34e-ed1b" value="6&quot;"/>
+            <characteristic name="Hold" characteristicTypeId="2291-2e61-b7dc-11f1" value="2VP"/>
+            <characteristic name="Contest" characteristicTypeId="bc31-563e-7797-6fa3" value="0VP"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d2be-e630-0fe6-e42c" name="New CategoryLink" hidden="false" targetId="d454-56c9-ca87-79ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c07a-540a-ae89-6803" name="Sector 1" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7744-2d0f-41b7-b1f5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b0f-866e-863f-cccb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2038-2654-ad0e-913d" name="Sector" hidden="false" targetId="3e39-461e-6d47-16b3" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="3449-1eac-552a-0bbd" name="Sector 2" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51ed-a70b-1d50-76aa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b5-0949-3e5e-5ed5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="3a6a-9595-83e5-a4c9" name="Sector" hidden="false" targetId="3e39-461e-6d47-16b3" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="bf7a-e328-821c-c133" name="Critical Location" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9556-7fcb-6973-ac41" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d99-a9aa-a274-2e36" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9150-2f97-14e6-ac3c" name="Medium Cluster" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c4d9-06d6-f0b6-36c8" name="Medium Cluster" book="RB" page="74" hidden="false" profileTypeId="b12e-32e7-4e65-87e9" profileTypeName="Cluster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="e183-0cbf-c34e-ed1b" value="6&quot;"/>
+            <characteristic name="Hold" characteristicTypeId="2291-2e61-b7dc-11f1" value="3VP"/>
+            <characteristic name="Contest" characteristicTypeId="bc31-563e-7797-6fa3" value="1VP"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7eaf-50be-f7ae-fb28" name="New CategoryLink" hidden="false" targetId="d454-56c9-ca87-79ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5100-d232-8ed8-15b6" name="Sector 1" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="103e-68ac-8882-c353" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f38-ea59-5d09-cc72" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f0b5-4840-37ed-6a9c" name="Sector" hidden="false" targetId="3e39-461e-6d47-16b3" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="3bfb-6bed-c1e4-b1dd" name="Sector 2" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a27c-66b5-a8bc-0191" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5787-189a-5f6a-1577" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="3f0d-6ee2-10fb-7fd9" name="Sector" hidden="false" targetId="3e39-461e-6d47-16b3" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="34c2-a147-3444-06a7" name="Sector 3" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f678-5b62-7acb-7809" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4963-030c-6337-854e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="3a6b-4bfe-2185-a808" name="Sector" hidden="false" targetId="3e39-461e-6d47-16b3" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="1179-e5c6-ae0a-3738" name="Critical Location" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ff0-c404-d78e-6cb8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b6a-022e-fc90-2f70" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="66fd-e501-8ce7-a35f" name="Large Cluster" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="dd31-cd8e-0939-2a09" name="Large Cluster" book="RB" page="74" hidden="false" profileTypeId="b12e-32e7-4e65-87e9" profileTypeName="Cluster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="e183-0cbf-c34e-ed1b" value="6&quot;"/>
+            <characteristic name="Hold" characteristicTypeId="2291-2e61-b7dc-11f1" value="4VP"/>
+            <characteristic name="Contest" characteristicTypeId="bc31-563e-7797-6fa3" value="2VP"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8bd8-7449-6246-0487" name="New CategoryLink" hidden="false" targetId="d454-56c9-ca87-79ce" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fbc0-c93e-e474-01ee" name="Sector 1" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e8f-f655-83f3-3003" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ea-50da-0e15-b1f9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a595-1efe-6392-7a94" name="Sector" hidden="false" targetId="3e39-461e-6d47-16b3" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="3330-bdaf-8050-8ae7" name="Sector 2" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8388-20ca-3c03-d2fe" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca21-2e04-4925-8d42" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="9748-e7e6-3921-a0a4" name="Sector" hidden="false" targetId="3e39-461e-6d47-16b3" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="129e-dda3-029b-66c1" name="Sector 3" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe3e-ef06-5550-4117" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88a8-5589-45cb-590c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2ea9-bcc9-1506-845e" name="Sector" hidden="false" targetId="3e39-461e-6d47-16b3" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="39f5-799b-0c48-c0e7" name="Sector 4" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f61e-1814-47ab-e161" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8970-421f-80ad-8fc1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="9312-aa05-5139-928c" name="Sector" hidden="false" targetId="3e39-461e-6d47-16b3" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="6621-0cdf-ddf5-2255" name="Critical Location" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4a8-34c9-08c6-106c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd3e-82f4-099a-6cca" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="44b0-db51-bbdb-d61a" name="Commercial Sector" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="24ab-6093-97ee-dfd7" name="Commercial Sector" book="RB" page="74" hidden="false" profileTypeId="2c32-5f9e-952e-1e30" profileTypeName="Sector">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="9d35-735b-a456-9535" value="8"/>
+            <characteristic name="A" characteristicTypeId="6854-a747-70a9-dc3e" value="4+"/>
+            <characteristic name="Value" characteristicTypeId="e03e-9451-4084-7802" value="1"/>
+            <characteristic name="Special" characteristicTypeId="541c-a2de-0f94-bc77" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9838-c0be-f9f6-0041" name="Industrial Sector" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d7e3-ea07-da10-319b" name="Industrial Sector" book="RB" page="74" hidden="false" profileTypeId="2c32-5f9e-952e-1e30" profileTypeName="Sector">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="9d35-735b-a456-9535" value="4"/>
+            <characteristic name="A" characteristicTypeId="6854-a747-70a9-dc3e" value="4+"/>
+            <characteristic name="Value" characteristicTypeId="e03e-9451-4084-7802" value="2"/>
+            <characteristic name="Special" characteristicTypeId="541c-a2de-0f94-bc77" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4de7-a7ee-a57e-887e" name="Military Sector" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="bda2-a956-28e7-6cb2" name="Military Sector" book="RB" page="74" hidden="false" profileTypeId="2c32-5f9e-952e-1e30" profileTypeName="Sector">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="9d35-735b-a456-9535" value="4"/>
+            <characteristic name="A" characteristicTypeId="6854-a747-70a9-dc3e" value="3+"/>
+            <characteristic name="Value" characteristicTypeId="e03e-9451-4084-7802" value="1"/>
+            <characteristic name="Special" characteristicTypeId="541c-a2de-0f94-bc77" value="Defence Weapons"/>
+          </characteristics>
+        </profile>
+        <profile id="3248-163d-70f8-f2c0" name="Military Sector - Defence Weapons" book="RB" page="74" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Escape Velocity"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a1c0-8d7e-8f21-e65c" name="Escape Velocity" hidden="false" targetId="acfb-b2b0-1b53-d429" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="91eb-c35b-050d-7a93" name="Orbital Defence Sector" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d096-5684-a485-b4a1" name="Orbital Defence Sector" book="RB" page="74" hidden="false" profileTypeId="2c32-5f9e-952e-1e30" profileTypeName="Sector">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="9d35-735b-a456-9535" value="6"/>
+            <characteristic name="A" characteristicTypeId="6854-a747-70a9-dc3e" value="3+"/>
+            <characteristic name="Value" characteristicTypeId="e03e-9451-4084-7802" value="1"/>
+            <characteristic name="Special" characteristicTypeId="541c-a2de-0f94-bc77" value="Orbital Gun"/>
+          </characteristics>
+        </profile>
+        <profile id="17fb-fcee-50c7-97a0" name="Orbital Defence Sector - Orbital Gun" book="RB" page="75" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="1"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Burnthrough(6), Escape Velocity, Flash"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="75eb-40fe-753f-ccfe" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4692-e8c5-dc86-556e" name="Escape Velocity" hidden="false" targetId="acfb-b2b0-1b53-d429" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="592e-feb4-d895-082d" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="db66-0722-bc5f-6bf3" name="Power Plant Sector" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8203-a4b4-cf80-c73b" name="Power Plant Sector" book="RB" page="74" hidden="false" profileTypeId="2c32-5f9e-952e-1e30" profileTypeName="Sector">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="9d35-735b-a456-9535" value="6"/>
+            <characteristic name="A" characteristicTypeId="6854-a747-70a9-dc3e" value="4+"/>
+            <characteristic name="Value" characteristicTypeId="e03e-9451-4084-7802" value="4"/>
+            <characteristic name="Special" characteristicTypeId="541c-a2de-0f94-bc77" value="Volatile"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="857f-cff6-0afd-d1e5" name="Volatile" hidden="false" targetId="56bb-f992-4138-699e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="508e-f1e1-cbf0-5cba" name="Comms Station Sector" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8e5f-1612-c3d7-1551" name="Comms Station Sector" book="RB" page="74" hidden="false" profileTypeId="2c32-5f9e-952e-1e30" profileTypeName="Sector">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="9d35-735b-a456-9535" value="4"/>
+            <characteristic name="A" characteristicTypeId="6854-a747-70a9-dc3e" value="5+"/>
+            <characteristic name="Value" characteristicTypeId="e03e-9451-4084-7802" value="1"/>
+            <characteristic name="Special" characteristicTypeId="541c-a2de-0f94-bc77" value="Scanner Uplink"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5d52-749a-f486-c86f" name="Scanner Uplink" hidden="false" targetId="03ba-7935-3fbf-e2c0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="df4f-4a71-603a-020b" name="Small Space Station" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="9a3c-64f4-47af-229b" name="Small Space Station" book="RB" page="54" hidden="false" profileTypeId="2f33-491f-7a7b-d5f5" profileTypeName="Space Station">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="8536-87d2-d32f-96b5" value="6&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="5e15-d424-4723-cfb0" value="4&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="714c-5a66-45f8-0f17" value="0&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="7fa4-b1da-87aa-54ad" value="8"/>
+            <characteristic name="A" characteristicTypeId="41ac-cf99-497a-33b8" value="3+"/>
+            <characteristic name="PD" characteristicTypeId="4f20-0a1e-3b75-f2f8" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0631-483f-fa12-7083" name="New CategoryLink" hidden="false" targetId="6b03-f33c-554a-8571" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="be06-e6d3-c532-39fa" name="Critical Location" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c60e-5982-7e94-4fa2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e23b-be17-92de-19ff" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="76d6-2198-ba95-6d72" name="Laser Armament" hidden="false" targetId="127f-3884-f706-e4a6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0021-672a-e78b-66c9" name="Mass Driver Armament" hidden="false" targetId="f57f-44de-7234-b547" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="78b6-ba42-28ef-565e" name="Missile Armament" hidden="false" targetId="a01d-6ebc-7ac3-d891" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9286-6d6c-93d8-ef0b" name="Orbital Layer" hidden="false" targetId="4dcf-b787-ba8c-b03a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3f23-ae01-996c-9dbd" name="Medium Space Station" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="11df-0082-5096-e467" name="Medium Space Station" book="RB" page="54" hidden="false" profileTypeId="2f33-491f-7a7b-d5f5" profileTypeName="Space Station">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="8536-87d2-d32f-96b5" value="6&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="5e15-d424-4723-cfb0" value="6&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="714c-5a66-45f8-0f17" value="0&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="7fa4-b1da-87aa-54ad" value="12"/>
+            <characteristic name="A" characteristicTypeId="41ac-cf99-497a-33b8" value="3+"/>
+            <characteristic name="PD" characteristicTypeId="4f20-0a1e-3b75-f2f8" value="8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2560-4dba-b13a-d664" name="New CategoryLink" hidden="false" targetId="6b03-f33c-554a-8571" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8d65-c0c6-f2a2-9611" name="Critical Location" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="785b-b50b-bb2d-3b29" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26bf-b92b-e171-edc7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7969-c9b8-f80a-d3ff" name="Laser Armament" hidden="false" targetId="127f-3884-f706-e4a6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="07a5-255b-a990-fb10" name="Mass Driver Armament" hidden="false" targetId="f57f-44de-7234-b547" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="207c-acb3-efc2-df2f" name="Missile Armament" hidden="false" targetId="a01d-6ebc-7ac3-d891" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="31a0-9127-e952-08b8" name="Orbital Layer" hidden="false" targetId="4dcf-b787-ba8c-b03a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="0d04-e909-0384-1cd6" name="Large Space Station" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="f268-bb92-2af7-a45d" name="Large Space Station" book="RB" page="54" hidden="false" profileTypeId="2f33-491f-7a7b-d5f5" profileTypeName="Space Station">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="8536-87d2-d32f-96b5" value="6&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="5e15-d424-4723-cfb0" value="8&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="714c-5a66-45f8-0f17" value="0&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="7fa4-b1da-87aa-54ad" value="16"/>
+            <characteristic name="A" characteristicTypeId="41ac-cf99-497a-33b8" value="3+"/>
+            <characteristic name="PD" characteristicTypeId="4f20-0a1e-3b75-f2f8" value="12"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="08f2-327e-b1f2-fc8e" name="New CategoryLink" hidden="false" targetId="6b03-f33c-554a-8571" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="dac1-2892-f579-0053" name="Critical Location" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a164-14ca-1dc3-7a06" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eb1-f977-af87-6f6f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="659e-4eed-7f81-28d8" name="Laser Armament" hidden="false" targetId="127f-3884-f706-e4a6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5141-c4dd-2813-c647" name="Mass Driver Armament" hidden="false" targetId="f57f-44de-7234-b547" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a522-2936-c8c3-0ae6" name="Missile Armament" hidden="false" targetId="a01d-6ebc-7ac3-d891" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bfec-9884-9e5a-b1a3" name="Orbital Layer" hidden="false" targetId="4dcf-b787-ba8c-b03a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="f57f-44de-7234-b547" name="Mass Driver Armament" book="RB" page="54" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="db10-0f0d-992f-efe6" name="Mass Driver Armament" book="RB" page="54" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b13-40ea-b511-4384" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1ad-eef6-a115-94f3" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="127f-3884-f706-e4a6" name="Laser Armament" book="RB" page="54" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6490-8eaf-582b-e674" name="Laser Armament" book="RB" page="54, RU517" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Burnthrough(4), Flash"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d2af-deb4-c95e-b500" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="39f7-5ba2-4cd7-adf2" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4812-2c72-217b-d6e3" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7df1-3fb2-56c9-c2ab" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="a01d-6ebc-7ac3-d891" name="Missile Armament" book="RB" page="54" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ceb5-14da-0de9-036c" name="Missile Armament" book="RB" page="54" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c38e-31ce-89fc-fbc4" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b44a-3bc3-92e9-5621" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="072a-0e4f-8de1-1614" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="dfaa-0d8b-9424-d7e8" name="Fine Debris Field" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="7368-9aab-d4c0-613e" name="Fine Debris Field" book="RB" page="52" hidden="false" profileTypeId="0786-d655-cdc7-42d3" profileTypeName="Debris Field">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="7cad-0cd8-c0be-af65" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="808e-2023-a4ca-2e70" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="eeaa-e9a3-ddc1-1fc9" value="1"/>
+            <characteristic name="Lock Penalty" characteristicTypeId="853b-032c-9ab5-30f6" value="+1"/>
+            <characteristic name="Scan Penalty" characteristicTypeId="f21a-dd5c-ad67-2490" value="-6&quot;"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a282-5102-1f79-25a8" name="Orbital Debris and Launch Assets" hidden="false" targetId="d74e-ff7e-fac9-e986" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="cfd0-1b22-93aa-e154" name="New CategoryLink" hidden="false" targetId="7ccb-96a9-0d54-6d4e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="b206-1a7f-6c1c-1cb5" name="Dense Debris Field" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="12e7-a386-06ed-a3e9" name="Dense Debris Field" book="RB" page="52" hidden="false" profileTypeId="0786-d655-cdc7-42d3" profileTypeName="Debris Field">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="7cad-0cd8-c0be-af65" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="808e-2023-a4ca-2e70" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="eeaa-e9a3-ddc1-1fc9" value="1"/>
+            <characteristic name="Lock Penalty" characteristicTypeId="853b-032c-9ab5-30f6" value="+2"/>
+            <characteristic name="Scan Penalty" characteristicTypeId="f21a-dd5c-ad67-2490" value="-12&quot;"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d849-94f4-e8ae-d111" name="Orbital Debris and Launch Assets" hidden="false" targetId="d74e-ff7e-fac9-e986" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5408-de11-8e31-4da1" name="New CategoryLink" hidden="false" targetId="7ccb-96a9-0d54-6d4e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="c03a-0b9f-1847-3b1b" name="Planetary Ring" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d3e3-6c64-9a2f-5aae" name="Planetary Ring" hidden="false" targetId="6f1d-035a-a9e6-2a24" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bd49-f37d-cba4-39e9" name="New CategoryLink" hidden="false" targetId="bd1a-35ba-65e3-185b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="f839-e810-46d3-38dd" name="Large Solid Object" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="57ea-8a78-8d15-fd32" name="Large Solid Objects" hidden="false" targetId="511d-597c-d00a-9d37" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="74a1-7a1e-b328-cd9e" name="New CategoryLink" hidden="false" targetId="bd1a-35ba-65e3-185b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5839-a937-e4a0-cdff" name="Radius" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6d7-f1d4-bc11-e0f7" type="min"/>
+            <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b38c-7be4-3c4f-43dd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
-  <sharedSelectionEntryGroups/>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="3e39-461e-6d47-16b3" name="Sector" hidden="false" collective="false" defaultSelectionEntryId="ae60-70f5-42a1-8817">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab3a-6dea-22ae-98fd" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e6e-0e66-0070-f71a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ae60-70f5-42a1-8817" name="Commercial Sector" hidden="false" targetId="44b0-db51-bbdb-d61a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e82b-9826-5491-0c42" name="Industrial Sector" hidden="false" targetId="9838-c0be-f9f6-0041" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2245-571c-60fa-67ce" name="Military Sector" hidden="false" targetId="4de7-a7ee-a57e-887e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d3fe-97fe-a3ec-f50d" name="Orbital Defence Sector" hidden="false" targetId="91eb-c35b-050d-7a93" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8d6c-305a-0b76-23ea" name="Power Plant Sector" hidden="false" targetId="db66-0722-bc5f-6bf3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="020e-7e6f-328f-e410" name="Comms Station" hidden="false" targetId="508e-f1e1-cbf0-5cba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4dcf-b787-ba8c-b03a" name="Orbital Layer" hidden="false" collective="false" defaultSelectionEntryId="4167-da89-56a2-be97">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="874a-cb54-4abb-fe28" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf1-0081-030d-8a7b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="480b-3a2c-3b42-340f" name="1 Atmosphere" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="4167-da89-56a2-be97" name="2 Low Orbit" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="caa1-90ff-46f0-2495" name="3 High Orbit" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="bdef-c212-2fea-48c6" name="Sources" book="" hidden="false">
       <profiles/>
@@ -846,6 +2219,36 @@ Checking whether given battlegroup doesn&apos;t cost more than 33% points total 
       <modifiers/>
     </rule>
     <rule id="ec3c-6beb-87f2-d6d4" name="Immobile" book="RB" page="57" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="03ba-7935-3fbf-e2c0" name="Scanner Uplink" book="RB" page="75" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="56bb-f992-4138-699e" name="Volatile" book="RB" page="75" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="d74e-ff7e-fac9-e986" name="Orbital Debris and Launch Assets" book="RB" page="53" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="511d-597c-d00a-9d37" name="Large Solid Objects" book="RB" page="53" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="6f1d-035a-a9e6-2a24" name="Planetary Ring" book="RB" page="53, FAQ11" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
