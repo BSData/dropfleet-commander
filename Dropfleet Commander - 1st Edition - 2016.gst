@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="2" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="3" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -717,7 +717,7 @@
     </selectionEntry>
     <selectionEntry id="9ea0-2d05-f377-5ab0" name="Small Cluster" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="6188-16fa-99ca-0fff" name="Small Cluster" book="RB" page="74" hidden="false" profileTypeId="b12e-32e7-4e65-87e9" profileTypeName="Cluster">
+        <profile id="6188-16fa-99ca-0fff" name="Small Cluster" book="RB" page="74, FAQ11" hidden="false" profileTypeId="b12e-32e7-4e65-87e9" profileTypeName="Cluster">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -765,7 +765,9 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3449-1eac-552a-0bbd" name="Sector 2" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -789,7 +791,9 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="bf7a-e328-821c-c133" name="Critical Location" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -804,16 +808,20 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9150-2f97-14e6-ac3c" name="Medium Cluster" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="c4d9-06d6-f0b6-36c8" name="Medium Cluster" book="RB" page="74" hidden="false" profileTypeId="b12e-32e7-4e65-87e9" profileTypeName="Cluster">
+        <profile id="c4d9-06d6-f0b6-36c8" name="Medium Cluster" book="RB" page="74, FAQ11" hidden="false" profileTypeId="b12e-32e7-4e65-87e9" profileTypeName="Cluster">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -861,7 +869,9 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3bfb-6bed-c1e4-b1dd" name="Sector 2" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -885,7 +895,9 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="34c2-a147-3444-06a7" name="Sector 3" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -909,7 +921,9 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1179-e5c6-ae0a-3738" name="Critical Location" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -924,16 +938,20 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="66fd-e501-8ce7-a35f" name="Large Cluster" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="dd31-cd8e-0939-2a09" name="Large Cluster" book="RB" page="74" hidden="false" profileTypeId="b12e-32e7-4e65-87e9" profileTypeName="Cluster">
+        <profile id="dd31-cd8e-0939-2a09" name="Large Cluster" book="RB" page="74, FAQ11" hidden="false" profileTypeId="b12e-32e7-4e65-87e9" profileTypeName="Cluster">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -981,7 +999,9 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3330-bdaf-8050-8ae7" name="Sector 2" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1005,7 +1025,9 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="129e-dda3-029b-66c1" name="Sector 3" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1029,7 +1051,9 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="39f5-799b-0c48-c0e7" name="Sector 4" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1053,7 +1077,9 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6621-0cdf-ddf5-2255" name="Critical Location" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1068,12 +1094,16 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="44b0-db51-bbdb-d61a" name="Commercial Sector" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1098,7 +1128,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9838-c0be-f9f6-0041" name="Industrial Sector" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1123,7 +1155,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4de7-a7ee-a57e-887e" name="Military Sector" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1168,7 +1202,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="91eb-c35b-050d-7a93" name="Orbital Defence Sector" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1225,7 +1261,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="db66-0722-bc5f-6bf3" name="Power Plant Sector" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1257,7 +1295,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="508e-f1e1-cbf0-5cba" name="Comms Station Sector" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1289,7 +1329,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="df4f-4a71-603a-020b" name="Small Space Station" hidden="false" collective="false" type="model">
       <profiles>
@@ -1335,7 +1377,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1373,7 +1417,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3f23-ae01-996c-9dbd" name="Medium Space Station" hidden="false" collective="false" type="model">
       <profiles>
@@ -1419,7 +1465,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1457,7 +1505,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0d04-e909-0384-1cd6" name="Large Space Station" hidden="false" collective="false" type="model">
       <profiles>
@@ -1503,7 +1553,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1541,7 +1593,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f57f-44de-7234-b547" name="Mass Driver Armament" book="RB" page="54" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1563,18 +1617,19 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b13-40ea-b511-4384" type="min"/>
         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1ad-eef6-a115-94f3" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="127f-3884-f706-e4a6" name="Laser Armament" book="RB" page="54" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="6490-8eaf-582b-e674" name="Laser Armament" book="RB" page="54, RU517" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="6490-8eaf-582b-e674" name="Laser Armament" book="RB" page="54, FAQ11, RU517" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1605,18 +1660,19 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4812-2c72-217b-d6e3" type="min"/>
         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7df1-3fb2-56c9-c2ab" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a01d-6ebc-7ac3-d891" name="Missile Armament" book="RB" page="54" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="ceb5-14da-0de9-036c" name="Missile Armament" book="RB" page="54" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="ceb5-14da-0de9-036c" name="Missile Armament" book="RB" page="54, FAQ11" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1641,14 +1697,15 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b44a-3bc3-92e9-5621" type="min"/>
         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="072a-0e4f-8de1-1614" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dfaa-0d8b-9424-d7e8" name="Fine Debris Field" hidden="false" collective="false" type="model">
       <profiles>
@@ -1689,7 +1746,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b206-1a7f-6c1c-1cb5" name="Dense Debris Field" hidden="false" collective="false" type="model">
       <profiles>
@@ -1730,7 +1789,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c03a-0b9f-1847-3b1b" name="Planetary Ring" hidden="false" collective="false" type="model">
       <profiles/>
@@ -1757,7 +1818,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f839-e810-46d3-38dd" name="Large Solid Object" hidden="false" collective="false" type="model">
       <profiles/>
@@ -1795,12 +1858,16 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1888,7 +1955,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4167-da89-56a2-be97" name="2 Low Orbit" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1900,7 +1969,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="caa1-90ff-46f0-2495" name="3 High Orbit" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1912,7 +1983,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
