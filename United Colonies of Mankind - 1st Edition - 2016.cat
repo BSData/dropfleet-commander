@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="2" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="3" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4359,9 +4359,28 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="8e93-3838-06bc-5664" value="1">
+              <repeats>
+                <repeat field="limit::e888-2584-886f-7f2c" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8e93-3838-06bc-5664" value="1">
+              <repeats>
+                <repeat field="limit::e888-2584-886f-7f2c" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Launch Cap" characteristicTypeId="feda-e635-4d9b-fb8d" value="0"/>
+            <characteristic name="BG Cost" characteristicTypeId="8e93-3838-06bc-5664" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4401,6 +4420,90 @@
               <conditionGroups/>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="20">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acc5-2fb0-b4db-4735" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="40">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bd28-10a5-498e-6389" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="100">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e98c-1b2c-3b7d-85f8" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="80">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-6f16-0c3b-6832" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="20">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3345-9651-df16-3d40" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="20">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="151b-2b55-2551-dfb0" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="80">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e520-b2da-e7e5-56dc" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="40">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdee-73d8-295c-87ad" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="140">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2055-9db5-eb5c-ba54" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="40">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0f18-b91a-66f1-111f" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="80">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e83-173e-7c4e-ee71" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="100">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b846-9351-a536-947a" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
@@ -4644,7 +4747,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="20.0"/>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd28-10a5-498e-6389" name="AV3 Commodore" hidden="false" collective="false" type="upgrade">
@@ -4676,7 +4779,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="40.0"/>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e83-173e-7c4e-ee71" name="AV4 Vice-Admiral" hidden="false" collective="false" type="upgrade">
@@ -4716,7 +4819,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="80.0"/>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e98c-1b2c-3b7d-85f8" name="AV5 Admiral" hidden="false" collective="false" type="upgrade">
@@ -4756,7 +4859,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="100.0"/>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2055-9db5-eb5c-ba54" name="AV6 Admiral of the Fleet" hidden="false" collective="false" type="upgrade">
@@ -4796,12 +4899,12 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="140.0"/>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7601-902e-0df4-0c70" name="Centurion Cruiser" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="f113-45df-15eb-3536" name="Centurion" book="CCC118" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="f113-45df-15eb-3536" name="Centurion UCM" book="CCC318" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4814,24 +4917,24 @@
             <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="2+"/>
             <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="3"/>
             <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1-2"/>
-            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="M"/>
-            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Rare"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="H"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Ceramic Armour, Rare"/>
           </characteristics>
         </profile>
-        <profile id="2ec4-f6ea-0a05-635b" name="Centurion A - UF/R-XN2 Twin Mass Driver Turret" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="2ec4-f6ea-0a05-635b" name="Centurion UCM A - UF/R-XN2 Twin Mass Driver Turret" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
             <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
-            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="3"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
             <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S"/>
-            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Bloom"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Fusillade(2)"/>
           </characteristics>
         </profile>
-        <profile id="2270-6ecc-9f9b-125f" name="Centurion B - UF/R-N31 Hybrid Gun Broadside" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="2270-6ecc-9f9b-125f" name="Centurion UCM B - UF/R-N31 Hybrid Gun Broadside" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4844,7 +4947,7 @@
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1"/>
           </characteristics>
         </profile>
-        <profile id="d230-2a3e-908a-998e" name="Centurion C - UF/R-N31 Hybrid Gun Broadside" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="d230-2a3e-908a-998e" name="Centurion UCM C - UF/R-N31 Hybrid Gun Broadside" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4857,7 +4960,7 @@
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1"/>
           </characteristics>
         </profile>
-        <profile id="0168-1c98-7fc6-9eb1" name="Centurion D - Shark Missile Bays" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="0168-1c98-7fc6-9eb1" name="Centurion UCM D - Shark Missile Bays" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4873,7 +4976,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="b8f9-9d24-6f10-7c79" name="Bloom" hidden="false" targetId="17ad-3ce8-8d61-f7e4" type="rule">
+        <infoLink id="b8f9-9d24-6f10-7c79" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4897,11 +5000,17 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="bb42-4197-f4db-4e6e" name="Ceramic Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="e6ee-cee2-de32-7658" name="New CategoryLink" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true">
+        <categoryLink id="9f0a-0965-1fee-893e" name="New CategoryLink" hidden="false" targetId="1342-a92d-424c-140a" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4912,7 +5021,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3b0d-647c-b693-0748" name="Medium" hidden="false" targetId="b02a-b791-772e-d744" type="selectionEntry">
+        <entryLink id="3b0d-647c-b693-0748" name="Heavy" hidden="false" targetId="c822-3968-1f5c-046e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4920,7 +5029,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8b70-7a89-b7db-a17c" name="Admiral (M)" hidden="false" targetId="24bf-3fdd-41d6-0ef3" type="selectionEntryGroup">
+        <entryLink id="8b70-7a89-b7db-a17c" name="Admiral (H)" hidden="false" targetId="7be2-bcde-fdc4-2e83" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4930,7 +5039,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="125.0"/>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="160.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0483-4ffa-7e63-bb82" name="Centurion Cruisers" hidden="false" collective="false" type="unit">
@@ -5275,6 +5384,278 @@
         <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="151b-2b55-2551-dfb0" name="AV3 Commodore" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8c02-aace-175c-cb8f" name="Commodore" book="RB" page="71, RU517" hidden="false" profileTypeId="1403-52d2-9a6f-1c6d" profileTypeName="Admiral">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="AV" characteristicTypeId="8bfb-a799-58fa-bf2a" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fdd9-63b2-1c89-2837" name="New CategoryLink" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bdee-73d8-295c-87ad" name="AV4 Vice-Admiral" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="59a9-4ae2-e48c-81aa" name="Vice-Admiral" book="RB" page="71, RU517" hidden="false" profileTypeId="1403-52d2-9a6f-1c6d" profileTypeName="Admiral">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="AV" characteristicTypeId="8bfb-a799-58fa-bf2a" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6746-a48d-7fcb-a67f" name="New CategoryLink" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3345-9651-df16-3d40" name="AV4 Vice-Admiral" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b59a-b975-48d8-31c6" name="Vice-Admiral" book="RB" page="71, RU517" hidden="false" profileTypeId="1403-52d2-9a6f-1c6d" profileTypeName="Admiral">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="AV" characteristicTypeId="8bfb-a799-58fa-bf2a" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="81ea-d151-d01f-c784" name="New CategoryLink" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2c36-6f16-0c3b-6832" name="AV5 Admiral" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="553c-b328-5125-3e18" name="Admiral" book="RB" page="71, RU517" hidden="false" profileTypeId="1403-52d2-9a6f-1c6d" profileTypeName="Admiral">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="AV" characteristicTypeId="8bfb-a799-58fa-bf2a" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fc51-1052-2fc1-52c5" name="New CategoryLink" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f18-b91a-66f1-111f" name="AV5 Admiral" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7f2b-732c-dccd-4e9d" name="Admiral" book="RB" page="71, RU517" hidden="false" profileTypeId="1403-52d2-9a6f-1c6d" profileTypeName="Admiral">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="AV" characteristicTypeId="8bfb-a799-58fa-bf2a" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7266-f325-9445-381c" name="New CategoryLink" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b846-9351-a536-947a" name="AV6 Admiral of the Fleet" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="5e47-5d57-ee0b-ff2a" name="Admiral of the Fleet" book="RB" page="71, RU517" hidden="false" profileTypeId="1403-52d2-9a6f-1c6d" profileTypeName="Admiral">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="AV" characteristicTypeId="8bfb-a799-58fa-bf2a" value="6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="notInstanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9a47-98e3-d45a-d8a0" name="New CategoryLink" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e520-b2da-e7e5-56dc" name="AV6 Admiral of the Fleet" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="e50c-a150-6f5e-16ee" name="Admiral of the Fleet" book="RB" page="71, RU517" hidden="false" profileTypeId="1403-52d2-9a6f-1c6d" profileTypeName="Admiral">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="AV" characteristicTypeId="8bfb-a799-58fa-bf2a" value="6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="notInstanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0f68-633e-ca4b-de2e" name="New CategoryLink" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="70d1-92ea-1fad-ec08" name="Light Ships" hidden="false" collective="false" defaultSelectionEntryId="97fd-a536-0b2b-7e1c">
@@ -5409,14 +5790,6 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b765-e118-2f57-fc6d" name="Centurion Cruisers" hidden="false" targetId="0483-4ffa-7e63-bb82" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="77c3-9ee0-8c99-9e1c" name="Athens Light Cruisers" hidden="false" targetId="2fd7-61f0-bc9a-c96f" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -5496,6 +5869,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4efc-2e97-4f90-6fc0" name="Centurion Cruisers" hidden="false" targetId="0483-4ffa-7e63-bb82" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7c4f-dac9-7fb2-2b27" name="Super Heavy Ships" hidden="false" collective="false" defaultSelectionEntryId="981c-75c8-3727-e62c">
@@ -5558,45 +5939,27 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="6ad2-49ea-16d8-9ee5" name="AV4 Vice-Admiral" hidden="false" targetId="6e83-173e-7c4e-ee71" type="selectionEntry">
+        <entryLink id="6ad2-49ea-16d8-9ee5" name="AV4 Vice-Admiral (S)" hidden="false" targetId="3345-9651-df16-3d40" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="e888-2584-886f-7f2c" value="20">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2f35-4c3d-4113-467f" name="AV5 Admiral" hidden="false" targetId="e98c-1b2c-3b7d-85f8" type="selectionEntry">
+        <entryLink id="2f35-4c3d-4113-467f" name="AV5 Admiral (S)" hidden="false" targetId="0f18-b91a-66f1-111f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="e888-2584-886f-7f2c" value="40">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="06be-e775-9370-13e0" name="AV6 Admiral of the Fleet" hidden="false" targetId="2055-9db5-eb5c-ba54" type="selectionEntry">
+        <entryLink id="06be-e775-9370-13e0" name="AV6 Admiral of the Fleet (S)" hidden="false" targetId="e520-b2da-e7e5-56dc" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="e888-2584-886f-7f2c" value="80">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -5623,59 +5986,35 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="23e7-e87e-6799-239e" name="AV3 Commodore" hidden="false" targetId="bd28-10a5-498e-6389" type="selectionEntry">
+        <entryLink id="23e7-e87e-6799-239e" name="AV3 Commodore (H)" hidden="false" targetId="151b-2b55-2551-dfb0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="e888-2584-886f-7f2c" value="20">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="80c1-7c05-12b5-a7e6" name="AV4 Vice-Admiral" hidden="false" targetId="6e83-173e-7c4e-ee71" type="selectionEntry">
+        <entryLink id="80c1-7c05-12b5-a7e6" name="AV4 Vice-Admiral (H)" hidden="false" targetId="bdee-73d8-295c-87ad" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="e888-2584-886f-7f2c" value="40">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="451e-f6a6-00d4-8347" name="AV5 Admiral" hidden="false" targetId="e98c-1b2c-3b7d-85f8" type="selectionEntry">
+        <entryLink id="451e-f6a6-00d4-8347" name="AV5 Admiral (H)" hidden="false" targetId="2c36-6f16-0c3b-6832" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="e888-2584-886f-7f2c" value="80">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="968a-1023-e02c-b290" name="AV6 Admiral of the Fleet" hidden="false" targetId="2055-9db5-eb5c-ba54" type="selectionEntry">
+        <entryLink id="968a-1023-e02c-b290" name="AV6 Admiral of the Fleet (H)" hidden="false" targetId="b846-9351-a536-947a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="e888-2584-886f-7f2c" value="100">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
