@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="620d-f7e0-131c-2882" name="Post-Human Republic: 1st Edition (2016)" revision="3" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="620d-f7e0-131c-2882" name="Post-Human Republic: 1st Edition (2016)" revision="4" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -226,6 +226,38 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="868e-1098-074e-2bb4" name="Theseus Light Cruiser" hidden="false" targetId="3c74-edad-7df4-5cab" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9cc6-2948-e1ed-9225" name="Ariadne Destroyer" hidden="false" targetId="a2ce-ced6-1a9d-1ead" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0137-d185-ef91-2fc5" name="Electra Destroyer" hidden="false" targetId="4dfe-cbe2-d5c3-79dd" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4524-c3e6-67cb-5743" name="Jason Blockade Runner" hidden="false" targetId="a0fd-8cb1-f394-f926" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b14a-0234-6b38-6e7e" name="Odysseus Blockade Runner" hidden="false" targetId="6c2f-5699-9bea-fd8f" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3962,6 +3994,13 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="aaea-90f5-3f4d-226e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Strategy Rating" characteristicTypeId="e587-e1ea-3a07-a0e8" value="0"/>
@@ -4141,6 +4180,13 @@
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
               <repeats>
                 <repeat field="selections" scope="90bf-ff54-7eea-9298" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="90bf-ff54-7eea-9298" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4380,6 +4426,13 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="d8fe-4cfb-dd80-e5a6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Strategy Rating" characteristicTypeId="e587-e1ea-3a07-a0e8" value="0"/>
@@ -4585,6 +4638,13 @@
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
               <repeats>
                 <repeat field="selections" scope="8ad3-2e53-b8be-473f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="8ad3-2e53-b8be-473f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -5413,6 +5473,606 @@
         <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4dfe-cbe2-d5c3-79dd" name="Electra Destroyer" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="f4bc-397e-40ee-9136" name="Electra" book="DST418" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="8&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="4&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="8&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="7"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="3+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="3"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="2-3"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="5165-38c2-5c3f-2a5d" name="Electra B - Twin Heavy Calibres" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Calibre(H&amp;S)"/>
+          </characteristics>
+        </profile>
+        <profile id="b823-e846-d0aa-8169" name="Electra A - Twin Heavy Calibres" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Calibre(H&amp;S)"/>
+          </characteristics>
+        </profile>
+        <profile id="5e5d-b5fc-48a4-4e0a" name="Electra C - Mosquito Drones" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="933c-7352-392a-75f3" name="Calibre(X)" hidden="false" targetId="3290-a288-d618-2403" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5acb-e080-98df-1b7a" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5f55-50df-9a50-bd15" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e319-5a3f-d38d-6c98" name="Light 2" hidden="false" targetId="0d20-3720-2b47-428d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a2ce-ced6-1a9d-1ead" name="Ariadne Destroyer" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="fd9b-7f01-1eb3-bcec" name="Ariadne" book="DST418" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="8&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="4&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="8&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="7"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="3+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="3"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1-2"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Launch"/>
+          </characteristics>
+        </profile>
+        <profile id="2583-f941-b84b-09b1" name="Ariadne - Bulk Landers" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="1"/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+        <profile id="d54d-5144-fc0b-ff2a" name="Ariadne A - Twin Heavy Calibres" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Calibre(H&amp;S)"/>
+          </characteristics>
+        </profile>
+        <profile id="1f32-20db-d263-7fae" name="Ariadne B - Mosquito Drones" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6a98-d921-1158-5012" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2849-b67a-3500-19b3" name="Calibre(X)" hidden="false" targetId="3290-a288-d618-2403" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7d0b-7759-bce7-9031" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f4f9-510a-34ac-89b5" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4452-05d2-be97-a2a3" name="Light 2" hidden="false" targetId="0d20-3720-2b47-428d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a0fd-8cb1-f394-f926" name="Jason Blockade Runner" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="45b4-bd1d-08d4-f329" name="Jason" book="DST418" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="8&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="2&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="12&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="6"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="4+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="2"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1-3"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Rare"/>
+          </characteristics>
+        </profile>
+        <profile id="109c-a890-1b2e-57e6" name="Jason A - Twin Heavy Calibres" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Calibre(H&amp;S)"/>
+          </characteristics>
+        </profile>
+        <profile id="10bf-ac09-16d7-5c63" name="Jason B - Kingfisher Drones" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D3+1"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action, Atmospheric"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="037f-35ce-94be-b71a" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="29ce-4a19-653d-60c8" name="Calibre(X)" hidden="false" targetId="3290-a288-d618-2403" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8b37-1d33-8e35-7dba" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="845a-b73b-0402-22b5" name="Atmospheric Weapons" hidden="false" targetId="1996-3e6f-41b3-739c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ed11-7cc0-bb3a-25a0" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9263-3431-35c6-69fb" name="Light 2" hidden="false" targetId="0d20-3720-2b47-428d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c2f-5699-9bea-fd8f" name="Odysseus Blockade Runner" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="844a-5f8c-033c-7002" name="Odysseus" book="DST418" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="8&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="2&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="12&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="6"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="4+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="2"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1-2"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Launch, Rare"/>
+          </characteristics>
+        </profile>
+        <profile id="6a6d-f44b-eb30-074c" name="Odysseus - Bulk Landers" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="1"/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+        <profile id="e052-b06b-52f2-af1a" name="Odysseus A - Wasp Drones" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D3+1"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f27d-d8c4-1c0c-c581" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a16c-5abe-6133-0146" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="24e6-c068-3038-efe5" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2f73-33dd-d37a-57c5" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3383-b790-6d14-cda8" name="Light 2" hidden="false" targetId="0d20-3720-2b47-428d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94f8-0dfd-ad8d-649c" name="Electra Destroyers" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="26d6-d3f9-92a6-b1a0" name="Electra Destroyer" hidden="false" targetId="4dfe-cbe2-d5c3-79dd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b464-bbbc-547a-6104" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5eff-6987-b549-8a07" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4d17-d937-6af9-8e63" name="Electra Destroyer" hidden="false" targetId="4dfe-cbe2-d5c3-79dd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e87b-3e6e-229e-ee6c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d31b-bbb3-03c3-16b6" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="24fb-60ac-f1cf-bff1" name="Electra Destroyer" hidden="false" targetId="4dfe-cbe2-d5c3-79dd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="32eb-e37c-4837-e10d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e70-a2ee-7c0f-2b4c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7fc9-e943-9036-4b3e" name="Jason Blockade Runners" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="f696-9626-e8c1-fde8" value="3">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="f696-9626-e8c1-fde8" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f696-9626-e8c1-fde8" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="fe24-52b4-8c95-2b05" name="Jason Blockade Runner" hidden="false" targetId="a0fd-8cb1-f394-f926" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e14c-263f-7b82-10f0" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="386b-8895-945d-228b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b95f-87b2-8b3e-1c22" name="Jason Blockade Runner" hidden="false" targetId="a0fd-8cb1-f394-f926" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e13-a920-9391-922b" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de82-06fa-b6c5-7ead" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="177a-2a17-01dc-169a" name="Jason Blockade Runner" hidden="false" targetId="a0fd-8cb1-f394-f926" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8956-3417-e104-bb0e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b9b-ed2d-a228-7691" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ea69-b5fa-67aa-92ff" name="Odysseus Blockade Runners" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="6203-4c65-2d5c-9229" value="3">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="6203-4c65-2d5c-9229" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6203-4c65-2d5c-9229" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="09f1-3b76-d0e3-2f95" name="Odysseus Blockade Runner" hidden="false" targetId="6c2f-5699-9bea-fd8f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4580-e15a-c5af-288e" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f02a-aba4-3511-770a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5891-0a79-b3d4-abdc" name="Odysseus Blockade Runner" hidden="false" targetId="6c2f-5699-9bea-fd8f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7dc4-35bf-f79c-021e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2805-7b9e-9db0-1769" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb1d-f72a-3da8-3543" name="Ariadne Destroyers" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5078-bfc2-9bb9-628d" name="Ariadne Destroyer" hidden="false" targetId="a2ce-ced6-1a9d-1ead" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b82f-4144-f751-053e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="63fe-f74e-77e0-e4d9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="df67-d4cf-98c7-f2a7" name="Ariadne Destroyer" hidden="false" targetId="a2ce-ced6-1a9d-1ead" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e5e-d3dc-4ab2-986a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4374-107b-e72a-e399" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="0638-30b2-ac6d-3d1d" name="Super Heavy Ships" hidden="false" collective="false" defaultSelectionEntryId="83a0-870d-adfa-ab0b">
@@ -5571,6 +6231,38 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="a1bb-f66a-8879-a7de" name="Echo Corvettes" hidden="false" targetId="1e9d-e41d-3784-f289" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c860-0b9f-2e8d-056d" name="Ariadne Destroyers" hidden="false" targetId="eb1d-f72a-3da8-3543" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cf15-6f0a-1bd8-fdba" name="Electra Destroyers" hidden="false" targetId="94f8-0dfd-ad8d-649c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8e13-b56e-2d43-fd13" name="Jason Blockade Runners" hidden="false" targetId="7fc9-e943-9036-4b3e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9cb0-40f6-947d-14b6" name="Odysseus Blockade Runners" hidden="false" targetId="ea69-b5fa-67aa-92ff" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

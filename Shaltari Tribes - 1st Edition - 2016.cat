@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c240-e6a9-6a41-8643" name="Shaltari Tribes: 1st Edition (2016)" revision="3" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c240-e6a9-6a41-8643" name="Shaltari Tribes: 1st Edition (2016)" revision="4" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -255,6 +255,30 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="05f2-24f0-1b74-a533" name="Onyx Heavy Cruiser" hidden="false" targetId="775e-5f0e-1cc3-b7ab" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2539-5c08-c660-d339" name="Chromium Destroyer" hidden="false" targetId="cb65-5778-c42a-e57f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="733c-92e4-9d61-e4cd" name="Cobalt Homeship" hidden="false" targetId="c1c9-136e-d065-a11b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f163-84f1-c733-ebe6" name="Mercury Destroyer" hidden="false" targetId="6383-b843-d849-31ef" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3597,6 +3621,13 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="eef0-a519-9080-4bcb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Strategy Rating" characteristicTypeId="e587-e1ea-3a07-a0e8" value="0"/>
@@ -3776,6 +3807,13 @@
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
               <repeats>
                 <repeat field="selections" scope="54c3-a8e0-7ac4-86e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="54c3-a8e0-7ac4-86e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4015,6 +4053,13 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="76f3-b792-e842-b880" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Strategy Rating" characteristicTypeId="e587-e1ea-3a07-a0e8" value="0"/>
@@ -4220,6 +4265,13 @@
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
               <repeats>
                 <repeat field="selections" scope="e0a7-3a9a-825f-cda0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="e0a7-3a9a-825f-cda0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4854,6 +4906,456 @@
         <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cb65-5778-c42a-e57f" name="Chromium Destroyer" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2307-8488-28fb-e41f" name="Chromium" book="DST418" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="12&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="3&quot;/16&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="12&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="5"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="5+/4+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="6"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="2-3"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="e3f9-ae65-bada-b33e" name="Chromium A - Thermal Lance Cannon" book="" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="1"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F(N)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Burnthrough(3), Flash"/>
+          </characteristics>
+        </profile>
+        <profile id="5312-cda9-9d70-781b" name="Chromium B - Disruption Beamers" book="" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="5ec7-bf2d-3145-eadc" name="Chromium C - Harpoon Volley" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="183c-4eba-1d8d-00c5" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a50a-6107-3e72-c143" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bcac-1ec6-e572-b1f3" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="21d4-1133-aacd-ac88" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="de92-5e0b-565c-4246" name="Light 2" hidden="false" targetId="0d20-3720-2b47-428d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6383-b843-d849-31ef" name="Mercury Destroyer" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="cad4-e75d-1297-ad0a" name="Mercury" book="DST418" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="12&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="3&quot;/16&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="12&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="5"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="5+/4+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="6"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="2-3"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="2732-0803-ed5b-7209" name="Mercury A - Disruption Beamers" book="" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="1bd3-7369-1b49-e9e0" name="Mercury B - Pulse Ioniser Bank" book="" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="*"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="3"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="*Mauler(4)"/>
+          </characteristics>
+        </profile>
+        <profile id="1f39-fcf5-9adf-c394" name="Mercury C - Harpoon Volley" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="029b-bef5-9fb4-27bd" name="Maulers" hidden="false" targetId="f6ec-da54-fd6f-2579" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="155b-9c95-0186-d576" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e456-1e55-5acd-3ac0" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5ac1-7325-f277-af4c" name="Light 2" hidden="false" targetId="0d20-3720-2b47-428d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c1c9-136e-d065-a11b" name="Cobalt Homeship" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2f39-4433-6804-a3f1" name="Cobalt" book="DST418" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="12&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="3&quot;/16&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="12&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="5"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="5+/4+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="6"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1-3"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Launch"/>
+          </characteristics>
+        </profile>
+        <profile id="3a66-45ba-76c8-0ae6" name="Cobalt A - Disruption Beamers" book="" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="4845-2c2d-ddbd-58c1" name="Cobalt B - Harpoon Volley" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+        <profile id="22ac-9e80-f89f-15e9" name="Cobalt - Gates" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="1"/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e659-21d0-4007-db05" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8f4f-d71f-1f2a-d972" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c278-be45-e31a-560f" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a9e8-8d82-b5b8-1a6c" name="Light 2" hidden="false" targetId="0d20-3720-2b47-428d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f7b-2d7d-c672-6b0b" name="Chromium Destroyers" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e893-8c86-6ed7-27ae" name="Chromium Destroyer" hidden="false" targetId="cb65-5778-c42a-e57f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9cc3-87d2-1d51-2dfd" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="17f8-a61f-f1cc-9cd8" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cb6a-9444-8eed-1fcc" name="Chromium Destroyer" hidden="false" targetId="cb65-5778-c42a-e57f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7b9e-aa05-c5b4-fbf8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b2f5-3030-638b-d353" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5fc8-915e-e522-5b28" name="Chromium Destroyer" hidden="false" targetId="cb65-5778-c42a-e57f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e9f-ba5f-52e1-807d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6427-c6d2-b17c-8f49" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f05b-5b14-1fd0-9ce1" name="Cobalt Homeships" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2962-fed9-d360-d2ef" name="Cobalt Homeship" hidden="false" targetId="c1c9-136e-d065-a11b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="129d-5b11-e418-85b7" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f2fe-0f4e-95cc-e886" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bf95-0274-86ed-6f68" name="Cobalt Homeship" hidden="false" targetId="c1c9-136e-d065-a11b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2824-334b-f497-522c" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="571f-4168-d733-6d42" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3deb-35c2-d320-5e1d" name="Cobalt Homeship" hidden="false" targetId="c1c9-136e-d065-a11b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="159c-6fc5-d285-3a6c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4744-3645-f08a-faed" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="edb9-14b1-c661-e19b" name="Mercury Destroyers" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="64ac-8f09-af1c-0d61" name="Mercury Destroyer" hidden="false" targetId="6383-b843-d849-31ef" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c419-0611-4303-d0ac" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9c00-6929-1aa5-e0a8" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="416e-dd57-869e-8c94" name="Mercury Destroyer" hidden="false" targetId="6383-b843-d849-31ef" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="945b-8396-5e31-0b22" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e3e8-56d1-f47f-9696" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ff1f-49cd-22b0-9606" name="Mercury Destroyer" hidden="false" targetId="6383-b843-d849-31ef" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="768d-6575-7472-a29e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6606-64b5-2a65-d5d5" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6c11-9d92-d7cb-653d" name="Heavy Ships" hidden="false" collective="false" defaultSelectionEntryId="54d7-db20-7300-ed2f">
@@ -4981,6 +5483,30 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="37d8-c2fb-3132-5686" name="Glass Cloudfliers" hidden="false" targetId="cb8d-3459-87db-8d56" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0167-75ae-562b-7ad5" name="Chromium Destroyers" hidden="false" targetId="2f7b-2d7d-c672-6b0b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="17e2-dc42-cfcb-afad" name="Cobalt Homeships" hidden="false" targetId="f05b-5b14-1fd0-9ce1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c024-097a-c825-7672" name="Mercury Destroyers" hidden="false" targetId="edb9-14b1-c661-e19b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="4" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="5" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -1952,7 +1952,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f6fa-6fbd-c97c-f541" name="Princess Cruise Liners" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -2009,7 +2011,26 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d20-3720-2b47-428d" name="Light 2" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e13-1ef6-8603-1763" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92f8-efbc-fb46-19b2" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2146,6 +2167,7 @@ FAQ11 - Dropfleet FAQs and Errata 1.1 (January 2017)
 RU517 - Dropfleet Official Rules Update (May 2017)
 CCC318 - Centurion Class Cruiser (March 2018)
 PLS318 - Princess Liner Scenarios (March 2018)
+DST418 - Destroyers Experimental Rules (April 2018)
 WWW - Kickstarter, Hawk Forum, and Facebook webpages
 
 With permission from TTCombat.</description>
@@ -2368,7 +2390,7 @@ Checking whether given battlegroup doesn&apos;t cost more than 33% points total 
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="f6ec-da54-fd6f-2579" name="Maulers" book="RB" page="67" hidden="false">
+    <rule id="f6ec-da54-fd6f-2579" name="Mauler(X)" book="RB" page="67" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2477,6 +2499,12 @@ Checking whether given battlegroup doesn&apos;t cost more than 33% points total 
       <modifiers/>
     </rule>
     <rule id="2fb8-a8c6-77da-bbb9" name="Civilian Transport" book="PLS318" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="1996-3e6f-41b3-739c" name="Atmospheric Weapons" book="DST418" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="3" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="4" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -242,6 +242,30 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="43f5-f3f3-8d6e-7452" name="Tokyo Battleship" hidden="false" targetId="285b-7dc2-665b-d972" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3c59-dea8-3f55-1f88" name="Havana Destroyer" hidden="false" targetId="6ebc-e179-855e-e295" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6faf-89ac-2e9a-23bd" name="Kiev Heavy Destroyer" hidden="false" targetId="de51-868f-f763-9053" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7945-1df9-972b-0d59" name="Vancouver Escort Carrier" hidden="false" targetId="a35f-4ac4-cd75-c4d3" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2437,6 +2461,13 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="d344-138c-c6d0-cc19" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Strategy Rating" characteristicTypeId="e587-e1ea-3a07-a0e8" value="0"/>
@@ -2616,6 +2647,13 @@
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
               <repeats>
                 <repeat field="selections" scope="ed7f-288f-cba9-0ab1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="ed7f-288f-cba9-0ab1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -2855,6 +2893,13 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="12c3-eb29-1aea-ef48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Strategy Rating" characteristicTypeId="e587-e1ea-3a07-a0e8" value="0"/>
@@ -3060,6 +3105,13 @@
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
               <repeats>
                 <repeat field="selections" scope="d130-a78a-632e-9040" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
+              <repeats>
+                <repeat field="selections" scope="d130-a78a-632e-9040" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4650,6 +4702,22 @@
                 <characteristic name="Special" characteristicTypeId="d6c1-7d66-916c-88e8" value=""/>
               </characteristics>
             </profile>
+            <profile id="7ddd-dca1-ea18-0f5f" name="Space - Light Torpedoes" book="DST418" hidden="false" profileTypeId="3d27-25f5-3f6e-878b" profileTypeName="Asset">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Scan" characteristicTypeId="914a-2abb-507c-2952"/>
+                <characteristic name="Thrust" characteristicTypeId="9a03-5218-efd6-3b27" value="9&quot;"/>
+                <characteristic name="Armour" characteristicTypeId="32ca-f018-cea8-bff2"/>
+                <characteristic name="PD Bonus" characteristicTypeId="48f8-4189-6e7f-e9a7"/>
+                <characteristic name="Lock" characteristicTypeId="c010-61f8-3e90-1bca" value="2+"/>
+                <characteristic name="Attacks" characteristicTypeId="3b7d-3ae6-05bd-3e66" value="1"/>
+                <characteristic name="Damage" characteristicTypeId="1e07-2116-704d-c48f" value="3"/>
+                <characteristic name="Special" characteristicTypeId="d6c1-7d66-916c-88e8" value=""/>
+              </characteristics>
+            </profile>
           </profiles>
           <rules/>
           <infoLinks>
@@ -5656,6 +5724,419 @@
         <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a35f-4ac4-cd75-c4d3" name="Vancouver Escort Carrier" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c90c-b219-d255-e27b" name="Vancouver" book="DST418" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="6&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="4&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="10&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="6"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="4+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="3"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="2-3"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Launch"/>
+          </characteristics>
+        </profile>
+        <profile id="4628-ab65-515c-3561" name="Vancouver A - Barracuda Missile Bays" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+        <profile id="0d8d-598d-14ac-b10a" name="Vancouver - Fighters &amp; Bombers" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="2"/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1c80-1b2c-58a5-7238" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3170-d48b-bf36-e453" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c387-0b42-72f1-fee8" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2fc7-23a6-e458-acf9" name="Light 2" hidden="false" targetId="0d20-3720-2b47-428d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="effd-a267-7180-2ddd" name="Launch" hidden="false" targetId="4bc8-d6c1-3a3f-aec7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aef7-115b-a3e7-175d" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c78-3123-bb59-8d00" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="62.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6ebc-e179-855e-e295" name="Havana Destroyer" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="cdd9-18f1-4398-1abe" name="Havana" book="DST418" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="6&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="4&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="10&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="6"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="4+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="3"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="2-3"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Launch"/>
+          </characteristics>
+        </profile>
+        <profile id="7e95-2caf-a6c5-820d" name="Havana A - Shark Missile Bays" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D6+1"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+        <profile id="36f2-82c8-377a-d788" name="Havana - Light Torpedoes" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="1"/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d402-c8c1-8988-edf8" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3004-72ab-2668-95ab" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a221-690d-170c-d03f" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="cfcc-3f08-99c9-fbd1" name="Light 2" hidden="false" targetId="0d20-3720-2b47-428d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e7e9-ffa1-23c0-98b6" name="Launch" hidden="false" targetId="4bc8-d6c1-3a3f-aec7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5530-e183-7eb6-75e2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b3a3-38f0-8eb1-7fd1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de51-868f-f763-9053" name="Kiev Heavy Destroyer" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3f7e-4d55-e535-8575" name="Kiev" book="DST418" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="6&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="4&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="8&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="6"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="3+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="5"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1-2"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="bad6-14a8-1ad8-56ee" name="Kiev A - UF­9000 Twin Mass Driver" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Atmospheric, Fusillade(1)"/>
+          </characteristics>
+        </profile>
+        <profile id="7fb7-573b-71df-9604" name="Kiev B - Barracuda-S Missile Bays" book="" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="3"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="09c4-e1b7-41ce-52fc" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e1de-4d99-799a-fa74" name="Atmospheric Weapons" hidden="false" targetId="1996-3e6f-41b3-739c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="61ff-44a5-7297-f93e" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ae4e-79de-5f6d-ba7c" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6134-148a-11c5-96c8" name="Light 2" hidden="false" targetId="0d20-3720-2b47-428d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7654-bf22-4639-42b2" name="Vancouver Escort Carriers" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2797-32d8-d29b-08fb" name="Vancouver Escort Carrier" hidden="false" targetId="a35f-4ac4-cd75-c4d3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="699e-61f5-2e32-6393" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e24-4ea7-c407-5ea5" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1c08-4c8b-8d2f-0ab1" name="Vancouver Escort Carrier" hidden="false" targetId="a35f-4ac4-cd75-c4d3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="843d-036c-b840-8379" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c89-abab-50df-6d0a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5312-4971-f501-ea12" name="Vancouver Escort Carrier" hidden="false" targetId="a35f-4ac4-cd75-c4d3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e944-ecef-3cd5-ce56" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1577-d485-7e6c-f5c7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4264-ebbd-c34f-4057" name="Havana Destroyers" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6692-edf1-deb3-66af" name="Havana Destroyer" hidden="false" targetId="6ebc-e179-855e-e295" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1b2-cdb4-453d-6cf1" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e489-81ca-58f0-c015" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="976b-424f-6320-5898" name="Havana Destroyer" hidden="false" targetId="6ebc-e179-855e-e295" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fd13-e852-38bf-8fef" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c198-c92f-e92b-bada" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4c8d-f243-4c1a-9293" name="Havana Destroyer" hidden="false" targetId="6ebc-e179-855e-e295" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a417-d74f-4b3c-f608" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a76a-44be-8dff-67ea" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="f671-122b-5dd0-b3a8" name="Kiev Heavy Destroyers" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8312-3939-41f1-e410" name="Kiev Heavy Destroyer" hidden="false" targetId="de51-868f-f763-9053" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a300-fae2-e6b2-1329" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b38a-3533-df39-8c12" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3d36-db54-6053-d149" name="Kiev Heavy Destroyer" hidden="false" targetId="de51-868f-f763-9053" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="77d5-ceb3-f197-7636" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3565-3ed1-c2a8-7a29" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="70d1-92ea-1fad-ec08" name="Light Ships" hidden="false" collective="false" defaultSelectionEntryId="97fd-a536-0b2b-7e1c">
@@ -5712,6 +6193,30 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="b8ed-e7d8-3ae4-0586" name="New Orleans Strike Carriers" hidden="false" targetId="f71c-9418-f8cb-6746" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="29a4-d9a3-129d-d8a3" name="Havana Destroyers" hidden="false" targetId="4264-ebbd-c34f-4057" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7dc5-684d-6033-6864" name="Kiev Heavy Destroyers" hidden="false" targetId="f671-122b-5dd0-b3a8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="be54-52e7-f252-2f20" name="Vancouver Escort Carriers" hidden="false" targetId="7654-bf22-4639-42b2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
