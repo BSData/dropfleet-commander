@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="168b-4c59-7e13-d6d4" name="Scourge: 1st Edition (2016)" revision="4" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="168b-4c59-7e13-d6d4" name="Scourge: 1st Edition (2016)" revision="5" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5102,13 +5102,6 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="4717-adad-0be5-3c60" value=" ">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="b742-5992-28c9-d81a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4449-17cc-af67-cb63" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
             <modifier type="set" field="4717-adad-0be5-3c60" value="Partial Cloak, Stealth">
               <repeats/>
               <conditions>
@@ -5236,13 +5229,6 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="4717-adad-0be5-3c60" value=" ">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ccb8-1df2-12a8-e962" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f160-1a9d-ad3f-2780" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
             <modifier type="set" field="4717-adad-0be5-3c60" value="Partial Cloak, Stealth">
               <repeats/>
               <conditions>
@@ -5401,13 +5387,6 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="4717-adad-0be5-3c60" value="Launch">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="c49c-ab83-c5c2-15a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1b44-2a34-3f4b-33b8" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
             <modifier type="set" field="4717-adad-0be5-3c60" value="Launch, Partial Cloak, Stealth">
               <repeats/>
               <conditions>
