@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="5" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="6" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -2177,8 +2177,6 @@ With permission from TTCombat.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>
-Checking whether given battlegroup doesn&apos;t cost more than 33% points total (50% in Skirmish) doesn&apos;t work. Please check this manually.</description>
     </rule>
     <rule id="f7b4-257c-0fc5-8fe3" name="Aegis(X)" book="RB" page="65" hidden="false">
       <profiles/>
