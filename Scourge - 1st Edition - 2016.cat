@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="168b-4c59-7e13-d6d4" name="Scourge: 1st Edition (2016)" revision="6" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="168b-4c59-7e13-d6d4" name="Scourge: 1st Edition (2016)" revision="7" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5093,7 +5093,7 @@
     </selectionEntry>
     <selectionEntry id="b742-5992-28c9-d81a" name="Succubus Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="17b0-57d1-fae2-88c2" name="Succubus" book="DST418" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="17b0-57d1-fae2-88c2" name="Succubus" book="DST518" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5144,7 +5144,7 @@
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Scald"/>
           </characteristics>
         </profile>
-        <profile id="9993-7622-66ba-49c0" name="Succubus C - Plasma Squall" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="9993-7622-66ba-49c0" name="Succubus D - Plasma Squall" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5154,7 +5154,20 @@
             <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D3+2"/>
             <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
             <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
-            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Scald, Close Action"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Alt-1, Close Action, Scald"/>
+          </characteristics>
+        </profile>
+        <profile id="fe37-63d7-bd48-8016" name="Succubus C - Seekers" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="3"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Alt-1, Atmospheric, Close Action"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5167,6 +5180,18 @@
           <modifiers/>
         </infoLink>
         <infoLink id="4aa0-53fd-dedd-f54e" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="35df-809e-0532-5135" name="Atmospheric Weapons" hidden="false" targetId="1996-3e6f-41b3-739c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="da33-be23-ffed-01e8" name="Alt-X" hidden="false" targetId="bfbc-e83a-c2b7-eb15" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5188,7 +5213,20 @@
         <selectionEntry id="4449-17cc-af67-cb63" name="Cloaking Crest" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="7696-77b4-86e2-1431" name="Partial Cloak" hidden="false" targetId="1390-6580-87b5-33ff" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5a21-9589-a08f-1b2b" name="Stealth" hidden="false" targetId="8670-fbd9-e48c-da59" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dcb9-f67e-3d47-0922" type="min"/>
@@ -5220,7 +5258,7 @@
     </selectionEntry>
     <selectionEntry id="ccb8-1df2-12a8-e962" name="Incubus Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="6cc4-ee31-b165-7c52" name="Incubus" book="DST418" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="6cc4-ee31-b165-7c52" name="Incubus" book="DST518" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5255,23 +5293,23 @@
             <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D3+2"/>
             <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
             <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
-            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Scald, Close Action"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action, Scald"/>
           </characteristics>
         </profile>
-        <profile id="5da2-bba9-79c8-aca2" name="Incubus B - Furnace Cannon" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="5da2-bba9-79c8-aca2" name="Incubus B - Furnace Blaster" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
-            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="3"/>
             <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
             <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F(N)"/>
-            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Alt-1, Burnthrough(8), Scald"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Alt-1, Burnthrough(6), Scald"/>
           </characteristics>
         </profile>
-        <profile id="07fa-1136-ffa0-7bad" name="Incubus C - Furnace Cannon" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="07fa-1136-ffa0-7bad" name="Incubus C - Furnace Blaster" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5281,7 +5319,7 @@
             <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="1"/>
             <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
             <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F(N)"/>
-            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Alt-1, Burnthrough(4), Flash, Scald"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Alt-1, Burnthrough(2), Flash, Scald"/>
           </characteristics>
         </profile>
         <profile id="b78e-20ea-9a53-dd67" name="Incubus A - Oculus Rays" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
@@ -5346,7 +5384,20 @@
         <selectionEntry id="f160-1a9d-ad3f-2780" name="Cloaking Crest" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="3b21-b65a-d41d-54b9" name="Partial Cloak" hidden="false" targetId="1390-6580-87b5-33ff" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2844-6ece-1ce6-9e58" name="Stealth" hidden="false" targetId="8670-fbd9-e48c-da59" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f97-3028-b3ad-31a1" type="min"/>
@@ -5378,7 +5429,7 @@
     </selectionEntry>
     <selectionEntry id="c49c-ab83-c5c2-15a2" name="Revenant Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="52a3-b5f5-9386-a3b8" name="Revenant" book="DST418" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="52a3-b5f5-9386-a3b8" name="Revenant" book="DST518" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5476,7 +5527,20 @@
         <selectionEntry id="1b44-2a34-3f4b-33b8" name="Cloaking Crest" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="b869-368b-53f1-e21e" name="Partial Cloak" hidden="false" targetId="1390-6580-87b5-33ff" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="1c28-b9f7-8897-070b" name="Stealth" hidden="false" targetId="8670-fbd9-e48c-da59" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b62-f8b5-1e56-45e3" type="min"/>

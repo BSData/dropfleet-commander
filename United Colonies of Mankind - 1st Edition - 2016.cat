@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="6" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="7" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4698,22 +4698,6 @@
                 <characteristic name="Special" characteristicTypeId="d6c1-7d66-916c-88e8" value=""/>
               </characteristics>
             </profile>
-            <profile id="7ddd-dca1-ea18-0f5f" name="Space - Light Torpedoes" book="DST418" hidden="false" profileTypeId="3d27-25f5-3f6e-878b" profileTypeName="Asset">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Scan" characteristicTypeId="914a-2abb-507c-2952"/>
-                <characteristic name="Thrust" characteristicTypeId="9a03-5218-efd6-3b27" value="9&quot;"/>
-                <characteristic name="Armour" characteristicTypeId="32ca-f018-cea8-bff2"/>
-                <characteristic name="PD Bonus" characteristicTypeId="48f8-4189-6e7f-e9a7"/>
-                <characteristic name="Lock" characteristicTypeId="c010-61f8-3e90-1bca" value="2+"/>
-                <characteristic name="Attacks" characteristicTypeId="3b7d-3ae6-05bd-3e66" value="1"/>
-                <characteristic name="Damage" characteristicTypeId="1e07-2116-704d-c48f" value="3"/>
-                <characteristic name="Special" characteristicTypeId="d6c1-7d66-916c-88e8" value=""/>
-              </characteristics>
-            </profile>
           </profiles>
           <rules/>
           <infoLinks>
@@ -5722,7 +5706,7 @@
     </selectionEntry>
     <selectionEntry id="a35f-4ac4-cd75-c4d3" name="Vancouver Escort Carrier" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="c90c-b219-d255-e27b" name="Vancouver" book="DST418" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="c90c-b219-d255-e27b" name="Vancouver" book="DST518" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5734,7 +5718,7 @@
             <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="6"/>
             <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="4+"/>
             <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="3"/>
-            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="2-3"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1-3"/>
             <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
             <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Launch"/>
           </characteristics>
@@ -5813,12 +5797,12 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="62.0"/>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ebc-e179-855e-e295" name="Havana Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="cdd9-18f1-4398-1abe" name="Havana" book="DST418" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="cdd9-18f1-4398-1abe" name="Havana" book="DST518" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5832,7 +5816,7 @@
             <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="3"/>
             <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="2-3"/>
             <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="L2"/>
-            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Launch"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Launch, Rare"/>
           </characteristics>
         </profile>
         <profile id="7e95-2caf-a6c5-820d" name="Havana A - Shark Missile Bays" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
@@ -5842,20 +5826,20 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
-            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D6+1"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D6+2"/>
             <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
             <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
           </characteristics>
         </profile>
-        <profile id="36f2-82c8-377a-d788" name="Havana - Light Torpedoes" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+        <profile id="36f2-82c8-377a-d788" name="Havana - Torpedo" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="1"/>
-            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8" value=""/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8" value="L(1)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5868,6 +5852,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="3004-72ab-2668-95ab" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="25ec-09ca-ec5e-453d" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5914,7 +5904,7 @@
     </selectionEntry>
     <selectionEntry id="de51-868f-f763-9053" name="Kiev Heavy Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="3f7e-4d55-e535-8575" name="Kiev" book="DST418" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="3f7e-4d55-e535-8575" name="Kiev" book="DST518" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6003,7 +5993,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="60.0"/>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7654-bf22-4639-42b2" name="Vancouver Escort Carriers" hidden="false" collective="false" type="unit">
@@ -6034,7 +6024,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="843d-036c-b840-8379" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c89-abab-50df-6d0a" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c89-abab-50df-6d0a" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -6058,8 +6048,25 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="2825-5c45-b5e7-1732" value="3">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="2825-5c45-b5e7-1732" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2825-5c45-b5e7-1732" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>

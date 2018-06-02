@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c240-e6a9-6a41-8643" name="Shaltari Tribes: 1st Edition (2016)" revision="6" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c240-e6a9-6a41-8643" name="Shaltari Tribes: 1st Edition (2016)" revision="7" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -4904,7 +4904,7 @@
     </selectionEntry>
     <selectionEntry id="cb65-5778-c42a-e57f" name="Chromium Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="2307-8488-28fb-e41f" name="Chromium" book="DST418" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="2307-8488-28fb-e41f" name="Chromium" book="DST518" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4921,7 +4921,7 @@
             <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value=""/>
           </characteristics>
         </profile>
-        <profile id="e3f9-ae65-bada-b33e" name="Chromium A - Thermal Lance Cannon" book="" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="e3f9-ae65-bada-b33e" name="Chromium B - Thermal Lance Cannon" book="" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4931,10 +4931,10 @@
             <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="1"/>
             <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
             <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F(N)"/>
-            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Burnthrough(3), Flash"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Burnthrough(3)"/>
           </characteristics>
         </profile>
-        <profile id="5312-cda9-9d70-781b" name="Chromium B - Disruption Beamers" book="" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="5312-cda9-9d70-781b" name="Chromium A - Disruption Beamers" book="" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4975,12 +4975,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="bcac-1ec6-e572-b1f3" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -5011,7 +5005,7 @@
     </selectionEntry>
     <selectionEntry id="6383-b843-d849-31ef" name="Mercury Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="cad4-e75d-1297-ad0a" name="Mercury" book="DST418" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="cad4-e75d-1297-ad0a" name="Mercury" book="DST518" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5051,32 +5045,13 @@
             <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="3"/>
             <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
             <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
-            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="*Mauler(4)"/>
-          </characteristics>
-        </profile>
-        <profile id="1f39-fcf5-9adf-c394" name="Mercury C - Harpoon Volley" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
-            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
-            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
-            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
-            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="*Mauler(6)"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="029b-bef5-9fb4-27bd" name="Maulers" hidden="false" targetId="f6ec-da54-fd6f-2579" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="155b-9c95-0186-d576" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+        <infoLink id="029b-bef5-9fb4-27bd" name="Mauler(X)" hidden="false" targetId="f6ec-da54-fd6f-2579" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5112,7 +5087,7 @@
     </selectionEntry>
     <selectionEntry id="c1c9-136e-d065-a11b" name="Cobalt Homeship" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="2f39-4433-6804-a3f1" name="Cobalt" book="DST418" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="2f39-4433-6804-a3f1" name="Cobalt" book="DST518" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5205,7 +5180,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="55.0"/>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f7b-2d7d-c672-6b0b" name="Chromium Destroyers" hidden="false" collective="false" type="unit">
