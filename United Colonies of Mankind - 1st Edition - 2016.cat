@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="7" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="8" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4952,7 +4952,7 @@
     </selectionEntry>
     <selectionEntry id="7601-902e-0df4-0c70" name="Centurion Cruiser" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="f113-45df-15eb-3536" name="Centurion UCM" book="CCC318" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="f113-45df-15eb-3536" name="Centurion UCM" book="CCC518" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4961,7 +4961,7 @@
             <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="6&quot;"/>
             <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="6&quot;"/>
             <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="7&quot;"/>
-            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="12"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="14"/>
             <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="2+"/>
             <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="3"/>
             <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1-2"/>
@@ -4969,7 +4969,7 @@
             <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Ceramic Armour, Rare"/>
           </characteristics>
         </profile>
-        <profile id="2ec4-f6ea-0a05-635b" name="Centurion UCM A - UF/R-XN2 Twin Mass Driver Turret" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="2ec4-f6ea-0a05-635b" name="Centurion UCM A - XN-31 Mass Driver Turret Pair" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4982,7 +4982,7 @@
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Fusillade(2)"/>
           </characteristics>
         </profile>
-        <profile id="2270-6ecc-9f9b-125f" name="Centurion UCM B - UF/R-N31 Hybrid Gun Broadside" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="2270-6ecc-9f9b-125f" name="Centurion UCM B - N-31 Hybrid Gun Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4995,7 +4995,7 @@
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1"/>
           </characteristics>
         </profile>
-        <profile id="d230-2a3e-908a-998e" name="Centurion UCM C - UF/R-N31 Hybrid Gun Broadside" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="d230-2a3e-908a-998e" name="Centurion UCM C - N-31 Hybrid Gun Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5008,14 +5008,14 @@
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1"/>
           </characteristics>
         </profile>
-        <profile id="0168-1c98-7fc6-9eb1" name="Centurion UCM D - Shark Missile Bays" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="0168-1c98-7fc6-9eb1" name="Centurion UCM D - NC-3 Missiles" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
-            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D6+1"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
             <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
             <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
@@ -5087,7 +5087,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="160.0"/>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="145.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0483-4ffa-7e63-bb82" name="Centurion Cruisers" hidden="false" collective="false" type="unit">

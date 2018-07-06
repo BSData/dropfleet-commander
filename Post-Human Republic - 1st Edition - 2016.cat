@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="620d-f7e0-131c-2882" name="Post-Human Republic: 1st Edition (2016)" revision="7" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="620d-f7e0-131c-2882" name="Post-Human Republic: 1st Edition (2016)" revision="8" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5005,24 +5005,24 @@
     </selectionEntry>
     <selectionEntry id="5f21-e98d-93f4-8fdb" name="Centurion Cruiser" book="" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="5f5c-7f29-5dc7-79f3" name="Centurion PHR" book="CCC318" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+        <profile id="5f5c-7f29-5dc7-79f3" name="Centurion PHR" book="CCC518" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="8&quot;"/>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="6&quot;"/>
             <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="6&quot;"/>
             <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="7&quot;"/>
-            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="12"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="14"/>
             <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="2+"/>
             <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="3"/>
             <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1-2"/>
-            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="M"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="H"/>
             <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Ceramic Armour, Rare"/>
           </characteristics>
         </profile>
-        <profile id="2ade-2299-b516-22a3" name="Centurion PHR A - Relic Twin Mass Driver Turret" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="2ade-2299-b516-22a3" name="Centurion PHR A - XN-31 Mass Driver Turret Pair" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5035,7 +5035,7 @@
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Fusillade(2)"/>
           </characteristics>
         </profile>
-        <profile id="e6f2-6bc8-7a3b-d45d" name="Centurion PHR B - Medium Calibre Hybrid Broadside" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="e6f2-6bc8-7a3b-d45d" name="Centurion PHR B - N-31 Hybrid Gun Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5048,7 +5048,7 @@
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1"/>
           </characteristics>
         </profile>
-        <profile id="c596-6ad8-63a5-a2d6" name="Centurion PHR C - Medium Calibre Hybrid Broadside" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="c596-6ad8-63a5-a2d6" name="Centurion PHR C - N-31 Hybrid Gun Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5061,14 +5061,14 @@
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1"/>
           </characteristics>
         </profile>
-        <profile id="1831-17fc-0f2e-f2c3" name="Centurion PHR D - Wasp Drones" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+        <profile id="1831-17fc-0f2e-f2c3" name="Centurion PHR D - NC-3 Missiles" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
-            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D3+1"/>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
             <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
             <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
             <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
@@ -5140,7 +5140,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="160.0"/>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="145.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d968-4132-6ee0-f2fe" name="Centurion Cruisers" hidden="false" collective="false" type="unit">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="7" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="8" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -2165,8 +2165,8 @@
 RB - Dropfleet Commander Rulebook (2016)
 FAQ11 - Dropfleet FAQs and Errata 1.1 (January 2017)
 RU517 - Dropfleet Official Rules Update (May 2017)
-CCC318 - Centurion Class Cruiser (March 2018)
 PLS318 - Princess Liner Scenarios (March 2018)
+CCC518 - Centurion Class Cruiser v0.4 (May 2018)
 DST518 - Destroyers Experimental Rules v0.3 (May 2018)
 WWW - Kickstarter, Hawk Forum, and Facebook webpages
 
@@ -2490,7 +2490,7 @@ With permission from TTCombat.</description>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="38d0-f9e6-a208-1f17" name="Ceramic Armour" book="CCC318" hidden="false">
+    <rule id="38d0-f9e6-a208-1f17" name="Ceramic Armour" book="CCC518" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
