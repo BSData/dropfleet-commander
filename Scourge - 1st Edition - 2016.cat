@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="168b-4c59-7e13-d6d4" name="Scourge: 1st Edition (2016)" revision="8" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="168b-4c59-7e13-d6d4" name="Scourge: 1st Edition (2016)" revision="9" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -234,6 +234,30 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="6979-c0a0-de13-f7c6" name="Succubus Destroyer" hidden="false" targetId="b742-5992-28c9-d81a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4f48-658d-77c6-8aa0" name="Cthulhu Dreadnought" hidden="false" targetId="eff6-b724-b690-7415" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6f45-f746-12ac-7107" name="Nosferatu Dreadnought" hidden="false" targetId="4f87-c199-ef63-6f5e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ae6d-8e57-addc-c8f2" name="Dreadnought Battlegroup" hidden="false" targetId="c6ce-9f9b-392e-9a19" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3796,20 +3820,6 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
-              <repeats>
-                <repeat field="selections" scope="ba01-8bdf-2251-b138" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="ba01-8bdf-2251-b138" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
               <repeats>
                 <repeat field="selections" scope="ba01-8bdf-2251-b138" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
@@ -3978,23 +3988,9 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="1373-9bea-e6ce-ed5f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
               <repeats>
                 <repeat field="selections" scope="1373-9bea-e6ce-ed5f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="1373-9bea-e6ce-ed5f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4219,23 +4215,9 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="aa4c-86cf-be87-41a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
               <repeats>
                 <repeat field="selections" scope="aa4c-86cf-be87-41a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="aa4c-86cf-be87-41a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4430,13 +4412,6 @@
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="1">
               <repeats>
                 <repeat field="selections" scope="ba61-df8a-0c03-49be" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3209-572d-007e-c797" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="ba61-df8a-0c03-49be" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -5736,6 +5711,482 @@
         <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c6ce-9f9b-392e-9a19" name="Dreadnought Battlegroup" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="d8f0-5750-e63c-e6b0" name="Battlegroup" book="RB" page="70" hidden="false" profileTypeId="1290-e6f8-cba6-796a" profileTypeName="Battlegroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Strategy Rating" characteristicTypeId="e587-e1ea-3a07-a0e8" value="30"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="35ea-2ec6-564d-07f1" name="New CategoryLink" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="82ba-3706-7bd2-de4a" name="New CategoryLink" hidden="false" targetId="343b-c1c3-5b31-5799" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="50ae-990c-0d11-6966" name="Dreadnought Group" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9643-881a-63b9-38a1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99d0-18ad-c6b3-4605" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="cef1-edba-ef86-c5a8" name="Dreadnought Ships" hidden="false" targetId="fe26-1d3f-b6d3-544a" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f87-c199-ef63-6f5e" name="Nosferatu Dreadnought" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="f46b-4902-d4ac-004c" name="Nosferatu - Fighters &amp; Bombers" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="5"/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8" value="Scald (Bombers)"/>
+          </characteristics>
+        </profile>
+        <profile id="e3e2-0712-5bcb-6885" name="Nosferatu" book="DRD818" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="14&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="20&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="8&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="26"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="3+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="20"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="S2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Dreadnought, Full Cloak, Launch, Stealth"/>
+          </characteristics>
+        </profile>
+        <profile id="a4db-7d30-0711-a40c" name="Nosferatu A - Oculus Beam Super Phalanx" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="8"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Scald"/>
+          </characteristics>
+        </profile>
+        <profile id="7651-1ebe-b0cc-2149" name="Nosferatu B - Oculus Beam Array, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1, Scald"/>
+          </characteristics>
+        </profile>
+        <profile id="c566-1817-ef9c-6806" name="Nosferatu C - Oculus Beam Array, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1, Scald"/>
+          </characteristics>
+        </profile>
+        <profile id="c056-95e7-9192-929b" name="Nosferatu D - Oculus Beam Array, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2, Scald"/>
+          </characteristics>
+        </profile>
+        <profile id="7f96-c73b-4186-5fce" name="Nosferatu E - Oculus Beam Array, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2, Scald"/>
+          </characteristics>
+        </profile>
+        <profile id="8303-5f33-abc6-4290" name="Nosferatu F - Plasma Flood" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2D6+3"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action, Scald"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2bf2-bc35-03df-1c65" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0fdc-966e-763c-8df4" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="04f9-d5fe-611b-c487" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2ff8-b67d-a0c0-ccb9" name="Stealth" hidden="false" targetId="8670-fbd9-e48c-da59" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d4c1-1aef-066e-3416" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6076-5707-993d-e575" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a4d3-b6ba-d49b-ca0d" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="be79-aafd-651a-8f7e" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="497b-b469-2566-788c" name="Super Heavy 2" hidden="false" targetId="f076-f414-ab26-6b54" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2c10-0444-8ab8-9ce4" name="Admiral (S2)" hidden="false" targetId="0539-d23f-9657-e729" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f627-b939-221b-a6db" name="Launch" hidden="false" targetId="4bc8-d6c1-3a3f-aec7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e902-a60a-f757-8093" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b1a-1132-d7ff-e719" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="480.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eff6-b724-b690-7415" name="Cthulhu Dreadnought" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2736-07fa-dce6-3d8e" name="Cthulhu - Fighters &amp; Bombers" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="8"/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8" value="Scald (Bombers)"/>
+          </characteristics>
+        </profile>
+        <profile id="ea3d-279e-53ed-5c24" name="Cthulhu" book="DRD818" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="14&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="20&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="8&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="26"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="3+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="20"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="S2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Dreadnought, Full Cloak, Launch, Stealth"/>
+          </characteristics>
+        </profile>
+        <profile id="6cd8-f1ba-9544-3dfb" name="Cthulhu A - Furnace Triad" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="12"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F(N)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Burnthrough(20), Flash, Scald"/>
+          </characteristics>
+        </profile>
+        <profile id="3edd-6e19-687b-f180" name="Cthulhu B - Oculus Beam Array, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1, Scald"/>
+          </characteristics>
+        </profile>
+        <profile id="53b4-d46c-94ae-5ada" name="Cthulhu C - Oculus Beam Array, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1, Scald"/>
+          </characteristics>
+        </profile>
+        <profile id="671f-6d7f-0852-d66b" name="Cthulhu D - Oculus Beam Array, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2, Scald"/>
+          </characteristics>
+        </profile>
+        <profile id="7f82-69ed-2336-569e" name="Cthulhu E - Oculus Beam Array, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2, Scald"/>
+          </characteristics>
+        </profile>
+        <profile id="a89d-e340-e20f-b893" name="Cthulhu F - Plasma Cyclone" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D6+2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action, Scald"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="75a5-6620-be12-d7aa" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="64af-5c13-3f6a-3bf1" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8eda-e894-1571-a7bf" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2069-194a-a4cd-6ea7" name="Stealth" hidden="false" targetId="8670-fbd9-e48c-da59" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eb4e-ca4d-c891-6a0b" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a6a8-b1e5-aa8e-ef2d" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d416-342a-81c3-f99c" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1b5e-bd67-9a92-ee54" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2b14-26b9-dc2a-cd77" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d677-d687-409f-dd79" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9546-9fd5-cfad-4413" name="Super Heavy 2" hidden="false" targetId="f076-f414-ab26-6b54" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8c93-fa8b-53ea-18a6" name="Admiral (S2)" hidden="false" targetId="0539-d23f-9657-e729" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6ec5-b03f-7876-8754" name="Launch" hidden="false" targetId="4bc8-d6c1-3a3f-aec7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e8ff-f98f-8b44-400e" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb91-5caf-fa37-e7d7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="490.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1e34-f36c-ea69-cbcb" name="Heavy Ships" hidden="false" collective="false" defaultSelectionEntryId="d3c6-db54-e0d0-e66f">
@@ -5997,10 +6448,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae6d-8e57-addc-c8f2" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -6052,10 +6509,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae6d-8e57-addc-c8f2" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -6115,10 +6578,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae6d-8e57-addc-c8f2" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -6146,6 +6615,84 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="0d34-c8ab-07b3-700c" name="AV5 Fleet Overlord (S)" hidden="false" targetId="12a7-1f9d-e04a-ffd1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0539-d23f-9657-e729" name="Admiral (S2)" hidden="false" collective="false" defaultSelectionEntryId="7d44-b3e9-af10-c981">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8022-9bcc-a8ae-91b8" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8ed-4b06-f0b1-9c36" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="135f-bd7c-8019-04a3" name="AV6 Fleet Puppeteer (S)" hidden="false" targetId="ce6c-cb7f-d9e5-05cc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7d44-b3e9-af10-c981" name="AV4 Fleet Master (S)" hidden="false" targetId="f0fc-f067-159c-84f9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bc60-862a-2488-ad94" name="AV5 Fleet Overlord (S)" hidden="false" targetId="12a7-1f9d-e04a-ffd1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fe26-1d3f-b6d3-544a" name="Dreadnought Ships" hidden="false" collective="false" defaultSelectionEntryId="5827-dbdb-497a-dbb5">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="740a-c8d6-f287-5945" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d952-7766-2360-76fc" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="46d3-78d5-9c3d-6c1b" name="Cthulhu Dreadnought" hidden="false" targetId="eff6-b724-b690-7415" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5827-dbdb-497a-dbb5" name="Nosferatu Dreadnought" hidden="false" targetId="4f87-c199-ef63-6f5e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

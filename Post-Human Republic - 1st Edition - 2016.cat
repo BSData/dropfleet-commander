@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="620d-f7e0-131c-2882" name="Post-Human Republic: 1st Edition (2016)" revision="8" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="620d-f7e0-131c-2882" name="Post-Human Republic: 1st Edition (2016)" revision="9" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -258,6 +258,30 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="b14a-0234-6b38-6e7e" name="Odysseus Blockade Runner" hidden="false" targetId="6c2f-5699-9bea-fd8f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0eef-af1c-9519-e24d" name="Dreadnought Battlegroup" hidden="false" targetId="ee3d-39f3-5ebc-eef7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="39a5-5e20-c8b9-4019" name="Remus Dreadnought" hidden="false" targetId="8096-7c03-7542-a491" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b031-5846-2510-a8c9" name="Romulus Dreadnought" hidden="false" targetId="5ea2-6b2a-f3be-cfdf" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3980,20 +4004,6 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
-              <repeats>
-                <repeat field="selections" scope="aaea-90f5-3f4d-226e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="aaea-90f5-3f4d-226e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
               <repeats>
                 <repeat field="selections" scope="aaea-90f5-3f4d-226e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
@@ -4162,23 +4172,9 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="90bf-ff54-7eea-9298" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
               <repeats>
                 <repeat field="selections" scope="90bf-ff54-7eea-9298" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="90bf-ff54-7eea-9298" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4403,23 +4399,9 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="d8fe-4cfb-dd80-e5a6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
               <repeats>
                 <repeat field="selections" scope="d8fe-4cfb-dd80-e5a6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="d8fe-4cfb-dd80-e5a6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4614,13 +4596,6 @@
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="1">
               <repeats>
                 <repeat field="selections" scope="8ad3-2e53-b8be-473f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3209-572d-007e-c797" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="8ad3-2e53-b8be-473f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -6069,6 +6044,496 @@
         <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ee3d-39f3-5ebc-eef7" name="Dreadnought Battlegroup" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="4021-ed60-a005-7fa8" name="Battlegroup" book="RB" page="70" hidden="false" profileTypeId="1290-e6f8-cba6-796a" profileTypeName="Battlegroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Strategy Rating" characteristicTypeId="e587-e1ea-3a07-a0e8" value="30"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ce8e-baa3-2ad9-5e56" name="New CategoryLink" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ba26-8a3b-c06e-b893" name="New CategoryLink" hidden="false" targetId="343b-c1c3-5b31-5799" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7638-588c-1fe5-5969" name="Dreadnought Group" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4734-dd32-ada7-f2ad" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd8a-eda0-1277-2c7f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1602-3b1a-1c26-9b90" name="Dreadnought Ships" hidden="false" targetId="2e5c-fa09-313c-eb61" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ea2-6b2a-f3be-cfdf" name="Romulus Dreadnought" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d509-83e2-2739-27af" name="Romulus" book="DRD818" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="16&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="16&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="6&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="30"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="2+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="18"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="S2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Dreadnought"/>
+          </characteristics>
+        </profile>
+        <profile id="a734-9e8f-ea1b-c31f" name="Romulus A - Hypernova Laser" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="5"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F(N)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Burnthrough(14), Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="d247-c20c-b0ff-b547" name="Romulus B - Energy Glaive Battery, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="6"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="39ea-1fd7-0956-5dd2" name="Romulus C - Energy Glaive Battery, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="6"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="1461-f788-318f-3d93" name="Romulus D - Energy Glaive Battery, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="6"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="d5d5-c524-26e5-d20d" name="Romulus E - Energy Glaive Battery, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="6"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="4054-0d42-cf9d-30ab" name="Romulus F - Energy Glaive Battery, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="6"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="87b6-c301-9c78-f478" name="Romulus G - Energy Glaive Battery, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="6"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="bdb0-67a6-17aa-ae2e" name="Romulus H - Hornet Drones" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D3+3"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f0dd-45d3-1e58-d30a" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7e1d-b78d-f6b3-798d" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f5a0-9b20-cb64-0ac6" name="Overcharge" hidden="false" targetId="def9-d03d-747e-fd91" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3b0a-0e49-91a1-0f52" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b819-f1cd-0ff6-cdc1" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8f71-18aa-1d14-84ef" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b64c-201d-f3a0-ae6c" name="Super Heavy 2" hidden="false" targetId="f076-f414-ab26-6b54" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f976-a5ad-1d11-4a94" name="Admiral (S2)" hidden="false" targetId="9ae8-be45-96d4-b475" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="520.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8096-7c03-7542-a491" name="Remus Dreadnought" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3ea1-b81f-ea1f-ccef" name="Remus - Torpedo" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="4"/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8" value="L(4)*"/>
+          </characteristics>
+        </profile>
+        <profile id="4953-dd52-39a8-ce09" name="Remus" book="DRD818" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="16&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="16&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="6&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="30"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="2+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="18"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="S2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Dreadnought, Launch"/>
+          </characteristics>
+        </profile>
+        <profile id="b71c-8e29-581a-9113" name="Remus A - Energy Glaive Battery, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="6"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="b490-18f1-1060-adb0" name="Remus B - Energy Glaive Battery, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="6"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="4ddd-efc4-8b7c-db83" name="Remus C - Energy Glaive Battery, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="6"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="367f-1f5d-5c69-3d56" name="Remus D - Energy Glaive Battery, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="6"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="3045-1636-7357-a632" name="Remus E - Apocalypse Cannon, Barrel 1" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="3"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Bombardment, Linked-3, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="f626-b9fc-39e3-b89c" name="Remus F - Apocalypse Cannon, Barrel 2" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="3"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Bombardment, Linked-3, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="a34b-4a87-f17f-6340" name="Remus G - Apocalypse Cannon, Barrel 3" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="3"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Bombardment, Linked-3, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="6e47-d0c4-e22b-efe8" name="Remus H - Apocalypse Cannon, Barrel 4" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="3"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Bombardment, Linked-3, Overcharge"/>
+          </characteristics>
+        </profile>
+        <profile id="d658-4569-a68f-978a" name="Remus I - Hornet Drone Hive" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D3+8"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2df3-a5c9-74b0-21fa" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3b99-a6c3-1b21-94cb" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="181c-03c8-116d-1248" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0d7b-01ba-9f8c-9e99" name="Overcharge" hidden="false" targetId="def9-d03d-747e-fd91" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c7e7-b8ae-9c3d-b584" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eccc-3167-c2d9-e25d" name="Bombardment" hidden="false" targetId="9e06-f148-f8a3-26fb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fd41-de46-44fd-ce3a" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1555-fa15-ee13-fe38" name="Super Heavy 2" hidden="false" targetId="f076-f414-ab26-6b54" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0e4a-55f9-485c-e9aa" name="Admiral (S2)" hidden="false" targetId="9ae8-be45-96d4-b475" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e4d2-7e16-fa2c-b9e8" name="Launch" hidden="false" targetId="4bc8-d6c1-3a3f-aec7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b878-8f95-b189-b90f" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2c38-10b5-40b2-430e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="460.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="0638-30b2-ac6d-3d1d" name="Super Heavy Ships" hidden="false" collective="false" defaultSelectionEntryId="83a0-870d-adfa-ab0b">
@@ -6354,10 +6819,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0eef-af1c-9519-e24d" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -6409,10 +6880,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0eef-af1c-9519-e24d" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -6472,10 +6949,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0eef-af1c-9519-e24d" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -6503,6 +6986,84 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="727d-eec2-c354-54df" name="AV5 High Director (S)" hidden="false" targetId="b4f7-a493-d546-e16c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9ae8-be45-96d4-b475" name="Admiral (S2)" hidden="false" collective="false" defaultSelectionEntryId="afc3-5e9a-dc55-fc4d">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd17-8566-1314-284c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d4-056b-5e64-b8c5" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="69e5-1c5e-1f75-aa68" name="AV6 Grand Director (S)" hidden="false" targetId="f496-c72c-258e-f946" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="afc3-5e9a-dc55-fc4d" name="AV4 Director (S)" hidden="false" targetId="2a50-d7e2-3fec-a562" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9ffd-85fc-b167-09e2" name="AV5 High Director (S)" hidden="false" targetId="b4f7-a493-d546-e16c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2e5c-fa09-313c-eb61" name="Dreadnought Ships" hidden="false" collective="false" defaultSelectionEntryId="d71e-cc2d-f889-9166">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b2-cb00-4add-eef1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e23-76c7-5315-c488" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4684-df90-4370-ee1f" name="Remus Dreadnought" hidden="false" targetId="8096-7c03-7542-a491" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d71e-cc2d-f889-9166" name="Romulus Dreadnought" hidden="false" targetId="5ea2-6b2a-f3be-cfdf" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

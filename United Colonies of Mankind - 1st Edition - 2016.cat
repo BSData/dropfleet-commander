@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="8" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="9" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -266,6 +266,30 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="7945-1df9-972b-0d59" name="Vancouver Escort Carrier" hidden="false" targetId="a35f-4ac4-cd75-c4d3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="cd74-f01d-9bac-fb52" name="Dreadnought Battlegroup" hidden="false" targetId="c98d-4061-a6df-51ef" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c654-6ee6-fa32-03b4" name="London Dreadnought" hidden="false" targetId="8677-d079-42d4-09f6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="856a-5e5e-a2ff-de19" name="Washington Dreadnought" hidden="false" targetId="4020-c343-6517-ee2f" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2447,20 +2471,6 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
-              <repeats>
-                <repeat field="selections" scope="d344-138c-c6d0-cc19" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="d344-138c-c6d0-cc19" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
               <repeats>
                 <repeat field="selections" scope="d344-138c-c6d0-cc19" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
@@ -2629,23 +2639,9 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="ed7f-288f-cba9-0ab1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
               <repeats>
                 <repeat field="selections" scope="ed7f-288f-cba9-0ab1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="ed7f-288f-cba9-0ab1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -2870,23 +2866,9 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="12c3-eb29-1aea-ef48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
               <repeats>
                 <repeat field="selections" scope="12c3-eb29-1aea-ef48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="12c3-eb29-1aea-ef48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -3081,13 +3063,6 @@
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="1">
               <repeats>
                 <repeat field="selections" scope="d130-a78a-632e-9040" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3209-572d-007e-c797" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="d130-a78a-632e-9040" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4549,6 +4524,13 @@
         <modifier type="increment" field="e888-2584-886f-7f2c" value="100">
           <repeats>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b846-9351-a536-947a" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="40">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2694-ab88-ccfa-007f" repeats="1" roundUp="false"/>
           </repeats>
           <conditions/>
           <conditionGroups/>
@@ -6146,6 +6128,525 @@
         <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8677-d079-42d4-09f6" name="London Dreadnought" book="DRD818" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="6064-3f06-7d12-3a84" name="London" book="DRD818" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="14&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="16&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="6&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="26"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="2+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="18"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="S2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Command Ship, Dreadnought"/>
+          </characteristics>
+        </profile>
+        <profile id="0b56-33b5-79f5-fec7" name="London A - UF-9000 Mass Driver Turret, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Fusillade(2)"/>
+          </characteristics>
+        </profile>
+        <profile id="fdb2-7fc2-5596-b7da" name="London B - UF-9000 Mass Driver Turret, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Fusillade(2)"/>
+          </characteristics>
+        </profile>
+        <profile id="882e-caca-2481-e1ed" name="London C - UF-6400 Mass Driver Turrets, Spinal Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="8"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="7c42-4801-ca5e-9615" name="London D - UF-6400 Mass Driver Turrets, Ventral Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="8"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="e8c9-004f-daec-9ff9" name="London E - UF-4200 Mass Driver Turrets, Core Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="12"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="c2de-4783-81f9-793d" name="London F - UF-4200 Mass Driver Turrets, Starboard  Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="bf76-e3ad-28c3-6fcd" name="London G - UF-4200 Mass Driver Turrets, Port  Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="144f-ee22-c0ed-6236" name="London H - Leviathan Missile Bays" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2D6+4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d1d4-06c4-59e6-c30f" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8bb6-d4b4-24cb-616c" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6879-4d88-ebed-8878" name="Command Ship" hidden="false" targetId="7ed1-7d4c-0969-21b9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f4c5-d706-8ee8-67ad" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="dcfd-8da4-deb1-5c82" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3567-90a3-b4d0-af63" name="Super Heavy 2" hidden="false" targetId="f076-f414-ab26-6b54" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0730-879b-81e6-055a" name="Admiral (S2)" hidden="false" targetId="b595-b072-543d-9724" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="490.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d125-c82f-9777-a209" name="AV5 Admiral" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="20ee-4ac4-a7cb-c860" name="Admiral" book="RB" page="71, RU517" hidden="false" profileTypeId="1403-52d2-9a6f-1c6d" profileTypeName="Admiral">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="AV" characteristicTypeId="8bfb-a799-58fa-bf2a" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e38e-04a9-0018-a0b8" name="New CategoryLink" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2694-ab88-ccfa-007f" name="AV6 Admiral of the Fleet" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="506e-38e8-1e91-5822" name="Admiral of the Fleet" book="RB" page="71, RU517" hidden="false" profileTypeId="1403-52d2-9a6f-1c6d" profileTypeName="Admiral">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="AV" characteristicTypeId="8bfb-a799-58fa-bf2a" value="6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="notInstanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9742-826b-0f28-0741" name="New CategoryLink" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c98d-4061-a6df-51ef" name="Dreadnought Battlegroup" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3f22-e03b-bd31-d6fe" name="Battlegroup" book="RB" page="70" hidden="false" profileTypeId="1290-e6f8-cba6-796a" profileTypeName="Battlegroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Strategy Rating" characteristicTypeId="e587-e1ea-3a07-a0e8" value="30"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="354a-3ad1-79ad-6235" name="New CategoryLink" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="161b-a994-5870-0847" name="Flag Battlegroups" hidden="false" targetId="343b-c1c3-5b31-5799" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="073c-c719-2c47-b7ba" name="Dreadnought Group" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfb9-caf4-6311-0a87" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25c3-4891-01c6-d0b8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="659f-f848-399b-0972" name="Dreadnought Ships" hidden="false" targetId="c7d1-71b5-a2e6-d303" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4020-c343-6517-ee2f" name="Washington Dreadnought" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="6938-3dd2-6be5-9ac1" name="Washington" book="DRD818" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="14&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="16&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="6&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="26"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="2+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="18"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="S2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Command Ship, Dreadnought, Launch"/>
+          </characteristics>
+        </profile>
+        <profile id="54a9-3e19-ba54-05f0" name="Washington - Fighters &amp; Bombers" book="" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="15"/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+        <profile id="de91-2ec8-9c96-996f" name="Washington A - UF-9000 Mass Driver Turret, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Fusillade(2)"/>
+          </characteristics>
+        </profile>
+        <profile id="78d7-36fa-c768-5155" name="Washington B - UF-9000 Mass Driver Turret, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="2+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Fusillade(2)"/>
+          </characteristics>
+        </profile>
+        <profile id="20ae-6818-66a9-9a0b" name="Washington C - UF-4200 Mass Driver Turrets, Core Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="12"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="2830-147c-8c02-47c3" name="Washington D - UF-4200 Mass Driver Turrets, Starboard  Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="4245-26e4-80e0-8ce9" name="Washington E - UF-4200 Mass Driver Turrets, Port  Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="a2e2-f60f-144b-c884" name="Washington F - Leviathan Missile Bays" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2D6+4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c4ee-21cf-b23c-8978" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5519-348a-7122-78ad" name="Command Ship" hidden="false" targetId="7ed1-7d4c-0969-21b9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="45c5-adc0-a638-8621" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc0d-f25c-aa34-4c39" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5aad-b9e4-ee90-7af2" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="db2f-5b06-9a22-20a2" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="191a-50cc-7755-2ea7" name="Super Heavy 2" hidden="false" targetId="f076-f414-ab26-6b54" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5065-bf81-ae89-0072" name="Admiral (S2)" hidden="false" targetId="b595-b072-543d-9724" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="86a3-c7d7-18ce-632e" name="Launch" hidden="false" targetId="4bc8-d6c1-3a3f-aec7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="487c-baa8-cd15-124f" type="min"/>
+            <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da77-a769-7d86-ec32" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="450.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="70d1-92ea-1fad-ec08" name="Light Ships" hidden="false" collective="false" defaultSelectionEntryId="97fd-a536-0b2b-7e1c">
@@ -6439,10 +6940,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cd74-f01d-9bac-fb52" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -6469,7 +6976,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="06be-e775-9370-13e0" name="AV6 Admiral of the Fleet (S)" hidden="false" targetId="e520-b2da-e7e5-56dc" type="selectionEntry">
+        <entryLink id="06be-e775-9370-13e0" name="AV6 Admiral of the Fleet" hidden="false" targetId="e520-b2da-e7e5-56dc" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6486,10 +6993,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cd74-f01d-9bac-fb52" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -6500,7 +7013,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="23e7-e87e-6799-239e" name="AV3 Commodore (H)" hidden="false" targetId="151b-2b55-2551-dfb0" type="selectionEntry">
+        <entryLink id="23e7-e87e-6799-239e" name="AV3 Commodore" hidden="false" targetId="151b-2b55-2551-dfb0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6508,7 +7021,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="80c1-7c05-12b5-a7e6" name="AV4 Vice-Admiral (H)" hidden="false" targetId="bdee-73d8-295c-87ad" type="selectionEntry">
+        <entryLink id="80c1-7c05-12b5-a7e6" name="AV4 Vice-Admiral" hidden="false" targetId="bdee-73d8-295c-87ad" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6516,7 +7029,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="451e-f6a6-00d4-8347" name="AV5 Admiral (H)" hidden="false" targetId="2c36-6f16-0c3b-6832" type="selectionEntry">
+        <entryLink id="451e-f6a6-00d4-8347" name="AV5 Admiral" hidden="false" targetId="2c36-6f16-0c3b-6832" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6524,7 +7037,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="968a-1023-e02c-b290" name="AV6 Admiral of the Fleet (H)" hidden="false" targetId="b846-9351-a536-947a" type="selectionEntry">
+        <entryLink id="968a-1023-e02c-b290" name="AV6 Admiral of the Fleet" hidden="false" targetId="b846-9351-a536-947a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6541,10 +7054,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cd74-f01d-9bac-fb52" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -6588,6 +7107,76 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="e068-5469-7a41-9bd3" name="AV6 Admiral of the Fleet" hidden="false" targetId="2055-9db5-eb5c-ba54" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b595-b072-543d-9724" name="Admiral (S2)" hidden="false" collective="false" defaultSelectionEntryId="dd8b-2562-ce24-1121">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c684-a444-bca2-3701" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2895-109a-13f1-c709" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="dd8b-2562-ce24-1121" name="AV5 Admiral S2" hidden="false" targetId="d125-c82f-9777-a209" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1969-905e-65ba-d063" name="AV6 Admiral of the Fleet" hidden="false" targetId="2694-ab88-ccfa-007f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c7d1-71b5-a2e6-d303" name="Dreadnought Ships" hidden="false" collective="false" defaultSelectionEntryId="8246-62ad-0057-4e19">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd28-4174-c14e-608b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c4f-0ad0-4935-3502" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8246-62ad-0057-4e19" name="London Dreadnought" hidden="false" targetId="8677-d079-42d4-09f6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ce1b-0f75-c28e-7066" name="Washington Dreadnought" hidden="false" targetId="4020-c343-6517-ee2f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="8" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="9" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -2032,6 +2032,23 @@
         <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="f076-f414-ab26-6b54" name="Super Heavy 2" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac3-9c13-7123-719c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb75-474d-57d8-1f86" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="3e39-461e-6d47-16b3" name="Sector" hidden="false" collective="false" defaultSelectionEntryId="ae60-70f5-42a1-8817">
@@ -2168,6 +2185,7 @@ RU517 - Dropfleet Official Rules Update (May 2017)
 PLS318 - Princess Liner Scenarios (March 2018)
 CCC518 - Centurion Class Cruiser v0.4 (May 2018)
 DST518 - Destroyers Experimental Rules v0.3 (May 2018)
+DRD818 - Dreadnought Experimental Rules v2.2 (August 2018)
 WWW - Kickstarter, Hawk Forum, and Facebook webpages
 
 With permission from TTCombat.</description>
@@ -2503,6 +2521,30 @@ With permission from TTCombat.</description>
       <modifiers/>
     </rule>
     <rule id="1996-3e6f-41b3-739c" name="Atmospheric Weapons" book="DST518" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="c137-9160-3359-cc67" name="The Shields Cannae Take Anymore" book="DRD818" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="def9-d03d-747e-fd91" name="Overcharge" book="DRD818" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="7ed1-7d4c-0969-21b9" name="Command Ship" book="DRD818" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="c77c-14da-96fe-32ac" name="Dreadnought" book="DRD818" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c240-e6a9-6a41-8643" name="Shaltari Tribes: 1st Edition (2016)" revision="8" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c240-e6a9-6a41-8643" name="Shaltari Tribes: 1st Edition (2016)" revision="9" battleScribeVersion="2.01" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -279,6 +279,30 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="f163-84f1-c733-ebe6" name="Mercury Destroyer" hidden="false" targetId="6383-b843-d849-31ef" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2d5e-ccfb-7b2e-f55c" name="Dreadnought Battlegroup" hidden="false" targetId="c62f-3dcc-06eb-1208" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="39f1-87fe-005d-ddd3" name="Plutonium Dreadnought" hidden="false" targetId="cd8a-d507-6523-11d2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8cc8-bae0-5e46-562b" name="Uranium Dreadnought" hidden="false" targetId="d76c-e230-c473-444f" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2457,6 +2481,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="5951-2434-8a32-4a85" name="The Shields Cannae Take Anymore" hidden="false" targetId="c137-9160-3359-cc67" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -3607,20 +3637,6 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
-              <repeats>
-                <repeat field="selections" scope="eef0-a519-9080-4bcb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="eef0-a519-9080-4bcb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="2">
               <repeats>
                 <repeat field="selections" scope="eef0-a519-9080-4bcb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d20-3720-2b47-428d" repeats="1" roundUp="false"/>
@@ -3789,23 +3805,9 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="54c3-a8e0-7ac4-86e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
               <repeats>
                 <repeat field="selections" scope="54c3-a8e0-7ac4-86e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="54c3-a8e0-7ac4-86e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4030,23 +4032,9 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="76f3-b792-e842-b880" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="5">
               <repeats>
                 <repeat field="selections" scope="76f3-b792-e842-b880" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b02a-b791-772e-d744" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="10">
-              <repeats>
-                <repeat field="selections" scope="76f3-b792-e842-b880" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c822-3968-1f5c-046e" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4241,13 +4229,6 @@
             <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="1">
               <repeats>
                 <repeat field="selections" scope="e0a7-3a9a-825f-cda0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3209-572d-007e-c797" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e587-e1ea-3a07-a0e8" value="15">
-              <repeats>
-                <repeat field="selections" scope="e0a7-3a9a-825f-cda0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="057e-b76b-473a-cd0c" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -5327,6 +5308,462 @@
         <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cd8a-d507-6523-11d2" name="Plutonium Dreadnought" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d0d5-d5ab-3eae-6c12" name="Plutonium - Gates" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="4"/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+        <profile id="dea0-653a-ee49-8f4a" name="Plutonium" book="DRD818" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="16&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="12&quot;/36&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="8&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="26"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="4+/4+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="20"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="S2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Dreadnought, Launch"/>
+          </characteristics>
+        </profile>
+        <profile id="a939-141c-c744-377d" name="Plutonium G - Harpoon Deluge" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="12"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+        <profile id="a618-0396-729c-3c2d" name="Plutonium F - Disintegrator Battery, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2"/>
+          </characteristics>
+        </profile>
+        <profile id="8bf1-a276-c07a-0fb0" name="Plutonium E - Disintegrator Battery, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2"/>
+          </characteristics>
+        </profile>
+        <profile id="5381-8806-5454-6e04" name="Plutonium D - Disintegrator Battery, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1"/>
+          </characteristics>
+        </profile>
+        <profile id="0663-bbac-17ad-ce17" name="Plutonium C - Disintegrator Battery, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1"/>
+          </characteristics>
+        </profile>
+        <profile id="05ee-468f-099a-fa03" name="Plutonium B - Twin Particle Lance Turret" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="2"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Particle"/>
+          </characteristics>
+        </profile>
+        <profile id="9f92-4f07-b244-1baa" name="Plutonium A - Distortion Cannons" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="N/A"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Distortion"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2fbb-5df2-d6ef-35f4" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2260-d704-3a68-4386" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6ca9-12e9-8444-fc52" name="Distortion" hidden="false" targetId="19a1-4f5b-d77b-442a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c0bb-8ba8-7086-040e" name="Particle" hidden="false" targetId="06c5-88e4-6e75-a056" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b124-1d08-e47a-d190" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ab7c-bc6c-dc61-843d" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8d5c-e2df-331e-9764" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ba14-aefc-0dcd-73e6" name="Super Heavy 2" hidden="false" targetId="f076-f414-ab26-6b54" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1065-1c9e-9ae8-361e" name="Admiral (S2)" hidden="false" targetId="3495-e9d6-9803-994f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="550.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d76c-e230-c473-444f" name="Uranium Dreadnought" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a6f1-8497-9b84-9426" name="Uranium - Gates" hidden="false" profileTypeId="f174-1347-6969-af9b" profileTypeName="Load">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Launch" characteristicTypeId="604b-2e24-d426-bf71" value="4"/>
+            <characteristic name="Special" characteristicTypeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+        <profile id="0978-627b-310c-5cf2" name="Uranium" book="DRD818" page="" hidden="false" profileTypeId="ecce-1380-e182-c89e" profileTypeName="Ship">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Scan" characteristicTypeId="a704-f2fa-371d-9dab" value="16&quot;"/>
+            <characteristic name="Sig" characteristicTypeId="1402-313c-914d-f053" value="12&quot;/36&quot;"/>
+            <characteristic name="Thrust" characteristicTypeId="5033-56fa-1878-bbff" value="8&quot;"/>
+            <characteristic name="Hull" characteristicTypeId="6277-95e1-d5cd-6d06" value="26"/>
+            <characteristic name="A" characteristicTypeId="41bf-5c81-5b4b-0aec" value="4+/4+"/>
+            <characteristic name="PD" characteristicTypeId="47c4-a3c6-1e57-306b" value="20"/>
+            <characteristic name="G" characteristicTypeId="7396-9d6c-953f-4c4b" value="1"/>
+            <characteristic name="T" characteristicTypeId="5c7d-d46b-9c5f-4ac3" value="S2"/>
+            <characteristic name="Special" characteristicTypeId="4717-adad-0be5-3c60" value="Dreadnought, Launch"/>
+          </characteristics>
+        </profile>
+        <profile id="0049-d295-424f-d4d1" name="Uranium A - Pulse Ioniser Battery" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="*"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="6"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Mauler(12)"/>
+          </characteristics>
+        </profile>
+        <profile id="3b1e-48cf-1b3c-ad80" name="Uranium B - Disintegrator Battery, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1"/>
+          </characteristics>
+        </profile>
+        <profile id="a5c2-96cc-f7e2-4dd5" name="Uranium C - Disintegrator Battery, Starboard" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(R)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-1"/>
+          </characteristics>
+        </profile>
+        <profile id="d250-4277-8c6c-ee8f" name="Uranium D - Disintegrator Battery, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2"/>
+          </characteristics>
+        </profile>
+        <profile id="b2c0-3ede-82ae-96d0" name="Uranium E - Disintegrator Battery, Port" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="4"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S(L)"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Linked-2"/>
+          </characteristics>
+        </profile>
+        <profile id="495b-a1b9-9c19-db2c" name="Uranium G - Harpoon Deluge" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="4+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="12"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S/R"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action"/>
+          </characteristics>
+        </profile>
+        <profile id="c63a-35a7-4c6f-332f" name="Uranium F - Microwave Array Turret" hidden="false" profileTypeId="1ddb-c7dc-57a9-b97f" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Lock" characteristicTypeId="b264-7fc5-348d-06c0" value="3+"/>
+            <characteristic name="Attacks" characteristicTypeId="00d0-7374-e403-ad78" value="D3+2"/>
+            <characteristic name="Damage" characteristicTypeId="ae4d-c88d-138f-1fcf" value="1"/>
+            <characteristic name="Arc" characteristicTypeId="61a9-ead3-7b97-32ed" value="F/S"/>
+            <characteristic name="Special" characteristicTypeId="008a-e561-1ceb-a0f1" value="Close Action (Beam)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b80b-2437-e085-0b5c" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="66a9-24e5-d8d8-7b4f" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c2e0-6fcb-81e1-a9e6" name="Mauler(X)" hidden="false" targetId="f6ec-da54-fd6f-2579" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6eae-31b5-6d41-5ee4" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="23ae-1744-06ce-dfb8" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc35-ada6-dd04-0415" name="Close Action (Beam)" hidden="false" targetId="b190-a6a9-c262-b6d0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8fc7-691f-efa8-7079" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7b16-67eb-b547-1bf1" name="Super Heavy 2" hidden="false" targetId="f076-f414-ab26-6b54" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6e7f-0f81-8f1d-997c" name="Admiral (S2)" hidden="false" targetId="3495-e9d6-9803-994f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="500.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c62f-3dcc-06eb-1208" name="Dreadnought Battlegroup" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="20c1-9617-643b-6346" name="Battlegroup" book="RB" page="70" hidden="false" profileTypeId="1290-e6f8-cba6-796a" profileTypeName="Battlegroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Strategy Rating" characteristicTypeId="e587-e1ea-3a07-a0e8" value="30"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f6ac-5f06-060c-cbbe" name="New CategoryLink" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="48ad-0e59-795d-35de" name="New CategoryLink" hidden="false" targetId="343b-c1c3-5b31-5799" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a15e-4741-1987-e137" name="Dreadnought Group" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bde-6816-9895-1a64" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75b6-2cd7-189b-43cd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e9cb-cd9d-1d0a-20db" name="Dreadnought Ships" hidden="false" targetId="f61f-d087-1dfb-65a3" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6c11-9d92-d7cb-653d" name="Heavy Ships" hidden="false" collective="false" defaultSelectionEntryId="54d7-db20-7300-ed2f">
@@ -5596,10 +6033,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d5e-ccfb-7b2e-f55c" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -5651,10 +6094,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d5e-ccfb-7b2e-f55c" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -5714,10 +6163,16 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d5e-ccfb-7b2e-f55c" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -5728,7 +6183,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="1f1a-5437-abcb-10d4" name="AV6 Prime Starchief (S)" hidden="false" targetId="7c1b-b229-7ab1-db2e" type="selectionEntry">
+        <entryLink id="1f1a-5437-abcb-10d4" name="AV6 Prime Starchief" hidden="false" targetId="7c1b-b229-7ab1-db2e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5744,7 +6199,85 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="cb67-61ee-d578-1542" name="AV5 High Starchief (S)" hidden="false" targetId="474b-9d5c-4488-506d" type="selectionEntry">
+        <entryLink id="cb67-61ee-d578-1542" name="AV5 High Starchief" hidden="false" targetId="474b-9d5c-4488-506d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3495-e9d6-9803-994f" name="Admiral (S2)" hidden="false" collective="false" defaultSelectionEntryId="e9f5-ce6f-24a0-8ac0">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9165-a62e-4b80-8784" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="710c-8cc6-dc70-c393" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2166-c264-96d0-98da" name="AV6 Prime Starchief" hidden="false" targetId="7c1b-b229-7ab1-db2e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e9f5-ce6f-24a0-8ac0" name="AV4 Starchief" hidden="false" targetId="87df-45c3-72d7-601b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e889-6323-3678-c1cf" name="AV5 High Starchief" hidden="false" targetId="474b-9d5c-4488-506d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f61f-d087-1dfb-65a3" name="Dreadnought Ships" hidden="false" collective="false" defaultSelectionEntryId="8a06-dd9f-ceb3-0aaf">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a884-878c-d9fc-3051" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6215-0001-5c2c-ed34" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9185-c02a-338b-8978" name="Plutonium Dreadnought" hidden="false" targetId="cd8a-d507-6523-11d2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8a06-dd9f-ceb3-0aaf" name="Uranium Dreadnought" hidden="false" targetId="d76c-e230-c473-444f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
