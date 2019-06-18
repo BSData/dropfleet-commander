@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="10" battleScribeVersion="2.02" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="11" battleScribeVersion="2.02" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="bb34-1413-pubN67767" name="RB"/>
     <publication id="bb34-1413-pubN71061" name="PLS318"/>
     <publication id="bb34-1413-pubN72457" name="RU517"/>
-    <publication id="bb34-1413-pubN72792" name="CCC518"/>
-    <publication id="bb34-1413-pubN72822" name="DST518"/>
-    <publication id="bb34-1413-pubN72837" name="DRD818"/>
     <publication id="c57a-7b01-abc2-93d9" name="FAQ11"/>
+    <publication id="07fb-79fc-ad90-6f9e" name="BFE"/>
+    <publication id="8d8e-bcaa-3d14-b6e2" name="PTC519"/>
   </publications>
   <costTypes>
     <costType id="e888-2584-886f-7f2c" name="pts" defaultCostLimit="-1.0"/>
@@ -1050,9 +1049,8 @@ RB - Dropfleet Commander Rulebook (2016)
 FAQ11 - Dropfleet FAQs and Errata 1.1 (January 2017)
 RU517 - Dropfleet Official Rules Update (May 2017)
 PLS318 - Princess Liner Scenarios (March 2018)
-CCC518 - Centurion Class Cruiser v0.4 (May 2018)
-DST518 - Destroyers Experimental Rules v0.3 (May 2018)
-DRD818 - Dreadnought Experimental Rules v2.2 (August 2018)
+PTC519 - Pungari Tresher Experimental Rules v.1 (May 2019)
+BFE - Battle for Earth (June 2019)
 WWW - Kickstarter, Hawk Forum, and Facebook webpages
 
 With permission from TTCombat.</description>
@@ -1110,12 +1108,22 @@ With permission from TTCombat.</description>
     <rule id="d74e-ff7e-fac9-e986" name="Orbital Debris and Launch Assets" publicationId="bb34-1413-pubN67767" page="53" hidden="false"/>
     <rule id="511d-597c-d00a-9d37" name="Large Solid Objects" publicationId="bb34-1413-pubN67767" page="53" hidden="false"/>
     <rule id="6f1d-035a-a9e6-2a24" name="Planetary Ring" publicationId="bb34-1413-pubN67767" page="53, FAQ11" hidden="false"/>
-    <rule id="38d0-f9e6-a208-1f17" name="Ceramic Armour" publicationId="bb34-1413-pubN72792" hidden="false"/>
+    <rule id="38d0-f9e6-a208-1f17" name="Ablative Armour" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false"/>
     <rule id="2fb8-a8c6-77da-bbb9" name="Civilian Transport" publicationId="bb34-1413-pubN71061" hidden="false"/>
-    <rule id="1996-3e6f-41b3-739c" name="Atmospheric Weapons" publicationId="bb34-1413-pubN72822" hidden="false"/>
-    <rule id="c137-9160-3359-cc67" name="The Shields Cannae Take Anymore" publicationId="bb34-1413-pubN72837" hidden="false"/>
-    <rule id="def9-d03d-747e-fd91" name="Overcharge" publicationId="bb34-1413-pubN72837" hidden="false"/>
-    <rule id="7ed1-7d4c-0969-21b9" name="Command Ship" publicationId="bb34-1413-pubN72837" hidden="false"/>
-    <rule id="c77c-14da-96fe-32ac" name="Dreadnought" publicationId="bb34-1413-pubN72837" hidden="false"/>
+    <rule id="1996-3e6f-41b3-739c" name="Atmospheric Weapons" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false"/>
+    <rule id="c137-9160-3359-cc67" name="The Shields Cannae Take Anymore" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false"/>
+    <rule id="def9-d03d-747e-fd91" name="Overcharge" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false"/>
+    <rule id="7ed1-7d4c-0969-21b9" name="Command Ship" publicationId="07fb-79fc-ad90-6f9e" page="218" hidden="false"/>
+    <rule id="c77c-14da-96fe-32ac" name="Dreadnought" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false"/>
+    <rule id="7780-d65b-a8d3-0684" name="Light 2 Tonnage" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false"/>
+    <rule id="bc43-3371-9c92-dfb6" name="Monitor" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false"/>
+    <rule id="99fd-3b81-01a1-e916" name="Low Power" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false"/>
+    <rule id="27bd-1d4f-7ca7-8d43" name="Squadron-X" publicationId="07fb-79fc-ad90-6f9e" page="195" hidden="false"/>
+    <rule id="ccb2-ad72-fe3c-8797" name="Unstable" publicationId="07fb-79fc-ad90-6f9e" page="195" hidden="false"/>
+    <rule id="8b8a-54c8-b005-48e9" name="1 Elite Bridge Crew" publicationId="07fb-79fc-ad90-6f9e" page="204" hidden="false"/>
+    <rule id="49b1-f65c-9131-3056" name="2 Systems" publicationId="07fb-79fc-ad90-6f9e" page="204" hidden="false"/>
+    <rule id="baf7-16fc-3e6c-26cd" name="Subsystem Network" publicationId="07fb-79fc-ad90-6f9e" page="204" hidden="false"/>
+    <rule id="36ee-1c16-f518-a678" name="3 Command Cards" publicationId="07fb-79fc-ad90-6f9e" page="204" hidden="false"/>
+    <rule id="3ede-cc59-6bd6-c21e" name="Ion(X)" publicationId="07fb-79fc-ad90-6f9e" page="244" hidden="false"/>
   </sharedRules>
 </gameSystem>

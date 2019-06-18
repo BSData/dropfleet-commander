@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="10" battleScribeVersion="2.02" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="11" battleScribeVersion="2.02" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="37b9-e435-ebae-3c52" name="Flag Battlegroup" hidden="false" collective="false" targetId="d344-138c-c6d0-cc19" type="selectionEntry"/>
     <entryLink id="3ed8-763f-cbf1-0625" name="Line Battlegroup" hidden="false" collective="false" targetId="ed7f-288f-cba9-0ab1" type="selectionEntry"/>
@@ -11,7 +11,7 @@
     <entryLink id="9bba-3ad8-fae5-55f9" name="Avalon Battlecruiser" hidden="false" collective="false" targetId="da0a-29b0-03fa-9967" type="selectionEntry"/>
     <entryLink id="3cee-d5e6-c6a6-29f8" name="Beijing Battleship" hidden="false" collective="false" targetId="7f6f-2e30-436f-b9de" type="selectionEntry"/>
     <entryLink id="6154-44cb-170b-a50f" name="Berlin Cruiser" hidden="false" collective="false" targetId="7bd8-f7d2-81e5-1411" type="selectionEntry"/>
-    <entryLink id="205c-0cf6-1501-efad" name="Centurion Cruiser" hidden="false" collective="false" targetId="7601-902e-0df4-0c70" type="selectionEntry"/>
+    <entryLink id="205c-0cf6-1501-efad" name="Centurion Grand Cruiser" hidden="false" collective="false" targetId="7601-902e-0df4-0c70" type="selectionEntry"/>
     <entryLink id="083e-43d3-bfdb-3dc7" name="Jakarta Aegis Frigate" hidden="false" collective="false" targetId="6830-cbfc-20e6-4aec" type="selectionEntry"/>
     <entryLink id="5430-8c6a-db86-f9ef" name="Johannesburg Battlecruiser" hidden="false" collective="false" targetId="cdab-9b19-6876-8592" type="selectionEntry"/>
     <entryLink id="c667-cc8e-aab7-c8f0" name="Lima Frigate" hidden="false" collective="false" targetId="dba1-e056-6281-9562" type="selectionEntry"/>
@@ -37,6 +37,9 @@
     <entryLink id="cd74-f01d-9bac-fb52" name="Dreadnought Battlegroup" hidden="false" collective="false" targetId="c98d-4061-a6df-51ef" type="selectionEntry"/>
     <entryLink id="c654-6ee6-fa32-03b4" name="London Dreadnought" hidden="false" collective="false" targetId="8677-d079-42d4-09f6" type="selectionEntry"/>
     <entryLink id="856a-5e5e-a2ff-de19" name="Washington Dreadnought" hidden="false" collective="false" targetId="4020-c343-6517-ee2f" type="selectionEntry"/>
+    <entryLink id="c96b-25d3-272f-b215" name="Istanbul Monitor" hidden="false" collective="false" targetId="4a56-a300-35cd-0e2f" type="selectionEntry"/>
+    <entryLink id="d752-b300-2718-e12b" name="Vienna Escort Frigate" hidden="false" collective="false" targetId="8b61-e695-f012-dd95" type="selectionEntry"/>
+    <entryLink id="89aa-293e-0a57-2a3d" name="Pungari Tresher Hive Ship" hidden="false" collective="false" targetId="5f7d-6ce1-41a1-921f" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="ad22-0869-c802-d447" name="Taipei Missile Frigates" hidden="false" collective="false" type="unit">
@@ -273,7 +276,7 @@
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="252.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="81fc-bf1b-7308-6ea3" name="New York Battleship" page="" hidden="false" collective="false" type="model">
+    <selectionEntry id="81fc-bf1b-7308-6ea3" name="New York Battleship" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="6011-2cf8-e73d-4aa4" name="New York" publicationId="bb34-1413-pubN67767" page="109" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -1148,12 +1151,12 @@
     </selectionEntry>
     <selectionEntry id="77a4-476f-1ebc-94e4" name="Lima Frigates" hidden="false" collective="false" type="unit">
       <modifiers>
-        <modifier type="set" field="2743-aa96-2d87-dc4d" value="2">
+        <modifier type="set" field="2743-aa96-2d87-dc4d" value="2.0">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="2743-aa96-2d87-dc4d" value="3">
+        <modifier type="set" field="2743-aa96-2d87-dc4d" value="3.0">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
           </conditions>
@@ -2274,7 +2277,7 @@
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e98c-1b2c-3b7d-85f8" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="e888-2584-886f-7f2c" value="80">
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="80.0">
           <repeats>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-6f16-0c3b-6832" repeats="1" roundUp="false"/>
           </repeats>
@@ -2466,6 +2469,42 @@
                 <characteristic name="Special" typeId="d6c1-7d66-916c-88e8"/>
               </characteristics>
             </profile>
+            <profile id="ae68-d9e8-4786-7327" name="Space - Light Torpedoes" publicationId="07fb-79fc-ad90-6f9e" page="222" hidden="false" typeId="3d27-25f5-3f6e-878b" typeName="Asset">
+              <characteristics>
+                <characteristic name="Scan" typeId="914a-2abb-507c-2952"/>
+                <characteristic name="Thrust" typeId="9a03-5218-efd6-3b27">14&quot;</characteristic>
+                <characteristic name="Armour" typeId="32ca-f018-cea8-bff2"/>
+                <characteristic name="PD Bonus" typeId="48f8-4189-6e7f-e9a7"/>
+                <characteristic name="Lock" typeId="c010-61f8-3e90-1bca">2+</characteristic>
+                <characteristic name="Attacks" typeId="3b7d-3ae6-05bd-3e66">4</characteristic>
+                <characteristic name="Damage" typeId="1e07-2116-704d-c48f">1</characteristic>
+                <characteristic name="Special" typeId="d6c1-7d66-916c-88e8"/>
+              </characteristics>
+            </profile>
+            <profile id="e7bf-f007-2793-ed13" name="Space - Pungari Bombers" publicationId="8d8e-bcaa-3d14-b6e2" hidden="false" typeId="3d27-25f5-3f6e-878b" typeName="Asset">
+              <characteristics>
+                <characteristic name="Scan" typeId="914a-2abb-507c-2952"/>
+                <characteristic name="Thrust" typeId="9a03-5218-efd6-3b27">12&quot;</characteristic>
+                <characteristic name="Armour" typeId="32ca-f018-cea8-bff2"/>
+                <characteristic name="PD Bonus" typeId="48f8-4189-6e7f-e9a7"/>
+                <characteristic name="Lock" typeId="c010-61f8-3e90-1bca">5+</characteristic>
+                <characteristic name="Attacks" typeId="3b7d-3ae6-05bd-3e66">4</characteristic>
+                <characteristic name="Damage" typeId="1e07-2116-704d-c48f">1</characteristic>
+                <characteristic name="Special" typeId="d6c1-7d66-916c-88e8"/>
+              </characteristics>
+            </profile>
+            <profile id="7c90-4f0a-c5b7-9aba" name="Drop - Pungari Bulk Landers" publicationId="8d8e-bcaa-3d14-b6e2" hidden="false" typeId="3d27-25f5-3f6e-878b" typeName="Asset">
+              <characteristics>
+                <characteristic name="Scan" typeId="914a-2abb-507c-2952"/>
+                <characteristic name="Thrust" typeId="9a03-5218-efd6-3b27">6&quot;</characteristic>
+                <characteristic name="Armour" typeId="32ca-f018-cea8-bff2"/>
+                <characteristic name="PD Bonus" typeId="48f8-4189-6e7f-e9a7"/>
+                <characteristic name="Lock" typeId="c010-61f8-3e90-1bca"/>
+                <characteristic name="Attacks" typeId="3b7d-3ae6-05bd-3e66"/>
+                <characteristic name="Damage" typeId="1e07-2116-704d-c48f"/>
+                <characteristic name="Special" typeId="d6c1-7d66-916c-88e8">Can only drop Infantry assets</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <infoLinks>
             <infoLink id="7f01-14b0-b33e-d4bb" name="Immobile" hidden="false" targetId="ec3c-6beb-87f2-d6d4" type="rule"/>
@@ -2600,11 +2639,11 @@
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7601-902e-0df4-0c70" name="Centurion Cruiser" hidden="false" collective="false" type="model">
+    <selectionEntry id="7601-902e-0df4-0c70" name="Centurion Grand Cruiser" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="f113-45df-15eb-3536" name="Centurion UCM" publicationId="bb34-1413-pubN72792" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="f113-45df-15eb-3536" name="Centurion UCM" publicationId="07fb-79fc-ad90-6f9e" page="210" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
-            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">6&quot;</characteristic>
             <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">7&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">14</characteristic>
@@ -2612,7 +2651,7 @@
             <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">3</characteristic>
             <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-2</characteristic>
             <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ceramic Armour, Rare</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ablative Armour, Rare</characteristic>
           </characteristics>
         </profile>
         <profile id="2ec4-f6ea-0a05-635b" name="Centurion UCM A - XN-31 Mass Driver Turret Pair" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -2624,21 +2663,21 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(2)</characteristic>
           </characteristics>
         </profile>
-        <profile id="2270-6ecc-9f9b-125f" name="Centurion UCM B - N-31 Hybrid Gun Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d230-2a3e-908a-998e" name="Centurion UCM C - N-31 Hybrid Gun Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="2270-6ecc-9f9b-125f" name="Centurion UCM B - N-31 Hybrid Gun Battery, Starboard" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d230-2a3e-908a-998e" name="Centurion UCM C - N-31 Hybrid Gun Battery, Port" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
           </characteristics>
         </profile>
@@ -2667,10 +2706,10 @@
         <entryLink id="8b70-7a89-b7db-a17c" name="Admiral (H)" hidden="false" collective="false" targetId="7be2-bcde-fdc4-2e83" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="145.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="135.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0483-4ffa-7e63-bb82" name="Centurion Cruisers" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0483-4ffa-7e63-bb82" name="Centurion Grand Cruisers" hidden="false" collective="false" type="unit">
       <modifiers>
         <modifier type="set" field="99ef-5ef4-7b04-c75f" value="2">
           <conditions>
@@ -2687,13 +2726,13 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="99ef-5ef4-7b04-c75f" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="8859-d27f-768c-e1fd" name="Centurion Cruiser" hidden="false" collective="false" targetId="7601-902e-0df4-0c70" type="selectionEntry">
+        <entryLink id="8859-d27f-768c-e1fd" name="Centurion Grand Cruiser" hidden="false" collective="false" targetId="7601-902e-0df4-0c70" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b1f-fc31-9f2c-4c70" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87e1-843f-4e35-cc4d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="97b1-24de-0149-1ce7" name="Centurion Cruiser" hidden="false" collective="false" targetId="7601-902e-0df4-0c70" type="selectionEntry">
+        <entryLink id="97b1-24de-0149-1ce7" name="Centurion Grand Cruiser" hidden="false" collective="false" targetId="7601-902e-0df4-0c70" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2751-15d0-18bf-375e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa37-2c3a-9c23-8dcb" type="max"/>
@@ -3001,7 +3040,7 @@
     </selectionEntry>
     <selectionEntry id="a35f-4ac4-cd75-c4d3" name="Vancouver Escort Carrier" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="c90c-b219-d255-e27b" name="Vancouver" publicationId="bb34-1413-pubN72822" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="c90c-b219-d255-e27b" name="Vancouver" publicationId="07fb-79fc-ad90-6f9e" page="223" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
@@ -3033,6 +3072,7 @@
       <infoLinks>
         <infoLink id="1c80-1b2c-58a5-7238" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="3170-d48b-bf36-e453" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="dbb9-fd3d-a5f4-c86e" name="Light 2 Tonnage" hidden="false" targetId="7780-d65b-a8d3-0684" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c387-0b42-72f1-fee8" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -3052,7 +3092,7 @@
     </selectionEntry>
     <selectionEntry id="6ebc-e179-855e-e295" name="Havana Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="cdd9-18f1-4398-1abe" name="Havana" publicationId="bb34-1413-pubN72822" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="cdd9-18f1-4398-1abe" name="Havana" publicationId="07fb-79fc-ad90-6f9e" page="222" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
@@ -3074,10 +3114,10 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
           </characteristics>
         </profile>
-        <profile id="36f2-82c8-377a-d788" name="Havana - Torpedo" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
+        <profile id="36f2-82c8-377a-d788" name="Havana - Light Torpedoes" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
           <characteristics>
             <characteristic name="Launch" typeId="604b-2e24-d426-bf71">1</characteristic>
-            <characteristic name="Special" typeId="0574-9897-4dc9-48e8">L(1)</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8">L(2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3085,6 +3125,8 @@
         <infoLink id="d402-c8c1-8988-edf8" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="3004-72ab-2668-95ab" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="25ec-09ca-ec5e-453d" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
+        <infoLink id="3498-5097-c93f-b809" name="L(X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
+        <infoLink id="f79d-b573-b200-5f42" name="Light 2 Tonnage" hidden="false" targetId="7780-d65b-a8d3-0684" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a221-690d-170c-d03f" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -3104,7 +3146,7 @@
     </selectionEntry>
     <selectionEntry id="de51-868f-f763-9053" name="Kiev Heavy Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="3f7e-4d55-e535-8575" name="Kiev" publicationId="bb34-1413-pubN72822" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="3f7e-4d55-e535-8575" name="Kiev" publicationId="07fb-79fc-ad90-6f9e" page="224" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
@@ -3140,6 +3182,7 @@
         <infoLink id="09c4-e1b7-41ce-52fc" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
         <infoLink id="e1de-4d99-799a-fa74" name="Atmospheric Weapons" hidden="false" targetId="1996-3e6f-41b3-739c" type="rule"/>
         <infoLink id="61ff-44a5-7297-f93e" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="becc-97b9-3d0b-ddf4" name="Light 2 Tonnage" hidden="false" targetId="7780-d65b-a8d3-0684" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ae4e-79de-5f6d-ba7c" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -3235,9 +3278,9 @@
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8677-d079-42d4-09f6" name="London Dreadnought" publicationId="bb34-1413-pubN72837" hidden="false" collective="false" type="model">
+    <selectionEntry id="8677-d079-42d4-09f6" name="London Dreadnought" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="6064-3f06-7d12-3a84" name="London" publicationId="bb34-1413-pubN72837" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="6064-3f06-7d12-3a84" name="London" publicationId="07fb-79fc-ad90-6f9e" page="218" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">14&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">16&quot;</characteristic>
@@ -3247,7 +3290,7 @@
             <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">18</characteristic>
             <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
             <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">S2</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Command Ship, Dreadnought</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Aegis(8), Command Ship, Dreadnought</characteristic>
           </characteristics>
         </profile>
         <profile id="0b56-33b5-79f5-fec7" name="London A - UF-9000 Mass Driver Turret, Starboard" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -3268,7 +3311,7 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(2)</characteristic>
           </characteristics>
         </profile>
-        <profile id="882e-caca-2481-e1ed" name="London C - UF-6400 Mass Driver Turrets, Spinal Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="882e-caca-2481-e1ed" name="London C - UF-6400 Mass Driver Turrets, Dorsal Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
@@ -3328,6 +3371,7 @@
         <infoLink id="8bb6-d4b4-24cb-616c" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
         <infoLink id="6879-4d88-ebed-8878" name="Command Ship" hidden="false" targetId="7ed1-7d4c-0969-21b9" type="rule"/>
         <infoLink id="f4c5-d706-8ee8-67ad" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule"/>
+        <infoLink id="788e-0653-a2c8-bdc2" name="Aegis(X)" hidden="false" targetId="f7b4-257c-0fc5-8fe3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dcfd-8da4-deb1-5c82" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
@@ -3337,7 +3381,7 @@
         <entryLink id="0730-879b-81e6-055a" name="Admiral (S2)" hidden="false" collective="false" targetId="b595-b072-543d-9724" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="490.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="470.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d125-c82f-9777-a209" name="AV5 Admiral" hidden="false" collective="false" type="upgrade">
@@ -3416,7 +3460,7 @@
     </selectionEntry>
     <selectionEntry id="4020-c343-6517-ee2f" name="Washington Dreadnought" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="6938-3dd2-6be5-9ac1" name="Washington" publicationId="bb34-1413-pubN72837" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="6938-3dd2-6be5-9ac1" name="Washington" publicationId="07fb-79fc-ad90-6f9e" page="219" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">14&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">16&quot;</characteristic>
@@ -3514,6 +3558,258 @@
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="450.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4a56-a300-35cd-0e2f" name="Istanbul Monitor" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2f0a-0bdc-177c-4c71" name="Istanbul" publicationId="07fb-79fc-ad90-6f9e" page="220" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">10&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">4&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">4</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">2+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">3</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">2-3</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Monitor</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f99a-0906-05e0-85e0" name="Istanbul B - UF­B-9000 Mass Driver" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Alt-1, Bombardment</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b482-fe6f-8193-7704" name="Istanbul C - Barracuda Missile Bays" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5ffe-205e-cb4c-4bc3" name="Istanbul A - UF-B-9000 Mass Driver" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Alt-1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c1a6-1b70-c533-aa4a" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="3bb9-6fc4-d580-8f7e" name="Alt-X" hidden="false" targetId="bfbc-e83a-c2b7-eb15" type="rule"/>
+        <infoLink id="20f0-3431-9a05-9bc5" name="Bombardment" hidden="false" targetId="9e06-f148-f8a3-26fb" type="rule"/>
+        <infoLink id="0408-0639-6349-c52b" name="Monitor" hidden="false" targetId="bc43-3371-9c92-dfb6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cbfa-aa8f-cbc1-f859" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7bc1-1953-7fa7-cd33" name="Light" hidden="false" collective="false" targetId="3209-572d-007e-c797" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="42.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b433-2012-860a-df9b" name="Istanbul Monitors" hidden="false" collective="false" type="unit">
+      <entryLinks>
+        <entryLink id="6ca0-04b1-d0f5-9886" name="Istanbul Monitor" hidden="false" collective="false" targetId="4a56-a300-35cd-0e2f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0aff-611f-1b46-1150" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3fb4-6a9a-d67d-f950" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="54ff-7b14-a331-af20" name="Istanbul Monitor" hidden="false" collective="false" targetId="4a56-a300-35cd-0e2f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6bf7-244f-025d-8b02" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e38-8c9f-4ee1-fe97" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d5bc-43a6-1b50-e57e" name="Istanbul Monitor" hidden="false" collective="false" targetId="4a56-a300-35cd-0e2f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a1cb-3eff-a06f-6de3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="872e-21c7-b3de-8f61" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b61-e695-f012-dd95" name="Vienna Escort Frigate" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="f382-8481-398b-823c" name="Vienna" publicationId="07fb-79fc-ad90-6f9e" page="221" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">4</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">2+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">3</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">2-3</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Aegis(4)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e709-7f4e-2646-dc03" name="Vienna B - Shark Missile Bays" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">D6+2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="87ab-686b-4d4d-fc31" name="Vienna A - Mamba Laser" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough(3), Flash</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="de84-7a0b-623a-a331" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="fbd2-f9ac-1052-b3dc" name="Aegis(X)" hidden="false" targetId="f7b4-257c-0fc5-8fe3" type="rule"/>
+        <infoLink id="823d-5651-8cc2-9320" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="eebe-cca0-8a70-7116" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="66cd-b85f-e635-38e3" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d189-f05f-08a7-7c3b" name="Light" hidden="false" collective="false" targetId="3209-572d-007e-c797" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86cf-9ead-84d1-fd71" name="Vienna Escort Frigates" hidden="false" collective="false" type="unit">
+      <entryLinks>
+        <entryLink id="12e1-f776-b616-2578" name="Vienna Escort Frigate" hidden="false" collective="false" targetId="8b61-e695-f012-dd95" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b785-71bc-f277-f50e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c85-cc09-9217-30cb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b028-205d-5444-d657" name="Vienna Escort Frigate" hidden="false" collective="false" targetId="8b61-e695-f012-dd95" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="17b1-7917-6ad8-5026" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1772-1191-73c4-a85d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a156-e66a-12b6-b376" name="Vienna Escort Frigate" hidden="false" collective="false" targetId="8b61-e695-f012-dd95" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c64-ab6f-04f0-ed60" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="269e-6bbb-91cf-8209" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f7d-6ce1-41a1-921f" name="Pungari Tresher Hive Ship" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="37a3-99eb-d177-7685" value="3.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="37a3-99eb-d177-7685" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="37a3-99eb-d177-7685" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f0ff-cae5-23ba-142b" name="Tresher - Pungari Bombers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">4</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+        <profile id="7224-ce90-bfb9-67a8" name="Tresher - Pungari Bulk Landers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">2</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+        <profile id="9443-141f-4f1d-f718" name="Tresher" publicationId="8d8e-bcaa-3d14-b6e2" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">6&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">14</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">4</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Rare, Reinforced Armour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b672-a978-afed-287f" name="Tresher A - Boarding Torpedoes, Front" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ee1c-e47a-fdbe-00bc" name="Tresher B - Boarding Torpedoes, Starboard" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked-1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4e3e-b99d-6a8a-f51c" name="Tresher C - Boarding Torpedoes, Port" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked-1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ad98-5526-4cd4-102f" name="Reinforced Armour" hidden="false" targetId="8560-b10d-f4cb-d837" type="rule"/>
+        <infoLink id="2bbd-5b71-7a95-6e79" name="Corruptor" hidden="false" targetId="c334-0240-1cae-8db7" type="rule"/>
+        <infoLink id="d606-3f23-dd5a-7aa1" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="3ab0-4587-a8bb-96c2" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8b03-ba01-a090-811f" name="New CategoryLink" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7df1-60d1-691e-6523" name="Heavy" hidden="false" collective="false" targetId="c822-3968-1f5c-046e" type="selectionEntry"/>
+        <entryLink id="21ac-9b9f-f248-ae87" name="Admiral (H)" hidden="false" collective="false" targetId="7be2-bcde-fdc4-2e83" type="selectionEntryGroup"/>
+        <entryLink id="18f8-acb0-ed4b-ef30" name="Launch" hidden="false" collective="false" targetId="4bc8-d6c1-3a3f-aec7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4d1b-9493-fb08-a6e1" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e6b-9d4d-6bf6-c2e6" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="150.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="70d1-92ea-1fad-ec08" name="Light Ships" hidden="false" collective="false" defaultSelectionEntryId="97fd-a536-0b2b-7e1c">
@@ -3531,6 +3827,8 @@
         <entryLink id="29a4-d9a3-129d-d8a3" name="Havana Destroyers" hidden="false" collective="false" targetId="4264-ebbd-c34f-4057" type="selectionEntry"/>
         <entryLink id="7dc5-684d-6033-6864" name="Kiev Heavy Destroyers" hidden="false" collective="false" targetId="f671-122b-5dd0-b3a8" type="selectionEntry"/>
         <entryLink id="be54-52e7-f252-2f20" name="Vancouver Escort Carriers" hidden="false" collective="false" targetId="7654-bf22-4639-42b2" type="selectionEntry"/>
+        <entryLink id="4be7-3304-5474-2c1d" name="Istanbul Monitors" hidden="false" collective="false" targetId="b433-2012-860a-df9b" type="selectionEntry"/>
+        <entryLink id="a2d6-42cf-8044-c510" name="Vienna Escort Frigates" hidden="false" collective="false" targetId="86cf-9ead-84d1-fd71" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d522-9e26-e63b-3f8e" name="Medium Ships" hidden="false" collective="false" defaultSelectionEntryId="d36a-b988-3a90-21d1">
@@ -3562,7 +3860,8 @@
         <entryLink id="68e7-a8d7-4596-567d" name="Perth Battlecruiser" hidden="false" collective="false" targetId="b603-088c-59d9-94f4" type="selectionEntry"/>
         <entryLink id="a323-a300-8ec9-8297" name="Moscow Heavy Cruiser" hidden="false" collective="false" targetId="5254-88e5-d3a3-67bf" type="selectionEntry"/>
         <entryLink id="7f4f-c1ca-ac04-88c9" name="St Petersburg Heavy Cruiser" hidden="false" collective="false" targetId="0696-bd36-c854-a6ab" type="selectionEntry"/>
-        <entryLink id="4efc-2e97-4f90-6fc0" name="Centurion Cruisers" hidden="false" collective="false" targetId="0483-4ffa-7e63-bb82" type="selectionEntry"/>
+        <entryLink id="4efc-2e97-4f90-6fc0" name="Centurion Grand Cruisers" hidden="false" collective="false" targetId="0483-4ffa-7e63-bb82" type="selectionEntry"/>
+        <entryLink id="1cd8-2908-c35b-2827" name="Pungari Tresher Hive Ship" hidden="false" collective="false" targetId="5f7d-6ce1-41a1-921f" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7c4f-dac9-7fb2-2b27" name="Super Heavy Ships" hidden="false" collective="false" defaultSelectionEntryId="981c-75c8-3727-e62c">
@@ -3657,11 +3956,11 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c684-a444-bca2-3701" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c684-a444-bca2-3701" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2895-109a-13f1-c709" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="dd8b-2562-ce24-1121" name="AV5 Admiral S2" hidden="false" collective="false" targetId="d125-c82f-9777-a209" type="selectionEntry"/>
+        <entryLink id="dd8b-2562-ce24-1121" name="AV5 Admiral" hidden="false" collective="false" targetId="d125-c82f-9777-a209" type="selectionEntry"/>
         <entryLink id="1969-905e-65ba-d063" name="AV6 Admiral of the Fleet" hidden="false" collective="false" targetId="2694-ab88-ccfa-007f" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>

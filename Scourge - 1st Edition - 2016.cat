@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="168b-4c59-7e13-d6d4" name="Scourge: 1st Edition (2016)" revision="10" battleScribeVersion="2.02" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="168b-4c59-7e13-d6d4" name="Scourge: 1st Edition (2016)" revision="11" battleScribeVersion="2.02" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="e576-7662-5c99-3992" name="Fleet" hidden="false" collective="false" targetId="b8ef-8aa5-7921-389a" type="selectionEntry"/>
     <entryLink id="a472-5bd6-0e36-ba24" name="Flag Battlegroup" hidden="false" collective="false" targetId="ba01-8bdf-2251-b138" type="selectionEntry"/>
@@ -33,6 +33,9 @@
     <entryLink id="4f48-658d-77c6-8aa0" name="Cthulhu Dreadnought" hidden="false" collective="false" targetId="eff6-b724-b690-7415" type="selectionEntry"/>
     <entryLink id="6f45-f746-12ac-7107" name="Nosferatu Dreadnought" hidden="false" collective="false" targetId="4f87-c199-ef63-6f5e" type="selectionEntry"/>
     <entryLink id="ae6d-8e57-addc-c8f2" name="Dreadnought Battlegroup" hidden="false" collective="false" targetId="c6ce-9f9b-392e-9a19" type="selectionEntry"/>
+    <entryLink id="21b0-0108-ae6e-64b8" name="Shedu Monitor" hidden="false" collective="false" targetId="90ae-a279-2561-2bdf" type="selectionEntry"/>
+    <entryLink id="1085-4371-f729-976d" name="Lamassu Barge" hidden="false" collective="false" targetId="42e1-cee4-875e-8d20" type="selectionEntry"/>
+    <entryLink id="3a5a-12e9-5e23-757b" name="Pungari Tresher Hive Ship" hidden="false" collective="false" targetId="fc21-fa93-eed6-2a7b" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c58e-ee47-aeb2-d677" name="Daemon Battleship" hidden="false" collective="false" type="model">
@@ -1880,6 +1883,30 @@
                 <characteristic name="Special" typeId="d6c1-7d66-916c-88e8">Corruptor</characteristic>
               </characteristics>
             </profile>
+            <profile id="758d-34a4-d824-7d66" name="Drop - Pungari Bulk Landers" publicationId="8d8e-bcaa-3d14-b6e2" hidden="false" typeId="3d27-25f5-3f6e-878b" typeName="Asset">
+              <characteristics>
+                <characteristic name="Scan" typeId="914a-2abb-507c-2952"/>
+                <characteristic name="Thrust" typeId="9a03-5218-efd6-3b27">6&quot;</characteristic>
+                <characteristic name="Armour" typeId="32ca-f018-cea8-bff2"/>
+                <characteristic name="PD Bonus" typeId="48f8-4189-6e7f-e9a7"/>
+                <characteristic name="Lock" typeId="c010-61f8-3e90-1bca"/>
+                <characteristic name="Attacks" typeId="3b7d-3ae6-05bd-3e66"/>
+                <characteristic name="Damage" typeId="1e07-2116-704d-c48f"/>
+                <characteristic name="Special" typeId="d6c1-7d66-916c-88e8">Can only drop Infantry assets</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ada5-d548-7e69-e645" name="Space - Pungari Bombers" publicationId="8d8e-bcaa-3d14-b6e2" hidden="false" typeId="3d27-25f5-3f6e-878b" typeName="Asset">
+              <characteristics>
+                <characteristic name="Scan" typeId="914a-2abb-507c-2952"/>
+                <characteristic name="Thrust" typeId="9a03-5218-efd6-3b27">12&quot;</characteristic>
+                <characteristic name="Armour" typeId="32ca-f018-cea8-bff2"/>
+                <characteristic name="PD Bonus" typeId="48f8-4189-6e7f-e9a7"/>
+                <characteristic name="Lock" typeId="c010-61f8-3e90-1bca">5+</characteristic>
+                <characteristic name="Attacks" typeId="3b7d-3ae6-05bd-3e66">4</characteristic>
+                <characteristic name="Damage" typeId="1e07-2116-704d-c48f">1</characteristic>
+                <characteristic name="Special" typeId="d6c1-7d66-916c-88e8"/>
+              </characteristics>
+            </profile>
           </profiles>
           <infoLinks>
             <infoLink id="5dc4-6930-0001-cc2a" name="Corruptor" hidden="false" targetId="c334-0240-1cae-8db7" type="rule"/>
@@ -2370,7 +2397,7 @@
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b28d-d1de-3030-0ee4" name="AV4 Fleet Master" page="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b28d-d1de-3030-0ee4" name="AV4 Fleet Master" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2451,7 +2478,7 @@
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5bff-f396-9985-bdad" name="AV4 Fleet Master" page="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5bff-f396-9985-bdad" name="AV4 Fleet Master" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2473,7 +2500,7 @@
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f0fc-f067-159c-84f9" name="AV4 Fleet Master" page="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f0fc-f067-159c-84f9" name="AV4 Fleet Master" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2585,7 +2612,7 @@
     </selectionEntry>
     <selectionEntry id="b742-5992-28c9-d81a" name="Succubus Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="17b0-57d1-fae2-88c2" name="Succubus" publicationId="bb34-1413-pubN72822" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="17b0-57d1-fae2-88c2" name="Succubus" publicationId="07fb-79fc-ad90-6f9e" page="231" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <modifiers>
             <modifier type="set" field="4717-adad-0be5-3c60" value="Partial Cloak, Stealth">
               <conditions>
@@ -2623,22 +2650,13 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
           </characteristics>
         </profile>
-        <profile id="9993-7622-66ba-49c0" name="Succubus D - Plasma Squall" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="fe37-63d7-bd48-8016" name="Succubus C - Seekers" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">D3+2</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Alt-1, Close Action, Scald</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="fe37-63d7-bd48-8016" name="Succubus C - Seekers" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Alt-1, Atmospheric, Close Action</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Atmospheric, Close Action, Scald</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2646,7 +2664,7 @@
         <infoLink id="5284-b114-2850-0fd6" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
         <infoLink id="4aa0-53fd-dedd-f54e" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="35df-809e-0532-5135" name="Atmospheric Weapons" hidden="false" targetId="1996-3e6f-41b3-739c" type="rule"/>
-        <infoLink id="da33-be23-ffed-01e8" name="Alt-X" hidden="false" targetId="bfbc-e83a-c2b7-eb15" type="rule"/>
+        <infoLink id="aae4-2b57-0a79-a938" name="Light 2 Tonnage" hidden="false" targetId="7780-d65b-a8d3-0684" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0402-e3d4-6f16-03c0" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -2675,7 +2693,7 @@
     </selectionEntry>
     <selectionEntry id="ccb8-1df2-12a8-e962" name="Incubus Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="6cc4-ee31-b165-7c52" name="Incubus" publicationId="bb34-1413-pubN72822" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="6cc4-ee31-b165-7c52" name="Incubus" publicationId="07fb-79fc-ad90-6f9e" page="230" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <modifiers>
             <modifier type="set" field="4717-adad-0be5-3c60" value="Partial Cloak, Stealth">
               <conditions>
@@ -2738,6 +2756,7 @@
         <infoLink id="734b-1d67-4cdd-6660" name="Alt-X" hidden="false" targetId="bfbc-e83a-c2b7-eb15" type="rule"/>
         <infoLink id="592a-2bf6-01f8-58ec" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="a34d-6b5f-7631-0d85" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
+        <infoLink id="7195-9dca-07af-5291" name="Light 2 Tonnage" hidden="false" targetId="7780-d65b-a8d3-0684" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="46cd-e772-756a-407b" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -2766,7 +2785,7 @@
     </selectionEntry>
     <selectionEntry id="c49c-ab83-c5c2-15a2" name="Revenant Destroyer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="52a3-b5f5-9386-a3b8" name="Revenant" publicationId="bb34-1413-pubN72822" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="52a3-b5f5-9386-a3b8" name="Revenant" publicationId="07fb-79fc-ad90-6f9e" page="232" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <modifiers>
             <modifier type="set" field="4717-adad-0be5-3c60" value="Launch, Partial Cloak, Stealth">
               <conditions>
@@ -2797,7 +2816,7 @@
         </profile>
         <profile id="a228-258c-2827-c8d1" name="Revenant - Fighters &amp; Bombers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
           <characteristics>
-            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">1</characteristic>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">2</characteristic>
             <characteristic name="Special" typeId="0574-9897-4dc9-48e8">Scald (Bombers)</characteristic>
           </characteristics>
         </profile>
@@ -2815,6 +2834,7 @@
         <infoLink id="00bf-a64f-92a2-23c9" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="d984-c452-09dd-4926" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
         <infoLink id="7c80-1b3d-4cd3-021a" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
+        <infoLink id="73af-f0fb-554e-d888" name="Light 2 Tonnage" hidden="false" targetId="7780-d65b-a8d3-0684" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2c08-a704-e7d3-80b5" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -2838,8 +2858,8 @@
         <entryLink id="3b4a-0f69-8731-6f15" name="Light 2" hidden="false" collective="false" targetId="0d20-3720-2b47-428d" type="selectionEntry"/>
         <entryLink id="3c5d-a466-819a-b397" name="Launch" hidden="false" collective="false" targetId="4bc8-d6c1-3a3f-aec7" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c28d-0724-59a6-d296" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8258-cbad-df01-4d7c" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c28d-0724-59a6-d296" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8258-cbad-df01-4d7c" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2962,14 +2982,14 @@
       <profiles>
         <profile id="f46b-4902-d4ac-004c" name="Nosferatu - Fighters &amp; Bombers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
           <characteristics>
-            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">5</characteristic>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">8</characteristic>
             <characteristic name="Special" typeId="0574-9897-4dc9-48e8">Scald (Bombers)</characteristic>
           </characteristics>
         </profile>
-        <profile id="e3e2-0712-5bcb-6885" name="Nosferatu" publicationId="bb34-1413-pubN72837" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="e3e2-0712-5bcb-6885" name="Nosferatu" publicationId="07fb-79fc-ad90-6f9e" page="226" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">14&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">20&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">18&quot;</characteristic>
             <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">8&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">26</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
@@ -3026,7 +3046,7 @@
         </profile>
         <profile id="8303-5f33-abc6-4290" name="Nosferatu F - Plasma Flood" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2D6+3</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
@@ -3051,13 +3071,13 @@
         <entryLink id="2c10-0444-8ab8-9ce4" name="Admiral (S2)" hidden="false" collective="false" targetId="0539-d23f-9657-e729" type="selectionEntryGroup"/>
         <entryLink id="f627-b939-221b-a6db" name="Launch" hidden="false" collective="false" targetId="4bc8-d6c1-3a3f-aec7" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e902-a60a-f757-8093" type="min"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b1a-1132-d7ff-e719" type="max"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e902-a60a-f757-8093" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b1a-1132-d7ff-e719" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="480.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="460.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eff6-b724-b690-7415" name="Cthulhu Dreadnought" hidden="false" collective="false" type="model">
@@ -3068,10 +3088,10 @@
             <characteristic name="Special" typeId="0574-9897-4dc9-48e8">Scald (Bombers)</characteristic>
           </characteristics>
         </profile>
-        <profile id="ea3d-279e-53ed-5c24" name="Cthulhu" publicationId="bb34-1413-pubN72837" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="ea3d-279e-53ed-5c24" name="Cthulhu" publicationId="07fb-79fc-ad90-6f9e" page="227" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">14&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">20&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">18&quot;</characteristic>
             <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">8&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">26</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
@@ -3161,7 +3181,265 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="490.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="470.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90ae-a279-2561-2bdf" name="Shedu Monitor" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="501a-acbe-ce80-85b9" name="Shedu" publicationId="07fb-79fc-ad90-6f9e" page="228" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">8&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">5&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">4</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">4</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">2-3</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Detector, Monitor</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0e50-ac62-991d-3422" name="Shedu A - Oculus Beam Crest" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="72bd-7d6e-931d-67e9" name="Shedu B - Plasma Cloud" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="69e9-3bdf-ed6b-5c75" name="Detector" hidden="false" targetId="d671-a199-2d13-3b64" type="rule"/>
+        <infoLink id="dccc-883d-cf62-a58a" name="Monitor" hidden="false" targetId="bc43-3371-9c92-dfb6" type="rule"/>
+        <infoLink id="d51c-7032-ea27-edf8" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="9050-0171-b107-ac68" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ad11-a317-9e95-bfba" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fef4-a185-db5d-30f7" name="Light" hidden="false" collective="false" targetId="3209-572d-007e-c797" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f63-4bb4-9f1b-db94" name="Shedu Monitors" hidden="false" collective="false" type="unit">
+      <entryLinks>
+        <entryLink id="121e-9eca-3d91-92ad" name="Shedu Monitor" hidden="false" collective="false" targetId="90ae-a279-2561-2bdf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9998-62d0-f9e1-8697" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1110-683c-7199-3899" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8f00-bffb-7838-7d21" name="Shedu Monitor" hidden="false" collective="false" targetId="90ae-a279-2561-2bdf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8953-fbab-1e12-7847" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="32f0-eafc-750c-0498" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5960-6cff-1563-166c" name="Shedu Monitor" hidden="false" collective="false" targetId="90ae-a279-2561-2bdf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5cfe-4ab5-8d95-c229" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4fc9-9e35-1904-38d0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="42e1-cee4-875e-8d20" name="Lamassu Barge" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8f06-3cd5-d043-76ab" name="Lamassu - Bulk Landers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">1</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+        <profile id="fd3a-39f0-a9dd-fd9e" name="Lamassu" publicationId="07fb-79fc-ad90-6f9e" page="229" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">5&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">4</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">4</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-3</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Launch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6dab-9321-eeee-280e" name="Lamassu A - Oculus Rays" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">1</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b22d-4419-e803-4506" name="Lamassu B - Plasma Bombs" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Bombardment</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2aab-e72d-81ee-ab06" name="Lamassu C - Plasma Cloud" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="30b1-4329-90a8-dfb8" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
+        <infoLink id="5bc1-fbb7-ca94-a7e4" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
+        <infoLink id="e571-e518-8d0f-79a6" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="6166-d42c-470f-ab58" name="Bombardment" hidden="false" targetId="9e06-f148-f8a3-26fb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3114-a295-a536-f220" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6a34-bc0b-936a-82b4" name="Light" hidden="false" collective="false" targetId="3209-572d-007e-c797" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="800d-c199-12fc-3319" name="Lamassu Barges" hidden="false" collective="false" type="upgrade">
+      <entryLinks>
+        <entryLink id="ebcc-f733-62a0-0235" name="Lamassu Barge" hidden="false" collective="false" targetId="42e1-cee4-875e-8d20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c21e-291c-8a29-d2fb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6fcc-34da-6561-8892" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d2c1-e733-81dc-1ad5" name="Lamassu Barge" hidden="false" collective="false" targetId="42e1-cee4-875e-8d20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c796-9311-54c4-601f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e6c-dea3-76a1-fdd1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7152-36df-76f9-6b93" name="Lamassu Barge" hidden="false" collective="false" targetId="42e1-cee4-875e-8d20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d8a6-82ce-8d9d-8d33" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2306-f81d-6cca-2816" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc21-fa93-eed6-2a7b" name="Pungari Tresher Hive Ship" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="a8f1-6ee0-b479-3bf6" value="3.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="a8f1-6ee0-b479-3bf6" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a8f1-6ee0-b479-3bf6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9a3f-ad40-1ab6-ee68" name="Tresher - Pungari Bombers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">4</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+        <profile id="0cec-2345-4c24-3d80" name="Tresher - Pungari Bulk Landers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">2</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+        <profile id="4dcc-acf8-c0fc-4e0b" name="Tresher" publicationId="8d8e-bcaa-3d14-b6e2" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">6&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">14</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">4</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Rare, Reinforced Armour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6653-7369-e74d-ab8b" name="Tresher A - Boarding Torpedoes, Front" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dbd5-e8e0-08eb-588e" name="Tresher B - Boarding Torpedoes, Starboard" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked-1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b092-a734-056a-496a" name="Tresher C - Boarding Torpedoes, Port" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked-1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fd7d-34d8-7091-bf88" name="Reinforced Armour" hidden="false" targetId="8560-b10d-f4cb-d837" type="rule"/>
+        <infoLink id="f365-9f18-995d-7d3d" name="Corruptor" hidden="false" targetId="c334-0240-1cae-8db7" type="rule"/>
+        <infoLink id="5666-d278-6116-c79f" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="96d7-4158-37b7-d2f5" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4c72-cb2a-08f2-47c1" name="New CategoryLink" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d2b6-b7ab-05ce-9ff6" name="Heavy" hidden="false" collective="false" targetId="c822-3968-1f5c-046e" type="selectionEntry"/>
+        <entryLink id="2518-b0b2-886c-d646" name="Admiral (H)" hidden="false" collective="false" targetId="c0cf-9318-df07-ab91" type="selectionEntryGroup"/>
+        <entryLink id="6ecf-dd27-7c46-4247" name="Launch" hidden="false" collective="false" targetId="4bc8-d6c1-3a3f-aec7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="60ca-f8ac-cb44-14a2" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a17b-8fa2-01f0-1b95" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="150.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -3178,6 +3456,7 @@
         <entryLink id="7245-ec81-0805-4f01" name="Manticore Battlecruiser" hidden="false" collective="false" targetId="b837-d37b-a199-fe4f" type="selectionEntry"/>
         <entryLink id="cd36-dcd0-fb45-2852" name="Raiju Heavy Cruiser" hidden="false" collective="false" targetId="ff3e-2a27-6bdc-0a74" type="selectionEntry"/>
         <entryLink id="d3c6-db54-e0d0-e66f" name="Shenlong Heavy Cruiser" hidden="false" collective="false" targetId="10d2-3e64-d28e-1b5c" type="selectionEntry"/>
+        <entryLink id="2905-6ec3-4073-c377" name="Pungari Tresher Hive Ship" hidden="false" collective="false" targetId="fc21-fa93-eed6-2a7b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0c94-832e-21c0-d0f5" name="Light Ships" hidden="false" collective="false" defaultSelectionEntryId="7266-58f8-a856-88a9">
@@ -3195,6 +3474,8 @@
         <entryLink id="786f-6f13-e276-ee7f" name="Incubus Destroyers" hidden="false" collective="false" targetId="8ffd-9b90-99b9-3651" type="selectionEntry"/>
         <entryLink id="09ef-e762-f7f3-54b3" name="Revenant Destroyers" hidden="false" collective="false" targetId="ea3e-965e-aab3-9b1f" type="selectionEntry"/>
         <entryLink id="603d-3da7-2266-0fc7" name="Succubus Destroyers" hidden="false" collective="false" targetId="656b-8917-1819-605d" type="selectionEntry"/>
+        <entryLink id="e351-28b7-6218-c106" name="Shedu Monitors" hidden="false" collective="false" targetId="8f63-4bb4-9f1b-db94" type="selectionEntry"/>
+        <entryLink id="5499-2bf0-82f6-56f4" name="Lamassu Barges" hidden="false" collective="false" targetId="800d-c199-12fc-3319" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6e3f-fd7e-dcc9-21e8" name="Medium Ships" hidden="false" collective="false" defaultSelectionEntryId="249e-4e6b-e849-71c7">
