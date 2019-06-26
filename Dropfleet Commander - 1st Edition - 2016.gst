@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="11" battleScribeVersion="2.02" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition (2016)" revision="12" battleScribeVersion="2.02" authorName="morvael" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="bb34-1413-pubN67767" name="RB"/>
     <publication id="bb34-1413-pubN71061" name="PLS318"/>
@@ -10,17 +10,14 @@
   </publications>
   <costTypes>
     <costType id="e888-2584-886f-7f2c" name="pts" defaultCostLimit="-1.0"/>
+    <costType id="ac2f-9b71-e1c5-783a" name=" Launch" defaultCostLimit="-1.0"/>
+    <costType id="c0c3-cb79-19ac-1dbc" name=" SR" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="f174-1347-6969-af9b" name="Load">
       <characteristicTypes>
         <characteristicType id="604b-2e24-d426-bf71" name="Launch"/>
         <characteristicType id="0574-9897-4dc9-48e8" name="Special"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="1403-52d2-9a6f-1c6d" name="Admiral">
-      <characteristicTypes>
-        <characteristicType id="8bfb-a799-58fa-bf2a" name="AV"/>
       </characteristicTypes>
     </profileType>
     <profileType id="ecce-1380-e182-c89e" name="Ship">
@@ -53,17 +50,6 @@
         <characteristicType id="7fa4-b1da-87aa-54ad" name="Hull"/>
         <characteristicType id="41ac-cf99-497a-33b8" name="A"/>
         <characteristicType id="4f20-0a1e-3b75-f2f8" name="PD"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="1290-e6f8-cba6-796a" name="Battlegroup">
-      <characteristicTypes>
-        <characteristicType id="e587-e1ea-3a07-a0e8" name="Strategy Rating"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="2c06-b090-e1b3-35f0" name="Fleet">
-      <characteristicTypes>
-        <characteristicType id="feda-e635-4d9b-fb8d" name="Launch Cap"/>
-        <characteristicType id="8e93-3838-06bc-5664" name="BG Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="3d27-25f5-3f6e-878b" name="Asset">
@@ -119,32 +105,38 @@
     <categoryEntry id="6b03-f33c-554a-8571" name="Space Stations" hidden="false"/>
     <categoryEntry id="7ccb-96a9-0d54-6d4e" name="Debris Fields" hidden="false"/>
     <categoryEntry id="bd1a-35ba-65e3-185b" name="Other" hidden="false"/>
+    <categoryEntry id="7907-82a3-5278-4f8b" name="Flagships" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="45c0-0980-7ede-27b1" name="Skirmish" hidden="false">
+    <forceEntry id="45c0-0980-7ede-27b1" name="Skirmish Force" hidden="false">
+      <constraints>
+        <constraint field="ac2f-9b71-e1c5-783a" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ebc-d271-2758-f169" type="max"/>
+        <constraint field="e888-2584-886f-7f2c" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bda-f929-55c3-a036" type="min"/>
+        <constraint field="e888-2584-886f-7f2c" scope="force" value="999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e1f-309d-2019-8e74" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="e0c9-cc8f-ab0a-cc8b" name="Pathfinder Battlegroup" hidden="false" targetId="b754-76e4-e1a6-8e7f" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48d2-ada1-866a-4819" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="571d-8f5c-d5d4-8c06" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48d2-ada1-866a-4819" type="min"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="571d-8f5c-d5d4-8c06" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="821d-4649-c448-6517" name="Line Battlegroups" hidden="false" targetId="8407-32c8-5444-80af" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca9b-211a-dac3-60ee" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54df-1c34-9950-7d79" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca9b-211a-dac3-60ee" type="min"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54df-1c34-9950-7d79" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="47f5-96c8-5436-36e2" name="Vanguard Battlegroups" hidden="false" targetId="973e-e4cf-bf42-e98f" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ef1-61f3-7b53-228d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a73a-3020-b7c0-008e" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ef1-61f3-7b53-228d" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a73a-3020-b7c0-008e" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="8842-9427-6db6-ee5f" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e09a-442f-b6be-46a6" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded0-42a3-8028-ab68" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e09a-442f-b6be-46a6" type="min"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded0-42a3-8028-ab68" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="d58c-f582-2fa3-1577" name="Admirals" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="false">
@@ -159,38 +151,49 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bb5-0b0e-aac5-c2e5" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="7ca6-aebd-87e2-abd0" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5260-9f1b-5622-ab32" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b112-c2ce-8b42-ef73" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="b897-0836-3935-a949" name="Clash" hidden="false">
+    <forceEntry id="b897-0836-3935-a949" name="Clash Force" hidden="false">
+      <constraints>
+        <constraint field="ac2f-9b71-e1c5-783a" scope="force" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d59e-fbcc-77f1-8966" type="max"/>
+        <constraint field="e888-2584-886f-7f2c" scope="force" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ae7-0e7c-ea0d-0ba9" type="min"/>
+        <constraint field="e888-2584-886f-7f2c" scope="force" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6921-5183-d7d2-e9ae" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="6a2a-9f3c-229a-d9b9" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a9a-9267-1a27-6238" type="min"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fab4-8742-d000-2dc1" type="max"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a9a-9267-1a27-6238" type="min"/>
+            <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fab4-8742-d000-2dc1" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="b1d6-b2f7-50da-c967" name="Line Battlegroups" hidden="false" targetId="8407-32c8-5444-80af" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20ba-1b4a-b80b-ccf0" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf92-088d-f98d-6644" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20ba-1b4a-b80b-ccf0" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf92-088d-f98d-6644" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="495e-568a-c65f-eeeb" name="Vanguard Battlegroups" hidden="false" targetId="973e-e4cf-bf42-e98f" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb5e-81fc-fa09-7cda" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc0e-f852-9c6c-3590" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb5e-81fc-fa09-7cda" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc0e-f852-9c6c-3590" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="8246-a409-e39a-eb2e" name="Pathfinder Battlegroups" hidden="false" targetId="b754-76e4-e1a6-8e7f" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c856-a151-2638-b8df" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d71-878d-b07a-fb5e" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c856-a151-2638-b8df" type="min"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d71-878d-b07a-fb5e" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="c66b-3dca-db9e-d209" name="Flag Battlegroups" hidden="false" targetId="343b-c1c3-5b31-5799" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d8-421b-9eed-a029" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9df6-b59a-8c52-7ef8" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d8-421b-9eed-a029" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9df6-b59a-8c52-7ef8" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="ed34-e6b3-3790-fe10" name="Admirals" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="false">
@@ -205,38 +208,49 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0084-a1de-56a3-8320" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="eeb8-1d6f-12d3-280c" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e59f-3f5d-0b09-08ff" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c432-d502-acad-f55c" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="ddf7-2d82-8a0f-adbd" name="Battle" hidden="false">
+    <forceEntry id="ddf7-2d82-8a0f-adbd" name="Battle Force" hidden="false">
+      <constraints>
+        <constraint field="ac2f-9b71-e1c5-783a" scope="force" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7b0-4b46-45f5-0f0e" type="max"/>
+        <constraint field="e888-2584-886f-7f2c" scope="force" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2974-522c-ef10-8975" type="min"/>
+        <constraint field="e888-2584-886f-7f2c" scope="force" value="3000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b761-65ef-bd9c-044f" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="b547-7e3b-4681-a6b9" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af9c-53f1-772b-6639" type="min"/>
-            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="098a-da2c-210a-8330" type="max"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af9c-53f1-772b-6639" type="min"/>
+            <constraint field="selections" scope="force" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="098a-da2c-210a-8330" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="b098-57c8-04f4-f534" name="Line Battlegroups" hidden="false" targetId="8407-32c8-5444-80af" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3b3-4e62-7a39-525c" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b29c-c559-5f8b-f38a" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3b3-4e62-7a39-525c" type="min"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b29c-c559-5f8b-f38a" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="f54e-a6bf-30be-0bf4" name="Vanguard Battlegroups" hidden="false" targetId="973e-e4cf-bf42-e98f" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d408-0910-7a07-a118" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17bb-36bc-ac7b-5543" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d408-0910-7a07-a118" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17bb-36bc-ac7b-5543" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="316a-336f-c3c4-83ce" name="Pathfinder Battlegroups" hidden="false" targetId="b754-76e4-e1a6-8e7f" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="617e-2444-4b47-6862" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0268-e465-f57f-3e07" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="617e-2444-4b47-6862" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0268-e465-f57f-3e07" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="21d0-0af9-6ed8-ef13" name="Flag Battlegroups" hidden="false" targetId="343b-c1c3-5b31-5799" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9ab-53d0-a926-6c69" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ab-b7bc-9c02-2c33" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9ab-53d0-a926-6c69" type="min"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ab-b7bc-9c02-2c33" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="ee61-9cfe-15f4-6851" name="Admirals" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="false">
@@ -249,6 +263,12 @@
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9760-9343-67a8-b880" type="min"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e2f-623d-8170-56f4" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="bcd4-0f9c-6a9c-1b72" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="851f-556b-9de7-ad0d" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3ab-658a-d049-d9d1" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -288,67 +308,6 @@
     <infoLink id="648d-ece4-2019-6ade" name="Notes" hidden="false" targetId="4b38-af5a-5bb1-7260" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="3209-572d-007e-c797" name="Light" hidden="false" collective="false" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e0d-f1ae-8c10-0f8c" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbff-11c1-b57f-c76c" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b02a-b791-772e-d744" name="Medium" hidden="false" collective="false" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9286-5ba1-8212-5dad" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c96d-2c4b-f460-03b9" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c822-3968-1f5c-046e" name="Heavy" hidden="false" collective="false" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6b6-c53e-c602-48a5" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d9-4eb4-bdf7-4327" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="057e-b76b-473a-cd0c" name="Super Heavy" hidden="false" collective="false" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f82-9188-5db9-b54f" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc02-27a1-b068-ef60" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4bc8-d6c1-3a3f-aec7" name="Launch" hidden="false" collective="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="50c6-4510-4a65-1eaf" value="10">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="50c6-4510-4a65-1eaf" value="5">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="50c6-4510-4a65-1eaf" value="-1">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="50c6-4510-4a65-1eaf" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="9ea0-2d05-f377-5ab0" name="Small Cluster" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="6188-16fa-99ca-0fff" name="Small Cluster" publicationId="bb34-1413-pubN67767" page="74, FAQ11" hidden="false" typeId="b12e-32e7-4e65-87e9" typeName="Cluster">
@@ -373,6 +332,8 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3449-1eac-552a-0bbd" name="Sector 2" hidden="false" collective="false" type="upgrade">
@@ -385,6 +346,8 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bf7a-e328-821c-c133" name="Critical Location" hidden="false" collective="false" type="upgrade">
@@ -394,11 +357,15 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9150-2f97-14e6-ac3c" name="Medium Cluster" hidden="false" collective="false" type="model">
@@ -425,6 +392,8 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3bfb-6bed-c1e4-b1dd" name="Sector 2" hidden="false" collective="false" type="upgrade">
@@ -437,6 +406,8 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="34c2-a147-3444-06a7" name="Sector 3" hidden="false" collective="false" type="upgrade">
@@ -449,6 +420,8 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1179-e5c6-ae0a-3738" name="Critical Location" hidden="false" collective="false" type="upgrade">
@@ -458,11 +431,15 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66fd-e501-8ce7-a35f" name="Large Cluster" hidden="false" collective="false" type="model">
@@ -489,6 +466,8 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3330-bdaf-8050-8ae7" name="Sector 2" hidden="false" collective="false" type="upgrade">
@@ -501,6 +480,8 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="129e-dda3-029b-66c1" name="Sector 3" hidden="false" collective="false" type="upgrade">
@@ -513,6 +494,8 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="39f5-799b-0c48-c0e7" name="Sector 4" hidden="false" collective="false" type="upgrade">
@@ -525,6 +508,8 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6621-0cdf-ddf5-2255" name="Critical Location" hidden="false" collective="false" type="upgrade">
@@ -534,11 +519,15 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="44b0-db51-bbdb-d61a" name="Commercial Sector" hidden="false" collective="false" type="upgrade">
@@ -554,6 +543,8 @@
       </profiles>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9838-c0be-f9f6-0041" name="Industrial Sector" hidden="false" collective="false" type="upgrade">
@@ -569,6 +560,8 @@
       </profiles>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4de7-a7ee-a57e-887e" name="Military Sector" hidden="false" collective="false" type="upgrade">
@@ -596,6 +589,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="91eb-c35b-050d-7a93" name="Orbital Defence Sector" hidden="false" collective="false" type="upgrade">
@@ -625,6 +620,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db66-0722-bc5f-6bf3" name="Power Plant Sector" hidden="false" collective="false" type="upgrade">
@@ -643,6 +640,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="508e-f1e1-cbf0-5cba" name="Comms Station Sector" hidden="false" collective="false" type="upgrade">
@@ -661,6 +660,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df4f-4a71-603a-020b" name="Small Space Station" hidden="false" collective="false" type="model">
@@ -687,6 +688,8 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -698,6 +701,8 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3f23-ae01-996c-9dbd" name="Medium Space Station" hidden="false" collective="false" type="model">
@@ -724,6 +729,8 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -735,6 +742,8 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d04-e909-0384-1cd6" name="Large Space Station" hidden="false" collective="false" type="model">
@@ -761,6 +770,8 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -772,6 +783,8 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f57f-44de-7234-b547" name="Mass Driver Armament" publicationId="bb34-1413-pubN67767" page="54" hidden="false" collective="false" type="upgrade">
@@ -791,6 +804,8 @@
       </profiles>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="127f-3884-f706-e4a6" name="Laser Armament" publicationId="bb34-1413-pubN67767" page="54" hidden="false" collective="false" type="upgrade">
@@ -814,6 +829,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a01d-6ebc-7ac3-d891" name="Missile Armament" publicationId="bb34-1413-pubN67767" page="54" hidden="false" collective="false" type="upgrade">
@@ -836,6 +853,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfaa-0d8b-9424-d7e8" name="Fine Debris Field" hidden="false" collective="false" type="model">
@@ -858,6 +877,8 @@
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b206-1a7f-6c1c-1cb5" name="Dense Debris Field" hidden="false" collective="false" type="model">
@@ -880,6 +901,8 @@
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c03a-0b9f-1847-3b1b" name="Planetary Ring" hidden="false" collective="false" type="model">
@@ -891,6 +914,8 @@
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f839-e810-46d3-38dd" name="Large Solid Object" hidden="false" collective="false" type="model">
@@ -908,11 +933,15 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba37-0d61-31f8-abf7" name="Princess Cruise Liner" hidden="false" collective="false" type="model">
@@ -951,6 +980,8 @@
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f6fa-6fbd-c97c-f541" name="Princess Cruise Liners" hidden="false" collective="false" type="unit">
@@ -982,24 +1013,8 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0d20-3720-2b47-428d" name="Light 2" hidden="false" collective="false" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e13-1ef6-8603-1763" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92f8-efbc-fb46-19b2" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f076-f414-ab26-6b54" name="Super Heavy 2" hidden="false" collective="false" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac3-9c13-7123-719c" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb75-474d-57d8-1f86" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1027,16 +1042,22 @@
         <selectionEntry id="480b-3a2c-3b42-340f" name="1 Atmosphere" hidden="false" collective="false" type="upgrade">
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4167-da89-56a2-be97" name="2 Low Orbit" hidden="false" collective="false" type="upgrade">
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="caa1-90ff-46f0-2495" name="3 High Orbit" hidden="false" collective="false" type="upgrade">
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
+            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
+            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1055,7 +1076,9 @@ WWW - Kickstarter, Hawk Forum, and Facebook webpages
 
 With permission from TTCombat.</description>
     </rule>
-    <rule id="4b38-af5a-5bb1-7260" name="Notes" hidden="false"/>
+    <rule id="4b38-af5a-5bb1-7260" name="Notes" hidden="false">
+      <description>It&apos;s best to let Launch and SR cost limits remain at -1 when creating rosters.</description>
+    </rule>
     <rule id="f7b4-257c-0fc5-8fe3" name="Aegis(X)" publicationId="bb34-1413-pubN67767" page="65" hidden="false"/>
     <rule id="c3e1-6bee-9e1e-8f27" name="Air-to-Air" publicationId="bb34-1413-pubN67767" page="66, FAQ11" hidden="false"/>
     <rule id="32d9-8628-d42c-4ddd" name="Atmospheric" publicationId="bb34-1413-pubN67767" page="65" hidden="false"/>
