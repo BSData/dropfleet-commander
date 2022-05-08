@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition" revision="13" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander: 1st Edition" revision="14" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="bb34-1413-pubN67767" name="RB"/>
     <publication id="bb34-1413-pubN71061" name="PLS318"/>
@@ -95,7 +95,6 @@
     <categoryEntry id="973e-e4cf-bf42-e98f" name="Vanguard Battlegroups" hidden="false"/>
     <categoryEntry id="343b-c1c3-5b31-5799" name="Flag Battlegroups" hidden="false"/>
     <categoryEntry id="bb7a-03b7-dbdf-c542" name="Battlegroups" hidden="false"/>
-    <categoryEntry id="e39b-1d41-a0f2-0352" name="Admirals" hidden="false"/>
     <categoryEntry id="a74f-2082-f5bf-33a5" name="Super Heavy" hidden="false"/>
     <categoryEntry id="1342-a92d-424c-140a" name="Heavy" hidden="false"/>
     <categoryEntry id="d45f-e753-7ba7-3084" name="Medium" hidden="false"/>
@@ -115,7 +114,7 @@
         <constraint field="e888-2584-886f-7f2c" scope="force" value="999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e1f-309d-2019-8e74" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="e0c9-cc8f-ab0a-cc8b" name="Pathfinder Battlegroup" hidden="false" targetId="b754-76e4-e1a6-8e7f" primary="false">
+        <categoryLink id="e0c9-cc8f-ab0a-cc8b" name="Pathfinder Battlegroups" hidden="false" targetId="b754-76e4-e1a6-8e7f" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48d2-ada1-866a-4819" type="min"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="571d-8f5c-d5d4-8c06" type="max"/>
@@ -137,12 +136,6 @@
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e09a-442f-b6be-46a6" type="min"/>
             <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded0-42a3-8028-ab68" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d58c-f582-2fa3-1577" name="Admirals" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d5f-559f-0bf3-c160" type="min"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d93-05ad-cae7-7afc" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="7ca2-ee52-42c6-b9ee" name="Fleet" hidden="false" targetId="1096-0c29-3519-d830" primary="false">
@@ -181,7 +174,7 @@
         <categoryLink id="495e-568a-c65f-eeeb" name="Vanguard Battlegroups" hidden="false" targetId="973e-e4cf-bf42-e98f" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb5e-81fc-fa09-7cda" type="min"/>
-            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc0e-f852-9c6c-3590" type="max"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc0e-f852-9c6c-3590" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="8246-a409-e39a-eb2e" name="Pathfinder Battlegroups" hidden="false" targetId="b754-76e4-e1a6-8e7f" primary="false">
@@ -194,12 +187,6 @@
           <constraints>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d8-421b-9eed-a029" type="min"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9df6-b59a-8c52-7ef8" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ed34-e6b3-3790-fe10" name="Admirals" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5643-caea-7f07-427a" type="min"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb42-ccce-e7bd-b1fb" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="aa83-c946-dc68-3b01" name="Fleet" hidden="false" targetId="1096-0c29-3519-d830" primary="false">
@@ -251,12 +238,6 @@
           <constraints>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9ab-53d0-a926-6c69" type="min"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ab-b7bc-9c02-2c33" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ee61-9cfe-15f4-6851" name="Admirals" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="43ad-b979-cc2e-8462" type="min"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5bed-eaee-a5e3-2a2b" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="9276-3785-8f53-232a" name="Fleet" hidden="false" targetId="1096-0c29-3519-d830" primary="false">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="13" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="14" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="37b9-e435-ebae-3c52" name="Flag Battlegroup" hidden="false" collective="false" import="true" targetId="d344-138c-c6d0-cc19" type="selectionEntry"/>
     <entryLink id="3ed8-763f-cbf1-0625" name="Line Battlegroup" hidden="false" collective="false" import="true" targetId="ed7f-288f-cba9-0ab1" type="selectionEntry"/>
@@ -1301,7 +1301,7 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7f4-3e39-11f4-1856" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9936-b738-d1e1-c4a5" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9936-b738-d1e1-c4a5" type="max"/>
             <constraint field="e888-2584-886f-7f2c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d71e-6fe5-9c99-eb42" type="max"/>
           </constraints>
           <selectionEntries>
@@ -2484,9 +2484,6 @@
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="007d-c2c7-ffbf-87ed" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ee6-481a-a36f-7915" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="d742-0255-0c4a-9ac2" name="Admirals" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="20.0"/>
                 <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
@@ -2515,9 +2512,6 @@
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a39b-0ae1-004c-52c0" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ec-7c1b-a271-2359" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="5a06-1c68-5c28-84cd" name="Admirals" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="40.0"/>
                 <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
@@ -2546,9 +2540,6 @@
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32f4-8a46-1597-4bf1" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19c0-1cd9-88d9-13df" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="cde0-662a-175e-636d" name="Admirals" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="80.0"/>
                 <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
@@ -2582,9 +2573,6 @@
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d37a-2746-d711-707f" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="144e-c355-5cd7-1d47" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="6a93-794c-dfe3-1597" name="Admirals" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="100.0"/>
                 <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
@@ -2618,9 +2606,6 @@
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1da1-7b3f-0d2a-69c6" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52d5-5ab5-dbe9-5738" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="3b1b-aac6-60ae-8de2" name="Admirals" hidden="false" targetId="e39b-1d41-a0f2-0352" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="140.0"/>
                 <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
@@ -3422,7 +3407,7 @@
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">10&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
-            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">4&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">4</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">2+</characteristic>
             <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">3</characteristic>
