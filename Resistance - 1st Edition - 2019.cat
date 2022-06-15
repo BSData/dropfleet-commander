@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5810-52c0-23f0-8f9f" name="Resistance: 1st Edition (2019)" revision="14" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5810-52c0-23f0-8f9f" name="Resistance: 1st Edition (2019)" revision="14" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="756e-82a6-2a28-d1ff" name="Fleet" hidden="false" collective="false" import="true" targetId="f7f2-92f6-120a-ede1" type="selectionEntry"/>
     <entryLink id="b753-6d03-2fb3-4a6e" name="Flag Battlegroup" hidden="false" collective="false" import="true" targetId="335e-0ae5-3510-48d3" type="selectionEntry"/>
@@ -111,7 +111,7 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5be-04b0-a402-8f02" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfc0-f6bb-555c-4361" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfc0-f6bb-555c-4361" type="max"/>
             <constraint field="e888-2584-886f-7f2c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82c1-3268-5e5c-7b4f" type="max"/>
           </constraints>
           <selectionEntries>
@@ -10957,6 +10957,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a842-593c-51f5-9c0d" name="Triumvir Battlecruiser" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="5e06-7a44-d802-a2f8" value="3.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="5e06-7a44-d802-a2f8" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="5e06-7a44-d802-a2f8" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e06-7a44-d802-a2f8" type="max"/>
+      </constraints>
       <profiles>
         <profile id="fcd9-88f3-5423-abf8" name="Triumvir" publicationId="07fb-79fc-ad90-6f9e" page="208" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -10968,7 +10988,7 @@
             <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">5</characteristic>
             <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
             <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ablative Armour, Launch, Rare</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ablative Armour, Box of Scraps, Launch, Rare, Repair Bay</characteristic>
           </characteristics>
         </profile>
         <profile id="8b2c-c5f0-a1bc-9a99" name="Triumvir A - NC-4 Missiles" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -10980,7 +11000,7 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
           </characteristics>
         </profile>
-        <profile id="f4e3-2a2c-6ef8-fea0" name="Triumvir - Fighters &amp; Bombers" hidden="true" typeId="f174-1347-6969-af9b" typeName="Load">
+        <profile id="f4e3-2a2c-6ef8-fea0" name="Triumvir - Fighters &amp; Bombers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
           <characteristics>
             <characteristic name="Launch" typeId="604b-2e24-d426-bf71">6</characteristic>
             <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
@@ -11008,6 +11028,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f7ea-a8bd-b2ad-3c3d" name="Galileo Orbital Telescopes" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="08f1-99ab-9bea-bb7b" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="08f1-99ab-9bea-bb7b" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="08f1-99ab-9bea-bb7b" value="3.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08f1-99ab-9bea-bb7b" type="max"/>
+      </constraints>
       <entryLinks>
         <entryLink id="2970-3cc4-b8d3-ee03" name="Galileo Orbital Telescope" hidden="false" collective="false" import="true" targetId="b465-62c5-5469-66ed" type="selectionEntry">
           <constraints>
@@ -11376,26 +11416,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b465-62c5-5469-66ed" name="Galileo Orbital Telescope" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="9811-35a3-8af8-d938" value="3.0">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="9811-35a3-8af8-d938" value="-1.0">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="9811-35a3-8af8-d938" value="2.0">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9811-35a3-8af8-d938" type="max"/>
-      </constraints>
       <profiles>
         <profile id="6c86-771a-243e-173f" name="Galileo" publicationId="07fb-79fc-ad90-6f9e" page="205" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -11407,7 +11427,7 @@
             <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">2</characteristic>
             <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-2</characteristic>
             <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Detector, Monitor, Open, Rare</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Detector, Monitor, Open, Rare, Space Telescope</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11890,7 +11910,7 @@
           <profiles>
             <profile id="1a37-96ad-8f6f-7fa5" name="Baleares" publicationId="07fb-79fc-ad90-6f9e" page="214" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
               <modifiers>
-                <modifier type="set" field="4717-adad-0be5-3c60" value="Detector">
+                <modifier type="append" field="4717-adad-0be5-3c60" value=", Detector">
                   <conditions>
                     <condition field="selections" scope="6d87-8e68-b1fa-ff56" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7d3-b28d-9baf-c0a0" type="greaterThan"/>
                   </conditions>
@@ -12082,7 +12102,7 @@
       <profiles>
         <profile id="31bf-ff75-f5d1-cd62" name="Baleares" publicationId="07fb-79fc-ad90-6f9e" page="214" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <modifiers>
-            <modifier type="set" field="4717-adad-0be5-3c60" value="Detector">
+            <modifier type="append" field="4717-adad-0be5-3c60" value=", Detector">
               <conditions>
                 <condition field="selections" scope="8fe5-f30d-8fb5-c6a6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7d3-b28d-9baf-c0a0" type="greaterThan"/>
               </conditions>
