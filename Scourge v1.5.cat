@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="168b-4c59-7e13-d6d4" name="Scourge: 1st Edition (2016)" revision="14" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="168b-4c59-7e13-d6d4" name="Scourge v1.5" revision="15" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="e576-7662-5c99-3992" name="Fleet" hidden="false" collective="false" import="true" targetId="b8ef-8aa5-7921-389a" type="selectionEntry"/>
     <entryLink id="a472-5bd6-0e36-ba24" name="Flag Battlegroup" hidden="false" collective="false" import="true" targetId="ba01-8bdf-2251-b138" type="selectionEntry"/>
@@ -48,7 +48,7 @@
         <profile id="5577-78a4-def9-5c63" name="Daemon" publicationId="bb34-1413-pubN67767" page="137" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">8&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">12&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">10&quot;</characteristic>
             <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">8&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">18</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
@@ -62,7 +62,7 @@
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">3</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald, Linked-1</characteristic>
           </characteristics>
@@ -138,7 +138,7 @@
         <profile id="8d85-89bc-f42e-b6cc" name="Dragon" publicationId="bb34-1413-pubN67767" page="138" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">8&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">12&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">10&quot;</characteristic>
             <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">8&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">18</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
@@ -152,7 +152,7 @@
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">3</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
           </characteristics>
@@ -2982,7 +2982,7 @@
             <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">4</characteristic>
             <characteristic name="G" typeId="7396-9d6c-953f-4c4b">2-3</characteristic>
             <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Detector, Monitor</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Monitor</characteristic>
           </characteristics>
         </profile>
         <profile id="0e50-ac62-991d-3422" name="Shedu A - Oculus Beam Crest" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -2994,10 +2994,10 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
           </characteristics>
         </profile>
-        <profile id="72bd-7d6e-931d-67e9" name="Shedu B - Plasma Cloud" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="72bd-7d6e-931d-67e9" name="Shedu B - Plasma Derecho" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action, Scald</characteristic>
@@ -3005,7 +3005,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="69e9-3bdf-ed6b-5c75" name="Detector" hidden="false" targetId="d671-a199-2d13-3b64" type="rule"/>
         <infoLink id="dccc-883d-cf62-a58a" name="Monitor" hidden="false" targetId="bc43-3371-9c92-dfb6" type="rule"/>
         <infoLink id="d51c-7032-ea27-edf8" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="9050-0171-b107-ac68" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
@@ -3339,7 +3338,7 @@
       </profiles>
       <rules>
         <rule id="86d0-f038-c1bb-876f" name="Oculus Booster" hidden="false">
-          <description>At the end of this ship’s activation, pick one enemy ship anywhere within its Front Arc in line of sight. Place an Oculus Booster token next to that ship. A ship may have only 1 Oculus Booster token. You may remove the Oculus Booster token when the ship’s Group is targeted by a single friendly group. If so, the firing Group gains the following bonus against every ship in that Group in coherency with the token ship for that firing action: Weapons with “Oculus” in their name activate Scald whenever in Scan + Signature range, and also increase their Scald penalty to +3 instead of +1. If unused, Oculus Booster tokens are removed during the Roundup Phase.</description>
+          <description>While this ship is on Standard Orders, other friendly ship’s weapons with “Oculus” in their name increase their scald penalty to +2 instead of +1 when firing at ships in any orbital layer within this ship’s Front Arc and Scan range.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3380,7 +3379,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Mauler(8), Scald</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough (8), Close Action, Mauler, Scald</characteristic>
           </characteristics>
         </profile>
         <profile id="0bc4-3609-42f0-0048" name="Shadow C - Plasma Tempest" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -3413,6 +3412,7 @@
         <infoLink id="49f6-0f8f-79fc-ed18" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
         <infoLink id="41c7-58ea-12da-a9ea" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="2b21-2ade-f495-38c0" name="Mauler(X)" hidden="false" targetId="f6ec-da54-fd6f-2579" type="rule"/>
+        <infoLink id="e1c3-7914-62a6-383d" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b245-53ed-9685-ac4a" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -3427,6 +3427,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c20c-da3b-dc35-ff87" name="Parasite Radiation Leeches" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="837f-d552-5e0e-8604" value="3.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="837f-d552-5e0e-8604" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="837f-d552-5e0e-8604" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="837f-d552-5e0e-8604" type="max"/>
+      </constraints>
       <entryLinks>
         <entryLink id="d534-84ab-2b37-41e4" name="Parasite Radiation Leech" hidden="false" collective="false" import="true" targetId="e4c6-c8c2-cd38-80dd" type="selectionEntry">
           <constraints>
@@ -3465,7 +3485,7 @@
             <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">2</characteristic>
             <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-3</characteristic>
             <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L2</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Energy Siphon, Outlier, Vectored</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Energy Siphon, Outlier, Rare, Vectored</characteristic>
           </characteristics>
         </profile>
         <profile id="9417-5fd3-5352-96e0" name="Parasite A - Oculus Rays" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -3480,19 +3500,23 @@
       </profiles>
       <rules>
         <rule id="b12e-bc91-a360-c5db" name="Energy Siphon" hidden="false">
-          <description>During this ship&apos;s activation, either before or after movement, pick one friendly or enemy ship within 3&quot; without the Energy Siphon special rule to siphon. That ship loses any Spike it has, and this ship gains it. If any ships in a Group have siphoned any Spikes, all ships in that Group add a bonus to their Occulus Rays for that activation. If the Group siphoned one or more Minor Spikes, increase the Attack and Damage of Oculus Rays by 1. If the Group siphoned one or more Major Spikes, increase the Attack and Damage of Oculus Rays by 2 instead.</description>
+          <description>During this ship’s activation, either before or after movement, pick one friendly or enemy ship within 3” without the Energy Siphon special rule to siphon. That ship loses any Spike it has, and this ship gains it.
+If any ships in a Group have siphoned any Spikes, all ships in that Group add a bonus to their Oculus Rays for that activation.
+If the Group siphoned one or more Minor Spikes, increase the Attack of Oculus Rays by 1.
+If the Group siphoned one or more Major Spikes, increase the Damage of Oculus Rays by 1.</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="41fe-f5dd-6e28-d351" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
         <infoLink id="5ebe-bdbf-96bf-40db" name="Vectored" hidden="false" targetId="fbc4-2a68-7c00-d6f1" type="rule"/>
         <infoLink id="1365-90a2-2cde-3f0f" name="Outlier" hidden="false" targetId="0a60-4c58-5666-78ee" type="rule"/>
+        <infoLink id="561f-6821-d70d-aff4" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d8b9-c205-d17a-7788" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="35.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="55.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="2.0"/>
       </costs>
@@ -3643,6 +3667,63 @@
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="f1e8-1811-03e1-b088" name="Kulshedra Vilestar Carrier" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c78d-0bc7-506f-e125" name="Kulshedra" publicationId="bb34-1413-pubN67767" page="139" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">8&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">8&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">12</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">4+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">8</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Launch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="174d-b79f-289c-3034" name="Kulshedra A - Oculus Beam Array" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="09ea-800c-5b1d-b5db" name="Kulshedra B - Plasma Tempest" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2D6+4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action, Scald</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2135-36a3-30d3-4c48" name="Kulshedra - Fighters &amp; Bombers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">5</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8">Scald (Bombers)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="46ae-0ab9-bad4-bbac" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
+        <infoLink id="6b84-62a9-bc9a-fa15" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="ff45-5511-12ac-584f" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7859-ab1b-e0ec-9ab7" name="New CategoryLink" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="90d0-1ec3-020d-b14b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="69c3-0f33-30db-cea3" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="200.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="10.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1e34-f36c-ea69-cbcb" name="Heavy Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="d3c6-db54-e0d0-e66f">
@@ -3660,6 +3741,7 @@
         <entryLink id="2905-6ec3-4073-c377" name="Pungari Tresher Hive Ship" hidden="false" collective="false" import="true" targetId="fc21-fa93-eed6-2a7b" type="selectionEntry"/>
         <entryLink id="6b8f-2f32-7638-520f" name="Shadow Battlecruiser" hidden="false" collective="false" import="true" targetId="06c7-df51-eb6e-4b64" type="selectionEntry"/>
         <entryLink id="eb68-23e8-8a76-347d" name="Umbra Battlecruiser" hidden="false" collective="false" import="true" targetId="31ee-da6c-8d1a-0f5f" type="selectionEntry"/>
+        <entryLink id="c636-d54f-0e31-413b" name="Kulshedra Vilestar Carrier" hidden="false" collective="false" import="true" targetId="f1e8-1811-03e1-b088" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0c94-832e-21c0-d0f5" name="Light Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="7266-58f8-a856-88a9">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c240-e6a9-6a41-8643" name="Shaltari Tribes: 1st Edition (2016)" revision="14" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c240-e6a9-6a41-8643" name="Shaltari Tribes v1.5" revision="15" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="f0c3-8560-87cb-36d9" name="Fleet" hidden="false" collective="false" import="true" targetId="4c70-b3e1-84b3-d69e" type="selectionEntry"/>
     <entryLink id="f0a1-36ee-5100-a7ab" name="Flag Battlegroup" hidden="false" collective="false" import="true" targetId="eef0-a519-9080-4bcb" type="selectionEntry"/>
@@ -428,7 +428,7 @@
         <profile id="b0fd-abc8-5997-5ff4" name="Sapphire A - Ion Aura" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">D6+3</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action (Beam), Alt-1</characteristic>
@@ -449,7 +449,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Impel-2</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Impel-1</characteristic>
           </characteristics>
         </profile>
         <profile id="c28d-a457-979d-c67b" name="Sapphire D - Harpoon Cascade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -476,7 +476,7 @@
         <entryLink id="0ac0-aa2d-3b02-d3dd" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="da75-4c08-33b2-b854" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="185.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="175.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="10.0"/>
       </costs>
@@ -511,7 +511,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="d745-23fc-5a71-8252" name="Onyx C - Disintegrator Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -520,7 +520,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="644e-cd0e-00d2-d6ab" name="Onyx D - Harpoon Cascade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -535,6 +535,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="73c0-3b38-57fb-2835" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="e3d6-43ca-cd32-3774" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="38e2-a228-8c22-ce95" name="New CategoryLink" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -613,7 +614,7 @@
         <entryLink id="076b-db58-0cbc-6c37" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="da75-4c08-33b2-b854" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="145.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="140.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="10.0"/>
       </costs>
@@ -636,7 +637,7 @@
         <profile id="389a-0ef4-2d6f-141e" name="Jet B - Ion Aura" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">D6+3</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action (Beam), Alt-1</characteristic>
@@ -824,7 +825,7 @@
         <profile id="549a-020b-1d77-9f68" name="Turquoise A - Ion Aura" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">D6+3</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action (Beam), Alt-1</characteristic>
@@ -918,7 +919,7 @@
         <entryLink id="c9a2-4366-99c1-fe17" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="92d2-5b28-3dc1-5d3c" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="145.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="140.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="4.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="5.0"/>
       </costs>
@@ -999,7 +1000,7 @@
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
           </characteristics>
         </profile>
@@ -1050,7 +1051,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Impel-2</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Impel-1</characteristic>
           </characteristics>
         </profile>
         <profile id="51ac-4cd3-74db-0ac5" name="Aquamarine B - Harpoon Cascade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -2476,13 +2477,15 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Mauler(6)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough(6), Close Action, Mauler</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="029b-bef5-9fb4-27bd" name="Mauler(X)" hidden="false" targetId="f6ec-da54-fd6f-2579" type="rule"/>
+        <infoLink id="029b-bef5-9fb4-27bd" name="Mauler" hidden="false" targetId="f6ec-da54-fd6f-2579" type="rule"/>
         <infoLink id="17b6-9718-af9e-0006" name="Light 2 Tonnage" hidden="false" targetId="7780-d65b-a8d3-0684" type="rule"/>
+        <infoLink id="6d6c-cab5-ac58-7ea1" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="83af-bc91-6ef0-ef03" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e456-1e55-5acd-3ac0" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -2761,7 +2764,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Mauler(12)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough(12), Close Action, Mauler</characteristic>
           </characteristics>
         </profile>
         <profile id="3b1e-48cf-1b3c-ad80" name="Uranium C - Disintegrator Battery, Starboard" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -2826,6 +2829,7 @@
         <infoLink id="6eae-31b5-6d41-5ee4" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
         <infoLink id="23ae-1744-06ce-dfb8" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="dc35-ada6-dd04-0415" name="Close Action (Beam)" hidden="false" targetId="b190-a6a9-c262-b6d0" type="rule"/>
+        <infoLink id="75c3-28eb-cc7b-c1df" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8fc7-691f-efa8-7079" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
@@ -2960,7 +2964,7 @@
             <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">6</characteristic>
             <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-2</characteristic>
             <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Atmospheric, Monitor, Voidgate-2</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Atmospheric, Voidgate-2</characteristic>
           </characteristics>
         </profile>
         <profile id="b53f-9da5-aff2-2a65" name="Selenium A - Defence Array" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -2984,7 +2988,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="5a8d-6b07-5a7f-119c" name="Voidgate-X" hidden="false" targetId="c72f-5a44-e839-62c0" type="rule"/>
-        <infoLink id="a1cc-bf0a-e519-4f8e" name="Monitor" hidden="false" targetId="bc43-3371-9c92-dfb6" type="rule"/>
         <infoLink id="cc75-be55-fe79-a65a" name="Atmospheric" hidden="false" targetId="32d9-8628-d42c-4ddd" type="rule"/>
         <infoLink id="f49d-fe6b-4f46-4719" name="Escape Velocity" hidden="false" targetId="acfb-b2b0-1b53-d429" type="rule"/>
         <infoLink id="1491-db17-d080-7ff1" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
@@ -3232,9 +3235,9 @@
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a23d-59dd-1f62-da01" name="Hematite Battlecruiser" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="a23d-59dd-1f62-da01" name="Haematite Battlecruiser" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="6067-846b-28ba-b27e" name="Hematite" publicationId="bb34-1413-pubN67767" page="200" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="6067-846b-28ba-b27e" name="Haematite" publicationId="bb34-1413-pubN67767" page="200" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">12&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">3&quot;/16&quot;</characteristic>
@@ -3247,16 +3250,16 @@
             <characteristic name="Special" typeId="4717-adad-0be5-3c60"/>
           </characteristics>
         </profile>
-        <profile id="2b53-496e-da73-6058" name="Hematite A - Quad Thermal Lance Cannon" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="2b53-496e-da73-6058" name="Haematite A - Quad Thermal Lance Cannon" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough(12)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Bloom, Burnthrough(12)</characteristic>
           </characteristics>
         </profile>
-        <profile id="ccf9-938a-1401-0840" name="Hematite B - Harpoon Cascade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="ccf9-938a-1401-0840" name="Haematite B - Harpoon Cascade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
@@ -3269,6 +3272,7 @@
       <infoLinks>
         <infoLink id="1537-b9ec-1180-5f5d" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="c845-be2a-1c53-b796" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="9821-ee0f-0172-db7d" name="Bloom" hidden="false" targetId="17ad-3ce8-8d61-f7e4" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="25a8-acbe-456f-bc8c" name="New CategoryLink" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -3277,7 +3281,7 @@
         <entryLink id="f5c6-6fd2-2485-d709" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="da75-4c08-33b2-b854" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="230.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="255.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="10.0"/>
       </costs>
@@ -3316,7 +3320,7 @@
         <categoryLink id="0a63-11a4-eace-fcb2" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="35.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="40.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="1.0"/>
       </costs>
@@ -3483,6 +3487,93 @@
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="bd5e-5169-d54b-bd02" name="Scoria Fleet Carrier" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="db03-4801-74c4-794e" value="3.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="db03-4801-74c4-794e" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="db03-4801-74c4-794e" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db03-4801-74c4-794e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="788c-102d-2be9-7ce1" name="Scoria" publicationId="bb34-1413-pubN67767" page="200" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">12&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">3&quot;/16&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">8&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">11</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">5+/4+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">9</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Launch, Rare</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d24c-c12f-c305-8a60" name="Scoria A - Disintegrator Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
+          </characteristics>
+        </profile>
+        <profile id="4664-f4fe-9811-d638" name="Scoria B - Particle Lance Pair" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Particle</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="03f4-3332-1260-b48f" name="Scoria C - Harpoon Cascade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="79f9-7c68-7730-fba4" name="Scoria - Fighters &amp; Bombers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">4</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="54fa-97c4-6e24-62ae" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="b607-1e76-7129-1c03" name="Particle" hidden="false" targetId="06c5-88e4-6e75-a056" type="rule"/>
+        <infoLink id="697c-1bab-64e9-226d" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
+        <infoLink id="e449-7201-8af9-ec35" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9178-5e1f-8ffe-1089" name="New CategoryLink" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3dfe-7c8f-38b1-6b2b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="da75-4c08-33b2-b854" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="200.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="4.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="10.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6c11-9d92-d7cb-653d" name="Heavy Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="54d7-db20-7300-ed2f">
@@ -3500,7 +3591,8 @@
         <entryLink id="39d9-ec6a-79c5-2c4a" name="Jet Heavy Cruiser" hidden="false" collective="false" import="true" targetId="bdc1-7092-1f03-175e" type="selectionEntry"/>
         <entryLink id="32f4-c772-2850-15f0" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="91db-c1d9-41b6-06f2" type="selectionEntry"/>
         <entryLink id="a76e-63b1-aa9d-aa0c" name="Goethite Battlecruiser" hidden="false" collective="false" import="true" targetId="d457-545b-a248-e049" type="selectionEntry"/>
-        <entryLink id="c742-7bf8-f8dc-8ca6" name="Hematite Battlecruiser" hidden="false" collective="false" import="true" targetId="a23d-59dd-1f62-da01" type="selectionEntry"/>
+        <entryLink id="c742-7bf8-f8dc-8ca6" name="Haematite Battlecruiser" hidden="false" collective="false" import="true" targetId="a23d-59dd-1f62-da01" type="selectionEntry"/>
+        <entryLink id="3dc9-88e3-d498-fe41" name="Scoria Fleet Carrier" hidden="false" collective="false" import="true" targetId="bd5e-5169-d54b-bd02" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b898-ddd4-396a-0b68" name="Light Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="975a-65d5-9162-4093">

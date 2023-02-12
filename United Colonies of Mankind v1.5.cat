@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind: 1st Edition (2016)" revision="14" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind v1.5" revision="15" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="37b9-e435-ebae-3c52" name="Flag Battlegroup" hidden="false" collective="false" import="true" targetId="d344-138c-c6d0-cc19" type="selectionEntry"/>
     <entryLink id="3ed8-763f-cbf1-0625" name="Line Battlegroup" hidden="false" collective="false" import="true" targetId="ed7f-288f-cba9-0ab1" type="selectionEntry"/>
@@ -212,7 +212,7 @@
         <profile id="ab57-cc5c-ed6b-526a" name="Beijing" publicationId="bb34-1413-pubN67767" page="108" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">8&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">12&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">10&quot;</characteristic>
             <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">18</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
@@ -228,7 +228,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade-2, Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="aa0f-cdf4-7541-41c1" name="Beijing B - UF­4200 Mass Driver Turrets" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -237,7 +237,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade-2, Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="bd1d-60fe-e418-69f1" name="Beijing C - UF­6400 Mass Driver Turrets" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -273,6 +273,7 @@
         <infoLink id="86b6-2072-e3b3-99b9" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
         <infoLink id="ace8-815e-f1d1-3bbf" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="0553-9b75-0202-3ad7" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="3bcb-167c-dc91-0cd3" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e50e-cc63-88a0-1b82" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
@@ -281,7 +282,7 @@
         <entryLink id="4f21-e00e-0476-be91" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="983e-133f-733a-28f6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="232.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="230.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="15.0"/>
       </costs>
@@ -291,7 +292,7 @@
         <profile id="6011-2cf8-e73d-4aa4" name="New York" publicationId="bb34-1413-pubN67767" page="109" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">8&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">12&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">10&quot;</characteristic>
             <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">18</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
@@ -319,7 +320,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade-2, Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="d9e8-e8e8-b7df-6439" name="New York B - UF­4200 Mass Driver Turrets" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -328,7 +329,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade-2, Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="7011-1058-a9dc-4707" name="New York C - Shark Missile Bays" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -346,6 +347,7 @@
         <infoLink id="134a-0d2f-9ab1-7111" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="0662-39d7-b6b8-0baa" name="L(X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
         <infoLink id="1d54-0da0-da99-1d9e" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="6887-37e0-f1b9-ac6d" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9ab0-ab98-12da-cc31" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
@@ -364,7 +366,7 @@
         <profile id="3645-be2b-8a67-3aed" name="Tokyo" publicationId="bb34-1413-pubN67767" page="110" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">8&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">12&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">10&quot;</characteristic>
             <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">18</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
@@ -380,7 +382,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade-2, Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="16b5-897d-20c4-d934" name="Tokyo B - UF­4200 Mass Driver Turrets" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -389,7 +391,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade-2, Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="4c2b-67e6-8011-c798" name="Tokyo F - Swordfish Missile Bays" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -416,7 +418,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">5</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Bombardment, Linked-2</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Bombardment, Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="9c9a-c859-fd9c-b326" name="Tokyo D - UF­B-8000 Bombardment Turrets" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -425,7 +427,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">5</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Bombardment, Linked-2</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Bombardment, Linked-1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -435,6 +437,7 @@
         <infoLink id="36c2-c346-1542-28db" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="018c-6ec8-478f-e5f5" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
         <infoLink id="ca77-f1e9-b1b5-322d" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="9a75-35d4-7b55-f3b4" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6a21-fe60-0c25-3324" name="New CategoryLink" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
@@ -3419,7 +3422,7 @@
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">10&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
-            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">4&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">4</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">2+</characteristic>
             <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">3</characteristic>
@@ -3777,9 +3780,9 @@
           <description>If you mount your Admiral in this ship, when drawing Command Cards, you may draw 2 more than normal.</description>
         </rule>
         <rule id="233c-451c-0811-13b3" name="UCM Battlenet" hidden="false">
-          <description>As long as this ship is on the board, when a friendly Battlegroup activates, you may choose to discard 1 Command Card and that Battlegroup gains 1 of the following bonuses when on Special Orders:
-• Any ships in that Battlegroup may add 4” to their Thrust characteristic for this activation,
-• Any ships in that Battlegroup may fire 1 additional weapon system during this activation (or may fire 1 if not otherwise allowed to fire any),
+          <description>As long as this ship is on the board, when a friendly Battlegroup within this ship’s weapons range activates, you may choose to discard 1 Command Card and that Battlegroup gains 1 of the following bonuses when on Special Orders:
+• Any ships in that Battlegroup may add 4” to their movement this turn (after any Thrust modifiers).
+• Special Orders that allow ships to fire weapon systems allow them to fire an additional weapon system. Special Orders that do not allow ships to fire weapon systems allow them to fire 1 Close Action weapon (but does not count for launching Launch Assets).
 • Any ships in that Battlegroup may change Orbital Layer, even if they otherwise would not be allowed to do so (all normal restrictions apply such as costing Thrust distance and only entering Atmosphere if they have the Atmospheric special rule).</description>
         </rule>
       </rules>
@@ -3919,21 +3922,20 @@
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade-1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="b28c-c419-ad93-9e2b" name="Outlier" hidden="false" targetId="0a60-4c58-5666-78ee" type="rule"/>
         <infoLink id="2bbb-f098-9b70-1ae3" name="Vectored" hidden="false" targetId="fbc4-2a68-7c00-d6f1" type="rule"/>
-        <infoLink id="7d3b-df36-b355-531e" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9764-6f3d-0db7-b7b8" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="40.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="55.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="1.0"/>
       </costs>
@@ -3977,7 +3979,7 @@
         <categoryLink id="bfeb-999f-d797-c03b" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="40.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="30.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="1.0"/>
       </costs>
@@ -4104,6 +4106,67 @@
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="477a-d6ab-6ba0-5bb9" name="Burnaby Battlestar Carrier" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="77e6-7d5b-2f03-a55d" name="Burnaby" publicationId="bb34-1413-pubN67767" page="111" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">6&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">7&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">12</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">5</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Launch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="64e0-a073-fe57-3cd9" name="Burnaby - Fighters &amp; Bombers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">3</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+        <profile id="d89d-8ad3-8183-c1b4" name="Burnaby A - Cobra Heavy Laser" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough(6), Flash</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fba5-81fc-d22c-11ad" name="Burnaby B - UF­6400 Mass Driver Turrets" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6774-f95f-0fd7-6f79" name="Burnaby C - Shark Missile Bays" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">D6+1</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6d84-4b36-f2a6-5239" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="12ea-7c79-811d-5d1f" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
+        <infoLink id="8815-c915-15e5-bb55" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="2094-6672-6510-1316" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="180.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="3.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="10.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="70d1-92ea-1fad-ec08" name="Light Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="97fd-a536-0b2b-7e1c">
@@ -4161,6 +4224,7 @@
         <entryLink id="1cd8-2908-c35b-2827" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="5f7d-6ce1-41a1-921f" type="selectionEntry"/>
         <entryLink id="9b8a-029c-61d9-a68c" name="Venice Command Battlecruiser" hidden="false" collective="false" import="true" targetId="ef3c-342d-5472-e41c" type="selectionEntry"/>
         <entryLink id="139f-b811-6078-2652" name="Rome Battlecruiser" hidden="false" collective="false" import="true" targetId="ca19-fb38-805b-1309" type="selectionEntry"/>
+        <entryLink id="fd26-0f80-eb30-3473" name="Burnaby Battlestar Carrier" hidden="false" collective="false" import="true" targetId="477a-d6ab-6ba0-5bb9" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7c4f-dac9-7fb2-2b27" name="Super Heavy Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="981c-75c8-3727-e62c">

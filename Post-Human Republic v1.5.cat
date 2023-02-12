@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="620d-f7e0-131c-2882" name="Post-Human Republic: 1st Edition (2016)" revision="14" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="620d-f7e0-131c-2882" name="Post-Human Republic v1.5" revision="15" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="021f-5f2e-19c2-d42f" name="Fleet" hidden="false" collective="false" import="true" targetId="2835-d9a7-5bf3-724a" type="selectionEntry"/>
     <entryLink id="52d5-9d64-2d5d-d8ad" name="Flag Battlegroup" hidden="false" collective="false" import="true" targetId="aaea-90f5-3f4d-226e" type="selectionEntry"/>
@@ -51,7 +51,7 @@
         <profile id="1352-b142-fca2-145f" name="Heracles" publicationId="bb34-1413-pubN67767" page="166" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">10&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">12&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">10&quot;</characteristic>
             <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">22</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
@@ -61,7 +61,7 @@
             <characteristic name="Special" typeId="4717-adad-0be5-3c60"/>
           </characteristics>
         </profile>
-        <profile id="2d6d-c5ae-79b6-0a76" name="Heracles A - Heavy Calibre Cannonade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="2d6d-c5ae-79b6-0a76" name="Heracles A - Heavy Calibre Broadside Cannonade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
@@ -70,7 +70,7 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(H&amp;S)</characteristic>
           </characteristics>
         </profile>
-        <profile id="3968-d7da-eb9a-0a0d" name="Heracles B - Heavy Calibre Cannonade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="3968-d7da-eb9a-0a0d" name="Heracles B - Heavy Calibre Broadside Cannonade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
@@ -91,8 +91,8 @@
         <profile id="a884-bf11-29de-2872" name="Heracles C - Dark Matter Cannon" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">3</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F (N)</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Crippling, Bloom</characteristic>
           </characteristics>
@@ -121,7 +121,7 @@
         <profile id="613d-a118-c72d-4364" name="Minos" publicationId="bb34-1413-pubN67767" page="167" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">10&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">12&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">10&quot;</characteristic>
             <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">22</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
@@ -143,7 +143,7 @@
             <characteristic name="Special" typeId="0574-9897-4dc9-48e8">L(1)</characteristic>
           </characteristics>
         </profile>
-        <profile id="953f-c85b-eee5-0c1e" name="Minos A - Heavy Calibre Cannonade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="953f-c85b-eee5-0c1e" name="Minos A - Heavy Calibre Broadside Cannonade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
@@ -152,7 +152,7 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(H&amp;S)</characteristic>
           </characteristics>
         </profile>
-        <profile id="d4d9-0002-118f-e6d9" name="Minos B - Heavy Calibre Cannonade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="d4d9-0002-118f-e6d9" name="Minos B - Heavy Calibre Broadside Cannonade" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
@@ -164,7 +164,7 @@
         <profile id="26eb-c4e8-3b10-942f" name="Minos C - Neutron Missiles" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">D3+1</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2D3</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Crippling, Close Action</characteristic>
@@ -205,40 +205,40 @@
             <characteristic name="Special" typeId="4717-adad-0be5-3c60"/>
           </characteristics>
         </profile>
-        <profile id="0a72-f5dd-962c-3835" name="Leonidas A - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="0a72-f5dd-962c-3835" name="Leonidas A - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="31d8-e3b4-57c1-1af4" name="Leonidas B - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="31d8-e3b4-57c1-1af4" name="Leonidas B - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="2c46-b451-7902-4553" name="Leonidas C - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="2c46-b451-7902-4553" name="Leonidas C - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="d56c-00e4-2ead-a248" name="Leonidas D - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="d56c-00e4-2ead-a248" name="Leonidas D - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="633a-162b-4550-8c21" name="Leonidas E - Medium Calibre Broadside" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -247,7 +247,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-2, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(3), Linked-2</characteristic>
           </characteristics>
         </profile>
         <profile id="9634-989b-a76c-25c2" name="Leonidas F - Medium Calibre Broadside" publicationId="c57a-7b01-abc2-93d9" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -256,7 +256,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-2, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(3), Linked-2</characteristic>
           </characteristics>
         </profile>
         <profile id="1a26-c1c8-64e4-7cba" name="Leonidas G - Hornet Drones" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -302,22 +302,22 @@
             <characteristic name="Special" typeId="4717-adad-0be5-3c60"/>
           </characteristics>
         </profile>
-        <profile id="3dd3-bee6-c600-76b0" name="Agamemnon A - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="3dd3-bee6-c600-76b0" name="Agamemnon A - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="b406-62b7-1953-ff32" name="Agamemnon D - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="b406-62b7-1953-ff32" name="Agamemnon D - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="6fe3-2aca-aad7-3e5e" name="Agamemnon E - Medium Calibre Broadside" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -326,7 +326,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-2, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(3), Linked-2</characteristic>
           </characteristics>
         </profile>
         <profile id="9ff0-60fa-5d7e-2be7" name="Agamemnon F - Medium Calibre Broadside" publicationId="c57a-7b01-abc2-93d9" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -335,7 +335,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-2, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(3), Linked-2</characteristic>
           </characteristics>
         </profile>
         <profile id="fe43-1c94-3fe4-5035" name="Agamemnon G - Hornet Drones" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -347,22 +347,22 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
           </characteristics>
         </profile>
-        <profile id="59da-6107-bbd8-0ba4" name="Agamemnon B - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="59da-6107-bbd8-0ba4" name="Agamemnon B - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="0f62-a223-8449-eaa8" name="Agamemnon C - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="0f62-a223-8449-eaa8" name="Agamemnon C - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -405,40 +405,40 @@
             <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
           </characteristics>
         </profile>
-        <profile id="bf18-6fdd-d702-b639" name="Scipio A - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="bf18-6fdd-d702-b639" name="Scipio A - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="1640-58c5-00a2-4017" name="Scipio B - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="1640-58c5-00a2-4017" name="Scipio B - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="948f-c066-eb65-061e" name="Scipio C - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="948f-c066-eb65-061e" name="Scipio C - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="df26-6da8-b12b-4c64" name="Scipio D - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="df26-6da8-b12b-4c64" name="Scipio D - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="ea0a-111f-bd91-84af" name="Scipio E - Hornet Drones" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -491,40 +491,40 @@
             <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
           </characteristics>
         </profile>
-        <profile id="9a86-292e-3207-dfeb" name="Priam A - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="9a86-292e-3207-dfeb" name="Priam A - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="0617-cc63-62e0-344a" name="Priam B - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="0617-cc63-62e0-344a" name="Priam B - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="7c5c-c143-5520-4642" name="Priam C - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="7c5c-c143-5520-4642" name="Priam C - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="8ce9-f829-063f-6b95" name="Priam D - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="8ce9-f829-063f-6b95" name="Priam D - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="e162-983b-4bb7-e9c4" name="Priam E - Hornet Drones" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -577,7 +577,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="e143-e506-f58d-549c" name="Hector B - Medium Calibre Broadside" publicationId="bb34-1413-pubN72457" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -586,7 +586,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="f26f-ea49-7ba9-ac5a" name="Hector C - Twin Supernova Laser" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -595,7 +595,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F (N)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough(6), Flash</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough(8), Flash</characteristic>
           </characteristics>
         </profile>
         <profile id="3e25-7102-f75e-f47a" name="Hector D - Wasp Drones" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -654,7 +654,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(H&amp;S), Linked-1, Fusillade(2)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(H&amp;S), Fusillade(2), Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="e98e-fc31-03bf-e74c" name="Achilles B - Heavy Calibre Broadside" publicationId="bb34-1413-pubN72457" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -663,7 +663,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(H&amp;S), Linked-1, Fusillade(2)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(H&amp;S), Fusillade(2), Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="7927-2b5e-706d-7a55" name="Achilles C - Wasp Drones" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -723,7 +723,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F (N)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough(6), Flash</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough(8), Flash</characteristic>
           </characteristics>
         </profile>
         <profile id="d3cd-28e2-6e53-47b2" name="Bellerophon B - Wasp Drones" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -852,7 +852,7 @@
             <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
           </characteristics>
         </profile>
-        <profile id="7ff1-c0b9-42a5-8ee5" name="Ganymede A - Medium Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="7ff1-c0b9-42a5-8ee5" name="Ganymede A - Medium Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
@@ -861,7 +861,7 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
           </characteristics>
         </profile>
-        <profile id="a43a-86af-e86e-35a2" name="Ganymede B - Medium Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="a43a-86af-e86e-35a2" name="Ganymede B - Medium Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
@@ -882,7 +882,7 @@
         <profile id="fee0-3e82-9ae7-76f8" name="Ganymede D - Medium Calibre Turret" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
@@ -937,7 +937,7 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="9b58-abc6-7cd1-a0ec" name="Orion B - Medium Calibre Broadside" publicationId="bb34-1413-pubN72457" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -946,13 +946,13 @@
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="492f-07b1-4f79-a9f2" name="Orion C - Medium Calibre Turret" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
@@ -1018,40 +1018,40 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
           </characteristics>
         </profile>
-        <profile id="e1ce-e3f6-b529-8fa4" name="Ajax A - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="e1ce-e3f6-b529-8fa4" name="Ajax A - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="acdd-807e-9f83-bd82" name="Ajax B - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="acdd-807e-9f83-bd82" name="Ajax B - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="f2ba-09b4-601c-6580" name="Ajax C - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="f2ba-09b4-601c-6580" name="Ajax C - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="a823-9f13-0af9-a33b" name="Ajax D - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="a823-9f13-0af9-a33b" name="Ajax D - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1090,46 +1090,46 @@
             <characteristic name="Special" typeId="4717-adad-0be5-3c60"/>
           </characteristics>
         </profile>
-        <profile id="6e96-a31c-20fa-7b0c" name="Perseus A - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="6e96-a31c-20fa-7b0c" name="Perseus A - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="e6a6-57b9-94e1-0063" name="Perseus B - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="e6a6-57b9-94e1-0063" name="Perseus B - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-2, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-2</characteristic>
           </characteristics>
         </profile>
-        <profile id="0b16-904e-fca6-01e3" name="Perseus C - Heavy Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="0b16-904e-fca6-01e3" name="Perseus C - Heavy Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(H&amp;S), Linked-1, Fusillade(1)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(H&amp;S), Fusillade(1), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="8c80-bd51-0b92-4091" name="Perseus D - Heavy Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="8c80-bd51-0b92-4091" name="Perseus D - Heavy Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(H&amp;S), Linked-2, Fusillade(1)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(H&amp;S), Fusillade(1), Linked-2</characteristic>
           </characteristics>
         </profile>
         <profile id="0791-0aff-35d5-f5c1" name="Perseus E - Medium Calibre Turret" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
@@ -1178,28 +1178,28 @@
             <characteristic name="Special" typeId="4717-adad-0be5-3c60">Launch</characteristic>
           </characteristics>
         </profile>
-        <profile id="55ba-7a05-fd43-5880" name="Ikarus A - Medium Calibre Battery" publicationId="bb34-1413-pubN72457" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="55ba-7a05-fd43-5880" name="Ikarus A - Medium Calibre Broadside Battery" publicationId="bb34-1413-pubN72457" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1, Fusillade(2)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(2), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="89be-b1fa-3d56-1199" name="Ikarus B - Medium Calibre Battery" publicationId="bb34-1413-pubN72457" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="89be-b1fa-3d56-1199" name="Ikarus B - Medium Calibre Broadside Battery" publicationId="bb34-1413-pubN72457" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1, Fusillade(2)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(2), Linked-1</characteristic>
           </characteristics>
         </profile>
         <profile id="45b3-b958-759f-8e32" name="Ikarus C - Medium Calibre Turret" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
@@ -1248,46 +1248,46 @@
             <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">10&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">9</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
-            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">2</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">4</characteristic>
             <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-3</characteristic>
             <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">M</characteristic>
             <characteristic name="Special" typeId="4717-adad-0be5-3c60"/>
           </characteristics>
         </profile>
-        <profile id="225c-a874-4898-109b" name="Theseus A - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="225c-a874-4898-109b" name="Theseus A - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-1, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="dbcf-9d3e-58ef-184c" name="Theseus C - Medium Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="dbcf-9d3e-58ef-184c" name="Theseus C - Medium Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1, Fusillade(2)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(2), Linked-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="dcbb-0b41-52cd-8118" name="Theseus B - Light Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="dcbb-0b41-52cd-8118" name="Theseus B - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Linked-2, Fusillade(3)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-2</characteristic>
           </characteristics>
         </profile>
-        <profile id="bca0-2875-2793-fff7" name="Theseus D - Medium Calibre Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+        <profile id="bca0-2875-2793-fff7" name="Theseus D - Medium Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-2, Fusillade(2)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(2), Linked-2</characteristic>
           </characteristics>
         </profile>
         <profile id="3c57-4d9a-7659-c315" name="Theseus E - Wasp Drones" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -1313,7 +1313,7 @@
         <entryLink id="8cca-6df8-8eac-96dd" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="bb92-8002-0336-3faf" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="89.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="90.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="5.0"/>
       </costs>
@@ -3395,7 +3395,7 @@
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">10&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
-            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">4&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">5&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">5</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">2+</characteristic>
             <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">3</characteristic>
@@ -3432,7 +3432,7 @@
         <categoryLink id="9479-2df6-eba8-8c4d" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="48.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="50.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="1.0"/>
       </costs>
@@ -3470,7 +3470,7 @@
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">8&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
-            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">8&quot;</characteristic>
             <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">5</characteristic>
             <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">2+</characteristic>
             <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">3</characteristic>
@@ -3497,7 +3497,7 @@
         <categoryLink id="0d20-e5eb-5c3a-1cc7" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="42.0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="45.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="1.0"/>
       </costs>
@@ -3718,10 +3718,14 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="a3de-dd77-541c-beb9" name="Holo Debris Field" hidden="false">
+          <description>At the end of this ship’s activation you may place a Fine Debris Field within 3” of this ship. These debris fields are removed at the end of the Roundup phase and are circular with a 4” diameter (a D6 or custom template are perfect tokens to represent these). Friendly ships and Launch Assets ignore these Debris Fields</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="184d-398e-1c98-d7c3" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
         <infoLink id="8342-51b4-601c-4654" name="Close Action (Swarmer)" hidden="false" targetId="5728-9541-723c-84a4" type="rule"/>
-        <infoLink id="95f3-8ac5-1fd6-ec39" name="Holo-Debris Field" hidden="false" targetId="736b-bc7d-430a-b1df" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6387-bf35-5c50-3ec2" name="New CategoryLink" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -3814,7 +3818,6 @@
       <infoLinks>
         <infoLink id="182b-b272-8879-c37f" name="Outlier" hidden="false" targetId="0a60-4c58-5666-78ee" type="rule"/>
         <infoLink id="47d7-93fd-b8fb-146a" name="Close Action (Swarmer)" hidden="false" targetId="5728-9541-723c-84a4" type="rule"/>
-        <infoLink id="7f55-8c6c-0725-b341" name="Drone Repair" hidden="false" targetId="ed73-ef7d-b54e-db2b" type="rule"/>
         <infoLink id="1b6a-bee9-bab0-585a" name="Regenerate(X)" hidden="false" targetId="e485-bf08-3dea-b503" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3827,26 +3830,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="35ef-106a-199c-8db2" name="Ourania Swiftlink" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="efdd-2de4-2270-b745" value="-1.0">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="efdd-2de4-2270-b745" value="2.0">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="efdd-2de4-2270-b745" value="3.0">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="efdd-2de4-2270-b745" type="max"/>
-      </constraints>
       <profiles>
         <profile id="a6c2-0d95-2238-8606" name="Ourania" publicationId="bb34-1413-pubN67767" page="180" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -3862,10 +3845,14 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="777e-6fae-3920-1e58" name="Targeting Link" hidden="false">
+          <description>If a friendly ship can measure its Weapons Range to this ship (discounting any spikes), it may use this ship as the origin of its attacks. If it does, it measures Weapons Range from the Ouriana (using the Ouriana’s Scan). Attacks made this way must still be in the weapon arc of the firing ship. This rule has no effect on Close Action weapons.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="7706-e62a-2b04-edb8" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
         <infoLink id="4ae9-8df7-06fd-b2de" name="Outlier" hidden="false" targetId="0a60-4c58-5666-78ee" type="rule"/>
-        <infoLink id="b61f-298f-c1a2-8d2b" name="Targeting Link" hidden="false" targetId="1bd1-7a72-4ac3-e1b7" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7e60-eeac-ad42-aa8f" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -3944,6 +3931,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7f4c-a918-65c1-dd1f" name="Ourania Swiftlinks" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="9ee6-efab-3dd8-1a96" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="9ee6-efab-3dd8-1a96" value="3.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="9ee6-efab-3dd8-1a96" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ee6-efab-3dd8-1a96" type="max"/>
+      </constraints>
       <entryLinks>
         <entryLink id="72a7-bfee-bb82-7c10" name="Ourania Swiftlink" hidden="false" collective="false" import="true" targetId="35ef-106a-199c-8db2" type="selectionEntry">
           <constraints>
@@ -3989,6 +3996,84 @@
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc69-660c-702c-b86d" name="Sisyphus Heavy Cruiser" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9d12-1cf9-33cf-825c" name="Sisyphus" publicationId="bb34-1413-pubN67767" page="169" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">8&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">6&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">7&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">13</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">5</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Launch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c4d1-fe27-b2fb-3a6e" name="Sisyphus - Torpedo" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">1</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8">L(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ac99-00f3-ce78-743b" name="Sisyphus A - Bombardment Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Bombardment</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="45cf-79a6-6ed4-1f95" name="Sisyphus B - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fb07-90cd-6eb2-d4d8" name="Sisyphus C - Light Calibre Broadside Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre(L), Fusillade(3), Linked-1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="31af-28db-9736-1650" name="Sisyphus D - Wasp Drones" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">D3+1</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1420-9547-60ab-8407" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
+        <infoLink id="11c9-2f6c-0a83-6ae9" name="Bombardment" hidden="false" targetId="9e06-f148-f8a3-26fb" type="rule"/>
+        <infoLink id="fb4a-c850-8caf-6a20" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="8315-5b24-7c92-7164" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
+        <infoLink id="5244-0db0-f69e-874f" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="1282-49c8-bb5d-392b" name="Calibre(X)" hidden="false" targetId="3290-a288-d618-2403" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="12cb-5302-e971-d6b6" name="New CategoryLink" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fa8c-4cdb-b9f4-c465" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="193e-4519-9376-b656" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="170.0"/>
+        <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="1.0"/>
+        <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="10.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4058,6 +4143,7 @@
         <entryLink id="8c28-79f2-54b9-e5d0" name="Pungari Tresher Hive Ship" hidden="false" collective="false" import="true" targetId="12d1-10f4-521e-b853" type="selectionEntry"/>
         <entryLink id="d3c5-a287-d18d-5e93" name="Agrippa Interference Cruiser" hidden="false" collective="false" import="true" targetId="dcc2-ab1d-5355-247b" type="selectionEntry"/>
         <entryLink id="b396-29b8-c8f7-c397" name="Pompeius Battlecruiser" hidden="false" collective="false" import="true" targetId="8da4-2001-875e-eadf" type="selectionEntry"/>
+        <entryLink id="c223-3e19-d457-8c05" name="Sisyphus Heavy Cruiser" hidden="false" collective="false" import="true" targetId="fc69-660c-702c-b86d" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2e5c-fa09-313c-eb61" name="Dreadnought Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="d71e-cc2d-f889-9166">
