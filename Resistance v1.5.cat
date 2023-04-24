@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5810-52c0-23f0-8f9f" name="Resistance v1.5" revision="15" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5810-52c0-23f0-8f9f" name="Resistance v1.5" revision="16" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="756e-82a6-2a28-d1ff" name="Fleet" hidden="false" collective="false" import="true" targetId="f7f2-92f6-120a-ede1" type="selectionEntry"/>
     <entryLink id="b753-6d03-2fb3-4a6e" name="Flag Battlegroup" hidden="false" collective="false" import="true" targetId="335e-0ae5-3510-48d3" type="selectionEntry"/>
@@ -1628,7 +1628,6 @@
                 <condition field="selections" scope="c89f-dfbc-74ad-2b4d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abc8-38b7-a2f0-8d07" type="greaterThan"/>
               </conditions>
               <modifiers>
-                <modifier type="set" field="1402-313c-914d-f053" value="6&quot;"/>
                 <modifier type="set" field="5033-56fa-1878-bbff" value="12&quot;"/>
               </modifiers>
             </modifierGroup>
@@ -2196,32 +2195,27 @@
                 <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f488-b25b-ba0d-4746" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="increment" field="e888-2584-886f-7f2c" value="12.0">
+            <modifier type="increment" field="e888-2584-886f-7f2c" value="5.0">
               <repeats>
-                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="726b-7c6a-c094-7026" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="427f-7b4c-68b0-e60e" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7fa-5397-ce33-f0ed" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d40a-eeef-5365-44e4" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee11-c149-7f1e-549b" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="802f-1366-504b-8c53" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d18d-ed5b-bfc5-31e1" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" field="e888-2584-886f-7f2c" value="15.0">
+              <repeats>
+                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abc8-38b7-a2f0-8d07" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" field="e888-2584-886f-7f2c" value="10.0">
               <repeats>
-                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abc8-38b7-a2f0-8d07" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f488-b25b-ba0d-4746" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee11-c149-7f1e-549b" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f710-c0c7-41d6-5cdc" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="e888-2584-886f-7f2c" value="8.0">
-              <repeats>
                 <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0408-dbad-267b-decf" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d40a-eeef-5365-44e4" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="e888-2584-886f-7f2c" value="5.0">
-              <repeats>
-                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2dae-2e6f-6289-c522" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="427f-7b4c-68b0-e60e" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="802f-1366-504b-8c53" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d18d-ed5b-bfc5-31e1" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7fa-5397-ce33-f0ed" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="726b-7c6a-c094-7026" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="4b05-913b-bda6-f2ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f710-c0c7-41d6-5cdc" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -2265,7 +2259,6 @@
                     <condition field="selections" scope="4b05-913b-bda6-f2ea" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abc8-38b7-a2f0-8d07" type="greaterThan"/>
                   </conditions>
                   <modifiers>
-                    <modifier type="set" field="1402-313c-914d-f053" value="6&quot;"/>
                     <modifier type="set" field="5033-56fa-1878-bbff" value="12&quot;"/>
                   </modifiers>
                 </modifierGroup>
@@ -3165,7 +3158,7 @@
             <entryLink id="e27c-1e55-20f3-cd08" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="e888-2584-886f-7f2c" value="60.0"/>
+            <cost name="pts" typeId="e888-2584-886f-7f2c" value="55.0"/>
             <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
             <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="5.0"/>
           </costs>
@@ -3294,7 +3287,6 @@
                 <condition field="selections" scope="e876-1c80-9b9c-92e1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abc8-38b7-a2f0-8d07" type="greaterThan"/>
               </conditions>
               <modifiers>
-                <modifier type="set" field="1402-313c-914d-f053" value="8&quot;"/>
                 <modifier type="set" field="5033-56fa-1878-bbff" value="10&quot;"/>
               </modifiers>
             </modifierGroup>
@@ -3904,15 +3896,16 @@
             <modifier type="increment" field="e888-2584-886f-7f2c" value="5.0">
               <repeats>
                 <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7fa-5397-ce33-f0ed" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2dae-2e6f-6289-c522" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="427f-7b4c-68b0-e60e" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="802f-1366-504b-8c53" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d18d-ed5b-bfc5-31e1" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee11-c149-7f1e-549b" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d40a-eeef-5365-44e4" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="increment" field="e888-2584-886f-7f2c" value="12.0">
+            <modifier type="increment" field="e888-2584-886f-7f2c" value="15.0">
               <repeats>
-                <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="726b-7c6a-c094-7026" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abc8-38b7-a2f0-8d07" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" field="ac2f-9b71-e1c5-783a" value="3.0">
@@ -3922,16 +3915,10 @@
             </modifier>
             <modifier type="increment" field="e888-2584-886f-7f2c" value="10.0">
               <repeats>
-                <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee11-c149-7f1e-549b" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abc8-38b7-a2f0-8d07" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f488-b25b-ba0d-4746" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f710-c0c7-41d6-5cdc" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="e888-2584-886f-7f2c" value="8.0">
-              <repeats>
+                <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="726b-7c6a-c094-7026" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0408-dbad-267b-decf" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="747e-db55-c001-4e77" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d40a-eeef-5365-44e4" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -4033,7 +4020,6 @@
                     <condition field="selections" scope="747e-db55-c001-4e77" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abc8-38b7-a2f0-8d07" type="greaterThan"/>
                   </conditions>
                   <modifiers>
-                    <modifier type="set" field="1402-313c-914d-f053" value="8&quot;"/>
                     <modifier type="set" field="5033-56fa-1878-bbff" value="10&quot;"/>
                   </modifiers>
                 </modifierGroup>
@@ -4995,7 +4981,7 @@
           </entryLinks>
           <costs>
             <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="5.0"/>
-            <cost name="pts" typeId="e888-2584-886f-7f2c" value="70.0"/>
+            <cost name="pts" typeId="e888-2584-886f-7f2c" value="65.0"/>
             <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -5010,6 +4996,36 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="44e7-7ec0-a30a-849c" name="Heavy Cruiser" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="5.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d40a-eeef-5365-44e4" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="427f-7b4c-68b0-e60e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="802f-1366-504b-8c53" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee11-c149-7f1e-549b" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7fa-5397-ce33-f0ed" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d18d-ed5b-bfc5-31e1" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="15.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abc8-38b7-a2f0-8d07" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="e888-2584-886f-7f2c" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0408-dbad-267b-decf" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f488-b25b-ba0d-4746" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f710-c0c7-41d6-5cdc" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="726b-7c6a-c094-7026" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="ac2f-9b71-e1c5-783a" value="3.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f488-b25b-ba0d-4746" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="429f-9b75-ef14-f5d1" name="Heavy Cruiser - Bulk Landers &amp; Fire Ships" hidden="true" typeId="f174-1347-6969-af9b" typeName="Load">
           <modifiers>
@@ -5101,7 +5117,6 @@
                 <condition field="selections" scope="44e7-7ec0-a30a-849c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abc8-38b7-a2f0-8d07" type="greaterThan"/>
               </conditions>
               <modifiers>
-                <modifier type="set" field="1402-313c-914d-f053" value="8&quot;"/>
                 <modifier type="set" field="5033-56fa-1878-bbff" value="8&quot;"/>
               </modifiers>
             </modifierGroup>
@@ -6988,7 +7003,7 @@
                 <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">1</characteristic>
                 <characteristic name="G" typeId="7396-9d6c-953f-4c4b">2-4</characteristic>
                 <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L</characteristic>
-                <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ablative Armour, Subsystem Network</characteristic>
+                <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ablative Armour</characteristic>
               </characteristics>
             </profile>
             <profile id="d0f8-a3a4-e940-e342" name="Heavy Frigate D - NC-1 Missiles" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
@@ -7251,7 +7266,6 @@
           <infoLinks>
             <infoLink id="7f2e-5f59-8b96-2bec" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
             <infoLink id="c490-d821-b454-9da4" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
-            <infoLink id="a9d5-4449-2a83-910b" name="Subsystem Network" hidden="false" targetId="baf7-16fc-3e6c-26cd" type="rule"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="affd-7a99-1b1d-54a9" name="Light" hidden="false" targetId="627b-146d-b78d-af3c" primary="false"/>
@@ -7563,7 +7577,7 @@
                 <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">1</characteristic>
                 <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-3</characteristic>
                 <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L</characteristic>
-                <characteristic name="Special" typeId="4717-adad-0be5-3c60">Atmospheric, Launch</characteristic>
+                <characteristic name="Special" typeId="4717-adad-0be5-3c60">Atmospheric, Launch, Open</characteristic>
               </characteristics>
             </profile>
             <profile id="0080-59f1-fa5b-ea38" name="Strike Carrier - Dropships" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
@@ -7743,6 +7757,7 @@
             <infoLink id="c55e-8dbe-ad7a-b67f" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
             <infoLink id="51ad-1c39-3dbf-4ea4" name="Atmospheric" hidden="false" targetId="32d9-8628-d42c-4ddd" type="rule"/>
             <infoLink id="e823-d022-720b-b8e5" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
+            <infoLink id="97db-2a1c-afb1-9834" name="Open" hidden="false" targetId="dad0-81c2-bbc4-9eee" type="rule"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="dc63-32a2-bb48-2eeb" name="Light" hidden="false" targetId="627b-146d-b78d-af3c" primary="false"/>
@@ -7758,7 +7773,7 @@
           </selectionEntries>
           <costs>
             <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="1.0"/>
-            <cost name="pts" typeId="e888-2584-886f-7f2c" value="26.0"/>
+            <cost name="pts" typeId="e888-2584-886f-7f2c" value="25.0"/>
             <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -11455,26 +11470,6 @@
     <selectionEntry id="1d2d-e609-dd87-6a84" name="Sagittarii Cutter" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="69e0-a13f-aa60-9808" name="Sagittarius" publicationId="07fb-79fc-ad90-6f9e" page="214" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
-          <modifiers>
-            <modifier type="set" field="4717-adad-0be5-3c60" value="Detector">
-              <conditions>
-                <condition field="selections" scope="1d2d-e609-dd87-6a84" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7d3-b28d-9baf-c0a0" type="greaterThan"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="name" value=" ">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5497-8f5c-cae4-aa50" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a651-152d-426a-6ab7" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ca-3dfe-45ce-741e" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-1c30-1c76-445a" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-7197-54ee-a193" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
@@ -11488,21 +11483,6 @@
           </characteristics>
         </profile>
         <profile id="1f9f-c34e-da37-a5be" name="Sagittarius A - N-12 Artillery Cannons" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <modifiers>
-            <modifier type="append" field="name" value=" ">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5497-8f5c-cae4-aa50" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a651-152d-426a-6ab7" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ca-3dfe-45ce-741e" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-1c30-1c76-445a" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-7197-54ee-a193" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
@@ -11512,142 +11492,13 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoGroups>
-        <infoGroup id="ebdd-006e-e71f-c98e" name="Detector" hidden="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="1d2d-e609-dd87-6a84" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7d3-b28d-9baf-c0a0" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <infoLinks>
-            <infoLink id="eb82-1fe2-dacf-f648" name="Detector" hidden="false" targetId="d671-a199-2d13-3b64" type="rule"/>
-          </infoLinks>
-        </infoGroup>
-        <infoGroup id="e493-ae9c-b4b4-a4e3" name="Light Vent Cannon Turret" hidden="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="1d2d-e609-dd87-6a84" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0aa3-a275-d74d-10f8" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile id="86ea-90b3-23de-1bea" name="Sagittarius D - Light Vent Cannon Turret" publicationId="07fb-79fc-ad90-6f9e" page="215" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-              <modifiers>
-                <modifier type="append" field="name" value=" ">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5497-8f5c-cae4-aa50" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a651-152d-426a-6ab7" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ca-3dfe-45ce-741e" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-1c30-1c76-445a" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-7197-54ee-a193" type="instanceOf"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-                <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-                <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-                <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
-                <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Overcharge, Scald, Unstable</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="9fba-4f57-e7c8-cbe7" name="Overcharge" hidden="false" targetId="def9-d03d-747e-fd91" type="rule"/>
-            <infoLink id="f590-3ced-6f8d-89e6" name="Unstable" hidden="false" targetId="ccb2-ad72-fe3c-8797" type="rule"/>
-            <infoLink id="bb17-9d46-c2e4-4031" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
-          </infoLinks>
-        </infoGroup>
-        <infoGroup id="2fc6-623e-cf39-b02c" name="N-31 Hybrid Gun Turret" hidden="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="1d2d-e609-dd87-6a84" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d17-df3d-2b0d-1f74" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile id="05cd-4675-cdb8-e27b" name="Sagittarius B - N-31 Hybrid Gun Turret" publicationId="07fb-79fc-ad90-6f9e" page="215" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-              <modifiers>
-                <modifier type="append" field="name" value=" ">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5497-8f5c-cae4-aa50" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a651-152d-426a-6ab7" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ca-3dfe-45ce-741e" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-1c30-1c76-445a" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-7197-54ee-a193" type="instanceOf"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-                <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-                <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-                <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
-                <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Squadron-3</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="8574-fd60-515e-22f7" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
-          </infoLinks>
-        </infoGroup>
-        <infoGroup id="96de-4357-5e80-d880" name="NC-16 Missile Turret" hidden="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="1d2d-e609-dd87-6a84" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b39-6275-46cf-3fd0" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile id="ed01-1634-b397-13a1" name="Sagittarius C - NC-16 Missile Turret" publicationId="07fb-79fc-ad90-6f9e" page="215" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-              <modifiers>
-                <modifier type="append" field="name" value=" ">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5497-8f5c-cae4-aa50" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a651-152d-426a-6ab7" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ca-3dfe-45ce-741e" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-1c30-1c76-445a" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-7197-54ee-a193" type="instanceOf"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-                <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">D3+2</characteristic>
-                <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-                <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
-                <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </infoGroup>
-      </infoGroups>
       <infoLinks>
         <infoLink id="76e7-a16a-a678-6eae" name="Outlier" hidden="false" targetId="0a60-4c58-5666-78ee" type="rule"/>
+        <infoLink id="b6c8-896d-e370-859d" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="184b-1bd2-ec9e-5cb7" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="f74d-3b91-9a59-8e4d" name="Frigate Systems" hidden="false" collective="false" import="true" targetId="0c1b-000d-1d98-9ec5" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="1.0"/>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="30.0"/>
@@ -11655,231 +11506,25 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8c16-1260-2684-da9c" name="Sagittarii Cutters" hidden="false" collective="false" import="true" type="unit">
-      <selectionEntries>
-        <selectionEntry id="286f-9798-49f5-cc47" name="Sagittarii Cutter" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="increment" field="e888-2584-886f-7f2c" value="5.0">
-              <repeats>
-                <repeat field="selections" scope="8c16-1260-2684-da9c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0aa3-a275-d74d-10f8" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="8c16-1260-2684-da9c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b39-6275-46cf-3fd0" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="e888-2584-886f-7f2c" value="10.0">
-              <repeats>
-                <repeat field="selections" scope="8c16-1260-2684-da9c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7d3-b28d-9baf-c0a0" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="e888-2584-886f-7f2c" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="8c16-1260-2684-da9c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d17-df3d-2b0d-1f74" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9477-6ec0-bf06-2083" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="331a-3dfa-eb51-f7f7" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="7faf-af86-2523-68f8" name="Sagittarius" publicationId="07fb-79fc-ad90-6f9e" page="214" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
-              <modifiers>
-                <modifier type="set" field="4717-adad-0be5-3c60" value="Detector">
-                  <conditions>
-                    <condition field="selections" scope="8c16-1260-2684-da9c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7d3-b28d-9baf-c0a0" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-                <modifier type="append" field="name" value=" ">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5497-8f5c-cae4-aa50" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a651-152d-426a-6ab7" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ca-3dfe-45ce-741e" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-1c30-1c76-445a" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-7197-54ee-a193" type="instanceOf"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
-                <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
-                <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">16&quot;</characteristic>
-                <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">5</characteristic>
-                <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">4+</characteristic>
-                <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">1</characteristic>
-                <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-3</characteristic>
-                <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L</characteristic>
-                <characteristic name="Special" typeId="4717-adad-0be5-3c60">Outlier</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="a73f-121a-e88d-96c0" name="Sagittarius A - N-12 Artillery Cannons" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-              <modifiers>
-                <modifier type="append" field="name" value=" ">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5497-8f5c-cae4-aa50" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a651-152d-426a-6ab7" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ca-3dfe-45ce-741e" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-1c30-1c76-445a" type="instanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-7197-54ee-a193" type="instanceOf"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-                <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-                <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-                <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
-                <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoGroups>
-            <infoGroup id="b38f-352c-bc89-c305" name="Detector" hidden="true">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="8c16-1260-2684-da9c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7d3-b28d-9baf-c0a0" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <infoLinks>
-                <infoLink id="fc10-f3bd-1ab8-826f" name="Detector" hidden="false" targetId="d671-a199-2d13-3b64" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-            <infoGroup id="2945-eea5-1de8-310e" name="Light Vent Cannon Turret" hidden="true">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="8c16-1260-2684-da9c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0aa3-a275-d74d-10f8" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <profiles>
-                <profile id="b490-9c34-b9cc-7091" name="Sagittarius D - Light Vent Cannon Turret" publicationId="07fb-79fc-ad90-6f9e" page="215" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-                  <modifiers>
-                    <modifier type="append" field="name" value=" ">
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5497-8f5c-cae4-aa50" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a651-152d-426a-6ab7" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ca-3dfe-45ce-741e" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-1c30-1c76-445a" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-7197-54ee-a193" type="instanceOf"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-                    <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-                    <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-                    <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
-                    <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Overcharge, Scald, Unstable</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="bdc5-17f6-e7ad-4fd4" name="Overcharge" hidden="false" targetId="def9-d03d-747e-fd91" type="rule"/>
-                <infoLink id="df20-75cd-25ce-cc37" name="Unstable" hidden="false" targetId="ccb2-ad72-fe3c-8797" type="rule"/>
-                <infoLink id="e55f-2830-4057-f182" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-            <infoGroup id="a96e-85b8-4974-d6e4" name="N-31 Hybrid Gun Turret" hidden="true">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="8c16-1260-2684-da9c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d17-df3d-2b0d-1f74" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <profiles>
-                <profile id="41a1-4f9d-7a3a-030d" name="Sagittarius B - N-31 Hybrid Gun Turret" publicationId="07fb-79fc-ad90-6f9e" page="215" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-                  <modifiers>
-                    <modifier type="append" field="name" value=" ">
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5497-8f5c-cae4-aa50" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a651-152d-426a-6ab7" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ca-3dfe-45ce-741e" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-1c30-1c76-445a" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-7197-54ee-a193" type="instanceOf"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-                    <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-                    <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-                    <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
-                    <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Squadron-3</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="0439-46a1-c3f6-bce1" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-            <infoGroup id="7218-ef31-7960-8dcd" name="NC-16 Missile Turret" hidden="true">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="8c16-1260-2684-da9c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b39-6275-46cf-3fd0" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <profiles>
-                <profile id="c92e-05d4-454e-c50a" name="Sagittarius C - NC-16 Missile Turret" publicationId="07fb-79fc-ad90-6f9e" page="215" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-                  <modifiers>
-                    <modifier type="append" field="name" value=" ">
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5497-8f5c-cae4-aa50" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a651-152d-426a-6ab7" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ca-3dfe-45ce-741e" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-1c30-1c76-445a" type="instanceOf"/>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-7197-54ee-a193" type="instanceOf"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-                    <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">D3+2</characteristic>
-                    <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-                    <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
-                    <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </infoGroup>
-          </infoGroups>
-          <infoLinks>
-            <infoLink id="48f6-4b27-c150-5ba5" name="Outlier" hidden="false" targetId="0a60-4c58-5666-78ee" type="rule"/>
-          </infoLinks>
-          <categoryLinks>
-            <categoryLink id="da00-0870-4dea-df2a" name="New CategoryLink" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
-          </categoryLinks>
-          <costs>
-            <cost name=" SR" typeId="c0c3-cb79-19ac-1dbc" value="1.0"/>
-            <cost name="pts" typeId="e888-2584-886f-7f2c" value="30.0"/>
-            <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
-        <entryLink id="9a3e-4f3e-da16-e735" name="Frigate Systems" hidden="false" collective="false" import="true" targetId="0c1b-000d-1d98-9ec5" type="selectionEntryGroup"/>
+        <entryLink id="b671-2b95-7821-19d0" name="Sagittarii Cutter" hidden="false" collective="false" import="true" targetId="1d2d-e609-dd87-6a84" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5ca8-2d14-c31d-2df6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="98a1-437e-d7df-a615" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="60bd-a652-e4e9-410f" name="Sagittarii Cutter" hidden="false" collective="false" import="true" targetId="1d2d-e609-dd87-6a84" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7cb6-030b-5103-eb6f" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="911d-bf4a-f0ff-8c6a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2d8f-90f7-815a-e9d8" name="Sagittarii Cutter" hidden="false" collective="false" import="true" targetId="1d2d-e609-dd87-6a84" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9387-43b7-cfa8-d2d5" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4256-d56e-848f-ce80" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
@@ -12395,14 +12040,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a4a0-aa4b-19c9-2c4d" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f710-c0c7-41d6-5cdc" name="Bulk Landers &amp; Fire Ships" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="e888-2584-886f-7f2c" value="10.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+            <selectionEntry id="f710-c0c7-41d6-5cdc" name="Bulk Landers &amp; Fire Ships - 10 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d081-fb97-0e82-027a" type="max"/>
               </constraints>
@@ -12412,18 +12050,7 @@
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f488-b25b-ba0d-4746" name="Fighters &amp; Bombers" hidden="false" collective="false" import="true" type="upgrade">
-              <modifierGroups>
-                <modifierGroup>
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="set" field="e888-2584-886f-7f2c" value="10.0"/>
-                    <modifier type="set" field="ac2f-9b71-e1c5-783a" value="3.0"/>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
+            <selectionEntry id="f488-b25b-ba0d-4746" name="Fighters &amp; Bombers - 3 Launch and 10 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5389-f949-807e-9d73" type="max"/>
               </constraints>
@@ -12433,14 +12060,7 @@
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d18d-ed5b-bfc5-31e1" name="N-31 Hybrid Gun Bank" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="e888-2584-886f-7f2c" value="5.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+            <selectionEntry id="d18d-ed5b-bfc5-31e1" name="N-31 Hybrid Gun Bank - 5 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cd2-3cc8-cd37-19f7" type="max"/>
               </constraints>
@@ -12460,14 +12080,7 @@
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d40a-eeef-5365-44e4" name="NC-16 Missile Bank" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="e888-2584-886f-7f2c" value="5.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+            <selectionEntry id="d40a-eeef-5365-44e4" name="NC-16 Missile Bank - 5 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577e-ed5d-0597-f750" type="max"/>
               </constraints>
@@ -12485,14 +12098,7 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af39-4a6b-a80c-30a9" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ee11-c149-7f1e-549b" name="Scanner Array" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="e888-2584-886f-7f2c" value="5.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+            <selectionEntry id="ee11-c149-7f1e-549b" name="Scanner Array - 5 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f67-278f-ef8d-21cb" type="max"/>
               </constraints>
@@ -12502,14 +12108,7 @@
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="abc8-38b7-a2f0-8d07" name="Drive Refit" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="e888-2584-886f-7f2c" value="15.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+            <selectionEntry id="abc8-38b7-a2f0-8d07" name="Drive Refit - 15 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aa6-af58-82e3-c2d9" type="max"/>
               </constraints>
@@ -12519,14 +12118,7 @@
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="726b-7c6a-c094-7026" name="Ablative Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="e888-2584-886f-7f2c" value="10.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+            <selectionEntry id="726b-7c6a-c094-7026" name="Ablative Armour - 10 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df57-b102-dbb6-6c8d" type="max"/>
               </constraints>
@@ -12561,7 +12153,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f6f-d112-d900-bf9c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="802f-1366-504b-8c53" name="N-109 Bombardment Mortar Turret" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="802f-1366-504b-8c53" name="N-109 Bombardment Mortar Turret - 5 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="7cde-e4e9-51ed-84ba" value="4.0">
                   <conditionGroups>
@@ -12578,11 +12170,6 @@
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="44e7-7ec0-a30a-849c" type="instanceOf"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="e888-2584-886f-7f2c" value="5.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
-                  </conditions>
-                </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cde-e4e9-51ed-84ba" type="max"/>
@@ -12593,7 +12180,7 @@
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a7fa-5397-ce33-f0ed" name="N-11 Artillery Cannon Turret" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a7fa-5397-ce33-f0ed" name="N-11 Artillery Cannon Turret - 5 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="bcaa-a379-4b2b-611e" value="4.0">
                   <conditionGroups>
@@ -12610,11 +12197,6 @@
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="44e7-7ec0-a30a-849c" type="instanceOf"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="e888-2584-886f-7f2c" value="5.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
-                  </conditions>
-                </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcaa-a379-4b2b-611e" type="max"/>
@@ -12625,7 +12207,7 @@
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0408-dbad-267b-decf" name="Vent Cannon Turret" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0408-dbad-267b-decf" name="Vent Cannon Turret - 10 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="93c2-04f7-27e1-7f7c" value="4.0">
                   <conditionGroups>
@@ -12642,11 +12224,6 @@
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="44e7-7ec0-a30a-849c" type="instanceOf"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="e888-2584-886f-7f2c" value="10.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
-                  </conditions>
-                </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93c2-04f7-27e1-7f7c" type="max"/>
@@ -12657,7 +12234,7 @@
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="427f-7b4c-68b0-e60e" name="XN-31 Mass Driver Turret" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="427f-7b4c-68b0-e60e" name="XN-31 Mass Driver Turret - 5 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="0074-c2ab-2f12-515b" value="4.0">
                   <conditionGroups>
@@ -12672,11 +12249,6 @@
                 <modifier type="set" field="0074-c2ab-2f12-515b" value="5.0">
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="44e7-7ec0-a30a-849c" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="e888-2584-886f-7f2c" value="5.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -12734,7 +12306,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b867-9e3d-c00b-1367" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d7d3-b28d-9baf-c0a0" name="Sensor Dome" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d7d3-b28d-9baf-c0a0" name="Sensor Dome - 10 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="10.0">
                   <conditions>
@@ -12767,11 +12339,11 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3037-8c78-b04d-02e1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="63cb-3375-7c3e-fa4c" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3037-8c78-b04d-02e1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="63cb-3375-7c3e-fa4c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5d17-df3d-2b0d-1f74" name="N-31 Hybrid Gun Turret" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5d17-df3d-2b0d-1f74" name="N-31 Hybrid Gun Turret - 3 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="fc97-8f1c-ce67-fb29" value="2.0">
                   <conditionGroups>
@@ -12790,7 +12362,8 @@
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc97-8f1c-ce67-fb29" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc97-8f1c-ce67-fb29" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d0b6-1a98-e152-30f7" type="min"/>
               </constraints>
               <costs>
                 <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
@@ -12798,7 +12371,7 @@
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5b39-6275-46cf-3fd0" name="NC-16 Missile Turret" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5b39-6275-46cf-3fd0" name="NC-16 Missile Turret - 5 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="8105-7069-3e3d-7d62" value="2.0">
                   <conditionGroups>
@@ -12817,7 +12390,8 @@
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8105-7069-3e3d-7d62" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8105-7069-3e3d-7d62" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="17a6-9291-b0e7-658e" type="min"/>
               </constraints>
               <costs>
                 <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
@@ -12825,8 +12399,13 @@
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0aa3-a275-d74d-10f8" name="Light Vent Cannon Turret" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0aa3-a275-d74d-10f8" name="Light Vent Cannon Turret - 5 ppm" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
+                <modifier type="set" field="e888-2584-886f-7f2c" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
+                  </conditions>
+                </modifier>
                 <modifier type="set" field="d77a-30fd-68b9-6670" value="2.0">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -12837,14 +12416,10 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" field="e888-2584-886f-7f2c" value="5.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="instanceOf"/>
-                  </conditions>
-                </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d77a-30fd-68b9-6670" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d77a-30fd-68b9-6670" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6957-c22d-7c68-9d81" type="min"/>
               </constraints>
               <costs>
                 <cost name=" Launch" typeId="ac2f-9b71-e1c5-783a" value="0.0"/>
