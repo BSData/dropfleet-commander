@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5810-52c0-23f0-8f9f" name="Resistance v1.5" revision="17" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="5810-52c0-23f0-8f9f" name="Resistance" revision="18" battleScribeVersion="2.03" authorName="morvael; Giftgruen; John Kemp" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="756e-82a6-2a28-d1ff" name="Fleet" hidden="false" collective="false" import="true" targetId="f7f2-92f6-120a-ede1" type="selectionEntry"/>
     <entryLink id="b753-6d03-2fb3-4a6e" name="Flag Battlegroup" hidden="false" collective="false" import="true" targetId="335e-0ae5-3510-48d3" type="selectionEntry"/>
@@ -37,9 +37,7 @@
     <entryLink id="68e0-3c3a-c4a8-7be7" name="Sagittarii Cutter" hidden="false" collective="false" import="true" targetId="1d2d-e609-dd87-6a84" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
-    <infoLink id="f961-4607-2aef-8d3e" name="1 Elite Bridge Crew" hidden="false" targetId="8b8a-54c8-b005-48e9" type="rule"/>
-    <infoLink id="4d96-25a1-33e0-1a1e" name="2 Systems" hidden="false" targetId="49b1-f65c-9131-3056" type="rule"/>
-    <infoLink id="7256-339a-0a0d-f4b3" name="3 Command Cards" hidden="false" targetId="36ee-1c16-f518-a678" type="rule"/>
+    <infoLink id="f961-4607-2aef-8d3e" name="Elite Bridge Crew" hidden="false" targetId="8b8a-54c8-b005-48e9" type="rule"/>
     <infoLink id="edcf-195e-5d46-5ef4" name="Warning" hidden="false" targetId="c67b-d702-0902-6de0" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
@@ -643,9 +641,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="9fa9-6b13-8207-22ae" name="Immobile" hidden="false" targetId="ec3c-6beb-87f2-d6d4" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
             <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
@@ -970,10 +965,10 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d7af-637c-4170-01b2" name="L(X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
+        <infoLink id="d7af-637c-4170-01b2" name="L (X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
         <infoLink id="5355-a433-a3ac-efec" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
-        <infoLink id="0627-102a-d63d-06a7" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
-        <infoLink id="0f3d-e38e-1e83-150a" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="0627-102a-d63d-06a7" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="0f3d-e38e-1e83-150a" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
         <infoLink id="06fa-b760-c1aa-2775" name="Low Power" hidden="false" targetId="99fd-3b81-01a1-e916" type="rule"/>
         <infoLink id="f2be-2144-835b-95dd" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
       </infoLinks>
@@ -1057,10 +1052,10 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4d78-0cef-6286-e10c" name="L(X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
+        <infoLink id="4d78-0cef-6286-e10c" name="L (X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
         <infoLink id="758d-dc67-787d-6a5f" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
-        <infoLink id="64bc-8cf4-6f97-5d4c" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
-        <infoLink id="ed56-4895-e390-f8f2" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="64bc-8cf4-6f97-5d4c" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="ed56-4895-e390-f8f2" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
         <infoLink id="2f9f-42f2-aea4-fcbc" name="Low Power" hidden="false" targetId="99fd-3b81-01a1-e916" type="rule"/>
         <infoLink id="7783-7319-6934-ff39" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
       </infoLinks>
@@ -1144,10 +1139,10 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="477c-8a68-8f1b-0d21" name="L(X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
+        <infoLink id="477c-8a68-8f1b-0d21" name="L (X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
         <infoLink id="8a52-3a2e-627e-f7fd" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
-        <infoLink id="a07c-7b07-40ea-58d1" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
-        <infoLink id="9439-5ee5-31fd-f254" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="a07c-7b07-40ea-58d1" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="9439-5ee5-31fd-f254" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
         <infoLink id="178e-1fc9-2b7e-98f2" name="Overcharge" hidden="false" targetId="def9-d03d-747e-fd91" type="rule"/>
         <infoLink id="c22b-7f90-8eb1-ea03" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="ea82-506b-f1a4-283d" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
@@ -1233,10 +1228,10 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="bc5e-988f-bd84-5a6f" name="L(X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
+        <infoLink id="bc5e-988f-bd84-5a6f" name="L (X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
         <infoLink id="ef2e-b9fc-d2f6-39e4" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
-        <infoLink id="0df6-7e61-59ce-e8c0" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
-        <infoLink id="abe1-9fd5-280b-8759" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="0df6-7e61-59ce-e8c0" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="abe1-9fd5-280b-8759" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
         <infoLink id="a012-1a48-3df1-63d4" name="Overcharge" hidden="false" targetId="def9-d03d-747e-fd91" type="rule"/>
         <infoLink id="659b-b6ca-23e9-ad92" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="1109-6a93-479d-afce" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
@@ -1307,8 +1302,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b707-905e-8ba1-91cd" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
-        <infoLink id="210f-3fac-203c-52d5" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="b707-905e-8ba1-91cd" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="210f-3fac-203c-52d5" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
         <infoLink id="d906-e74b-3388-2005" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="ebfe-f8a4-c64d-e5b4" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
       </infoLinks>
@@ -1389,7 +1384,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="833c-ec9c-71f4-2872" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="833c-ec9c-71f4-2872" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
         <infoLink id="99a1-fb6c-d588-8022" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="a254-1156-5a7d-9196" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
         <infoLink id="e642-1372-5a4e-59a7" name="Low Power" hidden="false" targetId="99fd-3b81-01a1-e916" type="rule"/>
@@ -1459,8 +1454,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e2be-6347-d845-eb14" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
-        <infoLink id="99af-e166-7e53-0bfd" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="e2be-6347-d845-eb14" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="99af-e166-7e53-0bfd" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
         <infoLink id="75b1-6a3e-123a-9606" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="527c-ccbc-b463-6098" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
         <infoLink id="8ee0-9526-5bcf-9851" name="Remnant" hidden="false" targetId="e492-e4de-0f19-fcf5" type="rule"/>
@@ -1729,7 +1724,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="84f9-a791-5fe9-05c6" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="84f9-a791-5fe9-05c6" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="1625-6c3e-ebf3-09f9" name="N-31 Hybrid Gun Bank 2" hidden="true">
@@ -1790,7 +1785,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="71ad-ea97-2c70-5e61" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="71ad-ea97-2c70-5e61" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
             <infoLink id="4997-6c8d-6aca-7bc7" name="Low Power" hidden="false" targetId="99fd-3b81-01a1-e916" type="rule"/>
           </infoLinks>
         </infoGroup>
@@ -1853,7 +1848,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="ca85-8bef-1dc5-ff91" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="e214-418e-0465-3b84" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="e214-418e-0465-3b84" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="1785-3799-a0e4-eaf9" name="NC-16 Missile Bank 2" hidden="true">
@@ -2108,7 +2103,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="8c28-e875-3bb3-ff1d" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="8c28-e875-3bb3-ff1d" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="f7f3-eee0-4a77-54fa" name="XN-31 Mass Driver Turret 2" hidden="true">
@@ -2637,7 +2632,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="0162-0f7a-d34c-5cda" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+                <infoLink id="0162-0f7a-d34c-5cda" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="34b3-8b0a-c4a9-e0c5" name="N-31 Hybrid Gun Bank 2" hidden="true">
@@ -2750,7 +2745,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="6a0f-8f35-304c-a60f" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+                <infoLink id="6a0f-8f35-304c-a60f" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
                 <infoLink id="97d5-7259-b06f-4498" name="Low Power" hidden="false" targetId="99fd-3b81-01a1-e916" type="rule"/>
               </infoLinks>
             </infoGroup>
@@ -2865,7 +2860,7 @@
               </profiles>
               <infoLinks>
                 <infoLink id="3198-9865-212d-72b5" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-                <infoLink id="f809-8311-35f7-dfe7" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+                <infoLink id="f809-8311-35f7-dfe7" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="04bf-b1ac-2814-1acd" name="NC-16 Missile Bank 2" hidden="true">
@@ -3060,7 +3055,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="3cb5-e4fb-05df-78f2" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+                <infoLink id="3cb5-e4fb-05df-78f2" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="7bb7-8005-ecf9-7fcf" name="XN-31 Mass Driver Turret 2" hidden="true">
@@ -3530,7 +3525,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="19ef-0b04-6386-feba" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="19ef-0b04-6386-feba" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="523f-10f3-74ee-16ff" name="N-31 Hybrid Gun Bank 2" hidden="true">
@@ -3591,7 +3586,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="02b7-ba88-3d9b-8dbf" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="02b7-ba88-3d9b-8dbf" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
             <infoLink id="6c55-c928-6606-2a9c" name="Low Power" hidden="false" targetId="99fd-3b81-01a1-e916" type="rule"/>
           </infoLinks>
         </infoGroup>
@@ -3729,7 +3724,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="1b42-7257-1dac-6d4f" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="1b42-7257-1dac-6d4f" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="a2b8-2501-59d9-608b" name="XN-31 Mass Driver Turret 2" hidden="true">
@@ -3822,7 +3817,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="53b0-1296-8b55-cac5" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="edec-b902-0ceb-fce4" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="edec-b902-0ceb-fce4" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="b992-8acf-1c24-371b" name="NC-16 Missile Bank 2" hidden="true">
@@ -4393,7 +4388,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="25af-751e-6c2e-2a82" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+                <infoLink id="25af-751e-6c2e-2a82" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="8dbe-21fe-6e78-24b8" name="N-31 Hybrid Gun Bank 2" hidden="true">
@@ -4506,7 +4501,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="ac05-9ab3-aada-3329" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+                <infoLink id="ac05-9ab3-aada-3329" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
                 <infoLink id="d7a7-cf8a-9ef1-b61b" name="Low Power" hidden="false" targetId="99fd-3b81-01a1-e916" type="rule"/>
               </infoLinks>
             </infoGroup>
@@ -4621,7 +4616,7 @@
               </profiles>
               <infoLinks>
                 <infoLink id="7f14-88a8-5c80-c247" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-                <infoLink id="2e08-20a0-b3f4-1e69" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+                <infoLink id="2e08-20a0-b3f4-1e69" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="9295-9b15-af80-a2af" name="NC-16 Missile Bank 2" hidden="true">
@@ -4849,7 +4844,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="7839-93b3-110a-6ac4" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+                <infoLink id="7839-93b3-110a-6ac4" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="ca5e-cbad-7c75-cf4c" name="XN-31 Mass Driver Turret 2" hidden="true">
@@ -5556,7 +5551,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="7986-ecfc-933b-4b78" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="7986-ecfc-933b-4b78" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="940f-a72e-76f7-4f6d" name="N-31 Hybrid Gun Bank 2" hidden="true">
@@ -5665,7 +5660,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="e712-5cfe-95c5-ea65" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="e712-5cfe-95c5-ea65" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
             <infoLink id="5036-198d-f0c5-d1e2" name="Low Power" hidden="false" targetId="99fd-3b81-01a1-e916" type="rule"/>
           </infoLinks>
         </infoGroup>
@@ -5776,7 +5771,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="d14d-84bf-7bbc-e240" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="dd36-621c-b78e-77c0" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="dd36-621c-b78e-77c0" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="0510-74b5-700b-645f" name="NC-16 Missile Bank 2" hidden="true">
@@ -6029,7 +6024,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="a58c-40c9-14be-d308" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="a58c-40c9-14be-d308" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="096b-9e15-ea90-7b64" name="XN-31 Mass Driver Turret 2" hidden="true">
@@ -8115,7 +8110,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="f705-db87-e976-3f64" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="f705-db87-e976-3f64" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="2012-0fa7-91b7-822a" name="10K Mass Driver 2" hidden="true">
@@ -8150,7 +8145,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="9ecc-ca67-f53c-1447" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="9ecc-ca67-f53c-1447" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="afb9-b0a4-4686-71fd" name="10K Mass Driver 3" hidden="true">
@@ -8185,7 +8180,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="5636-a553-87c1-1637" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="5636-a553-87c1-1637" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="fcbf-ba9b-0cfa-8dd1" name="10K Mass Driver 4" hidden="true">
@@ -8220,7 +8215,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="d271-5e94-1ba7-7f95" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="d271-5e94-1ba7-7f95" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="525d-c722-87a2-89aa" name="NC-16 Missile Battery 1" hidden="true">
@@ -8277,7 +8272,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="f409-73fd-233d-d07a" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="368a-a424-cad7-fb5f" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="368a-a424-cad7-fb5f" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="3157-3301-b4ee-0187" name="NC-16 Missile Battery 2" hidden="true">
@@ -8334,7 +8329,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="bb7d-c006-d73b-538d" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="ebec-5944-03eb-6c73" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="ebec-5944-03eb-6c73" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="3dcb-1eba-3551-8863" name="N-31 Hybrid Gun Battery 1" hidden="true">
@@ -8390,7 +8385,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="73cd-3850-c0b6-ecd2" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="73cd-3850-c0b6-ecd2" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="7eaa-2c0a-b0fb-e978" name="N-31 Hybrid Gun Battery 2" hidden="true">
@@ -8446,7 +8441,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="3d4f-4349-23e1-11dd" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="3d4f-4349-23e1-11dd" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -8829,7 +8824,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="17b0-4802-5921-f549" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+                <infoLink id="17b0-4802-5921-f549" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="d8cc-3ca9-5679-d7b3" name="10K Mass Driver 2" hidden="true">
@@ -8864,7 +8859,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="8052-29cf-e176-9c40" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+                <infoLink id="8052-29cf-e176-9c40" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="12cf-df94-8ab5-51a2" name="10K Mass Driver 3" hidden="true">
@@ -8899,7 +8894,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="e677-29bb-5b91-4c47" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+                <infoLink id="e677-29bb-5b91-4c47" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="384a-9cd6-2f79-f04c" name="10K Mass Driver 4" hidden="true">
@@ -8934,7 +8929,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="0a59-6322-9906-631c" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+                <infoLink id="0a59-6322-9906-631c" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="a5c5-edc8-6f1c-ffc5" name="NC-16 Missile Battery 1" hidden="true">
@@ -8991,7 +8986,7 @@
               </profiles>
               <infoLinks>
                 <infoLink id="875b-9e85-b180-5efe" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-                <infoLink id="21a0-4a19-6c0c-85ec" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+                <infoLink id="21a0-4a19-6c0c-85ec" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="4944-73c5-4d1e-73ca" name="NC-16 Missile Battery 2" hidden="true">
@@ -9048,7 +9043,7 @@
               </profiles>
               <infoLinks>
                 <infoLink id="02e6-7280-e8ed-441a" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-                <infoLink id="b087-7930-7990-d747" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+                <infoLink id="b087-7930-7990-d747" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="48f4-2431-ec51-dcd7" name="N-31 Hybrid Gun Battery 1" hidden="true">
@@ -9104,7 +9099,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="aacd-e74f-0c22-6662" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+                <infoLink id="aacd-e74f-0c22-6662" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="0894-1b7f-c726-40fa" name="N-31 Hybrid Gun Battery 2" hidden="true">
@@ -9160,7 +9155,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="4c64-6054-bd08-8ec5" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+                <infoLink id="4c64-6054-bd08-8ec5" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -9380,7 +9375,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="0f3f-7d44-eb5d-53d1" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="0f3f-7d44-eb5d-53d1" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="b53e-208e-f8dc-b671" name="Heavy Vent Cannons 1" hidden="true">
@@ -9473,7 +9468,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="5faa-76a2-fcd8-14df" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="5faa-76a2-fcd8-14df" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="1dfc-6475-37bf-e04b" name="NC-16 Missile Battery 1" hidden="true">
@@ -9530,7 +9525,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="3c73-6017-3983-a026" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="42d7-c2f6-83ea-2c2d" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="42d7-c2f6-83ea-2c2d" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="8085-2a6c-1d44-7c07" name="10K Mass Driver 2" hidden="true">
@@ -9565,7 +9560,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="c839-1245-a937-60bb" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="c839-1245-a937-60bb" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="e5b1-f159-9c89-bb20" name="10K Mass Driver 3" hidden="true">
@@ -9600,7 +9595,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="3e1e-c949-3896-72c5" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="3e1e-c949-3896-72c5" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="3ab1-ae90-4f7f-49b5" name="10K Mass Driver 4" hidden="true">
@@ -9635,7 +9630,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="f82e-ca38-5ca6-90f7" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="f82e-ca38-5ca6-90f7" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="05ac-f3a4-af5f-8920" name="10K Mass Driver 5" hidden="true">
@@ -9670,7 +9665,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="ac5d-dfc9-af14-285b" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="ac5d-dfc9-af14-285b" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="6455-e780-f96f-d672" name="10K Mass Driver 6" hidden="true">
@@ -9705,7 +9700,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="874f-c7ac-363e-3c26" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="874f-c7ac-363e-3c26" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="b1f2-6b4c-e073-0b5d" name="N-31 Hybrid Gun Battery 2" hidden="true">
@@ -9761,7 +9756,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="dcbb-1a9b-d43c-c2ac" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="dcbb-1a9b-d43c-c2ac" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="a124-7647-3fea-f385" name="N-31 Hybrid Gun Battery 3" hidden="true">
@@ -9817,7 +9812,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="0e4b-2646-fd1b-3bf8" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="0e4b-2646-fd1b-3bf8" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="ed64-d47d-c4aa-8fad" name="NC-16 Missile Battery 2" hidden="true">
@@ -9874,7 +9869,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="7647-1880-8099-04d0" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="fe9b-c8e0-c624-1f1d" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="fe9b-c8e0-c624-1f1d" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="c5de-3bbe-a734-da52" name="NC-16 Missile Battery 3" hidden="true">
@@ -9931,7 +9926,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="cd5b-ee15-0904-e8b6" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="2eb3-4027-9266-a522" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="2eb3-4027-9266-a522" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="c851-d159-96a5-2cf3" name="Heavy Vent Cannons 2" hidden="true">
@@ -10275,7 +10270,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="25bc-cc75-a8c9-b090" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="25bc-cc75-a8c9-b090" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="b814-e1c8-1343-efad" name="Heavy Vent Cannons 1" hidden="true">
@@ -10332,7 +10327,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="b11b-9a2f-488f-79e9" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="b11b-9a2f-488f-79e9" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="3445-19ce-4c09-991b" name="NC-16 Missile Battery 1" hidden="true">
@@ -10365,7 +10360,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="046b-ca65-3120-2811" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="e23c-d2b1-ccf9-98a5" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="e23c-d2b1-ccf9-98a5" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="fa34-9238-731e-1ad9" name="NC-16 Missile Battery 2" hidden="true">
@@ -10398,7 +10393,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="e52e-19ea-c17e-be4c" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="c3a7-9351-8443-4ba9" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="c3a7-9351-8443-4ba9" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="acd0-9d35-c136-b7de" name="NC-16 Missile Battery 3" hidden="true">
@@ -10431,7 +10426,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="cbeb-fd7b-25f1-cd4e" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="4788-ab84-1846-c54d" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="4788-ab84-1846-c54d" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="1f12-0876-22f2-a6b5" name="NC-16 Missile Battery 4" hidden="true">
@@ -10464,7 +10459,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="12d7-d38b-8cff-ba98" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-            <infoLink id="3ec0-6d27-143c-8838" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="3ec0-6d27-143c-8838" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="71d2-3e5a-65c0-925a" name="N-31 Hybrid Gun Battery 2" hidden="true">
@@ -10496,7 +10491,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="5f0b-ae80-8924-56b1" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="5f0b-ae80-8924-56b1" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="4d0f-356a-a627-2937" name="N-31 Hybrid Gun Battery 3" hidden="true">
@@ -10528,7 +10523,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="9373-fd18-24d6-58d9" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="9373-fd18-24d6-58d9" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="8364-a09d-92a0-ade9" name="N-31 Hybrid Gun Battery 4" hidden="true">
@@ -10560,7 +10555,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="6599-bdb8-4aac-dbfd" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+            <infoLink id="6599-bdb8-4aac-dbfd" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="555c-9afe-b585-0777" name="10K Mass Driver 2" hidden="true">
@@ -10583,7 +10578,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="6ace-8009-0bb5-6675" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="6ace-8009-0bb5-6675" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="02cd-4ac8-429d-9316" name="10K Mass Driver 3" hidden="true">
@@ -10606,7 +10601,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="a0a6-3a17-0d01-116f" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="a0a6-3a17-0d01-116f" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="cc18-4451-b853-2033" name="10K Mass Driver 4" hidden="true">
@@ -10629,7 +10624,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="ad22-1f12-6edc-c808" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="ad22-1f12-6edc-c808" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="9651-d61e-116e-1f72" name="10K Mass Driver 5" hidden="true">
@@ -10652,7 +10647,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="7e58-b05f-5694-2b84" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="7e58-b05f-5694-2b84" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="6876-157e-b2b2-2a70" name="10K Mass Driver 6" hidden="true">
@@ -10675,7 +10670,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="b030-d2b1-63e2-5253" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="b030-d2b1-63e2-5253" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="c5b6-8a97-cdc4-e20e" name="10K Mass Driver 7" hidden="true">
@@ -10698,7 +10693,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="c264-67dc-dea7-4926" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="c264-67dc-dea7-4926" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="25bf-a0c7-dd8e-6b79" name="10K Mass Driver 8" hidden="true">
@@ -10721,7 +10716,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="5ab3-e195-19c9-334e" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+            <infoLink id="5ab3-e195-19c9-334e" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="86cd-6eec-679c-7da7" name="Heavy Vent Cannons 2" hidden="true">
@@ -10953,7 +10948,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="49d6-57e4-faa8-dc29" name="L(X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
+        <infoLink id="49d6-57e4-faa8-dc29" name="L (X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
         <infoLink id="a5fe-6abd-f97c-f510" name="Bombardment" hidden="false" targetId="9e06-f148-f8a3-26fb" type="rule"/>
         <infoLink id="266c-6133-0829-02af" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="19d2-cfc9-cca4-5226" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
@@ -11298,7 +11293,7 @@
         <infoLink id="acbe-ca75-61b1-e57c" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
         <infoLink id="7e76-c6ff-260d-ebd3" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="fff6-beae-fec5-d43e" name="Mauler" hidden="false" targetId="f6ec-da54-fd6f-2579" type="rule"/>
-        <infoLink id="f1df-183e-6b1e-3b1f" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="f1df-183e-6b1e-3b1f" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d1da-f43d-e8b0-1aea" name="Light" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>

@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander v1.5" revision="17" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="bb34-1413-3527-b957" name="Dropfleet Commander" revision="17" battleScribeVersion="2.03" authorName="morvael; Giftgruen; John Kemp" authorUrl="https://github.com/BSData/dropfleet-commander/issues" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
-    <publication id="bb34-1413-pubN67767" name="RB"/>
-    <publication id="bb34-1413-pubN71061" name="PLS318"/>
-    <publication id="bb34-1413-pubN72457" name="RU517"/>
-    <publication id="c57a-7b01-abc2-93d9" name="FAQ11"/>
-    <publication id="07fb-79fc-ad90-6f9e" name="BFE"/>
-    <publication id="8d8e-bcaa-3d14-b6e2" name="PTC519"/>
+    <publication id="bb34-1413-pubN67767" name="Dropfleet Commander Rulebook (2016)" shortName="RB-16"/>
+    <publication id="bb34-1413-pubN71061" name="Princess Liner Scenarios (March 2018)" shortName="PLS-1803"/>
+    <publication id="bb34-1413-pubN72457" name="Dropfleet Official Rules Update (May 2017)" shortName="RU-1705"/>
+    <publication id="c57a-7b01-abc2-93d9" name="Dropfleet FAQs and Errata v1.1" shortName="FAQ-1.1" publicationDate="January 2017"/>
+    <publication id="07fb-79fc-ad90-6f9e" name="Battle for Earth (June 2019)" shortName="BFE-1906"/>
+    <publication id="8d8e-bcaa-3d14-b6e2" name="Pungari Tresher Experimental Rules v.1" shortName="PTC-1905" publicationDate="May 2019"/>
+    <publication name="Rulebook v1.7" id="3955-5d68-187e-60e2" hidden="false" shortName="RB-1.7" publicationDate="2023"/>
+    <publication name="FAQ &amp; Errata v2.6.1" id="9636-3710-2b0a-f236" hidden="false" shortName="FAQ-2.6.1" publicationDate="December 2023"/>
+    <publication name="Civilian Ship Scenarios (Apr 2024)" id="ba6e-24f5-358e-f7b2" hidden="false" shortName="CSS-2404"/>
+    <publication name="Fleet Space Stations (Dec 2023)" id="49d6-e5e8-9402-7997" hidden="false" shortName="FSS-2312"/>
+    <publication name="UCM Ship Stat Sheets (Aug 2023)" id="f185-0072-424b-ef19" hidden="false" shortName="UCMStats-2308"/>
+    <publication name="Shaltari Ship Stat Sheets (Dec 2023)" id="da17-7d78-79da-7077" hidden="false" shortName="ShaltariStats-2312"/>
+    <publication name="Scourge Ship Stat Sheets (Apr 2024)" id="cb98-b8e2-3a32-a3d7" hidden="false" shortName="ScourgeStats-2404"/>
+    <publication name="PHR Ship Stat Sheets (Dec 2023)" id="6b9b-4137-d953-56b1" hidden="false" shortName="PHRStats-2312"/>
+    <publication name="Resistance Ship Stat Sheets (Dec 2023)" id="71d6-14ad-06a1-10e4" hidden="false" shortName="ResistanceStats-2312"/>
   </publications>
   <costTypes>
     <costType id="e888-2584-886f-7f2c" name="pts" defaultCostLimit="-1" hidden="false"/>
@@ -272,20 +281,15 @@
     </forceEntry>
   </forceEntries>
   <entryLinks>
-    <entryLink id="6635-0050-3dd4-fc90" name="Dense Debris Field" hidden="false" collective="false" import="true" targetId="b206-1a7f-6c1c-1cb5" type="selectionEntry"/>
-    <entryLink id="06e7-e796-74e8-3bef" name="Fine Debris Field" hidden="false" collective="false" import="true" targetId="dfaa-0d8b-9424-d7e8" type="selectionEntry"/>
     <entryLink id="fa69-6fb1-21bd-36d8" name="Large Space Station" hidden="false" collective="false" import="true" targetId="0d04-e909-0384-1cd6" type="selectionEntry"/>
     <entryLink id="af32-3f42-ab4b-3158" name="Large Cluster" hidden="false" collective="false" import="true" targetId="66fd-e501-8ce7-a35f" type="selectionEntry"/>
     <entryLink id="2e91-f6cf-a8eb-7e16" name="Medium Cluster" hidden="false" collective="false" import="true" targetId="9150-2f97-14e6-ac3c" type="selectionEntry"/>
     <entryLink id="faad-aa0b-0103-280f" name="Medium Space Station" hidden="false" collective="false" import="true" targetId="3f23-ae01-996c-9dbd" type="selectionEntry"/>
     <entryLink id="fd9a-a334-d290-3a4e" name="Small Cluster" hidden="false" collective="false" import="true" targetId="9ea0-2d05-f377-5ab0" type="selectionEntry"/>
     <entryLink id="e5dd-ad97-0a06-4e2f" name="Small Space Station" hidden="false" collective="false" import="true" targetId="df4f-4a71-603a-020b" type="selectionEntry"/>
-    <entryLink id="e89a-2cf4-b9e5-5eb5" name="Planetary Ring" hidden="false" collective="false" import="true" targetId="c03a-0b9f-1847-3b1b" type="selectionEntry"/>
-    <entryLink id="dfd8-2080-6725-20aa" name="Large Solid Object" hidden="false" collective="false" import="true" targetId="f839-e810-46d3-38dd" type="selectionEntry"/>
     <entryLink id="110b-1c70-7f28-18fa" name="Princess Cruise Liner" hidden="false" collective="false" import="true" targetId="ba37-0d61-31f8-abf7" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
-    <infoLink id="6607-47fa-b590-4ebb" name="Sources" hidden="false" targetId="bdef-c212-2fea-48c6" type="rule"/>
     <infoLink id="648d-ece4-2019-6ade" name="Notes" hidden="false" targetId="4b38-af5a-5bb1-7260" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
@@ -595,7 +599,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="75eb-40fe-753f-ccfe" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="75eb-40fe-753f-ccfe" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="4692-e8c5-dc86-556e" name="Escape Velocity" hidden="false" targetId="acfb-b2b0-1b53-d429" type="rule"/>
         <infoLink id="592e-feb4-d895-082d" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
       </infoLinks>
@@ -616,9 +620,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="857f-cff6-0afd-d1e5" name="Volatile" hidden="false" targetId="56bb-f992-4138-699e" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
@@ -636,9 +637,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="5d52-749a-f486-c86f" name="Scanner Uplink" hidden="false" targetId="03ba-7935-3fbf-e2c0" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
@@ -805,7 +803,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d2af-deb4-c95e-b500" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="d2af-deb4-c95e-b500" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="39f7-5ba2-4cd7-adf2" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
       </infoLinks>
       <costs>
@@ -832,93 +830,6 @@
       <infoLinks>
         <infoLink id="c38e-31ce-89fc-fbc4" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="dfaa-0d8b-9424-d7e8" name="Fine Debris Field" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="7368-9aab-d4c0-613e" name="Fine Debris Field" publicationId="bb34-1413-pubN67767" page="52" hidden="false" typeId="0786-d655-cdc7-42d3" typeName="Debris Field">
-          <characteristics>
-            <characteristic name="Lock" typeId="7cad-0cd8-c0be-af65">3+</characteristic>
-            <characteristic name="Attacks" typeId="808e-2023-a4ca-2e70">2</characteristic>
-            <characteristic name="Damage" typeId="eeaa-e9a3-ddc1-1fc9">1</characteristic>
-            <characteristic name="Lock Penalty" typeId="853b-032c-9ab5-30f6">+1</characteristic>
-            <characteristic name="Scan Penalty" typeId="f21a-dd5c-ad67-2490">-6&quot;</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="a282-5102-1f79-25a8" name="Orbital Debris and Launch Assets" hidden="false" targetId="d74e-ff7e-fac9-e986" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="cfd0-1b22-93aa-e154" name="Debris Fields" hidden="false" targetId="7ccb-96a9-0d54-6d4e" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b206-1a7f-6c1c-1cb5" name="Dense Debris Field" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="12e7-a386-06ed-a3e9" name="Dense Debris Field" publicationId="bb34-1413-pubN67767" page="52" hidden="false" typeId="0786-d655-cdc7-42d3" typeName="Debris Field">
-          <characteristics>
-            <characteristic name="Lock" typeId="7cad-0cd8-c0be-af65">2+</characteristic>
-            <characteristic name="Attacks" typeId="808e-2023-a4ca-2e70">2</characteristic>
-            <characteristic name="Damage" typeId="eeaa-e9a3-ddc1-1fc9">1</characteristic>
-            <characteristic name="Lock Penalty" typeId="853b-032c-9ab5-30f6">+2</characteristic>
-            <characteristic name="Scan Penalty" typeId="f21a-dd5c-ad67-2490">-12&quot;</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="d849-94f4-e8ae-d111" name="Orbital Debris and Launch Assets" hidden="false" targetId="d74e-ff7e-fac9-e986" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="5408-de11-8e31-4da1" name="Debris Fields" hidden="false" targetId="7ccb-96a9-0d54-6d4e" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c03a-0b9f-1847-3b1b" name="Planetary Ring" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="d3e3-6c64-9a2f-5aae" name="Planetary Ring" hidden="false" targetId="6f1d-035a-a9e6-2a24" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="bd49-f37d-cba4-39e9" name="Other" hidden="false" targetId="bd1a-35ba-65e3-185b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f839-e810-46d3-38dd" name="Large Solid Object" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="57ea-8a78-8d15-fd32" name="Large Solid Objects" hidden="false" targetId="511d-597c-d00a-9d37" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="74a1-7a1e-b328-cd9e" name="Other" hidden="false" targetId="bd1a-35ba-65e3-185b" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5839-a937-e4a0-cdff" name="Radius" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6d7-f1d4-bc11-e0f7" type="min"/>
-            <constraint field="selections" scope="parent" value="18" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b38c-7be4-3c4f-43dd" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-            <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-            <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
@@ -953,7 +864,7 @@
       <infoLinks>
         <infoLink id="c6e7-ea20-dd6e-98e7" name="Civilian Transport" hidden="false" targetId="2fb8-a8c6-77da-bbb9" type="rule"/>
         <infoLink id="c25f-ecf0-d95a-ba97" name="Atmospheric" hidden="false" targetId="32d9-8628-d42c-4ddd" type="rule"/>
-        <infoLink id="efde-998b-7bf1-5b6a" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
+        <infoLink id="efde-998b-7bf1-5b6a" name="Full-Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
         <infoLink id="0cc5-f7b9-5e2e-243b" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1010,8 +921,20 @@
         <entryLink id="e82b-9826-5491-0c42" name="Industrial Sector" hidden="false" collective="false" import="true" targetId="9838-c0be-f9f6-0041" type="selectionEntry"/>
         <entryLink id="2245-571c-60fa-67ce" name="Military Sector" hidden="false" collective="false" import="true" targetId="4de7-a7ee-a57e-887e" type="selectionEntry"/>
         <entryLink id="d3fe-97fe-a3ec-f50d" name="Orbital Defence Sector" hidden="false" collective="false" import="true" targetId="91eb-c35b-050d-7a93" type="selectionEntry"/>
-        <entryLink id="8d6c-305a-0b76-23ea" name="Power Plant Sector" hidden="false" collective="false" import="true" targetId="db66-0722-bc5f-6bf3" type="selectionEntry"/>
-        <entryLink id="020e-7e6f-328f-e410" name="Comms Station Sector" hidden="false" collective="false" import="true" targetId="508e-f1e1-cbf0-5cba" type="selectionEntry"/>
+        <entryLink id="8d6c-305a-0b76-23ea" name="Power Plant Sector" hidden="false" collective="false" import="true" targetId="db66-0722-bc5f-6bf3" type="selectionEntry">
+          <rules>
+            <rule name="Volatile" id="a2ec-d5c7-5d39-25ec" hidden="false" publicationId="3955-5d68-187e-60e2" page="41">
+              <description>Destruction of this power plant will result in a catastrophic meltdown! If this Sector is destroyed, all other Sectors in the Cluster take 4 damage (saves may be taken against this damage as normal).</description>
+            </rule>
+          </rules>
+        </entryLink>
+        <entryLink id="020e-7e6f-328f-e410" name="Comms Station Sector" hidden="false" collective="false" import="true" targetId="508e-f1e1-cbf0-5cba" type="selectionEntry">
+          <rules>
+            <rule name="Scanner Uplink" id="136d-e562-77c8-0d7f" hidden="false" publicationId="3955-5d68-187e-60e2" page="41">
+              <description>This is the nexus for a network of orbiting and ground based scanners. All ships and other assets controlled by the holder gain +3” to their Scan Value. This effect is cumulative if you control multiple Sectors with this rule.</description>
+            </rule>
+          </rules>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4dcf-b787-ba8c-b03a" name="Orbital Layer" hidden="false" collective="false" import="true" defaultSelectionEntryId="4167-da89-56a2-be97">
@@ -1045,244 +968,259 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="bdef-c212-2fea-48c6" name="Sources" hidden="false">
-      <description>RB - Dropfleet Commander Rulebook (2016)
-FAQ11 - Dropfleet FAQs and Errata 1.1 (January 2017)
-RU517 - Dropfleet Official Rules Update (May 2017)
-PLS318 - Princess Liner Scenarios (March 2018)
-PTC519 - Pungari Tresher Experimental Rules v.1 (May 2019)
-BFE - Battle for Earth (June 2019)
-WWW - Kickstarter, Hawk Forum, and Facebook webpages
-
-With permission from TTCombat.</description>
-    </rule>
     <rule id="4b38-af5a-5bb1-7260" name="Notes" hidden="false">
       <description>It&apos;s best to let Launch and SR cost limits remain at -1 when creating rosters.</description>
     </rule>
-    <rule id="f7b4-257c-0fc5-8fe3" name="Aegis(X)" publicationId="bb34-1413-pubN67767" page="65" hidden="false">
-      <description>Ships with the Aegis special rule add a bonus to the Point Defence value of any friendly ships within 4” of them equal to the number shown in brackets. In order to be affected, ships must be on the same Orbital Layer as the Aegis ship, additionally the bonus also applies to the Aegis ship itself.</description>
+    <rule id="f7b4-257c-0fc5-8fe3" name="Aegis (X)" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
+      <description>Ships with the Aegis special rule add a bonus to the Point Defence value of any friendly ships within 4” of them equal to X. In order to be affected, ships must be on the same Orbital Layer as the Aegis ship. This bonus also applies to the Aegis ship itself.</description>
     </rule>
-    <rule id="c3e1-6bee-9e1e-8f27" name="Air-to-Air" publicationId="bb34-1413-pubN67767" page="66, FAQ11" hidden="false">
+    <rule id="c3e1-6bee-9e1e-8f27" name="Air-to-Air" publicationId="3955-5d68-187e-60e2" page="52" hidden="false">
       <description>While in atmosphere, weapons with this rule ignore the usual penalty to Lock Value and gain -1 to their Lock value when firing at ships in atmosphere. All other penalties still apply, including needing a 6+ to shoot at ground targets. Air to Air weapons gain no benefit from this rule when firing from outside atmosphere. Air to Air weapons that also have the Close Action rule may be fired at targets in atmosphere in addition to other Orbital Layers.</description>
     </rule>
-    <rule id="32d9-8628-d42c-4ddd" name="Atmospheric" publicationId="bb34-1413-pubN67767" page="65" hidden="false">
-      <description>Only ships with the Atmospheric special rule are capable of entering the Atmospheric layers during Orbital Combat.</description>
+    <rule id="32d9-8628-d42c-4ddd" name="Atmospheric" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
+      <description>Only ships with the Atmospheric special rule may enter the Atmospheric orbital layer.</description>
     </rule>
-    <rule id="17ad-3ce8-8d61-f7e4" name="Bloom" publicationId="bb34-1413-pubN67767" page="67" hidden="false">
+    <rule id="17ad-3ce8-8d61-f7e4" name="Bloom" publicationId="3955-5d68-187e-60e2" page="52" hidden="false">
       <description>Weapons with this special rule add a minor spike to the firing ship when this weapon is fired. This is in addition to any spikes gained from special orders or other sources.</description>
     </rule>
-    <rule id="9e06-f148-f8a3-26fb" name="Bombardment" publicationId="bb34-1413-pubN67767" page="67, FAQ11" hidden="false">
-      <description>Weapons with this special rule can only be used on ground sectors. In order to fire a bombardment weapon a ship must be in Low Orbit. A ship cannot use a Bombardment weapon while in Atmosphere, unless specifically stated. Unlike other weapon systems bombardment weapons incur no penalties for firing through orbital layers or shooting through atmosphere – it’s what they’re made for.</description>
+    <rule id="9e06-f148-f8a3-26fb" name="Bombardment" publicationId="3955-5d68-187e-60e2" page="52" hidden="false">
+      <description>Weapons with this special rule can only target ground sectors. To fire a bombardment weapon, a ship must be in Low Orbit. A ship cannot use a Bombardment weapon while in Atmosphere, unless specifically stated. Unlike other weapon systems, Bombardment weapons incur no penalties for firing through orbital layers or shooting through atmosphere.</description>
     </rule>
-    <rule id="bae8-9e71-edf0-b246" name="Burnthrough(X)" publicationId="bb34-1413-pubN67767" page="67" hidden="false">
-      <description>If an Attack dice for a Burnthrough weapon scores equal to or above its Lock number the Attack dice can be rolled again. If the second Lock roll is successful a third Lock roll can be made and so on until a Lock roll is failed. A Burnthrough weapon can score a maximum total of (X) total Hull damage points in one activation.
-If a Critical Hit (i.e. rolling two or higher than the required lock number) is scored by a Burnthrough weapon, not only that die will ignore the target’s Armour. Any subsequent hits rolled by this weapon against the same target during the same activation ignore the target’s armour too.</description>
+    <rule id="bae8-9e71-edf0-b246" name="Burnthrough (X)" publicationId="3955-5d68-187e-60e2" page="52" hidden="false">
+      <description>If an Attack dice for a Burnthrough weapon scores equal to or above its Lock number the Attack dice can be rolled again. If the second Lock roll is successful a third Lock roll can be made and so on until a Lock roll is failed. A Burnthrough weapon can score a maximum total of X total Hull damage (before armour saves are rolled) in one activation.
+If a Critical Hit (i.e. rolling two or higher than the required lock number) is scored by a Burnthrough weapon, only that die will ignore the target’s Armour. Any subsequent hits rolled by this weapon against the same target during the same activation ignore the target’s armour too.</description>
     </rule>
-    <rule id="5816-87fd-bf61-2418" name="Close Action" publicationId="bb34-1413-pubN67767" page="68" hidden="false">
+    <rule id="5816-87fd-bf61-2418" name="Close Action" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
       <description>Close Action weapon systems may only be used against targets that are both within their fire arc and inside the firing ship’s Scan range. Close action weapons can be fired in addition to any other weapon systems permitted by a ship’s orders. A ship that is unable to use any of its weapon systems due to special orders may not use its close action weapons either.
 Hits from Close Action weapons can be stopped by a target’s Point Defence. Resolve the effects of Point Defence before taking any Armour or Passive Countermeasures saving throws.</description>
     </rule>
-    <rule id="d671-a199-2d13-3b64" name="Detector" publicationId="bb34-1413-pubN67767" page="65" hidden="false">
-      <description>Detector ships may always use Active Scan special orders even if their battlegroup has chosen a different special order for the turn. Every Detector ship in a Group may Active Scan, not just one - choose all Detector ships you wish to Active Scan simultaneously.</description>
+    <rule id="d671-a199-2d13-3b64" name="Detector" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
+      <description>Detector ships may always use Active Scan special orders even if their Battlegroup has chosen a different special order for the turn. Every Detector ship in a Group may Active Scan, not just one - choose all Detector ships you wish to Active Scan simultaneously.</description>
     </rule>
-    <rule id="aa43-5926-e824-5cac" name="Flash" publicationId="bb34-1413-pubN67767" page="69" hidden="false">
+    <rule id="aa43-5926-e824-5cac" name="Flash" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
       <description>A ship that is hit by a Flash weapon system gains a Minor Spike in addition to any other damage effects. In addition, if the weapon system inflicts 3 or more damage from the attack, another Minor Spike is added to the target.</description>
     </rule>
-    <rule id="6920-7d49-9ec8-1e76" name="L(X)" publicationId="bb34-1413-pubN67767" page="69" hidden="false">
+    <rule id="6920-7d49-9ec8-1e76" name="L (X)" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
       <description>This weapon may only be fired X times in a game, so make your shots count! This can also apply to Launch Assets (typically to torpedoes), in which case the Asset may only be launched X times in a game.</description>
     </rule>
-    <rule id="6af7-681c-b2c8-5acc" name="Launch" publicationId="bb34-1413-pubN67767" page="65" hidden="false">
-      <description>Ships with the Launch special rule are capable of carrying and using Launch Assets. Launch capable ships will have their launch capacity noted in their descriptions along with the standard type load carried (i.e. Fighters, Bombers or Torpedoes as appropriate).</description>
+    <rule id="6af7-681c-b2c8-5acc" name="Launch" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
+      <description>Ships with the Launch special rule are capable of carrying and using Launch Assets. Launch-capable ships will have their launch capacity noted in their descriptions along with the standard type load carried (i.e. Fighters, Bombers or Torpedoes as appropriate).</description>
     </rule>
-    <rule id="08ea-9db1-110b-0150" name="Linked-X" publicationId="bb34-1413-pubN67767" page="69" hidden="false">
-      <description>A weapon with this rule will normally be paired with a second weapon with the same Link (X) value. In order for a ship to fire more than one weapon it is normally required to declare a Weapons Free special order. However, all weapon systems with the same Link (X) number count as a single weapon system for activation purposes, although they may be fired at different targets.</description>
+    <rule id="08ea-9db1-110b-0150" name="Linked (X)" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
+      <description>A weapon with this rule will normally be paired with a second weapon with the same Linked (X) value. In order for a ship to fire more than one weapon, it is normally required to declare a Weapons Free special order. However, all weapon systems with the same Linked (X) number count as a single weapon system for activation purposes, although they may be fired at different targets.</description>
     </rule>
-    <rule id="dad0-81c2-bbc4-9eee" name="Open" publicationId="bb34-1413-pubN67767" page="65" hidden="false">
+    <rule id="dad0-81c2-bbc4-9eee" name="Open" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>Ships with the Open rule do not need to maintain coherency with other members of their Group or Battlegroup and the Battlegroup will suffer no negative modifiers to their strategy rating while ships with this rule are out of coherency.</description>
     </rule>
-    <rule id="0a60-4c58-5666-78ee" name="Outlier" publicationId="bb34-1413-pubN67767" page="65" hidden="false">
+    <rule id="0a60-4c58-5666-78ee" name="Outlier" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>Ships with this rule may ignore Battlegroup (but not Group) coherency rules, and the Battlegroup will suffer no negative modifiers to their Strategy Rating while ships with this rule are out of Battlegroup coherency.</description>
     </rule>
-    <rule id="becc-b3c9-c26c-abde" name="Rare" publicationId="bb34-1413-pubN67767" page="66" hidden="false">
+    <rule id="becc-b3c9-c26c-abde" name="Rare" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>You may only take a maximum of one of each Rare Group in a Skirmish sized game, two in a Clash and three in a Battle.</description>
     </rule>
-    <rule id="bfbc-e83a-c2b7-eb15" name="Alt-X" publicationId="bb34-1413-pubN67767" page="66" hidden="false">
+    <rule id="bfbc-e83a-c2b7-eb15" name="Alt-X" publicationId="3955-5d68-187e-60e2" page="52" hidden="false">
       <description>A weapon system with Alternate fire modes will be represented by two or more lines on the weapon system characteristics with Alt followed by a number (e.g. Alt-1) in the special section. Only one weapon system with the same Alt number on the weapon characteristics may be fired by the same ship each turn.</description>
     </rule>
-    <rule id="18ec-1b46-d0ed-e680" name="Crippling" publicationId="bb34-1413-pubN67767" page="69, RU517" hidden="false">
-      <description>Weapon systems with the Crippling characteristic inflict crippling damage when they score one or more critical hits in addition to any normal Hull Damage. Crippling damage is incurred regardless of the number of Hull points actually inflicted providing one or more Hull damage is suffered by the target. If a target ship is reduced to 50% hull or below by the attack it will need to make two Crippling Damage rolls and apply both of them.
-If a weapon with the Crippling rule is affected by another rule which would make Critical Hits automatic (such as the Particle rule) then the roll you would have needed to achieve a Critical Hit is the roll required for the Crippling rule to take effect.</description>
+    <rule id="18ec-1b46-d0ed-e680" name="Crippling" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
+      <description>Weapon systems with the Crippling characteristic inflict Crippling Damage when they score one or more critical hits in addition to any normal Hull Damage. Crippling damage is incurred regardless of the number of Hull points actually inflicted providing one or more Hull damage is suffered by the target. If a target ship is reduced to 50% hull or below by the attack, it will need to make two Crippling Damage rolls and apply both of them. If a weapon with the Crippling rule is affected by another rule which would make Critical Hits automatic (such as the Particle rule) then the roll you would have needed to achieve a Critical Hit is the roll required for the Crippling rule to take effect.</description>
     </rule>
-    <rule id="c2d7-5ac4-4165-9954" name="Impel-X" publicationId="bb34-1413-pubN67767" page="69" hidden="false">
-      <description>If the firing player inflicts X damage (after saving throws have been taken) with a single weapon with the Impel (X) special rule, they may turn the target up to 45 degrees in either direction.</description>
+    <rule id="c2d7-5ac4-4165-9954" name="Impel (X)" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
+      <description>If the firing player inflicts X damage to an enemy ship (after saving throws have been taken) with a single weapon with the Impel (X) special rule, they may turn the target up to 45 degrees in either direction.</description>
     </rule>
-    <rule id="06c5-88e4-6e75-a056" name="Particle" publicationId="bb34-1413-pubN67767" page="69" hidden="false">
-      <description>Weapon systems with this rule always inflict Critical Hits if the Lock value of their attack is met and passive saves may not be taken against them.</description>
+    <rule id="06c5-88e4-6e75-a056" name="Particle" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
+      <description>Weapon systems with this rule always inflict Critical Hits if the Lock value of their attack is met. Passive saves may not be taken against them.</description>
     </rule>
-    <rule id="87a7-9394-a079-70fb" name="Shield Booster" publicationId="bb34-1413-pubN67767" page="196" hidden="false">
-      <description>Once per turn, if a friendly ship within 4” and on the same Orbital Layer of a ship with this rule is targeted, the friendly ship may re-roll all failed Passive Countermeasures saves.
-The ship with this rule can choose to target itself. A ship with 13+ Hull Points requires 2 ships with Shield Booster in order to receive this bonus.</description>
+    <rule id="87a7-9394-a079-70fb" name="Shield Booster" publicationId="3955-5d68-187e-60e2" page="55" hidden="false">
+      <description>Once per turn, if a friendly ship within 4” and on the same Orbital Layer of a ship with this rule is targeted, the friendly ship may re-roll all failed Passive Countermeasures saves for that attack.
+The ship with this rule can choose to target itself.
+A ship with 13+ Hull Points requires 2 ships with Shield Booster in order to receive this bonus.</description>
     </rule>
-    <rule id="fbc4-2a68-7c00-d6f1" name="Vectored" publicationId="bb34-1413-pubN67767" page="66" hidden="false">
+    <rule id="fbc4-2a68-7c00-d6f1" name="Vectored" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>Ships with this rule are able to turn at any point in their movement, instead of when the order they have chosen states.</description>
     </rule>
-    <rule id="c72f-5a44-e839-62c0" name="Voidgate-X" publicationId="bb34-1413-pubN67767" page="196" hidden="false">
-      <description>When a Mothership is launching Gates, they are not deployed from the Mothership itself. Instead, they are deployed from Voidgates.
-A Voidgate will have a Voidgate Capacity (Voidgate-X) in its special rules, which represents how many Gate tokens may be deployed through it each turn (note that this is frequently lower than the launch value of Motherships, meaning that you generally need multiple Voidgates to make full use of a Mothership’s potential Launch capacity).
+    <rule id="c72f-5a44-e839-62c0" name="Voidgate-X" publicationId="3955-5d68-187e-60e2" page="56" hidden="false">
+      <description>When a Mothership is launching Gates, they are not deployed from the Mothership itself. Instead, they are deployed from Voidgates. A Voidgate will have a Voidgate Capacity (Voidgate-X) in its special rules, which represents how many Gate tokens may be deployed through it each turn (note that this is frequently lower than the launch value of Motherships, meaning that you generally need multiple Voidgates to make full use of a Mothership’s potential Launch capacity).
 In order to do this, the Voidgate must be within 18” of the Mothership OR within 18” of another Voidgate that is in turn within 18” of the Mothership. You may have more than 2 Voidgates in this chain as long as it is unbroken. Only the Capacity of the Voidgate deploying the Gates is used if multiple Voidgates are chained in this way.
-The eldritch technologies and incredible energies involved in this process also have an offensive side effect - the air surrounding such constructs is loaded with energetic potential, ready to annihilate smaller enemy craft that get too close. If a Voidgate is within 6” of a Cluster then that Cluster counts as having a Defence Battery deployed in it when enemy Dropships or Bulklanders are deploying ground assets. However, Bulk Landers are destroyed on a 4+ rather than the usual 3+.
-Voidgates can also be used to relocate Ground Assets once deployed. During the Ground Combat step of the Roundup Phase you may use nearby Voidgates to enhance the movement abilities of your existing ground forces.
-Ground Asset tokens in Sectors within 3” of a Voidgate in Atmosphere or Space Stations in Low Orbit may be moved to another Sector within 3” of another Voidgate in Atmosphere or another Space Station within 3” of another Voidgate in Low Orbit anywhere else on the table.
-If the token is being moved to a Sector within a Cluster containing an enemy Defence Battery, that token is destroyed on a roll of 6+.
-Ground Assets may not be deployed through any Voidgate which has used the Max Thrust Special Order that turn although that Voidgate may still be part of a chain.
+If a Voidgate is within 6” of a Cluster, then that Cluster counts as having a Defence Battery deployed in it when enemy Dropships or Bulklanders are deploying ground assets. However, Bulk Landers are destroyed on a 4+ rather than the usual 3+.
+Voidgates can also be used to relocate Ground Assets once deployed. During the Ground Combat step of the Roundup Phase, you may use nearby Voidgates to enhance the movement abilities of you existing ground forces.
+Ground Asset tokens in Sectors within 3” of a Voidgate in Atmosphere or Space Stations in Low Orbit may be moved to another Sector within 3” of another Voidgate in Atmosphere or another Space Station within 3” of another Voidgate in Low Orbit anywhere else on the table. If the token is being moved to a Sector within a Cluster containing an enemy Defence Battery, that token is destroyed on a roll of 6+.
+Ground Assets may not be deployed through any Voidgate which has used the Max Thrust Special Order that turn, although that Voidgate may still be part of a chain.
 Any number of Ground Asset tokens may be picked up by a single Voidgate, but only one may be dropped per Voidgate per turn using this rule. Tokens picked up but not dropped in this manner are automatically destroyed.
 Tokens moved in this manner count as not being present in their new Sector for the remainder of the turn (and therefore may not contribute to scoring that turn).</description>
     </rule>
-    <rule id="c334-0240-1cae-8db7" name="Corruptor" publicationId="bb34-1413-pubN67767" page="68" hidden="false">
-      <description>For every Critical hit scored by a Corruptor weapon, place 1 Corruptor token on the ship. At the beginning of each Damage Control phase, a ship with Corruptor tokens takes 1 Damage for each token, with no saves of any type allowed. A Corruptor token may be repaired just like a Crippling effect.</description>
+    <rule id="c334-0240-1cae-8db7" name="Corruptor" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
+      <description>For every Attack Dice from this weapon that scores two higher than its Lock number and inflicts damage to an enemy ship (after saving throws have been taken), that ship gains a Corruptor token. At the beginning of each Damage Control Phase, a ship with Corruptor tokens takes 1 Damage for each token, with no saves of any type allowed. A Corruptor token may be repaired just like a Crippling effect.
+Corruptor has no effect on Space Stations or Sectors.</description>
     </rule>
-    <rule id="acfb-b2b0-1b53-d429" name="Escape Velocity" publicationId="bb34-1413-pubN67767" page="69" hidden="false">
+    <rule id="acfb-b2b0-1b53-d429" name="Escape Velocity" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
       <description>These weapons ignore the penalties for firing through different Orbital Layers (including Atmosphere) and may be fired from Atmosphere. However, they must always target an enemy in a higher Orbital Layer than themselves.</description>
     </rule>
-    <rule id="7429-7752-92a3-2a9c" name="Full Cloak" publicationId="bb34-1413-pubN67767" page="65" hidden="false">
+    <rule id="7429-7752-92a3-2a9c" name="Full-Cloak" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
       <description>A ship with the Full Cloak special rule can never receive an energy spike for any reason, until it is Crippled.</description>
     </rule>
-    <rule id="1390-6580-87b5-33ff" name="Partial Cloak" publicationId="bb34-1413-pubN67767" page="65" hidden="false">
-      <description>A ship with the Partial Cloak special rule can only ever receive a Minor Spike, it may never be increased to a Major Spike. If a rule or weapon would cause this ship to gain Major Spike, it instead gains a Minor Spike (or nothing at all if it already has a Minor Spike). This rule ceases to work when the ship is Crippled.</description>
+    <rule id="1390-6580-87b5-33ff" name="Partial Cloak" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
+      <description>A ship with the Partial Cloak special rule can only ever receive a Minor Spike - it may never be increased to a Major Spike. If a rule or weapon would cause this ship to gain Major Spike, it instead gains a Minor Spike (or nothing at all if it already has a Minor Spike). This rule ceases to work when the ship is Crippled.</description>
     </rule>
-    <rule id="c7fa-b054-49d7-e9d5" name="Scald" publicationId="bb34-1413-pubN67767" page="69" hidden="false">
+    <rule id="c7fa-b054-49d7-e9d5" name="Scald" publicationId="3955-5d68-187e-60e2" page="55" hidden="false">
       <description>Armour against Hull damage from scald weapons suffers a +1 penalty when the firing ship is within Scan range of the target.</description>
     </rule>
-    <rule id="8670-fbd9-e48c-da59" name="Stealth" publicationId="bb34-1413-pubN67767" page="66" hidden="false">
-      <description>A ship with the Stealth special rule may fire a single weapon system when using Silent Running special orders (note this also means it can use close action weapons when Silent Running).
-The Stealth special rule only applies while the ship is still uncrippled, so once it loses 50%+ of its Hull the Stealth rule no longer applies.</description>
+    <rule id="8670-fbd9-e48c-da59" name="Stealth" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
+      <description>A ship with the Stealth special rule may fire a single weapon system when using Silent Running special orders (note this also means it can use close action weapons when Silent Running). The Stealth special rule only applies while the ship is not Crippled, so once it loses 50%+ of its Hull, the Stealth rule no longer applies.</description>
     </rule>
-    <rule id="11e9-bf56-6251-4f8e" name="Advanced ECM Suite" publicationId="bb34-1413-pubN67767" page="181, FAQ11, RU517" hidden="false">
+    <rule id="11e9-bf56-6251-4f8e" name="Advanced ECM Suite" publicationId="6b9b-4137-d953-56b1" page="" hidden="false">
       <description>Once per turn, after an enemy group has allocated Attack Dice, you may pick a friendly ship within 4” of the Calypso. Add 1 to the lock value of the groups Attack Dice allocated to this ship. Subsequent attacks by other groups are not affected. In order to be affected, ships must be on the same orbital layer as the Calypso, in addition the calypso can choose to target itself. This is cumulative with other Advanced ECM Suites. This rule may not be used against Launch Assets nor weapons with the close action special rule</description>
     </rule>
-    <rule id="3290-a288-d618-2403" name="Calibre(X)" publicationId="bb34-1413-pubN67767" page="67, RU517" hidden="false">
+    <rule id="3290-a288-d618-2403" name="Calibre (X)" publicationId="3955-5d68-187e-60e2" page="52" hidden="false">
       <description>Weapons with the Calibre rule will be followed by either L, M, H, S which refers to the tonnage value they have been designed to target.
 When these weapons are fired at targets with the same tonnage value as their weapon, reduce the lock value on their profile by 1. If the weapon has more than 1 tonnage value listed, then reduce the Lock when shooting at any of the listed tonnage values.
 In addition, weapons with the Calibre H and/or S rule inflict Critical Hits on rolls exceeding their Lock value by ONE rather than the usual two (against targets of any Tonnage value).</description>
     </rule>
-    <rule id="6d0f-db40-ebb6-7a1f" name="Low Level" publicationId="bb34-1413-pubN67767" page="182" hidden="false">
-      <description>This weapon may be fired from atmosphere with no penalties to it&apos;s lock value.</description>
+    <rule id="6d0f-db40-ebb6-7a1f" name="Low Level" publicationId="cb98-b8e2-3a32-a3d7" page="" hidden="false">
+      <description>This weapon may be fired from atmosphere with no penalties to it&apos;s Lock value.</description>
     </rule>
-    <rule id="6ff0-07c4-1bd1-34b3" name="Energy Siphon" publicationId="bb34-1413-pubN72457" hidden="false">
-      <description>During this ship&apos;s activation, either before or after movement, pick one friendly or enemy ship within 3&quot; without the Energy Siphon special rule to siphon. That ship loses any Spike it has, and this ship gains it. If any ships in a Group have siphoned any Spikes, all ships in that Group add a bonus to their Occulus Rays for that activation. If the Group siphoned one or more Minor Spikes, increase the Attack and Damage of Oculus Rays by 1. If the Group siphoned one or more Major Spikes, increase the Attack and Damage of Oculus Rays by 2 instead.</description>
+    <rule id="1889-ce97-ec0b-7f2b" name="Beast" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
+      <description>When this ship suffers a Crippling Damage result, it gains a -1 bonus to its weapon systems’ Lock characteristics.</description>
     </rule>
-    <rule id="1889-ce97-ec0b-7f2b" name="Beast" publicationId="bb34-1413-pubN67767" page="65" hidden="false">
-      <description>When this ship suffers a Crippling Damage result, it gains a -1 bonus to its weapon systems’ Lock characteristics.’</description>
-    </rule>
-    <rule id="8560-b10d-f4cb-d837" name="Reinforced Armour" publicationId="bb34-1413-pubN67767" page="66" hidden="false">
+    <rule id="8560-b10d-f4cb-d837" name="Reinforced Armour" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>A ship with Reinforced-Armour only suffers Critical Hits from attack dice that score three more above their Lock number instead of two.</description>
     </rule>
-    <rule id="e485-bf08-3dea-b503" name="Regenerate(X)" publicationId="bb34-1413-pubN67767" page="66" hidden="false">
-      <description>A ship with Regenerate can make a number of damage control rolls equal to X in the Roundup phase of the turn to regain lost hull points.</description>
-    </rule>
-    <rule id="f6ec-da54-fd6f-2579" name="Mauler" publicationId="bb34-1413-pubN67767" page="67" hidden="false">
+    <rule id="f6ec-da54-fd6f-2579" name="Mauler" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
       <description>The Lock characteristic of a Mauler weapon is equal to the Armour characteristic of the targeted ship.</description>
     </rule>
-    <rule id="5728-9541-723c-84a4" name="Close Action (Swarmer)" publicationId="bb34-1413-pubN67767" page="68" hidden="false">
+    <rule id="5728-9541-723c-84a4" name="Close Action (Swarmer)" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
       <description>It takes one Point Defence success more than normal to stop a point of Hull damage from a Swarmer weapon. This means that two successes are need to stop a normal hit from a swarmer, three successes for a critical.</description>
     </rule>
-    <rule id="b190-a6a9-c262-b6d0" name="Close Action (Beam)" publicationId="bb34-1413-pubN67767" page="68" hidden="false">
-      <description>Close Action (Beam) weapon systems obey all the normal rules for close action weapon systems except one – Point Defences cannot be used against them at all!</description>
+    <rule id="b190-a6a9-c262-b6d0" name="Close Action (Beam)" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
+      <description>Close Action (Beam) weapon systems obey all the normal rules for close action weapon systems except one – Point Defences cannot be used against them.</description>
     </rule>
-    <rule id="19a1-4f5b-d77b-442a" name="Distortion" publicationId="bb34-1413-pubN67767" page="69" hidden="false">
-      <description>The damage value of a Distortion weapon system is equal to the number of hits the weapon system inflicts during the attack (before rolling any saving throws are rolled).</description>
+    <rule id="19a1-4f5b-d77b-442a" name="Distortion" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
+      <description>The damage value of a Distortion weapon system is equal to the number of hits the weapon system inflicts during the attack (before rolling any saving throws).</description>
     </rule>
-    <rule id="657f-18a5-dde4-5342" name="Fusillade(X)" publicationId="bb34-1413-pubN67767" page="69" hidden="false">
-      <description>When a ship uses the Weapons Free order, Fusillade weapon systems add the X value to their Attack value to determine the number of shots the weapon system can make this turn.</description>
+    <rule id="657f-18a5-dde4-5342" name="Fusillade (X)" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
+      <description>When a ship uses the Weapons Free order, Fusillade weapon systems add X to their Attack value to determine the number of shots the weapon system can make this turn.</description>
     </rule>
-    <rule id="bab3-0fa7-3762-47ad" name="1 Shaltari Shields" publicationId="bb34-1413-pubN67767" page="196" hidden="false">
-      <description>At the start of any friendly Shaltari battlegroup’s activation, ships in that battlegroup can choose to raise their shields. Once raised, the shields must remain raised until the battlegroup next activates where the Shaltari player can choose to deactivate the shields (or keep them raised). When the shields are raised, the following rules take effect:
+    <rule id="bab3-0fa7-3762-47ad" name="Shaltari Shields" publicationId="3955-5d68-187e-60e2" page="55" hidden="false">
+      <description>At the start of any friendly Shaltari Battlegroup’s activation, ships in that Battlegroup can choose to raise their shields. Once raised, the shields must remain raised until the Battlegroup next activates where the Shaltari player can choose to deactivate the shields. When the shields are raised, the following rules take effect:
 • The ship may use its Passive Countermeasures.
 • The ship must now use the larger signature value in its profile
 • The ship’s Point Defence is reduced to 0. Modifiers such as those made by escorting fighters still apply.
 • The ship may not choose the Silent Running special order.</description>
     </rule>
-    <rule id="2a2b-dd39-2bbf-2738" name="2 Shaltari Ground Asset Deployment" publicationId="bb34-1413-pubN67767" page="196" hidden="false"/>
-    <rule id="184b-7bd5-d2ad-224e" name="5 Voidgates and Charged Air" publicationId="bb34-1413-pubN67767" page="197, FAQ11" hidden="false"/>
-    <rule id="5b1c-5f94-645c-607e" name="6 Voidgates and Ground Asset Relocation" publicationId="bb34-1413-pubN67767" page="197, FAQ11, RU517" hidden="false"/>
-    <rule id="9918-0983-fc52-aa02" name="3 Motherships and Gates" publicationId="bb34-1413-pubN67767" page="196" hidden="false"/>
-    <rule id="e8e2-a542-5c93-7e23" name="4 Voidgates" publicationId="bb34-1413-pubN67767" page="196, RU517" hidden="false"/>
-    <rule id="ec3c-6beb-87f2-d6d4" name="Immobile" publicationId="bb34-1413-pubN67767" page="57" hidden="false"/>
-    <rule id="03ba-7935-3fbf-e2c0" name="Scanner Uplink" publicationId="bb34-1413-pubN67767" page="75" hidden="false"/>
-    <rule id="56bb-f992-4138-699e" name="Volatile" publicationId="bb34-1413-pubN67767" page="75" hidden="false"/>
-    <rule id="d74e-ff7e-fac9-e986" name="Orbital Debris and Launch Assets" publicationId="bb34-1413-pubN67767" page="53" hidden="false"/>
-    <rule id="511d-597c-d00a-9d37" name="Large Solid Objects" publicationId="bb34-1413-pubN67767" page="53" hidden="false"/>
-    <rule id="6f1d-035a-a9e6-2a24" name="Planetary Ring" publicationId="bb34-1413-pubN67767" page="53, FAQ11" hidden="false"/>
-    <rule id="38d0-f9e6-a208-1f17" name="Ablative Armour" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false">
+    <rule id="9918-0983-fc52-aa02" name="Motherships and Gates" publicationId="3955-5d68-187e-60e2" page="56" hidden="false">
+      <description>Motherships are the origin point for ground troops and these are physically carried aboard them. As such, they have a Launch capacity in same way as the troopships of other races and they use the same rules for when they may Launch. Motherships are identified as ships that have the option to launch Gates. Gates are a special type of Strike Craft unique to the Shaltari and use the same rules as Dropships.</description>
+    </rule>
+    <rule id="03ba-7935-3fbf-e2c0" name="Scanner Uplink" publicationId="49d6-e5e8-9402-7997" page="3" hidden="false">
+      <description>This Space Station’s Scan range is increased by 3”. In addition, friendly ships within 3” of one or more Space Stations with this special rule increase their Scan range by 3”. This special rule ceases to function while this Space Station is controlled by an enemy player.</description>
+    </rule>
+    <rule id="38d0-f9e6-a208-1f17" name="Ablative Armour" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
       <description>A ship with Ablative Armour increases its Armour by 2 points (e.g. 5+ Armour becomes 3+ Armour) until it is Crippled. At that point this bonus is lost for the rest of the game.</description>
     </rule>
-    <rule id="2fb8-a8c6-77da-bbb9" name="Civilian Transport" publicationId="bb34-1413-pubN71061" hidden="false"/>
-    <rule id="1996-3e6f-41b3-739c" name="Atmospheric Weapons" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false"/>
-    <rule id="c137-9160-3359-cc67" name="The Shields Cannae Take Anymore" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false"/>
-    <rule id="def9-d03d-747e-fd91" name="Overcharge" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false">
+    <rule id="2fb8-a8c6-77da-bbb9" name="Civilian Transport" publicationId="ba6e-24f5-358e-f7b2" hidden="false" page="1">
+      <description>This ship cannot receive Special Orders and unless otherwise stated in a scenario they always start in Low Orbit. 
+This ship does not suffer from Orbital Decay.
+This ship may not be fired upon unless it is controlled by a player. Players may not fire upon a friendly Civilian Transport.
+This ship cannot be the target of Command Cards.</description>
+    </rule>
+    <rule id="def9-d03d-747e-fd91" name="Overcharge" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
       <description>A weapon with this rule may be Overcharged. An Overcharged weapon (and any weapons with Overcharge it is Linked with) doubles its Damage value for that attack.
-
-If the overcharging ship is on Weapons Free Orders it may only fire Close Action or Low Power weapons but not any other weapon types. However, if the ship is on any other Orders it may not use Launch Assets or fire any other weapons, including Close Action and Low Power weapons.</description>
+If the ship is on Weapons Free Orders, it may only fire Close Action or Low Power weapons but not any other weapon types. However if the ship is on any other Orders, it may not use Launch Assets or fire any other weapons, including Close Action and Low Power weapons.</description>
     </rule>
-    <rule id="7ed1-7d4c-0969-21b9" name="Command Ship" publicationId="07fb-79fc-ad90-6f9e" page="218" hidden="false">
-      <description>This ship has a free AV5 Admiral.</description>
+    <rule id="7ed1-7d4c-0969-21b9" name="Command Ship" publicationId="f185-0072-424b-ef19" page="" hidden="false">
+      <description>If you mount your Admiral in this ship, its cost is reduced to 0 pts and becomes AV5.</description>
     </rule>
-    <rule id="c77c-14da-96fe-32ac" name="Dreadnought" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false">
+    <rule id="c77c-14da-96fe-32ac" name="Dreadnought" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
       <description>A Battlegroup containing a Dreadnought may not contain any other ships. A Dreadnought has a tonnage of 30 (hence the S2 in the profile). A Battlegroup containing a Dreadnought may exceed the normally allowed 33% of your fleet’s points cost.
 If taken, your Admiral must be mounted in a Dreadnought.
-Dreadnoughts use special Crippling Damage and Catastrophic Damage tables, shown in the damage section. In addition, roll on the Crippling Damage table when the ship is reduced to 18 Hull or less and 10 Hull or less instead of the usual 50% of original hull.
-Standard Orders and Special Orders that allow a Dreadnought to fire one weapon system allow it to fire up to two weapon systems instead.</description>
+Standard Orders and Special Orders that allow a Dreadnought to fire one weapon system allow it to fire up to two weapon systems instead.
+Dreadnoughts use special Crippling Damage and Catastrophic Damage tables, shown in the damage section. In addition, roll on the Crippling Damage table when the ship is reduced to 18 Hull or less and 10 Hull or less instead of the usual 50% of original hull.</description>
     </rule>
-    <rule id="7780-d65b-a8d3-0684" name="Light 2 Tonnage" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false"/>
-    <rule id="bc43-3371-9c92-dfb6" name="Monitor" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false">
+    <rule id="bc43-3371-9c92-dfb6" name="Monitor" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>Monitors may not use Course Change or Max Thrust special orders. Weapons fired by Monitors suffer no Lock penalty for firing between Low and High Orbit.</description>
     </rule>
-    <rule id="99fd-3b81-01a1-e916" name="Low Power" publicationId="07fb-79fc-ad90-6f9e" page="194" hidden="false">
+    <rule id="99fd-3b81-01a1-e916" name="Low Power" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
       <description>Up to 1 Low Power weapon (or multiple Low Power weapons with the Linked special rule) may be fired instead of Close Action weapons in addition to other weapons permitted by a ship’s orders.
 A ship that is unable to use any of its weapon systems due to a special order (or Overcharging a weapon) may not use Low Power weapons either.</description>
     </rule>
-    <rule id="27bd-1d4f-7ca7-8d43" name="Squadron-X" publicationId="07fb-79fc-ad90-6f9e" page="195" hidden="false">
-      <description>If a Group has assigned X or more weapons with Squadron to the same target, add a further D6 shots to the attack dice pool of those weapons. These shots are added to the attacks of one of the ships when rolling to hit (attacker’s choice), resolved with the same modifiers as that ship’s.</description>
+    <rule id="27bd-1d4f-7ca7-8d43" name="Squadron-X" publicationId="3955-5d68-187e-60e2" page="55" hidden="false">
+      <description>If a Group has assigned X or more of the same weapon system with this special rule to the same target, increase the attack dice of one of those weapon systems (attacker&apos;s choice) by 3.</description>
     </rule>
-    <rule id="ccb2-ad72-fe3c-8797" name="Unstable" publicationId="07fb-79fc-ad90-6f9e" page="195" hidden="false">
-      <description>If any Unstable weapon with a random Attack value is fired on a Weapons Free order, the ship suffers 1 Hull Damage per maximum Attack value rolls.
-If an Unstable weapon doesn’t have a random attack value, the ship suffers 1 Hull Damage for using this weapon on a Weapons Free order.</description>
+    <rule id="ccb2-ad72-fe3c-8797" name="Unstable" publicationId="3955-5d68-187e-60e2" page="55" hidden="false">
+      <description>While on the Weapons Free Special Order, Attack dice rolls of an unmodified 6 cause the firing ship to lose that weapon’s damage value (after any modifiers) in Hull Points with no saves of any kind allowed.</description>
     </rule>
-    <rule id="8b8a-54c8-b005-48e9" name="1 Elite Bridge Crew" publicationId="07fb-79fc-ad90-6f9e" page="204" hidden="false">
+    <rule id="8b8a-54c8-b005-48e9" name="Elite Bridge Crew" publicationId="3955-5d68-187e-60e2" page="56" hidden="false">
       <description>A Resistance Fleet ship may remove a Major Spike when on Standard Orders.
 In addition, when drawing Command Cards, Resistance players always draw 1 additional card, and then discard 1 card of their choice from their hand.</description>
     </rule>
-    <rule id="49b1-f65c-9131-3056" name="2 Systems" publicationId="07fb-79fc-ad90-6f9e" page="204" hidden="false"/>
-    <rule id="baf7-16fc-3e6c-26cd" name="Subsystem Network" publicationId="07fb-79fc-ad90-6f9e" page="204" hidden="false">
+    <rule id="baf7-16fc-3e6c-26cd" name="Subsystem Network" publicationId="3955-5d68-187e-60e2" page="55" hidden="false">
       <description>Whenever a ship with this rule fires a weapon, it may also fire an additional weapon of the same type if it has one. That weapon still cannot fire twice during one turn (for example if it has the Linked special rule).
 Weapons with Low Power and Subsystem Network may still use this rule even if firing on Low Power. Weapons that have been Overcharged cannot use Subsytem Network.</description>
     </rule>
-    <rule id="36ee-1c16-f518-a678" name="3 Command Cards" publicationId="07fb-79fc-ad90-6f9e" page="204" hidden="false"/>
-    <rule id="3ede-cc59-6bd6-c21e" name="Ion(X)" publicationId="07fb-79fc-ad90-6f9e" page="244" hidden="false">
-      <description>If a group scores (X) hits from weapons with this special rule, the targeted ship receives an energy surge token, reducing the ship to only standard orders until repaired.</description>
+    <rule id="3ede-cc59-6bd6-c21e" name="Ion (X)" publicationId="da17-7d78-79da-7077" page="" hidden="false">
+      <description>If a group scores (X) hits from weapons with this special rule, the Energy Surge crippling effect is applied to that ship. If the target is a ship with with the Dreadnought special rule apply the Power Fluctuation effect instead.</description>
     </rule>
-    <rule id="9f1d-3ad9-31e0-99c5" name="Re-Entry" hidden="false">
+    <rule id="9f1d-3ad9-31e0-99c5" name="Re-Entry" hidden="false" publicationId="3955-5d68-187e-60e2" page="55">
       <description>Re-Entry weapons are capable of firing from Low Orbit into Atmosphere without any penalties to Lock for Atmosphere or crossing Orbital Layers.
-Unless otherwise stated, Re-Entry weapons use Scan + Signature for their range. 
-Re-Entry weapons may not target Clusters or Sectors, although may shoot other targets outside of Atmosphere, followingall the normal rules.</description>
+Unless otherwise stated, Re-Entry weapons use Scan + Signature for their range.
+Re-Entry weapons may not target Clusters or Sectors, although may shoot other targets outside of Atmosphere, following all the normal rules.</description>
     </rule>
-    <rule id="736b-bc7d-430a-b1df" name="Holo-Debris Field" hidden="false">
-      <description>Once per activation (during any part of the activation, including during movement) you may place a Dense Debris Field within 3” of this ship. These debris fields are removed at the end of the Roundup phase and are circular with a 4” diameter (a D6 or custom template are perfect tokens to represent these). Friendly ships and Launch Assets ignore these Debris Fields.</description>
+    <rule id="0509-2ee2-9e75-a3f4" name="EM Warfare Suite" hidden="false">
+      <description>If this weapon hits, the target ship receives an Engines Disabled token or a Weapons Offline token. Engines Disabled reduces Thrust by 50% (rounded up), and the ship may not turn or change orbit, but can be repaired as normal. Weapons Offline prevents a ship from firing any weapons and launching any launch assets the next time it would be able to. Subsequent activations the ship may fire and launch assets as normal.</description>
     </rule>
-    <rule id="ed73-ef7d-b54e-db2b" name="Drone Repair" hidden="false">
-      <description>The Regenerate rule does not shut down when this ship is Crippled.</description>
-    </rule>
-    <rule id="0509-2ee2-9e75-a3f4" name="EM Sabotage" hidden="false">
-      <description>If this weapon hits, the target ship gets put on Silent Running orders until the end of its next activation.</description>
-    </rule>
-    <rule id="1bd1-7a72-4ac3-e1b7" name="Targeting Link" hidden="false">
-      <description>Friendly ships within range (Scan + Signature) of this ship can use it as a &quot;spotter&quot;. Measure range from the spotter to the target ship instead of from the firing ship. The firing ship must however still be able to draw line of sight to the target ship. This rule does not have any effect on Close Action weapons.</description>
-    </rule>
-    <rule id="2a57-b345-ab65-1da5" name="Void Skip" hidden="false">
+    <rule id="2a57-b345-ab65-1da5" name="Void Skip" hidden="false" publicationId="da17-7d78-79da-7077">
       <description>If this ship goes on Standard Orders when within 6” of a Voidgate, rather than making a normal move, you may place it within 6” of any other Voidgate in that Voidgate chain (within 18” of each other as normal), facing any direction and it recieves a Minor Spike. It may be put within 1 Orbital Layer (up or down) of the Voidgate it is placed by. When doing this, the whole group must move together.</description>
     </rule>
-    <rule id="5215-65c1-b1d1-c226" name="Siphon Power" publicationId="bb34-1413-pubN72457" hidden="false">
-      <description>If firing only one of these two weapons, increase its Burnthrough value to Burnthrough(8).</description>
+    <rule name="Regenerate (X)" id="3dac-53c3-4dec-9e82" hidden="false" publicationId="3955-5d68-187e-60e2" page="51">
+      <description>A ship with Regenerate can make a number of damage control rolls equal to X in the Roundup phase of the turn to regain lost hull points.</description>
+    </rule>
+    <rule name="Boardable" id="b541-d6ea-b914-48b2" hidden="false" publicationId="ba6e-24f5-358e-f7b2" page="1">
+      <description>This ship may be assigned Bulk Landers and Dropships as if it were a space station, but cannot have Defence Batteries.
+If you begin the turn with either Armour or Infantry in a this ship and there are no enemy Ground Assets in this ship, you control this ship and may move and fire with it as if it were a part of your fleet.
+If you control this ship, it becomes part of the first friendly Battlegroup that activates this turn (with no changes to its SR) and stays as part of that Battlegroup as long as it is under your control. If you lose and then regain control of this ship, it becomes a part of the first friendly Battlegroup that activates the turn after it is re-captured.
+If there are friendly and enemy Ground Assets on this ship, it is not controlled by either side and may not be moved or fire its weapons.</description>
+    </rule>
+    <rule name="Blooming" id="3f5e-e1af-0def-9025" hidden="false" publicationId="ba6e-24f5-358e-f7b2" page="1">
+      <description>Other friendly ships within 6&quot; of this Ship are Hidden within its Bloom. Enemy ships targeting these Hidden ships ignore any Minor Spikes when measuring Weapons Range. However, Major Spikes are still used as normal.
+This special rule ceases to function while this Ship is not controlled.</description>
+    </rule>
+    <rule name="Elite Fighter Escort" id="c128-36c2-34a2-2915" hidden="false" publicationId="ba6e-24f5-358e-f7b2" page="1">
+      <description>At the start of each turn, place 3 Elite Fighter tokens next to this ship. The controlling player may use any number of these Elite Fighter tokens to add 3 dice per token to this ships PD characteristic against a single attack from Launch Assets or Close Action weapons.
+The controlling player may use an Elite Fighter token to defend against enemy Bulk Landers and Dropships, counting as a Defence Battery against Bulk Landers and Dropships launched by a single Carrier.</description>
+    </rule>
+    <rule name="Deep Space Tracking" id="4e23-6d50-32be-4d1a" hidden="false" publicationId="49d6-e5e8-9402-7997" page="3">
+      <description>When this Space Station targets enemy ships, Spikes on those ships have double their normal effect. So a Minor Spike increases the ship’s Signature by 12” and a Major Spike increases it by 24” when targeted by this Space Station.</description>
+    </rule>
+    <rule name="Signature Bloom" id="fe72-9ccf-2b02-aeeb" hidden="false" publicationId="49d6-e5e8-9402-7997" page="4">
+      <description>Friendly ships within 6” of this Space Station are Hidden within its Bloom. Enemy ships targeting these Hidden ships ignore any Minor Spikes when measuring range. However, Major Spikes are still used as normal.
+This special rule ceases to function while this Space Station is controlled by an enemy player.</description>
+    </rule>
+    <rule name="Station Turret Rack" id="0521-fa6f-9798-2598" hidden="false" publicationId="49d6-e5e8-9402-7997">
+      <description>When you make an attack with this weapon, roll once and apply the roll to all enemy ships within range.</description>
+    </rule>
+    <rule name="Station Turret Ring" id="be67-35af-dd69-7435" hidden="false" publicationId="49d6-e5e8-9402-7997">
+      <description>When you make an attack with this weapon, roll once and apply the roll to all enemy ships within range.</description>
+    </rule>
+    <rule name="Space Station Shields" id="b223-6d49-33fd-cf64" hidden="false" publicationId="49d6-e5e8-9402-7997">
+      <description>The player that paid points for a Shaltari Space Station can choose to raise its shields when it fires its weapons.</description>
+    </rule>
+    <rule name="Voidspace Anchor" id="584e-aeb4-4dec-420b" hidden="false" publicationId="49d6-e5e8-9402-7997">
+      <description>Enemy ships starting their activation within 6” of this Space Station may only go on Station Keeping Orders (regardless of whether they’re able to take Special Orders or not, and regardless of what Special Orders the Battlegroup has taken).</description>
+    </rule>
+    <rule name="Disintegrator Bank" id="2bf2-ba70-374b-6193" hidden="false" publicationId="49d6-e5e8-9402-7997">
+      <description>Instead of the normal Arcs, Shaltari Shurikens have their own Arcs. A Shuriken has 5 Arcs, each 72 degrees. The easiest way to define these Arcs is to follow the lines of adjacent vertical vanes, measured from the flight stand as normal. Follow these Arcs when shooting instead of the normal rules for Arcs. 
+The Shuriken’s Disintegrator Bank can be fired up to 5 times per round, but each must use a different Arc.</description>
+    </rule>
+    <rule name="Voidgate Node" id="e0af-7471-f015-a909" hidden="false" publicationId="49d6-e5e8-9402-7997">
+      <description>This Gatestation’s Gates may only be used while you control it.</description>
+    </rule>
+    <rule name="Gravity Manipulator" id="e317-45a0-bed7-e985" hidden="false" publicationId="49d6-e5e8-9402-7997">
+      <description>Friendly ships that start their movement within this station’s Scan range measure their movement from any point at the edge of this space station’s Scan range, retaining their facing. Enemy ships that start their movement within this station’s Scan range measure their movement from this station (distances are measured from the flight stem), retaining their facing.
+This special rule ceases to function while you do not control this station.</description>
+    </rule>
+    <rule name="Haywire" id="5aa2-9fc6-3657-0b4c" hidden="false" publicationId="f185-0072-424b-ef19">
+      <description>If this weapon hits, the targeted ship receives a Power Fluctuations token (even if it is not a Dreadnought). The ship suffers D3 Hull Points if going on Special Orders. If the targeted ship is using the Silent Running special orders, Signature is returned to normal instead. The targeted ship may not go on silent running.</description>
+    </rule>
+    <rule name="Stealth Observation" id="9859-d6f5-6288-475d" hidden="false" publicationId="f185-0072-424b-ef19">
+      <description>This ship can Survey a Cluster regardless of its Battlegroup Tonnage Value.</description>
     </rule>
   </sharedRules>
 </gameSystem>

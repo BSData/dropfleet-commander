@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind v1.5" revision="16" battleScribeVersion="2.03" authorName="morvael; Giftgruen" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="889e-ba35-f5c2-036d" name="United Colonies of Mankind" revision="17" battleScribeVersion="2.03" authorName="morvael; Giftgruen; John Kemp" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="37b9-e435-ebae-3c52" name="Flag Battlegroup" hidden="false" collective="false" import="true" targetId="d344-138c-c6d0-cc19" type="selectionEntry"/>
     <entryLink id="3ed8-763f-cbf1-0625" name="Line Battlegroup" hidden="false" collective="false" import="true" targetId="ed7f-288f-cba9-0ab1" type="selectionEntry"/>
@@ -166,7 +166,7 @@
       <infoLinks>
         <infoLink id="cef5-84bf-082d-31bc" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="c113-b8dd-5423-3744" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="fad6-1c7c-c327-756d" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="fad6-1c7c-c327-756d" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6213-64be-2f30-7e1a" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
@@ -269,11 +269,11 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b3ad-a60f-227a-5b60" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="b3ad-a60f-227a-5b60" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="86b6-2072-e3b3-99b9" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
         <infoLink id="ace8-815e-f1d1-3bbf" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="0553-9b75-0202-3ad7" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
-        <infoLink id="3bcb-167c-dc91-0cd3" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="0553-9b75-0202-3ad7" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="3bcb-167c-dc91-0cd3" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e50e-cc63-88a0-1b82" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
@@ -345,9 +345,9 @@
       <infoLinks>
         <infoLink id="ff6f-aaee-55e6-23ee" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="134a-0d2f-9ab1-7111" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="0662-39d7-b6b8-0baa" name="L(X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
-        <infoLink id="1d54-0da0-da99-1d9e" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
-        <infoLink id="6887-37e0-f1b9-ac6d" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="0662-39d7-b6b8-0baa" name="L (X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
+        <infoLink id="1d54-0da0-da99-1d9e" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="6887-37e0-f1b9-ac6d" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9ab0-ab98-12da-cc31" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
@@ -433,11 +433,11 @@
       </profiles>
       <infoLinks>
         <infoLink id="21aa-ae4e-efb1-94a1" name="Bombardment" hidden="false" targetId="9e06-f148-f8a3-26fb" type="rule"/>
-        <infoLink id="fe42-3781-aa9b-a546" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
-        <infoLink id="36c2-c346-1542-28db" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="fe42-3781-aa9b-a546" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="36c2-c346-1542-28db" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="018c-6ec8-478f-e5f5" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
         <infoLink id="ca77-f1e9-b1b5-322d" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="9a75-35d4-7b55-f3b4" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="9a75-35d4-7b55-f3b4" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6a21-fe60-0c25-3324" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
@@ -524,7 +524,7 @@
       <infoLinks>
         <infoLink id="3a34-8b1f-bcef-2355" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="218d-7e12-928a-4fdc" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="cc2c-9d9a-93fe-0a23" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="cc2c-9d9a-93fe-0a23" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="aa4b-085a-7d05-c6b6" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -608,7 +608,7 @@
       <infoLinks>
         <infoLink id="f249-a7a0-086d-b004" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="e32a-0d99-428c-4dc6" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="0f44-70a5-0bd9-9f26" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="0f44-70a5-0bd9-9f26" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e1a6-6777-a8b2-78fe" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -705,11 +705,11 @@
       </profiles>
       <infoLinks>
         <infoLink id="b33f-a5f4-7f1d-b44e" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
-        <infoLink id="3b9e-3e9d-d56e-3cf4" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="3b9e-3e9d-d56e-3cf4" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="1ec6-93b7-6b9d-5eba" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
         <infoLink id="21d4-afc2-4a4d-e6e6" name="Bloom" hidden="false" targetId="17ad-3ce8-8d61-f7e4" type="rule"/>
         <infoLink id="5c89-f423-0926-2879" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="721d-bfe2-01b8-a071" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="721d-bfe2-01b8-a071" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7395-ea96-fa3f-5b05" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -805,11 +805,11 @@
       </profiles>
       <infoLinks>
         <infoLink id="62fa-0f21-da79-fea5" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="7f0a-5fdd-b2df-b3bf" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="7f0a-5fdd-b2df-b3bf" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="4ce5-4af8-60b0-a119" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
         <infoLink id="a340-9fa0-7b1e-0872" name="Bloom" hidden="false" targetId="17ad-3ce8-8d61-f7e4" type="rule"/>
         <infoLink id="c228-bc8e-e5a6-bb15" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
-        <infoLink id="a5c6-0251-d646-5702" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="a5c6-0251-d646-5702" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="01fb-b592-8c98-5946" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -886,7 +886,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="69a5-f27a-3309-2fdc" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="550d-6604-7231-ab10" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="550d-6604-7231-ab10" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2bc4-7085-2417-10e3" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -984,10 +984,9 @@
       <infoLinks>
         <infoLink id="22aa-d06e-f7e4-0600" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
         <infoLink id="88e7-3120-9e05-db93" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="2a4f-2970-254c-8802" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="2a4f-2970-254c-8802" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="3372-cfff-a48e-6aa0" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
-        <infoLink id="d4d2-7c86-eeff-8b43" name="Siphon Power" hidden="false" targetId="5215-65c1-b1d1-c226" type="rule"/>
-        <infoLink id="4892-3e7c-485c-b132" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="4892-3e7c-485c-b132" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1600-f2ad-16b6-c8fa" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -1714,10 +1713,10 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c4c7-a3d4-b90b-372a" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="c4c7-a3d4-b90b-372a" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="a772-2995-e84f-61da" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="dda7-7db8-2e19-04f9" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
-        <infoLink id="51c7-6ff7-ecae-6595" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="51c7-6ff7-ecae-6595" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8955-d079-1954-8e85" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
@@ -1767,7 +1766,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="5aeb-4699-2287-65d2" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="6d83-228b-8cd2-e8f0" name="Aegis(X)" hidden="false" targetId="f7b4-257c-0fc5-8fe3" type="rule"/>
+        <infoLink id="6d83-228b-8cd2-e8f0" name="Aegis (X)" hidden="false" targetId="f7b4-257c-0fc5-8fe3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="11d6-2c02-ae2c-2af9" name="Light" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -1832,7 +1831,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="5616-8f4e-9d3a-a4f0" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="5415-aae8-19a1-3564" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="5415-aae8-19a1-3564" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
         <infoLink id="cb3e-3848-8fd0-dfd3" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1902,7 +1901,7 @@
       <infoLinks>
         <infoLink id="fc65-a79b-a54d-a640" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="b277-688a-1e0e-8eaf" name="Bombardment" hidden="false" targetId="9e06-f148-f8a3-26fb" type="rule"/>
-        <infoLink id="c8a3-906b-6c87-5177" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="c8a3-906b-6c87-5177" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c54a-e6ce-5397-8f41" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
@@ -2002,7 +2001,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="f730-9409-cf18-8a30" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="9c6c-5a08-4329-3678" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="9c6c-5a08-4329-3678" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="2cdf-5bff-1833-ccb3" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2462,9 +2461,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="7f01-14b0-b33e-d4bb" name="Immobile" hidden="false" targetId="ec3c-6beb-87f2-d6d4" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
             <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
@@ -2720,8 +2716,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b8f9-9d24-6f10-7c79" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
-        <infoLink id="0e6e-3702-4933-d243" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="b8f9-9d24-6f10-7c79" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="0e6e-3702-4933-d243" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
         <infoLink id="038e-51ec-d3d5-73df" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="512b-1c8f-9d9b-97eb" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
         <infoLink id="bb42-4197-f4db-4e6e" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
@@ -2886,7 +2882,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a70b-0d6e-ab08-a7d8" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="a70b-0d6e-ab08-a7d8" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="85b8-f6e8-a2a0-0ad1" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
         <infoLink id="14e0-8f15-0259-23a5" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
       </infoLinks>
@@ -2963,7 +2959,6 @@
       <infoLinks>
         <infoLink id="1c80-1b2c-58a5-7238" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="3170-d48b-bf36-e453" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="dbb9-fd3d-a5f4-c86e" name="Light 2 Tonnage" hidden="false" targetId="7780-d65b-a8d3-0684" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c387-0b42-72f1-fee8" name="Light" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -3029,8 +3024,7 @@
         <infoLink id="d402-c8c1-8988-edf8" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="3004-72ab-2668-95ab" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="25ec-09ca-ec5e-453d" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
-        <infoLink id="3498-5097-c93f-b809" name="L(X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
-        <infoLink id="f79d-b573-b200-5f42" name="Light 2 Tonnage" hidden="false" targetId="7780-d65b-a8d3-0684" type="rule"/>
+        <infoLink id="3498-5097-c93f-b809" name="L (X)" hidden="false" targetId="6920-7d49-9ec8-1e76" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a221-690d-170c-d03f" name="Light" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -3076,10 +3070,9 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="09c4-e1b7-41ce-52fc" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="09c4-e1b7-41ce-52fc" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
         <infoLink id="e1de-4d99-799a-fa74" name="Re-Entry" hidden="false" targetId="9f1d-3ad9-31e0-99c5" type="rule"/>
         <infoLink id="61ff-44a5-7297-f93e" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="becc-97b9-3d0b-ddf4" name="Light 2 Tonnage" hidden="false" targetId="7780-d65b-a8d3-0684" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ae4e-79de-5f6d-ba7c" name="Light" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -3270,10 +3263,10 @@
       </profiles>
       <infoLinks>
         <infoLink id="d1d4-06c4-59e6-c30f" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="8bb6-d4b4-24cb-616c" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
-        <infoLink id="6879-4d88-ebed-8878" name="Command Ship" hidden="false" targetId="7ed1-7d4c-0969-21b9" type="rule"/>
+        <infoLink id="8bb6-d4b4-24cb-616c" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="6879-4d88-ebed-8878" name="**Command Ship" hidden="false" targetId="7ed1-7d4c-0969-21b9" type="rule"/>
         <infoLink id="f4c5-d706-8ee8-67ad" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule"/>
-        <infoLink id="788e-0653-a2c8-bdc2" name="Aegis(X)" hidden="false" targetId="f7b4-257c-0fc5-8fe3" type="rule"/>
+        <infoLink id="788e-0653-a2c8-bdc2" name="Aegis (X)" hidden="false" targetId="f7b4-257c-0fc5-8fe3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dcfd-8da4-deb1-5c82" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
@@ -3399,9 +3392,9 @@
       </profiles>
       <infoLinks>
         <infoLink id="c4ee-21cf-b23c-8978" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="5519-348a-7122-78ad" name="Command Ship" hidden="false" targetId="7ed1-7d4c-0969-21b9" type="rule"/>
+        <infoLink id="5519-348a-7122-78ad" name="**Command Ship" hidden="false" targetId="7ed1-7d4c-0969-21b9" type="rule"/>
         <infoLink id="45c5-adc0-a638-8621" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule"/>
-        <infoLink id="dc0d-f25c-aa34-4c39" name="Fusillade(X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink id="dc0d-f25c-aa34-4c39" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
         <infoLink id="5aad-b9e4-ee90-7af2" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3537,8 +3530,8 @@
       </profiles>
       <infoLinks>
         <infoLink id="de84-7a0b-623a-a331" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="fbd2-f9ac-1052-b3dc" name="Aegis(X)" hidden="false" targetId="f7b4-257c-0fc5-8fe3" type="rule"/>
-        <infoLink id="823d-5651-8cc2-9320" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="fbd2-f9ac-1052-b3dc" name="Aegis (X)" hidden="false" targetId="f7b4-257c-0fc5-8fe3" type="rule"/>
+        <infoLink id="823d-5651-8cc2-9320" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="eebe-cca0-8a70-7116" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3655,7 +3648,7 @@
       <infoLinks>
         <infoLink id="ad98-5526-4cd4-102f" name="Reinforced Armour" hidden="false" targetId="8560-b10d-f4cb-d837" type="rule"/>
         <infoLink id="2bbd-5b71-7a95-6e79" name="Corruptor" hidden="false" targetId="c334-0240-1cae-8db7" type="rule"/>
-        <infoLink id="d606-3f23-dd5a-7aa1" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="d606-3f23-dd5a-7aa1" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
         <infoLink id="3ab0-4587-a8bb-96c2" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3788,7 +3781,7 @@
       </rules>
       <infoLinks>
         <infoLink id="9f3b-e2ba-eece-350b" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="c510-f16b-f1fa-03ac" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="c510-f16b-f1fa-03ac" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="344e-304b-35d5-5795" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -3860,8 +3853,8 @@
       <infoLinks>
         <infoLink id="7234-ad85-4f0b-17bc" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="80ff-ee27-34bc-e5e6" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
-        <infoLink id="f618-8ebe-e988-1ba7" name="Aegis(X)" hidden="false" targetId="f7b4-257c-0fc5-8fe3" type="rule"/>
-        <infoLink id="0a9d-16a2-19c3-ea0d" name="Linked-X" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
+        <infoLink id="f618-8ebe-e988-1ba7" name="Aegis (X)" hidden="false" targetId="f7b4-257c-0fc5-8fe3" type="rule"/>
+        <infoLink id="0a9d-16a2-19c3-ea0d" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9479-b31f-9173-1979" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
@@ -4040,7 +4033,7 @@
         <infoLink id="fc7e-dca1-96a0-92f7" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="09f2-70ba-ec1c-73af" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="a754-bf1b-81b0-8c03" name="Open" hidden="false" targetId="dad0-81c2-bbc4-9eee" type="rule"/>
-        <infoLink id="74c1-edb0-714c-09d5" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
+        <infoLink id="74c1-edb0-714c-09d5" name="Full-Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
         <infoLink id="f53c-c123-5b40-da91" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -4156,7 +4149,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6d84-4b36-f2a6-5239" name="Burnthrough(X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
+        <infoLink id="6d84-4b36-f2a6-5239" name="Burnthrough (X)" hidden="false" targetId="bae8-9e71-edf0-b246" type="rule"/>
         <infoLink id="12ea-7c79-811d-5d1f" name="Flash" hidden="false" targetId="aa43-5926-e824-5cac" type="rule"/>
         <infoLink id="8815-c915-15e5-bb55" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="2094-6672-6510-1316" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
