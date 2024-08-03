@@ -16,6 +16,7 @@
     <publication name="Scourge Ship Stat Sheets (Apr 2024)" id="cb98-b8e2-3a32-a3d7" hidden="false" shortName="ScourgeStats-2404"/>
     <publication name="PHR Ship Stat Sheets (Dec 2023)" id="6b9b-4137-d953-56b1" hidden="false" shortName="PHRStats-2312"/>
     <publication name="Resistance Ship Stat Sheets (Dec 2023)" id="71d6-14ad-06a1-10e4" hidden="false" shortName="ResistanceStats-2312"/>
+    <publication name="Github" id="6d23-876f-7007-f611" hidden="false" shortName="BSData/dropfleet-commander" publisherUrl="https://github.com/BSData/dropfleet-commander"/>
   </publications>
   <costTypes>
     <costType id="e888-2584-886f-7f2c" name="pts" defaultCostLimit="-1" hidden="false"/>
@@ -1067,7 +1068,7 @@ Corruptor has no effect on Space Stations or Sectors.</description>
     <rule id="8670-fbd9-e48c-da59" name="Stealth" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>A ship with the Stealth special rule may fire a single weapon system when using Silent Running special orders (note this also means it can use close action weapons when Silent Running). The Stealth special rule only applies while the ship is not Crippled, so once it loses 50%+ of its Hull, the Stealth rule no longer applies.</description>
     </rule>
-    <rule id="11e9-bf56-6251-4f8e" name="Advanced ECM Suite" publicationId="6b9b-4137-d953-56b1" page="" hidden="false">
+    <rule id="11e9-bf56-6251-4f8e" name="Advanced ECM Suite" publicationId="6b9b-4137-d953-56b1" hidden="false">
       <description>Once per turn, after an enemy group has allocated Attack Dice, you may pick a friendly ship within 4” of the Calypso. Add 1 to the lock value of the groups Attack Dice allocated to this ship. Subsequent attacks by other groups are not affected. In order to be affected, ships must be on the same orbital layer as the Calypso, in addition the calypso can choose to target itself. This is cumulative with other Advanced ECM Suites. This rule may not be used against Launch Assets nor weapons with the close action special rule</description>
     </rule>
     <rule id="3290-a288-d618-2403" name="Calibre (X)" publicationId="3955-5d68-187e-60e2" page="52" hidden="false">
@@ -1075,7 +1076,7 @@ Corruptor has no effect on Space Stations or Sectors.</description>
 When these weapons are fired at targets with the same tonnage value as their weapon, reduce the lock value on their profile by 1. If the weapon has more than 1 tonnage value listed, then reduce the Lock when shooting at any of the listed tonnage values.
 In addition, weapons with the Calibre H and/or S rule inflict Critical Hits on rolls exceeding their Lock value by ONE rather than the usual two (against targets of any Tonnage value).</description>
     </rule>
-    <rule id="6d0f-db40-ebb6-7a1f" name="Low Level" publicationId="cb98-b8e2-3a32-a3d7" page="" hidden="false">
+    <rule id="6d0f-db40-ebb6-7a1f" name="Low Level" publicationId="cb98-b8e2-3a32-a3d7" hidden="false">
       <description>This weapon may be fired from atmosphere with no penalties to it&apos;s Lock value.</description>
     </rule>
     <rule id="1889-ce97-ec0b-7f2b" name="Beast" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
@@ -1125,7 +1126,7 @@ This ship cannot be the target of Command Cards.</description>
       <description>A weapon with this rule may be Overcharged. An Overcharged weapon (and any weapons with Overcharge it is Linked with) doubles its Damage value for that attack.
 If the ship is on Weapons Free Orders, it may only fire Close Action or Low Power weapons but not any other weapon types. However if the ship is on any other Orders, it may not use Launch Assets or fire any other weapons, including Close Action and Low Power weapons.</description>
     </rule>
-    <rule id="7ed1-7d4c-0969-21b9" name="Command Ship" publicationId="f185-0072-424b-ef19" page="" hidden="false">
+    <rule id="7ed1-7d4c-0969-21b9" name="Command Ship" publicationId="f185-0072-424b-ef19" hidden="false">
       <description>If you mount your Admiral in this ship, its cost is reduced to 0 pts and becomes AV5.</description>
     </rule>
     <rule id="c77c-14da-96fe-32ac" name="Dreadnought" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
@@ -1155,7 +1156,7 @@ In addition, when drawing Command Cards, Resistance players always draw 1 additi
       <description>Whenever a ship with this rule fires a weapon, it may also fire an additional weapon of the same type if it has one. That weapon still cannot fire twice during one turn (for example if it has the Linked special rule).
 Weapons with Low Power and Subsystem Network may still use this rule even if firing on Low Power. Weapons that have been Overcharged cannot use Subsytem Network.</description>
     </rule>
-    <rule id="3ede-cc59-6bd6-c21e" name="Ion (X)" publicationId="da17-7d78-79da-7077" page="" hidden="false">
+    <rule id="3ede-cc59-6bd6-c21e" name="Ion (X)" publicationId="da17-7d78-79da-7077" hidden="false">
       <description>If a group scores (X) hits from weapons with this special rule, the Energy Surge crippling effect is applied to that ship. If the target is a ship with with the Dreadnought special rule apply the Power Fluctuation effect instead.</description>
     </rule>
     <rule id="9f1d-3ad9-31e0-99c5" name="Re-Entry" hidden="false" publicationId="3955-5d68-187e-60e2" page="55">
