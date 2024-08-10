@@ -24,13 +24,13 @@
     <costType id="c0c3-cb79-19ac-1dbc" name="SR" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <profileTypes>
-    <profileType id="f174-1347-6969-af9b" name="Load">
+    <profileType id="f174-1347-6969-af9b" name="Load" sortIndex="6">
       <characteristicTypes>
         <characteristicType id="604b-2e24-d426-bf71" name="Launch"/>
         <characteristicType id="0574-9897-4dc9-48e8" name="Special"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="ecce-1380-e182-c89e" name="Ship">
+    <profileType id="ecce-1380-e182-c89e" name="Ship" sortIndex="1">
       <characteristicTypes>
         <characteristicType id="a704-f2fa-371d-9dab" name="Scan"/>
         <characteristicType id="1402-313c-914d-f053" name="Sig"/>
@@ -43,7 +43,7 @@
         <characteristicType id="4717-adad-0be5-3c60" name="Special"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="1ddb-c7dc-57a9-b97f" name="Weapon">
+    <profileType id="1ddb-c7dc-57a9-b97f" name="Weapon" sortIndex="2">
       <characteristicTypes>
         <characteristicType id="b264-7fc5-348d-06c0" name="Lock"/>
         <characteristicType id="00d0-7374-e403-ad78" name="Attacks"/>
@@ -96,6 +96,33 @@
         <characteristicType id="eeaa-e9a3-ddc1-1fc9" name="Damage"/>
         <characteristicType id="853b-032c-9ab5-30f6" name="Lock Penalty"/>
         <characteristicType id="f21a-dd5c-ad67-2490" name="Scan Penalty"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="3e92-bfd6-9fe3-5253" name="Primary Weapons" sortIndex="3">
+      <characteristicTypes>
+        <characteristicType id="b264-7fc5-348d-06c0" name="Lock"/>
+        <characteristicType id="00d0-7374-e403-ad78" name="Attacks"/>
+        <characteristicType id="ae4d-c88d-138f-1fcf" name="Damage"/>
+        <characteristicType id="61a9-ead3-7b97-32ed" name="Arc"/>
+        <characteristicType id="008a-e561-1ceb-a0f1" name="Special"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="5143-be30-f2a2-6002" name="Secondary Weapons" sortIndex="4">
+      <characteristicTypes>
+        <characteristicType id="b264-7fc5-348d-06c0" name="Lock"/>
+        <characteristicType id="00d0-7374-e403-ad78" name="Attacks"/>
+        <characteristicType id="ae4d-c88d-138f-1fcf" name="Damage"/>
+        <characteristicType id="61a9-ead3-7b97-32ed" name="Arc"/>
+        <characteristicType id="008a-e561-1ceb-a0f1" name="Special"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="f3ab-5a0a-a05f-adc4" name="Close Action Weapons" sortIndex="5">
+      <characteristicTypes>
+        <characteristicType id="b264-7fc5-348d-06c0" name="Lock"/>
+        <characteristicType id="00d0-7374-e403-ad78" name="Attacks"/>
+        <characteristicType id="ae4d-c88d-138f-1fcf" name="Damage"/>
+        <characteristicType id="61a9-ead3-7b97-32ed" name="Arc"/>
+        <characteristicType id="008a-e561-1ceb-a0f1" name="Special"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -974,6 +1001,10 @@
     </rule>
     <rule id="f7b4-257c-0fc5-8fe3" name="Aegis (X)" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
       <description>Ships with the Aegis special rule add a bonus to the Point Defence value of any friendly ships within 4” of them equal to X. In order to be affected, ships must be on the same Orbital Layer as the Aegis ship. This bonus also applies to the Aegis ship itself.</description>
+      <alias>Aegis (4)</alias>
+      <alias>Aegis (6)</alias>
+      <alias>Aegis (8)</alias>
+      <alias>Aegis (9)</alias>
     </rule>
     <rule id="c3e1-6bee-9e1e-8f27" name="Air-to-Air" publicationId="3955-5d68-187e-60e2" page="52" hidden="false">
       <description>While in atmosphere, weapons with this rule ignore the usual penalty to Lock Value and gain -1 to their Lock value when firing at ships in atmosphere. All other penalties still apply, including needing a 6+ to shoot at ground targets. Air to Air weapons gain no benefit from this rule when firing from outside atmosphere. Air to Air weapons that also have the Close Action rule may be fired at targets in atmosphere in addition to other Orbital Layers.</description>
@@ -990,6 +1021,10 @@
     <rule id="bae8-9e71-edf0-b246" name="Burnthrough (X)" publicationId="3955-5d68-187e-60e2" page="52" hidden="false">
       <description>If an Attack dice for a Burnthrough weapon scores equal to or above its Lock number the Attack dice can be rolled again. If the second Lock roll is successful a third Lock roll can be made and so on until a Lock roll is failed. A Burnthrough weapon can score a maximum total of X total Hull damage (before armour saves are rolled) in one activation.
 If a Critical Hit (i.e. rolling two or higher than the required lock number) is scored by a Burnthrough weapon, only that die will ignore the target’s Armour. Any subsequent hits rolled by this weapon against the same target during the same activation ignore the target’s armour too.</description>
+      <alias>Burnthrough (3)</alias>
+      <alias>Burnthrough (6)</alias>
+      <alias>Burnthrough (8)</alias>
+      <alias>Burnthrough (10)</alias>
     </rule>
     <rule id="5816-87fd-bf61-2418" name="Close Action" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
       <description>Close Action weapon systems may only be used against targets that are both within their fire arc and inside the firing ship’s Scan range. Close action weapons can be fired in addition to any other weapon systems permitted by a ship’s orders. A ship that is unable to use any of its weapon systems due to special orders may not use its close action weapons either.
@@ -1003,12 +1038,15 @@ Hits from Close Action weapons can be stopped by a target’s Point Defence. Res
     </rule>
     <rule id="6920-7d49-9ec8-1e76" name="L (X)" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
       <description>This weapon may only be fired X times in a game, so make your shots count! This can also apply to Launch Assets (typically to torpedoes), in which case the Asset may only be launched X times in a game.</description>
+      <alias>L (1)</alias>
+      <alias>L (2)</alias>
     </rule>
     <rule id="6af7-681c-b2c8-5acc" name="Launch" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>Ships with the Launch special rule are capable of carrying and using Launch Assets. Launch-capable ships will have their launch capacity noted in their descriptions along with the standard type load carried (i.e. Fighters, Bombers or Torpedoes as appropriate).</description>
     </rule>
     <rule id="08ea-9db1-110b-0150" name="Linked (X)" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
       <description>A weapon with this rule will normally be paired with a second weapon with the same Linked (X) value. In order for a ship to fire more than one weapon, it is normally required to declare a Weapons Free special order. However, all weapon systems with the same Linked (X) number count as a single weapon system for activation purposes, although they may be fired at different targets.</description>
+      <alias>Linked (1)</alias>
     </rule>
     <rule id="dad0-81c2-bbc4-9eee" name="Open" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>Ships with the Open rule do not need to maintain coherency with other members of their Group or Battlegroup and the Battlegroup will suffer no negative modifiers to their strategy rating while ships with this rule are out of coherency.</description>
@@ -1016,11 +1054,12 @@ Hits from Close Action weapons can be stopped by a target’s Point Defence. Res
     <rule id="0a60-4c58-5666-78ee" name="Outlier" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>Ships with this rule may ignore Battlegroup (but not Group) coherency rules, and the Battlegroup will suffer no negative modifiers to their Strategy Rating while ships with this rule are out of Battlegroup coherency.</description>
     </rule>
-    <rule id="becc-b3c9-c26c-abde" name="Rare" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
-      <description>You may only take a maximum of one of each Rare Group in a Skirmish sized game, two in a Clash and three in a Battle.</description>
-    </rule>
     <rule id="bfbc-e83a-c2b7-eb15" name="Alt-X" publicationId="3955-5d68-187e-60e2" page="52" hidden="false">
       <description>A weapon system with Alternate fire modes will be represented by two or more lines on the weapon system characteristics with Alt followed by a number (e.g. Alt-1) in the special section. Only one weapon system with the same Alt number on the weapon characteristics may be fired by the same ship each turn.</description>
+      <alias>Alt-1</alias>
+    </rule>
+    <rule id="becc-b3c9-c26c-abde" name="Rare" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
+      <description>You may only take a maximum of one of each Rare Group in a Skirmish sized game, two in a Clash and three in a Battle.</description>
     </rule>
     <rule id="18ec-1b46-d0ed-e680" name="Crippling" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
       <description>Weapon systems with the Crippling characteristic inflict Crippling Damage when they score one or more critical hits in addition to any normal Hull Damage. Crippling damage is incurred regardless of the number of Hull points actually inflicted providing one or more Hull damage is suffered by the target. If a target ship is reduced to 50% hull or below by the attack, it will need to make two Crippling Damage rolls and apply both of them. If a weapon with the Crippling rule is affected by another rule which would make Critical Hits automatic (such as the Particle rule) then the roll you would have needed to achieve a Critical Hit is the roll required for the Crippling rule to take effect.</description>
@@ -1056,7 +1095,7 @@ Corruptor has no effect on Space Stations or Sectors.</description>
     <rule id="acfb-b2b0-1b53-d429" name="Escape Velocity" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
       <description>These weapons ignore the penalties for firing through different Orbital Layers (including Atmosphere) and may be fired from Atmosphere. However, they must always target an enemy in a higher Orbital Layer than themselves.</description>
     </rule>
-    <rule id="7429-7752-92a3-2a9c" name="Full-Cloak" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
+    <rule id="7429-7752-92a3-2a9c" name="Full Cloak" publicationId="3955-5d68-187e-60e2" page="50" hidden="false">
       <description>A ship with the Full Cloak special rule can never receive an energy spike for any reason, until it is Crippled.</description>
     </rule>
     <rule id="1390-6580-87b5-33ff" name="Partial Cloak" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
@@ -1099,6 +1138,8 @@ In addition, weapons with the Calibre H and/or S rule inflict Critical Hits on r
     </rule>
     <rule id="657f-18a5-dde4-5342" name="Fusillade (X)" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
       <description>When a ship uses the Weapons Free order, Fusillade weapon systems add X to their Attack value to determine the number of shots the weapon system can make this turn.</description>
+      <alias>Fusillade (1)</alias>
+      <alias>Fusillade (2)</alias>
     </rule>
     <rule id="bab3-0fa7-3762-47ad" name="Shaltari Shields" publicationId="3955-5d68-187e-60e2" page="55" hidden="false">
       <description>At the start of any friendly Shaltari Battlegroup’s activation, ships in that Battlegroup can choose to raise their shields. Once raised, the shields must remain raised until the Battlegroup next activates where the Shaltari player can choose to deactivate the shields. When the shields are raised, the following rules take effect:
@@ -1142,8 +1183,10 @@ Dreadnoughts use special Crippling Damage and Catastrophic Damage tables, shown 
       <description>Up to 1 Low Power weapon (or multiple Low Power weapons with the Linked special rule) may be fired instead of Close Action weapons in addition to other weapons permitted by a ship’s orders.
 A ship that is unable to use any of its weapon systems due to a special order (or Overcharging a weapon) may not use Low Power weapons either.</description>
     </rule>
-    <rule id="27bd-1d4f-7ca7-8d43" name="Squadron-X" publicationId="3955-5d68-187e-60e2" page="55" hidden="false">
+    <rule id="27bd-1d4f-7ca7-8d43" name="Squadron (X)" publicationId="3955-5d68-187e-60e2" page="55" hidden="false">
       <description>If a Group has assigned X or more of the same weapon system with this special rule to the same target, increase the attack dice of one of those weapon systems (attacker&apos;s choice) by 3.</description>
+      <alias>Squadron (2)</alias>
+      <alias>Squadron (3)</alias>
     </rule>
     <rule id="ccb2-ad72-fe3c-8797" name="Unstable" publicationId="3955-5d68-187e-60e2" page="55" hidden="false">
       <description>While on the Weapons Free Special Order, Attack dice rolls of an unmodified 6 cause the firing ship to lose that weapon’s damage value (after any modifiers) in Hull Points with no saves of any kind allowed.</description>
