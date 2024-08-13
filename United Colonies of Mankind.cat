@@ -665,7 +665,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="5"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4362-d0a6-4994-2b03" name="Osaka Light Cruiser" hidden="false" collective="true" import="true" type="model" publicationId="f185-0072-424b-ef19" page="23">
+    <selectionEntry id="4362-d0a6-4994-2b03" name="Osaka Light Cruiser" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="23">
       <profiles>
         <profile id="e26f-c696-e79a-3575" name="Osaka" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -1328,10 +1328,22 @@
     </selectionEntry>
     <selectionEntry id="2d06-40ee-eb1b-227c" name="Osaka Light Cruisers" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
-        <entryLink id="4555-5a7b-48fd-5dc8" name="Osaka Light Cruiser" hidden="false" collective="true" import="true" targetId="4362-d0a6-4994-2b03" type="selectionEntry" defaultAmount="2">
+        <entryLink import="true" name="Osaka Light Cruiser" hidden="false" id="42d8-1f22-7823-f9d8" type="selectionEntry" targetId="4362-d0a6-4994-2b03">
           <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="faad-2491-9b46-fa35" type="min"/>
-            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a656-fac2-73ab-de56" type="max"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="c909-c4ca-f627-f471"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="d286-be74-cd20-fb7b"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Osaka Light Cruiser" hidden="false" id="67c3-dc1c-3657-342b" type="selectionEntry" targetId="4362-d0a6-4994-2b03">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="4695-41de-b727-898b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c3e1-fd2a-81cb-9dca"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Osaka Light Cruiser" hidden="false" id="e297-7328-be61-23db" type="selectionEntry" targetId="4362-d0a6-4994-2b03">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="f0f1-3ee5-cc7e-e5a3"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4ecf-ea3f-13c7-0dbf"/>
           </constraints>
         </entryLink>
       </entryLinks>
