@@ -79,6 +79,29 @@
         <infoLink name="Linked (X)" id="5330-0352-b55b-a669" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="9K Snub" hidden="false" id="553a-a9dd-88cb-3bb2" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5896-f487-a766-901a" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52d7-aa92-0e31-b4c3" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="9K Snub Mass Drivers" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="15f5-8788-aabc-9fed">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>2+/4/1 F</comment>
+    </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="NC-3 Missiles" hidden="false" id="79ea-671f-2e64-5215" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d08-0a44-5779-5cad" includeChildSelections="false"/>

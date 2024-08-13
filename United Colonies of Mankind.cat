@@ -2695,6 +2695,7 @@
         <entryLink id="c9a5-22f3-3d2d-f04c" name="Reykjavik Cutters" hidden="false" collective="false" import="true" targetId="d659-3fb5-a96f-9b95" type="selectionEntry"/>
         <entryLink id="b471-465f-24d6-1a6f" name="Nuuk EM Harassers" hidden="false" collective="false" import="true" targetId="0edc-938d-e28c-0b79" type="selectionEntry"/>
         <entryLink id="f0fb-ff21-a762-c876" name="Lysander Stealth Lighters" hidden="false" collective="false" import="true" targetId="0e31-3562-e3bc-d4c9" type="selectionEntry"/>
+        <entryLink import="true" name="Hyperyacht Aurorum" hidden="false" id="7def-efae-c545-f7eb" type="selectionEntry" targetId="abac-3155-16f2-3235"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

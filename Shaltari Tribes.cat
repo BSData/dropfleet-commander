@@ -3487,6 +3487,7 @@
         <entryLink id="02ad-92ba-926c-5f65" name="Gallium Bio-Hazard Cutters" hidden="false" collective="false" import="true" targetId="7342-789a-2d68-6ae2" type="selectionEntry"/>
         <entryLink id="8076-0dba-eaae-8e57" name="Helium Voidflyers" hidden="false" collective="false" import="true" targetId="d9db-dbd1-0b7e-2637" type="selectionEntry"/>
         <entryLink id="8784-d1bc-4e23-8d70" name="Caesium Cutters" hidden="false" collective="false" import="true" targetId="24e7-77b9-da63-f1aa" type="selectionEntry"/>
+        <entryLink import="true" name="Hyperyacht Aurorum" hidden="false" id="9b60-4268-ea52-c9a9" type="selectionEntry" targetId="abac-3155-16f2-3235"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7904-f4ba-db8d-509a" name="Medium Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="3bc0-84d3-949e-4f2e">

@@ -117,6 +117,64 @@
         <categoryLink targetId="1342-a92d-424c-140a" id="7c40-2255-8cb9-7791" primary="true" name="Heavy"/>
       </categoryLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hyperyacht Aurorum" hidden="false" id="abac-3155-16f2-3235" collective="false" publicationId="71d6-14ad-06a1-10e4" page="25">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d78d-8ac5-d314-1ecb" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Hyperyacht Aurorum" typeId="ecce-1380-e182-c89e" typeName="Ship" hidden="false" id="21d9-7395-0614-9eb9">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">9&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">6</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">4+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">2</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">L2</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Launch, Stealth, Mercenary</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Stealth" id="39ad-2dba-8abb-2156" hidden="false" type="rule" targetId="8670-fbd9-e48c-da59"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Heavy" hidden="false" id="d641-8ccb-6f2b-e7f4" targetId="1342-a92d-424c-140a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="90"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="2"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="2"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="9K Snub" hidden="false" id="fdd9-ebfe-e660-336b" type="selectionEntry" targetId="553a-a9dd-88cb-3bb2" sortIndex="1"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Fighters &amp; Bombers" hidden="false" id="8488-5faa-0830-7b28" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1d5-401d-2591-e5cf" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d72a-ab3e-42e7-0edc" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Fighters &amp; Bombers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="41b2-7014-3b98-5b62">
+              <characteristics>
+                <characteristic name="Launch" typeId="604b-2e24-d426-bf71">2</characteristic>
+                <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Launch" id="f572-5ceb-095c-5267" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Mercenary" id="292a-6a00-0a56-a03c" hidden="false" publicationId="ea5f-c489-443b-35fa" page="1">
+          <description>This ship may be used in any Fleet, but you may only include a single Hyperyacht Aurorum in your fleet, regardless of game size. This ship’s Fighters &amp; Bombers use the stats of its parent fleet.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Resistance - Weapons" id="bbed-6906-5d48-1e07" targetId="ed7e-81bf-ed24-0dfb"/>
