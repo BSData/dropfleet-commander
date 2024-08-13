@@ -35,7 +35,7 @@
     <entryLink id="ae6d-8e57-addc-c8f2" name="Dreadnought Battlegroup" hidden="false" collective="false" import="true" targetId="c6ce-9f9b-392e-9a19" type="selectionEntry"/>
     <entryLink id="21b0-0108-ae6e-64b8" name="Shedu Monitor" hidden="false" collective="false" import="true" targetId="90ae-a279-2561-2bdf" type="selectionEntry"/>
     <entryLink id="1085-4371-f729-976d" name="Lamassu Barge" hidden="false" collective="false" import="true" targetId="42e1-cee4-875e-8d20" type="selectionEntry"/>
-    <entryLink id="3a5a-12e9-5e23-757b" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="fc21-fa93-eed6-2a7b" type="selectionEntry"/>
+    <entryLink id="3a5a-12e9-5e23-757b" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="91db-c1d9-41b6-06f2" type="selectionEntry"/>
     <entryLink id="286a-0e4f-6291-cb34" name="Parasite Radiation Leech" hidden="false" collective="false" import="true" targetId="e4c6-c8c2-cd38-80dd" type="selectionEntry"/>
     <entryLink id="a832-c944-9005-dbdf" name="Hiruko Boarding Cutter" hidden="false" collective="false" import="true" targetId="7be2-34ad-09a6-7dd4" type="selectionEntry"/>
     <entryLink id="38b3-7888-ae73-6063" name="Hiruko Boarding Cutter" hidden="false" collective="false" import="true" targetId="7be2-34ad-09a6-7dd4" type="selectionEntry"/>
@@ -125,7 +125,7 @@
         <categoryLink id="1384-2923-0f6e-494f" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4e34-b128-21d4-2271" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="2d36-6578-54f3-a789" type="selectionEntry"/>
+        <entryLink id="4e34-b128-21d4-2271" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="260"/>
@@ -217,7 +217,7 @@
         <categoryLink id="cc34-174d-3dfa-39ac" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4263-76a0-ee1e-2e54" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="2d36-6578-54f3-a789" type="selectionEntry"/>
+        <entryLink id="4263-76a0-ee1e-2e54" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="265"/>
@@ -279,7 +279,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="b315-e93e-d751-becf" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="c1f5-a6ec-1c14-f773" name="Full-Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
+        <infoLink id="c1f5-a6ec-1c14-f773" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
         <infoLink id="333f-7416-4c04-2021" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
         <infoLink id="a392-d1e6-cb07-c4d8" name="Stealth" hidden="false" targetId="8670-fbd9-e48c-da59" type="rule"/>
       </infoLinks>
@@ -287,7 +287,7 @@
         <categoryLink id="125b-676e-df77-d5e7" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="98dc-279d-d739-8f20" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="69c3-0f33-30db-cea3" type="selectionEntry"/>
+        <entryLink id="98dc-279d-d739-8f20" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="215"/>
@@ -348,7 +348,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9347-058e-1529-77b1" name="Full-Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
+        <infoLink id="9347-058e-1529-77b1" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
         <infoLink id="1c2d-e61a-20f1-eebc" name="Stealth" hidden="false" targetId="8670-fbd9-e48c-da59" type="rule"/>
         <infoLink id="b0bc-cd9f-310f-8d93" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
         <infoLink id="fe89-6e36-c92f-f00f" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
@@ -357,7 +357,7 @@
         <categoryLink id="8311-c2a7-14a6-d7b8" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8cfb-e963-bc2b-30f0" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="69c3-0f33-30db-cea3" type="selectionEntry"/>
+        <entryLink id="8cfb-e963-bc2b-30f0" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="215"/>
@@ -407,7 +407,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="4160-27ee-1ac4-4480" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="d761-c316-2c4c-bda2" name="Full-Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
+        <infoLink id="d761-c316-2c4c-bda2" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
         <infoLink id="03ed-9db8-01ba-f3fb" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="4f6d-fb24-e2f9-a728" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
         <infoLink id="231d-b6f7-7942-c837" name="Stealth" hidden="false" targetId="8670-fbd9-e48c-da59" type="rule"/>
@@ -418,7 +418,7 @@
         <categoryLink id="df29-b98b-cf79-b768" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7fef-dc11-bd91-2643" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="69c3-0f33-30db-cea3" type="selectionEntry"/>
+        <entryLink id="7fef-dc11-bd91-2643" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="180"/>
@@ -467,7 +467,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7ad2-bf21-8562-8a86" name="Full-Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
+        <infoLink id="7ad2-bf21-8562-8a86" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
         <infoLink id="6649-bff5-4859-f990" name="Stealth" hidden="false" targetId="8670-fbd9-e48c-da59" type="rule"/>
         <infoLink id="f8cf-e535-d04e-5386" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
         <infoLink id="696b-4dd6-3ae7-10eb" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
@@ -479,7 +479,7 @@
         <categoryLink id="4aaa-e3e0-313b-5984" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5ae6-fc35-990f-651b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="69c3-0f33-30db-cea3" type="selectionEntry"/>
+        <entryLink id="5ae6-fc35-990f-651b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="180"/>
@@ -549,7 +549,7 @@
         <categoryLink id="a93b-eba4-2ecc-63fa" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0eb3-7118-3502-b440" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="69c3-0f33-30db-cea3" type="selectionEntry"/>
+        <entryLink id="0eb3-7118-3502-b440" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="160"/>
@@ -622,7 +622,7 @@
         <categoryLink id="ac55-df44-d82d-a555" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="278a-61bc-3e42-7bff" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="69c3-0f33-30db-cea3" type="selectionEntry"/>
+        <entryLink id="278a-61bc-3e42-7bff" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="150"/>
@@ -690,7 +690,7 @@
         <categoryLink id="2b95-ab6d-d865-b53f" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ca3d-a52c-50ee-d159" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="86ee-b55d-eee9-5ed6" type="selectionEntry"/>
+        <entryLink id="ca3d-a52c-50ee-d159" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="115"/>
@@ -740,7 +740,7 @@
         <categoryLink id="e5b9-d048-3657-becc" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0380-e4f2-98ba-f306" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="86ee-b55d-eee9-5ed6" type="selectionEntry"/>
+        <entryLink id="0380-e4f2-98ba-f306" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="105"/>
@@ -811,7 +811,7 @@
         <categoryLink id="3d0b-f7d5-9a13-94b7" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="827e-66bc-1c85-a0a3" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="86ee-b55d-eee9-5ed6" type="selectionEntry"/>
+        <entryLink id="827e-66bc-1c85-a0a3" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="110"/>
@@ -868,7 +868,7 @@
         <categoryLink id="5bc8-fa58-c1ac-4481" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8dde-57a0-a8e8-72e3" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="86ee-b55d-eee9-5ed6" type="selectionEntry"/>
+        <entryLink id="8dde-57a0-a8e8-72e3" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="140"/>
@@ -925,7 +925,7 @@
         <categoryLink id="2d75-8fbb-615a-79b9" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7c16-5157-7c46-112a" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="86ee-b55d-eee9-5ed6" type="selectionEntry"/>
+        <entryLink id="7c16-5157-7c46-112a" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="105"/>
@@ -975,7 +975,7 @@
         <categoryLink id="5cc3-e919-b021-7500" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7c3b-0ce4-e4d0-c68f" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="86ee-b55d-eee9-5ed6" type="selectionEntry"/>
+        <entryLink id="7c3b-0ce4-e4d0-c68f" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="90"/>
@@ -1043,7 +1043,7 @@
         <categoryLink id="f26d-4026-6397-b345" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="56b5-961f-8c5c-2c50" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="86ee-b55d-eee9-5ed6" type="selectionEntry"/>
+        <entryLink id="56b5-961f-8c5c-2c50" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="95"/>
@@ -1195,7 +1195,7 @@
         <infoLink id="135d-eb1d-06aa-24cf" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
         <infoLink id="96b5-bfa5-9955-33c9" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
         <infoLink id="171e-9de0-d86d-403f" name="Bombardment" hidden="false" targetId="9e06-f148-f8a3-26fb" type="rule"/>
-        <infoLink id="a6b4-a902-19a7-77eb" name="**Low Level" hidden="false" targetId="6d0f-db40-ebb6-7a1f" type="rule"/>
+        <infoLink id="a6b4-a902-19a7-77eb" name="Low Level" hidden="false" targetId="6d0f-db40-ebb6-7a1f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9577-1ad2-48db-4410" name="Light" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -1858,9 +1858,9 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="69c3-0f33-30db-cea3" type="greaterThan"/>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d36-6578-54f3-a789" type="greaterThan"/>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="248c-f74f-d809-c3af" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f413-1384-f5c6-44c1" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5985-0d00-1fcc-b8be" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b338-59f9-6801-038a" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1880,15 +1880,15 @@
               <modifiers>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="20">
                   <conditions>
-                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="69c3-0f33-30db-cea3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f413-1384-f5c6-44c1" type="greaterThan"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="0">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d36-6578-54f3-a789" type="greaterThan"/>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="248c-f74f-d809-c3af" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5985-0d00-1fcc-b8be" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b338-59f9-6801-038a" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1910,15 +1910,15 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d36-6578-54f3-a789" type="greaterThan"/>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="248c-f74f-d809-c3af" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5985-0d00-1fcc-b8be" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b338-59f9-6801-038a" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="40">
                   <conditions>
-                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="69c3-0f33-30db-cea3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f413-1384-f5c6-44c1" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1941,15 +1941,15 @@
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="80">
                   <conditions>
-                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="69c3-0f33-30db-cea3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f413-1384-f5c6-44c1" type="greaterThan"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="40">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d36-6578-54f3-a789" type="greaterThan"/>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="248c-f74f-d809-c3af" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5985-0d00-1fcc-b8be" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b338-59f9-6801-038a" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1974,15 +1974,15 @@
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="100">
                   <conditions>
-                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="69c3-0f33-30db-cea3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f413-1384-f5c6-44c1" type="greaterThan"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="80">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d36-6578-54f3-a789" type="greaterThan"/>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="248c-f74f-d809-c3af" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5985-0d00-1fcc-b8be" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b338-59f9-6801-038a" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2849,7 +2849,7 @@
       <infoLinks>
         <infoLink id="2bf2-bc35-03df-1c65" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule"/>
         <infoLink id="0fdc-966e-763c-8df4" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
-        <infoLink id="04f9-d5fe-611b-c487" name="Full-Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
+        <infoLink id="04f9-d5fe-611b-c487" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
         <infoLink id="2ff8-b67d-a0c0-ccb9" name="Stealth" hidden="false" targetId="8670-fbd9-e48c-da59" type="rule"/>
         <infoLink id="d4c1-1aef-066e-3416" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
         <infoLink id="6076-5707-993d-e575" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
@@ -2859,7 +2859,7 @@
         <categoryLink id="be79-aafd-651a-8f7e" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2c10-0444-8ab8-9ce4" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="248c-f74f-d809-c3af" type="selectionEntry"/>
+        <entryLink id="2c10-0444-8ab8-9ce4" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="b338-59f9-6801-038a" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="460"/>
@@ -2946,7 +2946,7 @@
       <infoLinks>
         <infoLink id="75a5-6620-be12-d7aa" name="Dreadnought" hidden="false" targetId="c77c-14da-96fe-32ac" type="rule"/>
         <infoLink id="64af-5c13-3f6a-3bf1" name="Launch" hidden="false" targetId="6af7-681c-b2c8-5acc" type="rule"/>
-        <infoLink id="8eda-e894-1571-a7bf" name="Full-Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
+        <infoLink id="8eda-e894-1571-a7bf" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
         <infoLink id="2069-194a-a4cd-6ea7" name="Stealth" hidden="false" targetId="8670-fbd9-e48c-da59" type="rule"/>
         <infoLink id="eb4e-ca4d-c891-6a0b" name="Scald" hidden="false" targetId="c7fa-b054-49d7-e9d5" type="rule"/>
         <infoLink id="a6a8-b1e5-aa8e-ef2d" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
@@ -2958,7 +2958,7 @@
         <categoryLink id="d677-d687-409f-dd79" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8c93-fa8b-53ea-18a6" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="248c-f74f-d809-c3af" type="selectionEntry"/>
+        <entryLink id="8c93-fa8b-53ea-18a6" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="b338-59f9-6801-038a" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="470"/>
@@ -3132,166 +3132,6 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc21-fa93-eed6-2a7b" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="a8f1-6ee0-b479-3bf6" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="a8f1-6ee0-b479-3bf6" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="a8f1-6ee0-b479-3bf6" value="-1">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a8f1-6ee0-b479-3bf6" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="9a3f-ad40-1ab6-ee68" name="Thresher - Pungari Bombers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
-          <characteristics>
-            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">4</characteristic>
-            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
-          </characteristics>
-        </profile>
-        <profile id="0cec-2345-4c24-3d80" name="Thresher - Pungari Bulk Landers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
-          <characteristics>
-            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">2</characteristic>
-            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
-          </characteristics>
-        </profile>
-        <profile id="4dcc-acf8-c0fc-4e0b" name="Thresher" publicationId="8d8e-bcaa-3d14-b6e2" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
-          <characteristics>
-            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">6&quot;</characteristic>
-            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
-            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">14</characteristic>
-            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
-            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">4</characteristic>
-            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
-            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Rare, Reinforced Armour</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="6653-7369-e74d-ab8b" name="Thresher A - Boarding Torpedoes, Front" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="dbd5-e8e0-08eb-588e" name="Thresher B - Boarding Torpedoes, Starboard" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked-1</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="b092-a734-056a-496a" name="Thresher C - Boarding Torpedoes, Port" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked-1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="cc3d-6f52-eeb8-3726" name="Pungari Landers" hidden="false">
-          <description>Pungari Bulk Landers only drop Infantry Assets.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="fd7d-34d8-7091-bf88" name="Reinforced Armour" hidden="false" targetId="8560-b10d-f4cb-d837" type="rule"/>
-        <infoLink id="f365-9f18-995d-7d3d" name="Corruptor" hidden="false" targetId="c334-0240-1cae-8db7" type="rule"/>
-        <infoLink id="5666-d278-6116-c79f" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
-        <infoLink id="96d7-4158-37b7-d2f5" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="4c72-cb2a-08f2-47c1" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="150"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="4"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="10"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="69c3-0f33-30db-cea3" name="Flagship (H)" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a53-abd8-c120-1bee" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="d183-2b7e-4284-7017" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="86ee-b55d-eee9-5ed6" name="Flagship (M)" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="314b-37d6-3ae8-1c02" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="da64-119e-8bdd-b7c3" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2d36-6578-54f3-a789" name="Flagship (S)" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0301-8d39-e4d6-a5bf" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="87d7-c2d0-2d7d-137b" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="248c-f74f-d809-c3af" name="Flagship (S2)" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="983a-fb61-2d0c-9175" value="1">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4f87-c199-ef63-6f5e" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="eff6-b724-b690-7415" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3cb6-20a7-11ba-b8a7" type="max"/>
-        <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="983a-fb61-2d0c-9175" type="min"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="b264-4e04-a566-7f33" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="31ee-da6c-8d1a-0f5f" name="Umbra Battlecruiser" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="69bd-08c5-2566-8116" name="Umbra" publicationId="bb34-1413-pubN67767" page="139" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
@@ -3346,7 +3186,7 @@
         <categoryLink id="3743-b9c0-eff2-6239" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="950b-22aa-ff60-a77b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="69c3-0f33-30db-cea3" type="selectionEntry"/>
+        <entryLink id="950b-22aa-ff60-a77b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="195"/>
@@ -3414,7 +3254,7 @@
         <categoryLink id="b245-53ed-9685-ac4a" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5f21-7e47-a2c9-74fe" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="69c3-0f33-30db-cea3" type="selectionEntry"/>
+        <entryLink id="5f21-7e47-a2c9-74fe" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="195"/>
@@ -3712,7 +3552,7 @@ This group may gain both benefits of this rule in its activation, but may only g
         <categoryLink id="7859-ab1b-e0ec-9ab7" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="90d0-1ec3-020d-b14b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="69c3-0f33-30db-cea3" type="selectionEntry"/>
+        <entryLink id="90d0-1ec3-020d-b14b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="200"/>
@@ -3734,7 +3574,7 @@ This group may gain both benefits of this rule in its activation, but may only g
         <entryLink id="7245-ec81-0805-4f01" name="Manticore Battlecruiser" hidden="false" collective="false" import="true" targetId="b837-d37b-a199-fe4f" type="selectionEntry"/>
         <entryLink id="cd36-dcd0-fb45-2852" name="Raiju Heavy Cruiser" hidden="false" collective="false" import="true" targetId="ff3e-2a27-6bdc-0a74" type="selectionEntry"/>
         <entryLink id="d3c6-db54-e0d0-e66f" name="Shenlong Heavy Cruiser" hidden="false" collective="false" import="true" targetId="10d2-3e64-d28e-1b5c" type="selectionEntry"/>
-        <entryLink id="2905-6ec3-4073-c377" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="fc21-fa93-eed6-2a7b" type="selectionEntry"/>
+        <entryLink id="2905-6ec3-4073-c377" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="91db-c1d9-41b6-06f2" type="selectionEntry"/>
         <entryLink id="6b8f-2f32-7638-520f" name="Shadow Battlecruiser" hidden="false" collective="false" import="true" targetId="06c7-df51-eb6e-4b64" type="selectionEntry"/>
         <entryLink id="eb68-23e8-8a76-347d" name="Umbra Battlecruiser" hidden="false" collective="false" import="true" targetId="31ee-da6c-8d1a-0f5f" type="selectionEntry"/>
         <entryLink id="c636-d54f-0e31-413b" name="Kulshedra Vilestar Carrier" hidden="false" collective="false" import="true" targetId="f1e8-1811-03e1-b088" type="selectionEntry"/>
@@ -3798,4 +3638,7 @@ This group may gain both benefits of this rule in its activation, but may only g
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Multi-faction" id="eba1-e788-8c5d-4241" targetId="edb7-ec70-1989-b4b3"/>
+  </catalogueLinks>
 </catalogue>

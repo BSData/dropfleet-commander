@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="ed7e-81bf-ed24-0dfb" name="Resistance - Weapons" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="17" revision="1" authorUrl="https://github.com/BSData/dropfleet-commander/issues" authorName="John Kemp" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="false" name="XN-31 Pair" hidden="false" id="ffb3-86e8-f46f-31cb" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d0d3-d0a3-50f4-3204" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a273-56e2-9859-3737" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="XN-31 Mass Driver Turret Pair" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="2c63-8941-df8e-fbaa">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>2+/2/1 F/S Fus(2)</comment>
+      <infoLinks>
+        <infoLink name="Fusillade (X)" id="e4a6-ca10-01c0-4bb0" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="N-31 Starboard" hidden="false" id="da50-f025-3ebe-5e2f" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb02-a682-45e3-1ba3" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad93-23a3-5dd5-48e7" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="N-31 Hybrid Gun Battery (Starboard)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="4e4d-3398-381f-636b">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>4+/8/1 S(R) Lnk(1)</comment>
+      <infoLinks>
+        <infoLink name="Linked (X)" id="beac-d24c-eea1-b2b3" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="N-31 Port" hidden="false" id="e44c-f2ed-607c-2feb" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7a3-daa0-9673-5e1c" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b189-8273-bd72-5312" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="N-31 Hybrid Gun Battery (Port)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="da2f-c7e5-c757-79e4">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>4+/8/1 S(L) Lnk(1)</comment>
+      <infoLinks>
+        <infoLink name="Linked (X)" id="5330-0352-b55b-a669" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="NC-3 Missiles" hidden="false" id="79ea-671f-2e64-5215" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d08-0a44-5779-5cad" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ebd-4cd3-56e4-47e1" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="NC-3 Missiles" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="8693-69d0-96f7-d222">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>4+/2/1 F/S/R CA</comment>
+      <infoLinks>
+        <infoLink name="Close Action" id="7967-1ddc-31c1-0767" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

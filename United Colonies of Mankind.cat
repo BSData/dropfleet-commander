@@ -8,7 +8,7 @@
     <entryLink id="b01d-a541-c9f2-a1ec" name="Fleet" hidden="false" collective="false" import="true" targetId="5699-604a-8095-058b" type="selectionEntry"/>
     <entryLink id="3cee-d5e6-c6a6-29f8" name="Beijing Battleship" hidden="false" collective="false" import="true" targetId="7f6f-2e30-436f-b9de" type="selectionEntry"/>
     <entryLink id="6154-44cb-170b-a50f" name="Berlin Cruiser" hidden="false" collective="false" import="true" targetId="7bd8-f7d2-81e5-1411" type="selectionEntry"/>
-    <entryLink id="205c-0cf6-1501-efad" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="7601-902e-0df4-0c70" type="selectionEntry"/>
+    <entryLink id="205c-0cf6-1501-efad" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry"/>
     <entryLink id="083e-43d3-bfdb-3dc7" name="Jakarta Aegis Frigate" hidden="false" collective="false" import="true" targetId="6830-cbfc-20e6-4aec" type="selectionEntry"/>
     <entryLink id="5430-8c6a-db86-f9ef" name="Johannesburg Battlecruiser" hidden="false" collective="false" import="true" targetId="cdab-9b19-6876-8592" type="selectionEntry"/>
     <entryLink id="c667-cc8e-aab7-c8f0" name="Lima Frigate" hidden="false" collective="false" import="true" targetId="dba1-e056-6281-9562" type="selectionEntry"/>
@@ -35,7 +35,7 @@
     <entryLink id="856a-5e5e-a2ff-de19" name="Washington Supercarrier" hidden="false" collective="false" import="true" targetId="4020-c343-6517-ee2f" type="selectionEntry"/>
     <entryLink id="c96b-25d3-272f-b215" name="Istanbul Monitor" hidden="false" collective="false" import="true" targetId="4a56-a300-35cd-0e2f" type="selectionEntry"/>
     <entryLink id="d752-b300-2718-e12b" name="Vienna Escort Frigate" hidden="false" collective="false" import="true" targetId="8b61-e695-f012-dd95" type="selectionEntry"/>
-    <entryLink id="89aa-293e-0a57-2a3d" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="5f7d-6ce1-41a1-921f" type="selectionEntry"/>
+    <entryLink id="89aa-293e-0a57-2a3d" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="91db-c1d9-41b6-06f2" type="selectionEntry"/>
     <entryLink import="true" name="Delhi Battleship" hidden="false" id="9c89-a577-6694-a991" type="selectionEntry" targetId="d9ce-81e4-ffac-906e"/>
   </entryLinks>
   <sharedSelectionEntries>
@@ -64,7 +64,7 @@
         <categoryLink id="dcfd-8da4-deb1-5c82" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0730-879b-81e6-055a" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="e98e-6f1f-f86a-6276" type="selectionEntry"/>
+        <entryLink id="0730-879b-81e6-055a" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="b338-59f9-6801-038a" type="selectionEntry"/>
         <entryLink import="true" name="UF-9000 Starboard" hidden="false" id="028b-37cf-e4f8-f61c" type="selectionEntry" targetId="f8e3-76b9-67d2-5b69" sortIndex="1"/>
         <entryLink import="true" name="UF-9000 Port" hidden="false" id="d69f-6433-415f-d6ab" type="selectionEntry" targetId="1d73-9791-29be-5099" sortIndex="2"/>
         <entryLink import="true" name="UF-6400s Dorsal" hidden="false" id="e952-d8e6-77dd-57ee" type="selectionEntry" targetId="55c2-eea8-9203-9e7d" sortIndex="3"/>
@@ -104,7 +104,7 @@
         <categoryLink id="db2f-5b06-9a22-20a2" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5065-bf81-ae89-0072" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="e98e-6f1f-f86a-6276" type="selectionEntry"/>
+        <entryLink id="5065-bf81-ae89-0072" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="b338-59f9-6801-038a" type="selectionEntry"/>
         <entryLink import="true" name="UF-9000 Starboard" hidden="false" id="38ba-b194-3956-9116" type="selectionEntry" targetId="f8e3-76b9-67d2-5b69" sortIndex="1"/>
         <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="9d85-4b36-d75d-8bc8" type="selectionEntry" targetId="128a-7ca7-f016-c265" sortIndex="7"/>
         <entryLink import="true" name="UF-9000 Port" hidden="false" id="4555-3d87-55b8-27f2" type="selectionEntry" targetId="1d73-9791-29be-5099" sortIndex="2"/>
@@ -139,7 +139,7 @@
         <categoryLink id="e50e-cc63-88a0-1b82" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4f21-e00e-0476-be91" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="983e-133f-733a-28f6" type="selectionEntry"/>
+        <entryLink id="4f21-e00e-0476-be91" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="Python SH Laser" hidden="false" id="243a-e33a-d9f1-20f5" type="selectionEntry" targetId="dc27-f763-3416-e642" sortIndex="1"/>
         <entryLink import="true" name="UF-4200s Port" hidden="false" id="d2ea-b4f0-30c8-7a93" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="2"/>
         <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="c6ca-713a-c446-b8c3" type="selectionEntry" targetId="da0c-62ea-e395-c09a" sortIndex="3"/>
@@ -172,7 +172,7 @@
         <categoryLink id="9ab0-ab98-12da-cc31" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e904-ee8d-3c1b-5bd3" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="983e-133f-733a-28f6" type="selectionEntry"/>
+        <entryLink id="e904-ee8d-3c1b-5bd3" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="UF-4200s Port" hidden="false" id="3fbc-f208-67ea-373f" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="1"/>
         <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="b8a7-a407-70e4-86b3" type="selectionEntry" targetId="da0c-62ea-e395-c09a" sortIndex="2"/>
         <entryLink import="true" name="Shark Missiles" hidden="false" id="8804-1ab0-a34a-5584" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
@@ -205,7 +205,7 @@
         <categoryLink id="6a21-fe60-0c25-3324" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a0c5-bf88-e6cc-e04f" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="983e-133f-733a-28f6" type="selectionEntry"/>
+        <entryLink id="a0c5-bf88-e6cc-e04f" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="Python SH Laser" hidden="false" id="a784-4b21-adb7-d80b" type="selectionEntry" targetId="dc27-f763-3416-e642" sortIndex="1"/>
         <entryLink import="true" name="UF-4200s Port" hidden="false" id="245f-b8ce-a2e8-4d14" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="2"/>
         <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="0ec7-9ce5-5cb7-74d1" type="selectionEntry" targetId="da0c-62ea-e395-c09a" sortIndex="3"/>
@@ -244,7 +244,7 @@
         <categoryLink name="Super Heavy" hidden="false" id="59ae-3cb2-e4b5-ea4f" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Flagship (S)" hidden="false" id="218f-7ac8-1a00-b6d9" collective="false" targetId="983e-133f-733a-28f6" type="selectionEntry"/>
+        <entryLink import="true" name="Flagship (S)" hidden="false" id="218f-7ac8-1a00-b6d9" collective="false" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="UF-4200s Port" hidden="false" id="b099-eb95-29c4-cc0a" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="1"/>
         <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="02a2-5b1e-5c55-809c" type="selectionEntry" targetId="da0c-62ea-e395-c09a" sortIndex="2"/>
         <entryLink import="true" name="UF-6400s" hidden="false" id="3369-ec40-f09c-1a11" type="selectionEntry" targetId="cded-9dfb-e373-b902" sortIndex="3"/>
@@ -277,7 +277,7 @@
         <categoryLink name="Super Heavy" hidden="false" id="825b-1c4b-9277-f997" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Flagship (S)" hidden="false" id="1d89-7a0e-68b5-ba40" collective="false" targetId="983e-133f-733a-28f6" type="selectionEntry"/>
+        <entryLink import="true" name="Flagship (S)" hidden="false" id="1d89-7a0e-68b5-ba40" collective="false" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="UF-12000" hidden="false" id="5000-d37f-fcf6-f8d1" type="selectionEntry" targetId="f034-a745-8a86-485b" sortIndex="1"/>
         <entryLink import="true" name="UF-4200s Port" hidden="false" id="94a1-049d-23ac-3f3f" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="2"/>
         <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="16a8-2fba-1ce1-52cf" type="selectionEntry" targetId="da0c-62ea-e395-c09a" sortIndex="3"/>
@@ -309,7 +309,7 @@
         <categoryLink id="e1a6-6777-a8b2-78fe" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9158-df9c-f5f7-590a" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="5fa6-9b86-d5df-59d7" type="selectionEntry"/>
+        <entryLink id="9158-df9c-f5f7-590a" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="UF-4200 Port" hidden="false" id="661c-8b84-f1ab-71e8" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
         <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="101a-cdec-6d03-21c5" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
         <entryLink import="true" name="UF-6400" hidden="false" id="058d-58a1-b3fc-6c16" type="selectionEntry" targetId="f60a-3a13-80f9-a2c8" sortIndex="3"/>
@@ -343,7 +343,7 @@
         <categoryLink id="01fb-b592-8c98-5946" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2ec4-7337-8e1c-fbc2" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="5fa6-9b86-d5df-59d7" type="selectionEntry"/>
+        <entryLink id="2ec4-7337-8e1c-fbc2" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="Viper SH Laser" hidden="false" id="4968-b5ee-8cfa-63aa" type="selectionEntry" targetId="2d5a-a909-0aa2-880e" sortIndex="1"/>
         <entryLink import="true" name="UF-4200s Port" hidden="false" id="1113-a8b5-51bc-c406" type="selectionEntry" targetId="42ba-2ec4-1f18-e8ce" sortIndex="2"/>
         <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="17b7-a824-6f96-9652" type="selectionEntry" targetId="eb81-0206-2ab7-9a5d" sortIndex="3"/>
@@ -378,7 +378,7 @@
         <categoryLink id="9479-b31f-9173-1979" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6edc-17fc-cd8a-eaa7" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="5fa6-9b86-d5df-59d7" type="selectionEntry"/>
+        <entryLink id="6edc-17fc-cd8a-eaa7" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="UF-4200 Port" hidden="false" id="bee0-8939-db9e-17c3" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
         <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="63a9-f8ff-73f9-02f1" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
         <entryLink import="true" name="Shark Missiles" hidden="false" id="cc8f-c5ed-443f-9020" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
@@ -427,7 +427,7 @@
         <categoryLink id="344e-304b-35d5-5795" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c82a-7542-2f02-ccb5" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="5fa6-9b86-d5df-59d7" type="selectionEntry"/>
+        <entryLink id="c82a-7542-2f02-ccb5" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="UF-4200 Port" hidden="false" id="12a8-b1e0-8b00-b98e" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
         <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="bc19-01e0-b94e-809d" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
         <entryLink import="true" name="Shark Missiles" hidden="false" id="f930-c65e-6ef0-f9a7" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
@@ -464,7 +464,7 @@
         <entryLink import="true" name="UF-6400s" hidden="false" id="1f90-7032-6a50-0d91" type="selectionEntry" targetId="cded-9dfb-e373-b902" sortIndex="2"/>
         <entryLink import="true" name="Shark Missiles" hidden="false" id="1266-00f0-cefa-cb4f" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
         <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="0651-1804-f84c-ef44" type="selectionEntry" targetId="45c2-3645-b3bd-2648" sortIndex="4"/>
-        <entryLink import="true" name="Flagship (H)" hidden="false" id="52ca-ecf5-585b-c8a9" collective="false" targetId="5fa6-9b86-d5df-59d7" type="selectionEntry"/>
+        <entryLink import="true" name="Flagship (H)" hidden="false" id="52ca-ecf5-585b-c8a9" collective="false" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink targetId="1342-a92d-424c-140a" id="e976-866d-9346-cfc2" primary="true" name="Heavy"/>
@@ -490,7 +490,7 @@
         <categoryLink id="2bc4-7085-2417-10e3" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="459d-cf45-ca12-749d" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="5fa6-9b86-d5df-59d7" type="selectionEntry"/>
+        <entryLink id="459d-cf45-ca12-749d" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="UF-4200 Port" hidden="false" id="ca26-102b-3eb6-d462" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
         <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="06d2-7c7a-a1fd-5799" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
         <entryLink import="true" name="UF-6400s" hidden="false" id="8ee6-09f5-4682-aaf8" type="selectionEntry" targetId="21c5-55a6-d824-4587" sortIndex="3"/>
@@ -526,7 +526,7 @@
         <categoryLink id="1600-f2ad-16b6-c8fa" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="713a-7866-cf66-c46b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="5fa6-9b86-d5df-59d7" type="selectionEntry"/>
+        <entryLink id="713a-7866-cf66-c46b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="Cobra H Laser Pair" hidden="false" id="5833-c186-c0c6-dbb1" type="selectionEntry" targetId="0835-f51c-d3a0-8888" sortIndex="1"/>
         <entryLink import="true" name="UF-4200 Port" hidden="false" id="b268-d03c-e798-0b03" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="2"/>
         <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="9b2c-3707-7bc3-584e" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="3"/>
@@ -558,7 +558,7 @@
         <categoryLink id="7869-e5c6-f3c1-b96d" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2064-7ccb-c71d-312c" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="8ceb-82fd-b528-acf6" type="selectionEntry"/>
+        <entryLink id="2064-7ccb-c71d-312c" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="UF-4200 Port" hidden="false" id="155c-f39f-0c6b-4905" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
         <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="f41f-b120-6b21-1cc9" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
         <entryLink import="true" name="UF-6400s" hidden="false" id="8542-5f04-e6c5-3bac" type="selectionEntry" targetId="bf82-04d9-8a0e-7266" sortIndex="3"/>
@@ -590,7 +590,7 @@
         <categoryLink id="8955-d079-1954-8e85" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8171-5388-3378-1bd0" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="8ceb-82fd-b528-acf6" type="selectionEntry"/>
+        <entryLink id="8171-5388-3378-1bd0" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="Cobra H Laser" hidden="false" id="aa74-b8c9-dd94-2a43" type="selectionEntry" targetId="245d-9808-483a-d36c" sortIndex="1"/>
         <entryLink import="true" name="UF-4200 Port" hidden="false" id="4c2d-e15f-2d4f-705e" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="2"/>
         <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="dfa7-2c02-0e5f-daa8" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="3"/>
@@ -622,7 +622,7 @@
         <categoryLink id="c54a-e6ce-5397-8f41" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d44e-7d3a-fedd-792f" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="8ceb-82fd-b528-acf6" type="selectionEntry"/>
+        <entryLink id="d44e-7d3a-fedd-792f" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="UF-4200 Port" hidden="false" id="561a-ce12-1c41-e233" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
         <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="a959-582b-c64d-2414" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
         <entryLink import="true" name="B-8000" hidden="false" id="066d-9708-aa72-43ce" type="selectionEntry" targetId="18da-f374-06df-9958" sortIndex="3"/>
@@ -654,7 +654,7 @@
         <categoryLink id="9fee-fd32-c188-ceb4" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="dedc-ab05-dc7c-d71b" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="8ceb-82fd-b528-acf6" type="selectionEntry"/>
+        <entryLink id="dedc-ab05-dc7c-d71b" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="UF-6400s" hidden="false" id="a741-6f15-7272-e1d0" type="selectionEntry" targetId="cded-9dfb-e373-b902" sortIndex="1"/>
         <entryLink import="true" name="Shark Missiles" hidden="false" id="7a6d-d00a-fc61-eaf9" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="2"/>
         <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="96c4-53d4-b407-c84b" type="selectionEntry" targetId="45c2-3645-b3bd-2648" sortIndex="3"/>
@@ -685,7 +685,7 @@
         <categoryLink id="e875-9139-5a4f-cafa" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ee52-403d-251a-8fe7" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="8ceb-82fd-b528-acf6" type="selectionEntry"/>
+        <entryLink id="ee52-403d-251a-8fe7" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="UF-6400s" hidden="false" id="44ba-950b-c34a-c060" type="selectionEntry" targetId="bf82-04d9-8a0e-7266" sortIndex="1"/>
         <entryLink import="true" name="Barracuda Missiles" hidden="false" id="c30e-077c-eb6e-827f" type="selectionEntry" targetId="3470-dc96-83a6-2aef" sortIndex="2"/>
       </entryLinks>
@@ -715,7 +715,7 @@
         <categoryLink id="82c4-eaac-5d1c-f370" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9902-398a-5107-5621" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="8ceb-82fd-b528-acf6" type="selectionEntry"/>
+        <entryLink id="9902-398a-5107-5621" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="Cobra H Laser" hidden="false" id="a18e-1c35-6d68-23b1" type="selectionEntry" targetId="245d-9808-483a-d36c" sortIndex="1"/>
         <entryLink import="true" name="Barracuda Missiles" hidden="false" id="b093-3c67-2d8d-3e65" type="selectionEntry" targetId="3470-dc96-83a6-2aef" sortIndex="2"/>
       </entryLinks>
@@ -745,7 +745,7 @@
         <categoryLink id="6213-64be-2f30-7e1a" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="f8ad-401f-fe73-2b47" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="8ceb-82fd-b528-acf6" type="selectionEntry"/>
+        <entryLink id="f8ad-401f-fe73-2b47" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="UF-4200 Port" hidden="false" id="0d3d-9fd3-4658-c78a" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
         <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="60e8-2157-5c24-3f52" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
         <entryLink import="true" name="Barracuda Missiles" hidden="false" id="4819-4b69-e755-5726" type="selectionEntry" targetId="3470-dc96-83a6-2aef" sortIndex="3"/>
@@ -938,7 +938,7 @@
     </selectionEntry>
     <selectionEntry id="4a56-a300-35cd-0e2f" name="Istanbul Monitor" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="33">
       <profiles>
-        <profile id="2f0a-0bdc-177c-4c71" name="Istanbul" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="2f0a-0bdc-177c-4c71" name="Istanbul" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">10&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
@@ -971,7 +971,7 @@
     </selectionEntry>
     <selectionEntry id="8b61-e695-f012-dd95" name="Vienna Escort Frigate" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="34">
       <profiles>
-        <profile id="f382-8481-398b-823c" name="Vienna" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="f382-8481-398b-823c" name="Vienna" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
@@ -1023,7 +1023,7 @@
         <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ddc-1ff9-cd87-2832" type="max"/>
       </constraints>
       <profiles>
-        <profile id="cdd9-18f1-4398-1abe" name="Havana" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="cdd9-18f1-4398-1abe" name="Havana" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
@@ -1055,7 +1055,7 @@
     </selectionEntry>
     <selectionEntry id="a35f-4ac4-cd75-c4d3" name="Vancouver Escort Carrier" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="36">
       <profiles>
-        <profile id="c90c-b219-d255-e27b" name="Vancouver" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="c90c-b219-d255-e27b" name="Vancouver" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
@@ -1084,7 +1084,7 @@
     </selectionEntry>
     <selectionEntry id="de51-868f-f763-9053" name="Kyiv Heavy Destroyer" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="37">
       <profiles>
-        <profile id="3f7e-4d55-e535-8575" name="Kyiv" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="3f7e-4d55-e535-8575" name="Kyiv" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
@@ -1113,7 +1113,7 @@
     </selectionEntry>
     <selectionEntry id="6c07-3626-e42f-0e4b" name="Nuuk EM Harasser" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="38">
       <profiles>
-        <profile id="d4a2-30e3-3f87-477b" name="Nuuk" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="d4a2-30e3-3f87-477b" name="Nuuk" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">3&quot;</characteristic>
@@ -1145,7 +1145,7 @@
     </selectionEntry>
     <selectionEntry id="19bf-03d9-2414-7e9d" name="Reykjavik Cutter" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="39">
       <profiles>
-        <profile id="b334-7abd-af50-9831" name="Reykjavik" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="b334-7abd-af50-9831" name="Reykjavik" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">3&quot;</characteristic>
@@ -1177,7 +1177,7 @@
     </selectionEntry>
     <selectionEntry id="2358-a563-6d15-676c" name="Santiago Corvette" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="40">
       <profiles>
-        <profile id="820c-89fc-9699-5df3" name="Santiago" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="820c-89fc-9699-5df3" name="Santiago" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">2&quot;</characteristic>
@@ -1229,7 +1229,7 @@
         <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ba9-9dd4-ea8f-6163" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9bf9-d7c9-9e29-afea" name="Lysander" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
+        <profile id="9bf9-d7c9-9e29-afea" name="Lysander" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">0&quot;</characteristic>
@@ -2163,9 +2163,9 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="983e-133f-733a-28f6" type="greaterThan"/>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e98e-6f1f-f86a-6276" type="greaterThan"/>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fa6-9b86-d5df-59d7" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5985-0d00-1fcc-b8be" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b338-59f9-6801-038a" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f413-1384-f5c6-44c1" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2187,15 +2187,15 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="983e-133f-733a-28f6" type="greaterThan"/>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e98e-6f1f-f86a-6276" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5985-0d00-1fcc-b8be" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b338-59f9-6801-038a" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="20">
                   <conditions>
-                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fa6-9b86-d5df-59d7" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f413-1384-f5c6-44c1" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2215,15 +2215,15 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="983e-133f-733a-28f6" type="greaterThan"/>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e98e-6f1f-f86a-6276" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5985-0d00-1fcc-b8be" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b338-59f9-6801-038a" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="40">
                   <conditions>
-                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fa6-9b86-d5df-59d7" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f413-1384-f5c6-44c1" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2246,17 +2246,17 @@
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="80">
                   <conditions>
-                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fa6-9b86-d5df-59d7" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f413-1384-f5c6-44c1" type="greaterThan"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="40">
                   <conditions>
-                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="983e-133f-733a-28f6" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5985-0d00-1fcc-b8be" type="greaterThan"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="40">
                   <conditions>
-                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e98e-6f1f-f86a-6276" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b338-59f9-6801-038a" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2279,15 +2279,15 @@
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="100">
                   <conditions>
-                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fa6-9b86-d5df-59d7" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f413-1384-f5c6-44c1" type="greaterThan"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="e888-2584-886f-7f2c" value="80">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="983e-133f-733a-28f6" type="greaterThan"/>
-                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e98e-6f1f-f86a-6276" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5985-0d00-1fcc-b8be" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b338-59f9-6801-038a" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2323,97 +2323,6 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7601-902e-0df4-0c70" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="606f-6793-3651-3ba7" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="606f-6793-3651-3ba7" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="606f-6793-3651-3ba7" value="-1">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="606f-6793-3651-3ba7" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="f113-45df-15eb-3536" name="Centurion UCM" publicationId="07fb-79fc-ad90-6f9e" page="210" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
-          <characteristics>
-            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">6&quot;</characteristic>
-            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">7&quot;</characteristic>
-            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">14</characteristic>
-            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">2+</characteristic>
-            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">3</characteristic>
-            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-2</characteristic>
-            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ablative Armour, Rare</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2ec4-f6ea-0a05-635b" name="Centurion UCM A - XN-31 Mass Driver Turret Pair" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(2)</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2270-6ecc-9f9b-125f" name="Centurion UCM B - N-31 Hybrid Gun Battery, Starboard" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d230-2a3e-908a-998e" name="Centurion UCM C - N-31 Hybrid Gun Battery, Port" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="0168-1c98-7fc6-9eb1" name="Centurion UCM D - NC-3 Missiles" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="b8f9-9d24-6f10-7c79" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
-        <infoLink id="0e6e-3702-4933-d243" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
-        <infoLink id="038e-51ec-d3d5-73df" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="512b-1c8f-9d9b-97eb" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
-        <infoLink id="bb42-4197-f4db-4e6e" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="9f0a-0965-1fee-893e" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="8b70-7a89-b7db-a17c" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="5fa6-9b86-d5df-59d7" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="135"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="10"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="0483-4ffa-7e63-bb82" name="Centurion Grand Cruisers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="99ef-5ef4-7b04-c75f" value="2">
@@ -2431,13 +2340,13 @@
         <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99ef-5ef4-7b04-c75f" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="8859-d27f-768c-e1fd" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="7601-902e-0df4-0c70" type="selectionEntry">
+        <entryLink id="8859-d27f-768c-e1fd" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b1f-fc31-9f2c-4c70" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87e1-843f-4e35-cc4d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="97b1-24de-0149-1ce7" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="7601-902e-0df4-0c70" type="selectionEntry">
+        <entryLink id="97b1-24de-0149-1ce7" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2751-15d0-18bf-375e" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa37-2c3a-9c23-8dcb" type="max"/>
@@ -2628,161 +2537,6 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f7d-6ce1-41a1-921f" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="37a3-99eb-d177-7685" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="37a3-99eb-d177-7685" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="37a3-99eb-d177-7685" value="-1">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="37a3-99eb-d177-7685" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="f0ff-cae5-23ba-142b" name="Tresher - Pungari Bombers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
-          <characteristics>
-            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">4</characteristic>
-            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
-          </characteristics>
-        </profile>
-        <profile id="7224-ce90-bfb9-67a8" name="Tresher - Pungari Bulk Landers" hidden="false" typeId="f174-1347-6969-af9b" typeName="Load">
-          <characteristics>
-            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">2</characteristic>
-            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
-          </characteristics>
-        </profile>
-        <profile id="9443-141f-4f1d-f718" name="Tresher" publicationId="8d8e-bcaa-3d14-b6e2" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
-          <characteristics>
-            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">6&quot;</characteristic>
-            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">6&quot;</characteristic>
-            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">14</characteristic>
-            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">3+</characteristic>
-            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">4</characteristic>
-            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
-            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Rare, Reinforced Armour</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="b672-a978-afed-287f" name="Tresher A - Boarding Torpedoes, Front" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="ee1c-e47a-fdbe-00bc" name="Tresher B - Boarding Torpedoes, Starboard" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked-1</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="4e3e-b99d-6a8a-f51c" name="Tresher C - Boarding Torpedoes, Port" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked-1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="ad98-5526-4cd4-102f" name="Reinforced Armour" hidden="false" targetId="8560-b10d-f4cb-d837" type="rule"/>
-        <infoLink id="2bbd-5b71-7a95-6e79" name="Corruptor" hidden="false" targetId="c334-0240-1cae-8db7" type="rule"/>
-        <infoLink id="d606-3f23-dd5a-7aa1" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
-        <infoLink id="3ab0-4587-a8bb-96c2" name="Rare" hidden="false" targetId="becc-b3c9-c26c-abde" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="8b03-ba01-a090-811f" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="150"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="4"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="10"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8ceb-82fd-b528-acf6" name="Flagship (M)" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be24-e51f-c9d0-49e6" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="165e-0a67-325d-d509" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5fa6-9b86-d5df-59d7" name="Flagship (H)" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eb60-e8c1-2720-17e5" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="8c59-97d6-a8ed-bbe5" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="983e-133f-733a-28f6" name="Flagship (S)" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4991-07ba-1228-d1a9" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="bfe6-8cb0-d563-cb64" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e98e-6f1f-f86a-6276" name="Flagship (S2)" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="ed4c-3c9b-2d26-78bd" value="1">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4020-c343-6517-ee2f" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8677-d079-42d4-09f6" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b432-fe49-c33d-cd41" type="max"/>
-        <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed4c-3c9b-2d26-78bd" type="min"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="001a-14e2-1df3-e1fd" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="d659-3fb5-a96f-9b95" name="Reykjavik Cutters" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
         <entryLink id="5a9b-637f-5a31-ed54" name="Reykjavik Cutter" hidden="false" collective="false" import="true" targetId="19bf-03d9-2414-7e9d" type="selectionEntry">
@@ -2914,7 +2668,7 @@
         <entryLink id="a323-a300-8ec9-8297" name="Moscow Heavy Cruiser" hidden="false" collective="false" import="true" targetId="5254-88e5-d3a3-67bf" type="selectionEntry"/>
         <entryLink id="7f4f-c1ca-ac04-88c9" name="St. Petersburg Heavy Cruiser" hidden="false" collective="false" import="true" targetId="0696-bd36-c854-a6ab" type="selectionEntry"/>
         <entryLink id="4efc-2e97-4f90-6fc0" name="Centurion Grand Cruisers" hidden="false" collective="false" import="true" targetId="0483-4ffa-7e63-bb82" type="selectionEntry"/>
-        <entryLink id="1cd8-2908-c35b-2827" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="5f7d-6ce1-41a1-921f" type="selectionEntry"/>
+        <entryLink id="1cd8-2908-c35b-2827" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="91db-c1d9-41b6-06f2" type="selectionEntry"/>
         <entryLink id="9b8a-029c-61d9-a68c" name="Venice Command Battlecruiser" hidden="false" collective="false" import="true" targetId="ef3c-342d-5472-e41c" type="selectionEntry"/>
         <entryLink id="139f-b811-6078-2652" name="Rome Battlecruiser" hidden="false" collective="false" import="true" targetId="ca19-fb38-805b-1309" type="selectionEntry"/>
         <entryLink id="fd26-0f80-eb30-3473" name="Burnaby Battlestar Carrier" hidden="false" collective="false" import="true" targetId="477a-d6ab-6ba0-5bb9" type="selectionEntry"/>
@@ -2946,5 +2700,6 @@
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="United Colonies of Mankind - Weapons" id="87bb-49e5-0603-b322" targetId="cc73-3fe2-5b3f-d6d0"/>
+    <catalogueLink type="catalogue" name="Multi-faction" id="5db4-aadc-776c-60ae" targetId="edb7-ec70-1989-b4b3"/>
   </catalogueLinks>
 </catalogue>

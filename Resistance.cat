@@ -851,7 +851,7 @@
       <infoLinks>
         <infoLink id="f835-4b33-06a4-58d1" name="Air-to-Air" hidden="false" targetId="c3e1-6bee-9e1e-8f27" type="rule"/>
         <infoLink id="d440-c664-8f9e-6c0e" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="bf5f-5b63-ea70-3e0c" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
+        <infoLink id="bf5f-5b63-ea70-3e0c" name="Squadron (X)" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
         <infoLink id="94ab-5497-acb5-f160" name="Atmospheric" hidden="false" targetId="32d9-8628-d42c-4ddd" type="rule"/>
         <infoLink id="2f6b-8e1e-3c7a-bce7" name="Outlier" hidden="false" targetId="0a60-4c58-5666-78ee" type="rule"/>
       </infoLinks>
@@ -1399,77 +1399,6 @@
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="210"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="3"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="15"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="eb98-fa81-e16b-bde6" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="5358-3263-d8ec-fe5c" name="Centurion" publicationId="07fb-79fc-ad90-6f9e" page="210" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
-          <characteristics>
-            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">6&quot;</characteristic>
-            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">7&quot;</characteristic>
-            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">14</characteristic>
-            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">2+</characteristic>
-            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">3</characteristic>
-            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-2</characteristic>
-            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ablative Armour, Remnant</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="3fdb-714f-94e3-6c42" name="Centurion A - XN-31 Mass Driver Turret Pair" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade(2)</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="f574-dde7-29c7-c5e7" name="Centurion B - N-31 Hybrid Gun Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="66d4-ba15-3a4e-6a58" name="Centurion D - NC-3 Missiles" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d009-dccc-cbd6-4cde" name="Centurion C - N-31 Hybrid Gun Battery" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked-1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="e2be-6347-d845-eb14" name="Linked (X)" hidden="false" targetId="08ea-9db1-110b-0150" type="rule"/>
-        <infoLink id="99af-e166-7e53-0bfd" name="Fusillade (X)" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
-        <infoLink id="75b1-6a3e-123a-9606" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-        <infoLink id="527c-ccbc-b463-6098" name="Ablative Armour" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
-        <infoLink id="8ee0-9526-5bcf-9851" name="Remnant" hidden="false" targetId="e492-e4de-0f19-fcf5" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="5f45-4ff4-3b95-8f07" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="c031-cefd-a8c3-ca5b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="135"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6044-ac85-a548-2634" name="Centurion Grand Cruisers" hidden="false" collective="false" import="true" type="unit">
@@ -3166,58 +3095,6 @@
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f413-1384-f5c6-44c1" name="Flagship (H)" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="81a6-198d-a483-7b9c" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="963c-aef1-6735-d11c" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7876-1198-be24-9d63" name="Flagship (M)" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be4e-7390-9fef-0fa9" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="a891-9448-afbd-0fea" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5985-0d00-1fcc-b8be" name="Flagship (S)" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6851-f07f-679d-5205" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="66dd-358d-8963-745d" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b338-59f9-6801-038a" name="Flagship (S2)" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8177-6908-c960-7c56" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="c805-85a1-aeed-bddb" name="Flagships" hidden="false" targetId="7907-82a3-5278-4f8b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e876-1c80-9b9c-92e1" name="Cruiser" hidden="false" collective="false" import="true" type="model">
@@ -6338,7 +6215,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="ba04-e0ca-3e3b-ec22" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
+            <infoLink id="ba04-e0ca-3e3b-ec22" name="Squadron (X)" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="56d9-7e89-22b4-24e1" name="NC-16 Missile Turret" hidden="true">
@@ -6564,7 +6441,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="a520-0e0a-ca5b-7051" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
+                <infoLink id="a520-0e0a-ca5b-7051" name="Squadron (X)" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="56d1-e777-ce9e-62d8" name="NC-16 Missile Turret" hidden="true">
@@ -6817,7 +6694,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="ebef-26c0-d28d-e8ca" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
+            <infoLink id="ebef-26c0-d28d-e8ca" name="Squadron (X)" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="e194-e07b-e75f-af43" name="N-31 Hybrid Gun Turret 2" hidden="true">
@@ -7149,7 +7026,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="d02a-ebdb-8a05-2473" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
+                <infoLink id="d02a-ebdb-8a05-2473" name="Squadron (X)" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="9ab6-d093-026e-af43" name="N-31 Hybrid Gun Turret 2" hidden="true">
@@ -7459,7 +7336,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="38be-b129-e1a0-2497" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
+            <infoLink id="38be-b129-e1a0-2497" name="Squadron (X)" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="ee2b-ec99-eaa1-e3dc" name="NC-16 Missile Turret" hidden="true">
@@ -7709,7 +7586,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="3c23-6536-580b-0937" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
+                <infoLink id="3c23-6536-580b-0937" name="Squadron (X)" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="5fc8-6e5e-106b-e9f4" name="NC-16 Missile Turret" hidden="true">
@@ -11489,7 +11366,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="76e7-a16a-a678-6eae" name="Outlier" hidden="false" targetId="0a60-4c58-5666-78ee" type="rule"/>
-        <infoLink id="b6c8-896d-e370-859d" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
+        <infoLink id="b6c8-896d-e370-859d" name="Squadron (X)" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="184b-1bd2-ec9e-5cb7" name="Light" hidden="false" targetId="627b-146d-b78d-af3c" primary="true"/>
@@ -11681,7 +11558,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="766e-ea48-16f9-44c0" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
+                <infoLink id="766e-ea48-16f9-44c0" name="Squadron (X)" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
               </infoLinks>
             </infoGroup>
             <infoGroup id="b8dd-b02e-a152-415f" name="NC-16 Missile Turret" hidden="true">
@@ -11873,7 +11750,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="cff9-3a35-ae48-a903" name="Squadron-X" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
+            <infoLink id="cff9-3a35-ae48-a903" name="Squadron (X)" hidden="false" targetId="27bd-1d4f-7ca7-8d43" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="3610-bf8a-45c4-8ae4" name="NC-16 Missile Turret" hidden="true">
@@ -12644,4 +12521,7 @@ Also, because of another bug, not all profiles in battlegroups will be correctly
       <description>When this ship is destroyed, it suffers Catastrophic Damage as if it had Hull 6 (D3&quot;). Additionally, this ship does not count towards your fleet&apos;s Launch capacity.</description>
     </rule>
   </sharedRules>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Multi-faction" id="40b9-9e85-3070-24cc" targetId="edb7-ec70-1989-b4b3"/>
+  </catalogueLinks>
 </catalogue>

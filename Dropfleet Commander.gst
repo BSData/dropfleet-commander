@@ -892,7 +892,7 @@
       <infoLinks>
         <infoLink id="c6e7-ea20-dd6e-98e7" name="Civilian Transport" hidden="false" targetId="2fb8-a8c6-77da-bbb9" type="rule"/>
         <infoLink id="c25f-ecf0-d95a-ba97" name="Atmospheric" hidden="false" targetId="32d9-8628-d42c-4ddd" type="rule"/>
-        <infoLink id="efde-998b-7bf1-5b6a" name="Full-Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
+        <infoLink id="efde-998b-7bf1-5b6a" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
         <infoLink id="0cc5-f7b9-5e2e-243b" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -935,6 +935,58 @@
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flagship (H)" hidden="false" id="f413-1384-f5c6-44c1" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="81a6-198d-a483-7b9c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Flagships" hidden="false" id="963c-aef1-6735-d11c" targetId="7907-82a3-5278-4f8b" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flagship (M)" hidden="false" id="7876-1198-be24-9d63" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="be4e-7390-9fef-0fa9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Flagships" hidden="false" id="a891-9448-afbd-0fea" targetId="7907-82a3-5278-4f8b" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flagship (S)" hidden="false" id="5985-0d00-1fcc-b8be" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6851-f07f-679d-5205" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Flagships" hidden="false" id="66dd-358d-8963-745d" targetId="7907-82a3-5278-4f8b" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flagship (S2)" hidden="false" id="b338-59f9-6801-038a" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8177-6908-c960-7c56" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Flagships" hidden="false" id="c805-85a1-aeed-bddb" targetId="7907-82a3-5278-4f8b" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
