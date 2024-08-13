@@ -8,7 +8,7 @@
     <entryLink id="b01d-a541-c9f2-a1ec" name="Fleet" hidden="false" collective="false" import="true" targetId="5699-604a-8095-058b" type="selectionEntry"/>
     <entryLink id="3cee-d5e6-c6a6-29f8" name="Beijing Battleship" hidden="false" collective="false" import="true" targetId="7f6f-2e30-436f-b9de" type="selectionEntry"/>
     <entryLink id="6154-44cb-170b-a50f" name="Berlin Cruiser" hidden="false" collective="false" import="true" targetId="7bd8-f7d2-81e5-1411" type="selectionEntry"/>
-    <entryLink id="205c-0cf6-1501-efad" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry"/>
+    <entryLink id="205c-0cf6-1501-efad" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry"/>
     <entryLink id="083e-43d3-bfdb-3dc7" name="Jakarta Aegis Frigate" hidden="false" collective="false" import="true" targetId="6830-cbfc-20e6-4aec" type="selectionEntry"/>
     <entryLink id="5430-8c6a-db86-f9ef" name="Johannesburg Battlecruiser" hidden="false" collective="false" import="true" targetId="cdab-9b19-6876-8592" type="selectionEntry"/>
     <entryLink id="c667-cc8e-aab7-c8f0" name="Lima Frigate" hidden="false" collective="false" import="true" targetId="dba1-e056-6281-9562" type="selectionEntry"/>
@@ -2340,13 +2340,13 @@
         <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99ef-5ef4-7b04-c75f" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="8859-d27f-768c-e1fd" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry">
+        <entryLink id="8859-d27f-768c-e1fd" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b1f-fc31-9f2c-4c70" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87e1-843f-4e35-cc4d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="97b1-24de-0149-1ce7" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry">
+        <entryLink id="97b1-24de-0149-1ce7" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2751-15d0-18bf-375e" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa37-2c3a-9c23-8dcb" type="max"/>

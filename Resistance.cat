@@ -13,7 +13,7 @@
     <entryLink id="af2c-84d3-9838-e67a" name="Olympus Grand Battleship" hidden="false" collective="false" import="true" targetId="3a40-22a6-8f20-8e50" type="selectionEntry"/>
     <entryLink id="26b1-2cb7-3b16-d5ea" name="Phalanx Battlecruiser" hidden="false" collective="false" import="true" targetId="ecf0-09f8-93ba-eb5d" type="selectionEntry"/>
     <entryLink id="3209-fa72-6b7a-960f" name="Tribune Battlecruiser" hidden="false" collective="false" import="true" targetId="403f-676c-a039-d591" type="selectionEntry"/>
-    <entryLink id="05f8-9e71-7417-e27a" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry"/>
+    <entryLink id="05f8-9e71-7417-e27a" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry"/>
     <entryLink id="91ea-e542-470b-3dab" name="Gladiator Grand Cruiser" hidden="false" collective="false" import="true" targetId="d780-62d1-09d3-f61a" type="selectionEntry"/>
     <entryLink id="cce1-75a2-6ecd-9b67" name="Light Cruiser" hidden="false" collective="false" import="true" targetId="c89f-dfbc-74ad-2b4d" type="selectionEntry"/>
     <entryLink id="61d9-cdb3-7c22-deaf" name="Cruiser" hidden="false" collective="false" import="true" targetId="e876-1c80-9b9c-92e1" type="selectionEntry"/>
@@ -1403,13 +1403,13 @@
     </selectionEntry>
     <selectionEntry id="6044-ac85-a548-2634" name="Centurion Grand Cruisers" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
-        <entryLink id="d6e1-24aa-a083-97f0" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry">
+        <entryLink id="d6e1-24aa-a083-97f0" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b45d-063f-f178-1b1f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ee8-5406-2dac-c38d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4880-93c8-4699-815d" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry">
+        <entryLink id="4880-93c8-4699-815d" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="22fc-9454-8e86-a5aa" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6373-0a3e-6bb5-91f0" type="max"/>

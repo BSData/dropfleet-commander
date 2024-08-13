@@ -1,63 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="true" id="edb7-ec70-1989-b4b3" name="Multi-faction" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="17" revision="1" authorUrl="https://github.com/BSData/dropfleet-commander/issues" authorName="John Kemp" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
-    <selectionEntry type="model" import="true" name="Centurion Grand Cruiser" hidden="false" id="eb98-fa81-e16b-bde6" collective="false" publicationId="71d6-14ad-06a1-10e4" page="14">
-      <profiles>
-        <profile name="Centurion" typeId="ecce-1380-e182-c89e" typeName="Ship" hidden="false" id="5358-3263-d8ec-fe5c">
-          <characteristics>
-            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">6&quot;</characteristic>
-            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">7&quot;</characteristic>
-            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">15</characteristic>
-            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">2+</characteristic>
-            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">3</characteristic>
-            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-2</characteristic>
-            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ablative Armour</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="append" value=", Rare" field="4717-adad-0be5-3c60">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-              <comment>nospace</comment>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Ablative Armour" id="527c-ccbc-b463-6098" hidden="false" targetId="38d0-f9e6-a208-1f17" type="rule"/>
-        <infoLink name="Rare" id="731b-aaaf-b84b-8861" hidden="true" type="rule" targetId="becc-b3c9-c26c-abde">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="889e-ba35-f5c2-036d" shared="true" includeChildSelections="false" includeChildForces="false"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="620d-f7e0-131c-2882" shared="true" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Heavy" hidden="false" id="5f45-4ff4-3b95-8f07" targetId="1342-a92d-424c-140a" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink import="true" name="Flagship (H)" hidden="false" id="c031-cefd-a8c3-ca5b" collective="false" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="XN-31 Pair" hidden="false" id="54d0-50d9-c450-8c77" type="selectionEntry" targetId="ffb3-86e8-f46f-31cb" sortIndex="1"/>
-        <entryLink import="true" name="N-31 Port" hidden="false" id="6671-d2e0-5b1e-32b9" type="selectionEntry" targetId="e44c-f2ed-607c-2feb" sortIndex="2"/>
-        <entryLink import="true" name="N-31 Starboard" hidden="false" id="086b-7b7f-a67e-aa9e" type="selectionEntry" targetId="da50-f025-3ebe-5e2f" sortIndex="3"/>
-        <entryLink import="true" name="NC-3 Missiles" hidden="false" id="a163-8bae-c6e2-23dc" type="selectionEntry" targetId="79ea-671f-2e64-5215" sortIndex="4"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="135"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="10"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry type="model" import="true" name="Pungari Thresher Hive Ship" hidden="false" id="91db-c1d9-41b6-06f2" collective="false" publicationId="da17-7d78-79da-7077" page="18">
       <modifiers>
         <modifier type="set" value="3" field="7fce-c7be-f7fb-a7fe">
@@ -121,6 +64,58 @@
         <entryLink import="true" name="Pungari Bulk Landers" hidden="false" id="9368-551c-38d1-a49d" type="selectionEntry" targetId="1b65-a31c-47e5-52cf"/>
         <entryLink import="true" name="Pungari Bombers" hidden="false" id="454b-6911-36bc-ec10" type="selectionEntry" targetId="a2a5-6ba2-bb76-6f21"/>
       </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Centurion Grand Cruiser" hidden="false" id="c2d4-cebd-6609-c177" publicationId="71d6-14ad-06a1-10e4" page="14">
+      <entryLinks>
+        <entryLink import="true" name="XN-31 Pair" hidden="false" id="cc5d-f775-b709-3fd9" type="selectionEntry" targetId="ffb3-86e8-f46f-31cb" sortIndex="1"/>
+        <entryLink import="true" name="N-31 Port" hidden="false" id="4c4d-4598-0032-1fed" type="selectionEntry" targetId="e44c-f2ed-607c-2feb" sortIndex="2"/>
+        <entryLink import="true" name="N-31 Starboard" hidden="false" id="dc56-60e7-676d-e609" type="selectionEntry" targetId="da50-f025-3ebe-5e2f" sortIndex="3"/>
+        <entryLink import="true" name="NC-3 Missiles" hidden="false" id="928e-7d57-a75f-abab" type="selectionEntry" targetId="79ea-671f-2e64-5215" sortIndex="4"/>
+        <entryLink import="true" name="Flagship (H)" hidden="false" id="8a47-ee56-f4b7-96aa" type="selectionEntry" targetId="f413-1384-f5c6-44c1"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Centurion" typeId="ecce-1380-e182-c89e" typeName="Ship" hidden="false" id="6aa1-fe36-78c4-e779">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">6&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">7&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">15</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">2+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">3</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-2</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ablative Armour</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value=", Rare" field="0574-9897-4dc9-48e8">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true"/>
+              </conditions>
+              <comment>nospace</comment>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Ablative Armour" id="3d43-1aea-3aff-9d37" hidden="false" type="rule" targetId="38d0-f9e6-a208-1f17"/>
+        <infoLink name="Rare" id="7b80-4480-18c7-d673" hidden="true" type="rule" targetId="becc-b3c9-c26c-abde">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="135"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="10"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="1342-a92d-424c-140a" id="7c40-2255-8cb9-7791" primary="true" name="Heavy"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>

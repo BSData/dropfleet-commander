@@ -12,7 +12,7 @@
     <entryLink id="7893-9257-a7eb-1d23" name="Andromeda Escort Carrier" hidden="false" collective="false" import="true" targetId="f3c1-8ada-90b9-c94e" type="selectionEntry"/>
     <entryLink id="f467-8c9f-7e88-94c3" name="Bellerophon Heavy Cruiser" hidden="false" collective="false" import="true" targetId="e8b4-d12b-4924-432f" type="selectionEntry"/>
     <entryLink id="a8c4-57ec-0687-03a3" name="Calypso Frigate" hidden="false" collective="false" import="true" targetId="cfc2-8315-a376-453f" type="selectionEntry"/>
-    <entryLink id="c934-c38d-9f77-5764" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry"/>
+    <entryLink id="c934-c38d-9f77-5764" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry"/>
     <entryLink id="1bd7-6370-65fa-d604" name="Echo Corvette" hidden="false" collective="false" import="true" targetId="dbfa-05bd-bc3e-3b40" type="selectionEntry"/>
     <entryLink id="8bc9-6193-a671-8d70" name="Europa Frigate" hidden="false" collective="false" import="true" targetId="cecd-aed0-f849-87db" type="selectionEntry"/>
     <entryLink id="67b4-025c-7118-66be" name="Ganymede Assault Troopship" hidden="false" collective="false" import="true" targetId="9e6c-32b0-c1d9-2f3c" type="selectionEntry"/>
@@ -2659,13 +2659,13 @@
         <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c8b5-bb8c-b909-c9d9" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="9462-0279-6a54-94e2" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry">
+        <entryLink id="9462-0279-6a54-94e2" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="89a6-df75-5363-cc91" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b0a-0625-fe52-83d5" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1fe6-0fc7-bc6d-20ff" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="eb98-fa81-e16b-bde6" type="selectionEntry">
+        <entryLink id="1fe6-0fc7-bc6d-20ff" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f040-b159-4788-ab7b" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c76-a426-6cef-5d3b" type="max"/>
