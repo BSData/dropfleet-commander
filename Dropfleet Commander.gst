@@ -1077,6 +1077,7 @@ If a Critical Hit (i.e. rolling two or higher than the required lock number) is 
       <alias>Burnthrough (6)</alias>
       <alias>Burnthrough (8)</alias>
       <alias>Burnthrough (10)</alias>
+      <alias>Burnthrough (12)</alias>
     </rule>
     <rule id="5816-87fd-bf61-2418" name="Close Action" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
       <description>Close Action weapon systems may only be used against targets that are both within their fire arc and inside the firing ship’s Scan range. Close action weapons can be fired in addition to any other weapon systems permitted by a ship’s orders. A ship that is unable to use any of its weapon systems due to special orders may not use its close action weapons either.
@@ -1099,6 +1100,7 @@ Hits from Close Action weapons can be stopped by a target’s Point Defence. Res
     <rule id="08ea-9db1-110b-0150" name="Linked (X)" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
       <description>A weapon with this rule will normally be paired with a second weapon with the same Linked (X) value. In order for a ship to fire more than one weapon, it is normally required to declare a Weapons Free special order. However, all weapon systems with the same Linked (X) number count as a single weapon system for activation purposes, although they may be fired at different targets.</description>
       <alias>Linked (1)</alias>
+      <alias>Linked (2)</alias>
     </rule>
     <rule id="dad0-81c2-bbc4-9eee" name="Open" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>Ships with the Open rule do not need to maintain coherency with other members of their Group or Battlegroup and the Battlegroup will suffer no negative modifiers to their strategy rating while ships with this rule are out of coherency.</description>
@@ -1118,6 +1120,7 @@ Hits from Close Action weapons can be stopped by a target’s Point Defence. Res
     </rule>
     <rule id="c2d7-5ac4-4165-9954" name="Impel (X)" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
       <description>If the firing player inflicts X damage to an enemy ship (after saving throws have been taken) with a single weapon with the Impel (X) special rule, they may turn the target up to 45 degrees in either direction.</description>
+      <alias>Impel (1)</alias>
     </rule>
     <rule id="06c5-88e4-6e75-a056" name="Particle" publicationId="3955-5d68-187e-60e2" page="54" hidden="false">
       <description>Weapon systems with this rule always inflict Critical Hits if the Lock value of their attack is met. Passive saves may not be taken against them.</description>
@@ -1139,6 +1142,8 @@ Ground Asset tokens in Sectors within 3” of a Voidgate in Atmosphere or Space 
 Ground Assets may not be deployed through any Voidgate which has used the Max Thrust Special Order that turn, although that Voidgate may still be part of a chain.
 Any number of Ground Asset tokens may be picked up by a single Voidgate, but only one may be dropped per Voidgate per turn using this rule. Tokens picked up but not dropped in this manner are automatically destroyed.
 Tokens moved in this manner count as not being present in their new Sector for the remainder of the turn (and therefore may not contribute to scoring that turn).</description>
+      <alias>Voidgate-1</alias>
+      <alias>Voidgate-2</alias>
     </rule>
     <rule id="c334-0240-1cae-8db7" name="Corruptor" publicationId="3955-5d68-187e-60e2" page="53" hidden="false">
       <description>For every Attack Dice from this weapon that scores two higher than its Lock number and inflicts damage to an enemy ship (after saving throws have been taken), that ship gains a Corruptor token. At the beginning of each Damage Control Phase, a ship with Corruptor tokens takes 1 Damage for each token, with no saves of any type allowed. A Corruptor token may be repaired just like a Crippling effect.
@@ -1166,6 +1171,7 @@ Corruptor has no effect on Space Stations or Sectors.</description>
       <description>Weapons with the Calibre rule will be followed by either L, M, H, S which refers to the tonnage value they have been designed to target.
 When these weapons are fired at targets with the same tonnage value as their weapon, reduce the lock value on their profile by 1. If the weapon has more than 1 tonnage value listed, then reduce the Lock when shooting at any of the listed tonnage values.
 In addition, weapons with the Calibre H and/or S rule inflict Critical Hits on rolls exceeding their Lock value by ONE rather than the usual two (against targets of any Tonnage value).</description>
+      <alias>Calibre (L)</alias>
     </rule>
     <rule id="6d0f-db40-ebb6-7a1f" name="Low Level" publicationId="cb98-b8e2-3a32-a3d7" hidden="false">
       <description>This weapon may be fired from atmosphere with no penalties to it&apos;s Lock value.</description>
@@ -1253,6 +1259,8 @@ Weapons with Low Power and Subsystem Network may still use this rule even if fir
     </rule>
     <rule id="3ede-cc59-6bd6-c21e" name="Ion (X)" publicationId="da17-7d78-79da-7077" hidden="false">
       <description>If a group scores (X) hits from weapons with this special rule, the Energy Surge crippling effect is applied to that ship. If the target is a ship with with the Dreadnought special rule apply the Power Fluctuation effect instead.</description>
+      <alias>Ion (2)</alias>
+      <alias>Ion (3)</alias>
     </rule>
     <rule id="9f1d-3ad9-31e0-99c5" name="Re-Entry" hidden="false" publicationId="3955-5d68-187e-60e2" page="55">
       <description>Re-Entry weapons are capable of firing from Low Orbit into Atmosphere without any penalties to Lock for Atmosphere or crossing Orbital Layers.

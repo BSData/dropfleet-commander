@@ -54,7 +54,7 @@
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="150"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="6"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="10"/>
       </costs>
       <entryLinks>
