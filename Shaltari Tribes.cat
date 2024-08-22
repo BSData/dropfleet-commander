@@ -2652,5 +2652,15 @@
     <rule name="Ion Overload" id="f048-73be-2069-39de" hidden="false">
       <description>While this ship is on Weapons Free, it may use its Ion Aura and Ion Storm as if they did not have the Alt-1 special rule.</description>
     </rule>
+    <rule name="Motherships and Gates" id="9918-0983-fc52-aa02" hidden="false" publicationId="3955-5d68-187e-60e2" page="56">
+      <description>Motherships are the origin point for ground troops and these are physically carried aboard them. As such, they have a Launch capacity in same way as the troopships of other races and they use the same rules for when they may Launch. Motherships are identified as ships that have the option to launch Gates. Gates are a special type of Strike Craft unique to the Shaltari and use the same rules as Dropships.</description>
+    </rule>
+    <rule name="Shaltari Shields" id="bab3-0fa7-3762-47ad" hidden="false" publicationId="3955-5d68-187e-60e2" page="55">
+      <description>At the start of any friendly Shaltari Battlegroup’s activation, ships in that Battlegroup can choose to raise their shields. Once raised, the shields must remain raised until the Battlegroup next activates where the Shaltari player can choose to deactivate the shields. When the shields are raised, the following rules take effect:
+• The ship may use its Passive Countermeasures.
+• The ship must now use the larger signature value in its profile
+• The ship’s Point Defence is reduced to 0. Modifiers such as those made by escorting fighters still apply.
+• The ship may not choose the Silent Running special order.</description>
+    </rule>
   </sharedRules>
 </catalogue>
