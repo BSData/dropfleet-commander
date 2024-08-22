@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5810-52c0-23f0-8f9f" name="Resistance" revision="18" battleScribeVersion="2.03" authorName="morvael; Giftgruen; John Kemp" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="5810-52c0-23f0-8f9f" name="Resistance" revision="17" battleScribeVersion="2.03" authorName="morvael; Giftgruen; John Kemp" authorUrl="https://github.com/BSData/dropfleet-commander/issues" library="false" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="756e-82a6-2a28-d1ff" name="Fleet" hidden="false" collective="false" import="true" targetId="f7f2-92f6-120a-ede1" type="selectionEntry"/>
     <entryLink id="b753-6d03-2fb3-4a6e" name="Flag Battlegroup" hidden="false" collective="false" import="true" targetId="335e-0ae5-3510-48d3" type="selectionEntry"/>
