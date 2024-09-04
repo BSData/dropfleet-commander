@@ -24,7 +24,7 @@
     <costType id="c0c3-cb79-19ac-1dbc" name="SR" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <profileTypes>
-    <profileType id="f174-1347-6969-af9b" name="Load" sortIndex="6">
+    <profileType id="f174-1347-6969-af9b" name="Load" sortIndex="3">
       <characteristicTypes>
         <characteristicType id="604b-2e24-d426-bf71" name="Launch"/>
         <characteristicType id="0574-9897-4dc9-48e8" name="Special"/>
@@ -98,31 +98,9 @@
         <characteristicType id="f21a-dd5c-ad67-2490" name="Scan Penalty"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="3e92-bfd6-9fe3-5253" name="Primary Weapons" sortIndex="3">
+    <profileType name="Equipment" id="6555-0acd-7514-65a9" hidden="false" sortIndex="4">
       <characteristicTypes>
-        <characteristicType id="b264-7fc5-348d-06c0" name="Lock"/>
-        <characteristicType id="00d0-7374-e403-ad78" name="Attacks"/>
-        <characteristicType id="ae4d-c88d-138f-1fcf" name="Damage"/>
-        <characteristicType id="61a9-ead3-7b97-32ed" name="Arc"/>
-        <characteristicType id="008a-e561-1ceb-a0f1" name="Special"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="5143-be30-f2a2-6002" name="Secondary Weapons" sortIndex="4">
-      <characteristicTypes>
-        <characteristicType id="b264-7fc5-348d-06c0" name="Lock"/>
-        <characteristicType id="00d0-7374-e403-ad78" name="Attacks"/>
-        <characteristicType id="ae4d-c88d-138f-1fcf" name="Damage"/>
-        <characteristicType id="61a9-ead3-7b97-32ed" name="Arc"/>
-        <characteristicType id="008a-e561-1ceb-a0f1" name="Special"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="f3ab-5a0a-a05f-adc4" name="Close Action Weapons" sortIndex="5">
-      <characteristicTypes>
-        <characteristicType id="b264-7fc5-348d-06c0" name="Lock"/>
-        <characteristicType id="00d0-7374-e403-ad78" name="Attacks"/>
-        <characteristicType id="ae4d-c88d-138f-1fcf" name="Damage"/>
-        <characteristicType id="61a9-ead3-7b97-32ed" name="Arc"/>
-        <characteristicType id="008a-e561-1ceb-a0f1" name="Special"/>
+        <characteristicType id="15b2-a53d-e933-4f06" name="Description"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -1095,6 +1073,7 @@ If there are friendly and enemy Ground Assets on this ship, it is not controlled
       <description>If an Attack dice for a Burnthrough weapon scores equal to or above its Lock number the Attack dice can be rolled again. If the second Lock roll is successful a third Lock roll can be made and so on until a Lock roll is failed. A Burnthrough weapon can score a maximum total of X total Hull damage (before armour saves are rolled) in one activation.
 If a Critical Hit (i.e. rolling two or higher than the required lock number) is scored by a Burnthrough weapon, only that die will ignore the target’s Armour. Any subsequent hits rolled by this weapon against the same target during the same activation ignore the target’s armour too.</description>
       <alias>Burnthrough (3)</alias>
+      <alias>Burnthrough (5)</alias>
       <alias>Burnthrough (6)</alias>
       <alias>Burnthrough (8)</alias>
       <alias>Burnthrough (10)</alias>

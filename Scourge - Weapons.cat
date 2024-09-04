@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="a924-95ec-b7ef-0afe" name="Scourge - Weapons" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="17" revision="1" authorName="John Kemp" battleScribeVersion="2.03" authorUrl="https://github.com/BSData/dropfleet-commander/issues" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="false" name="----- Weapon -----" hidden="true" id="83cd-4fa4-36ec-fb2e"/>
+    <selectionEntry type="upgrade" import="true" name="Magnetron Lash" hidden="false" id="bde3-870d-5c20-c210" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Burnthrough (X)" id="6e9f-46f4-bc2c-8e5e" hidden="false" type="rule" targetId="bae8-9e71-edf0-b246"/>
+        <infoLink name="Close Action" id="e237-b254-042e-de97" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
+        <infoLink name="Mauler" id="0ef9-c778-4ea4-1b22" hidden="false" type="rule" targetId="f6ec-da54-fd6f-2579"/>
+        <infoLink name="Scald" id="bc10-20be-09d1-c89a" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c0b-ad7a-2048-869e" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="483c-c1f5-9b6c-0739" includeChildSelections="false"/>
+      </constraints>
+      <comment>*/4/1 F(N)  BT(8) CA Maul Scald</comment>
+      <profiles>
+        <profile name="Magnetron Lash" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="212a-4ebf-8ab9-bcd1">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">*</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough (8), Close Action, Mauler, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus S. Phalanx" hidden="false" id="8ebf-113e-0644-3b45" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="3daf-846d-7129-52ff" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7631-a387-28e7-6010-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7631-a387-28e7-6010-max" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/8/2 F Scald</comment>
+      <profiles>
+        <profile name="Oculus Beam Super Phalanx" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="1e7c-8a8b-b4b8-7a8d">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Furnace Battery" hidden="false" id="2663-040f-e837-6a88" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Burnthrough (X)" id="4aae-8618-1e65-ada6" hidden="false" type="rule" targetId="bae8-9e71-edf0-b246"/>
+        <infoLink name="Corruptor" id="234c-9ef8-dc6c-3149" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
+        <infoLink name="Flash" id="bef7-6343-4b58-f8f7" hidden="false" type="rule" targetId="aa43-5926-e824-5cac"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="06bb-4d41-e691-3f72" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5059-a7b2-e36a-19a2" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/3/1 F BT(8) Corr Fl</comment>
+      <profiles>
+        <profile name="Furnace Battery" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="6ae6-2892-91c9-6ed4">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough (8), Corruptor, Flash</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Furnace Triad" hidden="false" id="ae7a-6ca0-82fb-d063" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Burnthrough (X)" id="f36c-f072-20bf-e6fc" hidden="false" type="rule" targetId="bae8-9e71-edf0-b246"/>
+        <infoLink name="Corruptor" id="f9b6-bc76-25c3-72e2" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
+        <infoLink name="Flash" id="c307-bef4-920f-971d" hidden="false" type="rule" targetId="aa43-5926-e824-5cac"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef36-46f8-36a9-026f" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b36-902e-2729-a86b" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/3/3 F(N) BT(12) Corr Fl</comment>
+      <profiles>
+        <profile name="Furnace Triad" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="59e5-04f8-df7d-50ae">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">3</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough (12), Corruptor, Flash</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Furnace Fangs" hidden="false" id="481d-2a15-8a2f-89c4" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Burnthrough (X)" id="0734-92eb-847d-38eb" hidden="false" type="rule" targetId="bae8-9e71-edf0-b246"/>
+        <infoLink name="Corruptor" id="6d06-248a-d8f8-b96d" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
+        <infoLink name="Flash" id="b334-8e5b-5ba1-aa8d" hidden="false" type="rule" targetId="aa43-5926-e824-5cac"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a19-9e0c-306e-fea1" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31c1-e11f-0274-072f" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/3/1 F(N) BT(6) Corr Fl</comment>
+      <profiles>
+        <profile name="Furnace Fangs" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="2a7f-72e3-129b-0dde">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough (6), Corruptor, Flash</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Furnace Cannons" hidden="false" id="7351-6430-91f1-1eea" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Burnthrough (X)" id="f494-816f-737a-39b7" hidden="false" type="rule" targetId="bae8-9e71-edf0-b246"/>
+        <infoLink name="Corruptor" id="dea1-e478-7a5f-d2a1" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
+        <infoLink name="Flash" id="95eb-25be-370b-2b15" hidden="false" type="rule" targetId="aa43-5926-e824-5cac"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c915-be0e-66dc-0aea" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f01a-ecb7-c678-e60f" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/1 F(N) BT(5) Corr Fl</comment>
+      <profiles>
+        <profile name="Furnace Cannons" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="8e7d-555b-c206-5d6d">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough (5), Corruptor, Flash</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Furnace Blaster" hidden="false" id="2656-2e4e-dbf0-6ef2" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Burnthrough (X)" id="3534-513b-4590-587d" hidden="false" type="rule" targetId="bae8-9e71-edf0-b246"/>
+        <infoLink name="Corruptor" id="8f27-9586-d701-6978" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
+        <infoLink name="Flash" id="52a2-3c1f-6632-c31d" hidden="false" type="rule" targetId="aa43-5926-e824-5cac"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8703-b912-54d5-12a8" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a757-cb48-a683-d6d4" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/1 F(N) BT(3) Corr Fl</comment>
+      <profiles>
+        <profile name="Furnace Blaster" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="be45-1701-74dd-87c6">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F(N)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Burnthrough (3), Corruptor, Flash</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Phalanx (St)" hidden="false" id="cc51-db53-c30b-46f1" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="9cd7-cbc1-5e73-0c63" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+        <infoLink name="Linked (X)" id="12ca-7a80-6d77-2ce6" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a949-4222-7d39-9c5e" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1c5-8d49-6c5d-a177" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/3/2 F/S(R) Lnk(1) Scald</comment>
+      <profiles>
+        <profile name="Oculus Beam Phalanx, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="eeab-9351-4fd6-2e3b">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1), Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Phalanx (St)" hidden="false" id="3cba-1f96-1162-c49d" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="d6b8-f5c1-e364-22ae" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6352-e6d6-e66f-bda9" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e772-b4dd-0261-758d" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/3/2 F/S(R) Scald</comment>
+      <profiles>
+        <profile name="Oculus Beam Phalanx, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="f203-859a-c64d-fe23">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Phalanx (Po)" hidden="false" id="7e5a-44e0-6ea1-d08e" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="b4fe-8146-83bc-85b3" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+        <infoLink name="Linked (X)" id="82ea-9cca-57ef-2058" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ecd9-7769-2ff5-b58b" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd81-6cbe-afea-b220" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/3/2 F/S(L) Lnk(1) Scald</comment>
+      <profiles>
+        <profile name="Oculus Beam Phalanx, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="cf63-0db0-af96-c632">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1), Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Phalanx (Po)" hidden="false" id="d430-28e1-ccd1-8b3a" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="26b9-eb8c-2eff-5fec" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="06bc-99e6-b56f-17f8" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="842e-1826-6c57-12f3" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/3/2 F/S(L) Scald</comment>
+      <profiles>
+        <profile name="Oculus Beam Phalanx, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="ba48-5b67-4f74-c3e3">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Array (St)" hidden="false" id="b8fd-bf50-7e12-9a47" defaultAmount="2">
+      <infoLinks>
+        <infoLink name="Oculus Beam Array, Starboard" id="12bf-8d0a-85fa-e951" hidden="false" type="profile" targetId="69e3-34bb-0abf-ef92"/>
+        <infoLink name="Scald" id="1677-fc48-e177-5e43" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+        <infoLink name="Linked (X)" id="c6f2-3610-7742-62f9" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7849-1462-26ff-8964-min" includeChildSelections="false"/>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7849-1462-26ff-8964-max" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/2 F/S(R) Lnk(1) Scald (x2)</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Array (St)" hidden="false" id="8bdc-23e7-33e0-60da" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Oculus Beam Array, Starboard" id="6dde-bab5-4ed4-0516" hidden="false" type="profile" targetId="69e3-34bb-0abf-ef92"/>
+        <infoLink name="Scald" id="ae55-319a-64b2-dd3d" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+        <infoLink name="Linked (X)" id="8501-df62-e1a1-3af2" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb7e-e4ea-c812-836a" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd31-9140-7337-9330" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/2 F/S(R) Lnk(1) Scald</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Array (St)" hidden="false" id="d380-bea5-fe22-c77f" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Oculus Beam Array, Starboard" id="6911-0b1b-3105-0a74" hidden="false" type="profile" targetId="69e3-34bb-0abf-ef92"/>
+        <infoLink name="Scald" id="66de-604f-2a37-b268" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1563-47f0-57a7-c120" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1466-8b6d-e3dd-5cdc" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/2 F/S(R) Scald</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Array (Po)" hidden="false" id="ea1b-1c76-7fa0-6fa6" defaultAmount="2">
+      <infoLinks>
+        <infoLink name="Oculus Beam Array, Port" id="f271-0d2f-82f5-078f" hidden="false" type="profile" targetId="11e0-c4c5-ecf4-9053"/>
+        <infoLink name="Scald" id="63bd-8975-0f1e-fcc7" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+        <infoLink name="Linked (X)" id="37b4-606d-1224-989b" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="06d4-23c5-c3e5-c800" includeChildSelections="false"/>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4674-7e33-d1ab-ac93" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/2 F/S(L) Lnk(2) Scald (x2)</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Array (Po)" hidden="false" id="5895-1b0a-f5e7-fd0a" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Oculus Beam Array, Port" id="53ac-846b-2749-63fc" hidden="false" type="profile" targetId="11e0-c4c5-ecf4-9053"/>
+        <infoLink name="Scald" id="06f8-9120-1eea-5787" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+        <infoLink name="Linked (X)" id="0521-b229-f6bc-1a83" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="22bb-5353-dfd3-7334" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68ee-fe09-0ce3-98d4" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/2 F/S(L) Lnk(2) Scald</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Array (Po)" hidden="false" id="d0f8-a4e9-70e8-7dc3" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Oculus Beam Array, Port" id="6030-2f7a-06ab-a943" hidden="false" type="profile" targetId="11e0-c4c5-ecf4-9053"/>
+        <infoLink name="Scald" id="a5bc-8276-5283-9872" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7702-fdd7-6c31-bed4" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72f0-2b0d-21e4-167c" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/2 F/S(L) Scald</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Array" hidden="false" id="6295-a840-0d1b-b7c0" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="a01f-400b-130c-30ba" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+        <infoLink name="Linked (X)" id="e458-75ef-28f3-38b3" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2cb-e27d-44fe-9bb4" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd09-0324-6ca3-415b" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/3/2 F Lnk(1) Scald</comment>
+      <profiles>
+        <profile name="Oculus Array" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="fb36-8aeb-48dd-b90a">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1), Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Array" hidden="false" id="ae4d-ef4d-2485-c9cd" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="da58-bea1-f784-a67f" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7ef7-52ec-a2e4-0861" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9bf5-6817-ce19-50bd" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/3/2 F Scald</comment>
+      <profiles>
+        <profile name="Oculus Array" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="d29c-e016-c064-b02d">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Array" hidden="false" id="fc65-1224-a0e6-3cd0" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="04f9-1c45-c2a7-78c3" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6745-81b9-ce87-1ae7" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="299c-39f3-c1e9-b371" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/2 F Scald</comment>
+      <profiles>
+        <profile name="Oculus Array" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="6756-2422-8685-db01">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Beams" hidden="false" id="c085-1b6a-34b4-fd16" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="db56-6e1b-9f09-04af" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b55c-46da-bbb1-2cc8" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a18-e387-e0de-a094" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/1/2 F/S Scald</comment>
+      <profiles>
+        <profile name="Oculus Beams" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="07b1-6442-69d3-759d">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">1</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Beams" hidden="false" id="8fa9-f53f-b885-731b" defaultAmount="2">
+      <infoLinks>
+        <infoLink name="Oculus Beams" id="fdaa-948a-39c5-a154" hidden="false" type="profile" targetId="c3ef-d985-372f-d97c"/>
+        <infoLink name="Scald" id="e89e-851d-53bc-1b06" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0c89-4974-4692-1175" includeChildSelections="false"/>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b120-257f-3c32-9b0d" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/1/2 F Scald (x2)</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Beams" hidden="false" id="cbb7-b787-73f8-cf8f" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="fd42-2e73-8dcf-d62d" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+        <infoLink name="Oculus Beams" id="a8a9-c74f-ba7e-1382" hidden="false" type="profile" targetId="c3ef-d985-372f-d97c"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8530-d76b-4d44-84dd" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4d4-90a0-62d7-85d5" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/1/2 F Scald</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Rays" hidden="false" id="0915-dc82-7a46-0874" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="9365-28ab-77ac-3537" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="70de-aa9a-6c0d-4fda" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="369d-7b5b-5587-9ca5" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/1/1 F Scald</comment>
+      <profiles>
+        <profile name="Oculus Rays" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="ea84-9426-1756-4f44">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">1</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Oculus Crest" hidden="false" id="4bfd-b4ef-302f-9422" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Scald" id="dd43-694f-62a1-1128" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4803-d1d8-54a2-4c8e" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e5c-d4eb-4546-1801" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/2 F Scald</comment>
+      <profiles>
+        <profile name="Oculus Beam Crest" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="8753-f601-f332-afc2">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mega P. Lance Batt" hidden="false" id="eab2-a61e-e8a4-45cd" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Calibre (X)" id="9b8b-4c5d-8451-9255" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9bbd-a69a-a7cb-6b9f" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9915-ce77-8200-b99c" includeChildSelections="false"/>
+      </constraints>
+      <comment>4+/6/2 F/S Cal(H&amp;S)</comment>
+      <profiles>
+        <profile name="Mega Plasma Lance Battery" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="d3ff-57c8-6f19-a5a9">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (H&amp;S)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Tempest" hidden="false" id="0dd8-8aea-6bd9-9a6b" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Close Action" id="9d10-2b72-1752-b632" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
+        <infoLink name="Scald" id="66b0-7827-10e1-f0a2" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cf19-ec04-de51-b886" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3680-8a90-4cf1-bf1d" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/11/1 F/S CA Scald</comment>
+      <profiles>
+        <profile name="Plasma Tempest" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="f718-dce2-f3fa-37ab">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">11</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Flood" hidden="false" id="6d3e-ad09-4da0-4658" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Close Action" id="d9f9-daf5-f8de-9e1d" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
+        <infoLink name="Scald" id="3fa7-2bb3-716d-8055" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="272c-8ba3-ecb1-f6d8" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="924b-8da5-030f-2b15" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/10/1 F/S/R CA Scald</comment>
+      <profiles>
+        <profile name="Plasma Flood" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="e231-fed9-94bd-5569">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">10</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Cyclone" hidden="false" id="b919-b196-794e-7836" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Close Action" id="c000-7665-8c7a-01f1" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
+        <infoLink name="Scald" id="f7b3-335b-6f4d-c266" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="73f1-a93f-b75c-687c" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6960-1d69-ba69-286d" includeChildSelections="false"/>
+      </constraints>
+      <comment>2+/6/1 F/S/R CA Scald</comment>
+      <profiles>
+        <profile name="Plasma Cyclone" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="20c4-0f7c-5bab-6bfb">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Storm" hidden="false" id="8760-e59b-8673-6655" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Close Action" id="5a3b-2e3c-8828-ed6c" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
+        <infoLink name="Scald" id="8aee-ecd5-203e-e892" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4f04-9581-5be0-4c25" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b414-6611-52f3-aa0e" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/6/1 F/S/R CA Scald</comment>
+      <profiles>
+        <profile name="Plasma Storm" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="2e57-b175-bd1c-3602">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Squall" hidden="false" id="d6e8-33f9-6149-66a9" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Air-to-Air" id="0523-3815-e0fc-ea6f" hidden="false" type="rule" targetId="c3e1-6bee-9e1e-8f27"/>
+        <infoLink name="Close Action" id="9093-b832-5447-ee61" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
+        <infoLink name="Scald" id="fb6b-c7ef-baa2-c88a" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9efe-9df4-7815-1730" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="346e-a5bc-1fa9-750a" includeChildSelections="false"/>
+      </constraints>
+      <comment>4+/4/1 F/S/R AtA CA Scald</comment>
+      <profiles>
+        <profile name="Plasma Squall" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="56f8-a3ee-27ac-68bc">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Air-to-Air, Close Action, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Squall" hidden="false" id="280b-b814-fff6-a723" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Close Action" id="2dd4-5d9b-8f1c-470e" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
+        <infoLink name="Scald" id="8e61-afaa-2c77-061a" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1074-9505-e637-0027" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79f0-afbe-d752-2639" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/4/1 F/S/R CA Scald</comment>
+      <profiles>
+        <profile name="Plasma Squall" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="52e4-22de-784f-662e">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Cloud" hidden="false" id="db14-e05c-f636-5c4c" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Close Action" id="d12d-c35a-2d36-eec9" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
+        <infoLink name="Scald" id="6757-d9c3-a520-371a" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8cb7-6727-7196-3bae" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29e5-b761-ce70-73d7" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/1 F/S/R CA Scald</comment>
+      <profiles>
+        <profile name="Plasma Cloud" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="e210-5cb6-3643-f6ab">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Brand" hidden="false" id="9cd4-5908-a37d-c181" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Close Action (Beam)" id="1a46-877b-ce43-6576" hidden="false" type="rule" targetId="b190-a6a9-c262-b6d0"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="782b-42eb-529e-af0b" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e92-25d7-0d18-8674" includeChildSelections="false"/>
+      </constraints>
+      <comment>4+/2/2 F CA(B)</comment>
+      <profiles>
+        <profile name="Plasma Brand" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="7b91-ca9a-6d99-64da">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action (Beam)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Torch" hidden="false" id="399f-0954-9837-4a6f" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Close Action (Beam)" id="07a3-47ae-6afe-931f" hidden="false" type="rule" targetId="b190-a6a9-c262-b6d0"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="560a-8f81-ecd4-43bd" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a3e-0b80-c425-85b4" includeChildSelections="false"/>
+      </constraints>
+      <comment>4+/2/1 F CA(B)</comment>
+      <profiles>
+        <profile name="Plasma Torch" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="1baf-a9d5-97fa-f87a">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action (Beam)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Bombs" hidden="false" id="b2b8-0370-5d4b-f5a1" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Bombardment" id="26bb-2487-a40e-b30d" hidden="false" type="rule" targetId="9e06-f148-f8a3-26fb"/>
+        <infoLink name="Low Level" id="6b81-c6ee-cef4-db5e" hidden="false" type="rule" targetId="6d0f-db40-ebb6-7a1f"/>
+        <infoLink name="Scald" id="1e83-993f-1654-a1fd" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9036-f721-7b53-16fd" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="176c-a0c5-5eab-55d2" includeChildSelections="false"/>
+      </constraints>
+      <comment>4+/4/1 F/S Bomb Low Scald</comment>
+      <profiles>
+        <profile name="Plasma Bombs" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="bad7-5de2-a624-1580">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Bombardment, Low Level, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Bombs" hidden="false" id="e876-4b1c-c06b-2d84" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Bombardment" id="6fb8-fee9-f62a-d0c5" hidden="false" type="rule" targetId="9e06-f148-f8a3-26fb"/>
+        <infoLink name="Low Level" id="d4ef-aa04-3985-5aa8" hidden="false" type="rule" targetId="6d0f-db40-ebb6-7a1f"/>
+        <infoLink name="Scald" id="cd6c-bd73-20b4-9b29" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c29b-9ee6-ed7d-c930" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0720-5530-4692-3d1d" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/1 F/S Bomb</comment>
+      <profiles>
+        <profile name="Plasma Bombs" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="5566-3d7e-a38b-71a5">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Bombardment, Low Level, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rev. Grav-Cannon" hidden="false" id="96e2-c563-0203-1910" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Escape Velocity" id="bf64-952f-23c3-c4d8" hidden="false" type="rule" targetId="acfb-b2b0-1b53-d429"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a48-a712-0bd8-e288" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d36e-5918-c305-2cbd" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/2/1 F/S EscVel</comment>
+      <profiles>
+        <profile name="Reverse Grav-Cannon" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="ac65-3f01-6090-1b9c">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Escape Velocity</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Seekers" hidden="false" id="3ed3-c802-95b9-bd30" defaultAmount="1">
+      <infoLinks>
+        <infoLink name="Close Action" id="db9b-7cba-e956-2bf8" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
+        <infoLink name="Re-Entry" id="c1c3-0d75-73bc-ed56" hidden="false" type="rule" targetId="9f1d-3ad9-31e0-99c5"/>
+        <infoLink name="Scald" id="7a63-e99d-13f5-d485" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="565d-bcad-141f-9a01" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="074a-1b6b-4e00-e160" includeChildSelections="false"/>
+      </constraints>
+      <comment>3+/4/1 F/S/R CA ReEnt Scald</comment>
+      <profiles>
+        <profile name="Seekers" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="2bed-a203-dbe6-a478">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action, Re-Entry, Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="----- Load -----" hidden="true" id="22fa-9f6a-e1ba-51c8"/>
+    <selectionEntry type="upgrade" import="false" name="Fighters &amp; Bombers" hidden="false" id="5939-e496-5521-3404" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ad65-a8c7-15d6-cd6d" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="305e-a5bd-1bfa-f134" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Fighters &amp; Bombers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="d029-20ef-e058-1ae0">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">8</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>8</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="3caa-188f-eed5-8908" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="8" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Fighters &amp; Bombers" hidden="false" id="f351-3ea0-c91c-a392" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a4a-6376-7bb1-4ac8" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98b6-ba3c-0409-4db8" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Fighters &amp; Bombers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="3c46-2dd5-f4e3-ca97">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">5</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>5</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="e883-5fd4-3ecd-a688" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="5" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Fighters &amp; Bombers" hidden="false" id="7b64-a0e8-6f27-f8fb" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="92a1-0ac3-2548-5ec2" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7122-6d7a-3e43-262f" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Fighters &amp; Bombers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="20a9-5b9c-b997-5795">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">4</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>4</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="8d76-8e07-bc26-fe45" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="4" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Fighters &amp; Bombers" hidden="false" id="d8ac-a98d-95d1-45fd" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c69a-6390-2324-9002" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd45-6ce2-a96b-628a" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Fighters &amp; Bombers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="9bc7-a410-792e-44f1">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">3</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>3</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="cac3-b8c8-95f1-b9c4" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="3" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Fighters &amp; Bombers" hidden="false" id="0620-a3c0-df38-2e12" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd85-1e68-92ff-3731" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d771-c533-a7f1-e3ef" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Fighters &amp; Bombers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="5af8-02e2-8b1b-534a">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">2</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>2</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="59c4-5d63-1ed6-a241" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="2" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Bulk Landers" hidden="false" id="cf4b-9b82-557e-86f5" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2e41-9e39-1ce0-9c0a" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="542e-d989-9dec-99ff" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Bulk Landers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="ab9b-6213-1ca4-bfb6">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">2</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>2</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="3e86-e74b-be7d-f526" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="2" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Bulk Landers" hidden="false" id="205c-0a3e-c8fa-68c6" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e217-aef3-16d4-bd0c" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="109e-010b-48f9-e855" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Bulk Landers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="7ad8-459f-efb9-7584">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">1</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>1</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="1111-13ea-d275-3b55" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="1" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Dropships" hidden="false" id="8194-5e71-4d38-b252" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7bfe-8548-ad82-5e21" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3e9-6926-7e92-db5b" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Dropships" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="1180-f6bb-561d-ce7a">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">1</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>1</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="349f-8036-148d-5b95" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="1" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Torpedo" hidden="false" id="5e62-ec27-5182-2706" defaultAmount="2" collective="true">
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9999-d7fd-1a16-5147" includeChildSelections="false"/>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a788-946e-b110-0e8a" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>1 Corr L(2) (x2)</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="b051-16e9-71ed-5ab1" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+        <infoLink name="Torpedo" id="0e75-e8db-d1de-3195" hidden="false" type="profile" targetId="d27f-0726-bc98-747f"/>
+        <infoLink name="Corruptor" id="1c21-006e-36d8-ee8d" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
+        <infoLink name="L (X)" id="7857-2ddf-ed84-eefb" hidden="false" type="rule" targetId="6920-7d49-9ec8-1e76"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="1" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Torpedo" hidden="false" id="8e94-fcda-de7c-9ec3" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6476-132f-8d74-2dad" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b249-4064-0aae-c274" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>1 Corr L(2)</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="ec56-75e5-7d9e-d2b1" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+        <infoLink name="Torpedo" id="c7ee-9d54-d500-c61e" hidden="false" type="profile" targetId="d27f-0726-bc98-747f"/>
+        <infoLink name="Corruptor" id="8872-f50c-4f64-8632" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
+        <infoLink name="L (X)" id="0a2a-a057-51cf-307a" hidden="false" type="rule" targetId="6920-7d49-9ec8-1e76"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="1" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="----- Equipment -----" hidden="false" id="f12a-f60d-8275-2276"/>
+    <selectionEntry type="upgrade" import="true" name="Cloaking Crest" hidden="false" id="f160-1a9d-ad3f-2780" collective="false">
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="8f97-3028-b3ad-31a1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="412c-0021-348d-1ffd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="increment" value="5" field="e888-2584-886f-7f2c">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Cloaking Crest" typeId="6555-0acd-7514-65a9" typeName="Equipment" hidden="false" id="9192-466b-b976-5f2f">
+          <characteristics>
+            <characteristic name="Description" typeId="15b2-a53d-e933-4f06">This ship may take a Cloaking Crest for +5pts and gains Stealth and Partial Cloak.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Oculus Beam Array, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="69e3-34bb-0abf-ef92">
+      <characteristics>
+        <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+        <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+        <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+        <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
+        <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+      </characteristics>
+      <comment>3+/2/2 F/S(R) Lnk(1) Scald</comment>
+    </profile>
+    <profile name="Oculus Beam Array, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="11e0-c4c5-ecf4-9053">
+      <characteristics>
+        <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+        <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+        <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+        <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
+        <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+      </characteristics>
+      <comment>3+/2/2 F/S(L) Lnk(2) Scald</comment>
+    </profile>
+    <profile name="Torpedo" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="d27f-0726-bc98-747f">
+      <characteristics>
+        <characteristic name="Launch" typeId="604b-2e24-d426-bf71">1</characteristic>
+        <characteristic name="Special" typeId="0574-9897-4dc9-48e8">Corruptor, L (2)</characteristic>
+      </characteristics>
+      <comment>1 Corr L(2)</comment>
+    </profile>
+    <profile name="Oculus Beams" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="c3ef-d985-372f-d97c">
+      <characteristics>
+        <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+        <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">1</characteristic>
+        <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+        <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+        <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+      </characteristics>
+      <comment>3+/1/2 F Scald</comment>
+    </profile>
+  </sharedProfiles>
+</catalogue>
