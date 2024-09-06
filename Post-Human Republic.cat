@@ -2288,6 +2288,40 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ee3d-39f3-5ebc-eef7" name="Dreadnought Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="ce8e-baa3-2ad9-5e56" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
+        <categoryLink id="ba26-8a3b-c06e-b893" name="Flag Battlegroups" hidden="false" targetId="343b-c1c3-5b31-5799" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7638-588c-1fe5-5969" name="Dreadnought Group" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4734-dd32-ada7-f2ad" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd8a-eda0-1277-2c7f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1602-3b1a-1c26-9b90" name="Dreadnought Ships" hidden="false" collective="false" import="true" targetId="2e5c-fa09-313c-eb61" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+            <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+            <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="aaea-90f5-3f4d-226e" name="Flag Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -2361,6 +2395,102 @@
               </constraints>
               <entryLinks>
                 <entryLink id="d40b-181e-a960-fecf" name="Super Heavy Ships" hidden="false" collective="false" import="true" targetId="0638-30b2-ac6d-3d1d" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+                <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+                <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ad3-2e53-b8be-473f" name="Vanguard Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
+      <categoryLinks>
+        <categoryLink id="79b9-bf2d-b15a-cf6d" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
+        <categoryLink id="0ea7-520f-312f-f1c8" name="Vanguard Battlegroups" hidden="false" targetId="973e-e4cf-bf42-e98f" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="378f-1238-39c8-6c13" name="Groups" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="3b80-6d49-6e50-5654" value="1">
+              <repeats>
+                <repeat field="limit::e888-2584-886f-7f2c" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="3b80-6d49-6e50-5654" value="1">
+              <repeats>
+                <repeat field="limit::e888-2584-886f-7f2c" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ce3-6372-5ddb-a765" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a52-1455-e92b-aeca" type="max"/>
+            <constraint field="e888-2584-886f-7f2c" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b80-6d49-6e50-5654" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4443-cab6-b33c-9878" name="Light Group" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6507-afe0-a84e-0035" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1acc-3d25-166a-1d96" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="830e-88b4-81be-9976" name="Light Ships" hidden="false" collective="false" import="true" targetId="a35d-067e-f09d-35e5" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+                <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+                <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b14e-e922-0aea-a4e0" name="Medium Group" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c40-01e4-9d0d-101d" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39bd-be8e-4d61-97ab" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="f5f4-c3f9-cc2f-2e2f" name="Medium Ships" hidden="false" collective="false" import="true" targetId="8101-27c3-a0c7-992c" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+                <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+                <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f887-e815-0c41-5ac7" name="Heavy Group 1" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a203-3107-7c03-7a4e" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8b2-34cc-4721-bc8b" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="9406-da15-2267-8470" name="Heavy Ships" hidden="false" collective="false" import="true" targetId="2af0-c0cf-0cb1-00e4" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+                <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+                <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="058c-fbab-7acf-9827" name="Heavy Group 2" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="946d-3792-7564-8393" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="302b-d4e8-c539-31df" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="8023-9ce7-d060-115d" name="Heavy Ships" hidden="false" collective="false" import="true" targetId="2af0-c0cf-0cb1-00e4" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
@@ -2577,136 +2707,6 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8ad3-2e53-b8be-473f" name="Vanguard Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
-      <categoryLinks>
-        <categoryLink id="79b9-bf2d-b15a-cf6d" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
-        <categoryLink id="0ea7-520f-312f-f1c8" name="Vanguard Battlegroups" hidden="false" targetId="973e-e4cf-bf42-e98f" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="378f-1238-39c8-6c13" name="Groups" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="increment" field="3b80-6d49-6e50-5654" value="1">
-              <repeats>
-                <repeat field="limit::e888-2584-886f-7f2c" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="3b80-6d49-6e50-5654" value="1">
-              <repeats>
-                <repeat field="limit::e888-2584-886f-7f2c" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ce3-6372-5ddb-a765" type="min"/>
-            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a52-1455-e92b-aeca" type="max"/>
-            <constraint field="e888-2584-886f-7f2c" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b80-6d49-6e50-5654" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="4443-cab6-b33c-9878" name="Light Group" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6507-afe0-a84e-0035" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1acc-3d25-166a-1d96" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="830e-88b4-81be-9976" name="Light Ships" hidden="false" collective="false" import="true" targetId="a35d-067e-f09d-35e5" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-                <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-                <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b14e-e922-0aea-a4e0" name="Medium Group" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c40-01e4-9d0d-101d" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39bd-be8e-4d61-97ab" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="f5f4-c3f9-cc2f-2e2f" name="Medium Ships" hidden="false" collective="false" import="true" targetId="8101-27c3-a0c7-992c" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-                <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-                <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f887-e815-0c41-5ac7" name="Heavy Group 1" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a203-3107-7c03-7a4e" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8b2-34cc-4721-bc8b" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="9406-da15-2267-8470" name="Heavy Ships" hidden="false" collective="false" import="true" targetId="2af0-c0cf-0cb1-00e4" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-                <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-                <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="058c-fbab-7acf-9827" name="Heavy Group 2" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="946d-3792-7564-8393" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="302b-d4e8-c539-31df" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="8023-9ce7-d060-115d" name="Heavy Ships" hidden="false" collective="false" import="true" targetId="2af0-c0cf-0cb1-00e4" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-                <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-                <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ee3d-39f3-5ebc-eef7" name="Dreadnought Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="ce8e-baa3-2ad9-5e56" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
-        <categoryLink id="ba26-8a3b-c06e-b893" name="Flag Battlegroups" hidden="false" targetId="343b-c1c3-5b31-5799" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7638-588c-1fe5-5969" name="Dreadnought Group" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4734-dd32-ada7-f2ad" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd8a-eda0-1277-2c7f" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="1602-3b1a-1c26-9b90" name="Dreadnought Ships" hidden="false" collective="false" import="true" targetId="2e5c-fa09-313c-eb61" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-            <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-            <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
