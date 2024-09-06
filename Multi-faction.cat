@@ -36,11 +36,10 @@
             <characteristic name="Special" typeId="4717-adad-0be5-3c60">Launch, Rare, Reinforced Armour</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="/6+" field="41bf-5c81-5b4b-0aec">
+            <modifier type="append" value="/6+" field="41bf-5c81-5b4b-0aec" join="">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c240-e6a9-6a41-8643" shared="true" includeChildSelections="false" includeChildForces="false"/>
               </conditions>
-              <comment>nospace</comment>
             </modifier>
           </modifiers>
         </profile>
@@ -87,11 +86,10 @@
             <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ablative Armour</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value=", Rare" field="0574-9897-4dc9-48e8">
+            <modifier type="append" value=", Rare" field="4717-adad-0be5-3c60" join="">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true"/>
               </conditions>
-              <comment>nospace</comment>
             </modifier>
           </modifiers>
         </profile>

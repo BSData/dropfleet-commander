@@ -1043,6 +1043,8 @@
             <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
           </repeats>
         </modifier>
+        <modifier type="append" value="Stealth, Partial Cloak" field="4717-adad-0be5-3c60" affects="childs.recursive.model.profiles.Ship" scope="parent" join=", "/>
+        <modifier type="set" value="false" field="hidden" scope="parent" affects="childs.recursive.model.rules"/>
       </modifiers>
       <profiles>
         <profile name="Cloaking Crest" typeId="6555-0acd-7514-65a9" typeName="Equipment" hidden="false" id="9192-466b-b976-5f2f">

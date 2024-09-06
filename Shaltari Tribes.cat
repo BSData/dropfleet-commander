@@ -13,7 +13,7 @@
     <entryLink id="7c63-d485-b664-bf65" name="Basalt Fleet Carrier" hidden="false" collective="false" import="true" targetId="f08c-d8c1-6cec-81dd" type="selectionEntry"/>
     <entryLink id="9d5c-d72e-9c11-3d94" name="Diamond Battleship" hidden="false" collective="false" import="true" targetId="184a-3886-7060-7ce2" type="selectionEntry"/>
     <entryLink id="2c61-5cdf-f300-2f8f" name="Emerald Mothership" hidden="false" collective="false" import="true" targetId="12f1-4279-b12b-4299" type="selectionEntry"/>
-    <entryLink id="2ee1-9607-c8f3-2a1e" name="Glass Cloudflier" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry"/>
+    <entryLink id="2ee1-9607-c8f3-2a1e" name="Glass Cloudflyer" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry"/>
     <entryLink id="0ad1-b4bc-22ef-2877" name="Granite Cruiser" hidden="false" collective="false" import="true" targetId="9468-86c4-a665-47b2" type="selectionEntry"/>
     <entryLink id="a3d9-ec94-f882-eed1" name="Jade Frigate" hidden="false" collective="false" import="true" targetId="9214-eaf0-6b34-7006" type="selectionEntry"/>
     <entryLink id="a499-9c05-cbeb-99e1" name="Jet Heavy Cruiser" hidden="false" collective="false" import="true" targetId="bdc1-7092-1f03-175e" type="selectionEntry"/>
@@ -36,10 +36,10 @@
     <entryLink id="2299-6d6f-fbb8-e61c" name="Selenium Heavy Voidgate" hidden="false" collective="false" import="true" targetId="b4c1-d518-5423-e831" type="selectionEntry"/>
     <entryLink id="96a5-6cfb-bece-5fbd" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="91db-c1d9-41b6-06f2" type="selectionEntry"/>
     <entryLink id="1f91-9929-8db8-726b" name="Goethite Battlecruiser" hidden="false" collective="false" import="true" targetId="d457-545b-a248-e049" type="selectionEntry"/>
-    <entryLink id="65dd-d25f-7cc0-06cc" name="Haematite Battlecruiser" hidden="false" collective="false" import="true" targetId="a23d-59dd-1f62-da01" type="selectionEntry"/>
+    <entryLink id="65dd-d25f-7cc0-06cc" name="Hematite Battlecruiser" hidden="false" collective="false" import="true" targetId="a23d-59dd-1f62-da01" type="selectionEntry"/>
     <entryLink id="4e33-d348-1f35-4a4c" name="Caesium Cutter" hidden="false" collective="false" import="true" targetId="0510-7f2d-62a6-a7c0" type="selectionEntry"/>
     <entryLink id="4c48-bae7-f210-39f0" name="Helium Voidflyer" hidden="false" collective="false" import="true" targetId="3b9f-dae0-6122-c286" type="selectionEntry"/>
-    <entryLink id="e985-378c-e3fa-6383" name="Gallium Bio-Hazard Cutter" hidden="false" collective="false" import="true" targetId="7163-7a5a-b959-029b" type="selectionEntry"/>
+    <entryLink id="e985-378c-e3fa-6383" name="Gallium Bio-hazard Cutter" hidden="false" collective="false" import="true" targetId="7163-7a5a-b959-029b" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink id="0ac2-5eb1-cc4b-4ffb" name="Shaltari Shields" hidden="false" targetId="bab3-0fa7-3762-47ad" type="rule"/>
@@ -1553,37 +1553,37 @@
     </selectionEntry>
     <selectionEntry id="cb8d-3459-87db-8d56" name="Glass Cloudflyers" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
-        <entryLink id="49ad-8bdc-a37f-1ad1" name="Glass Cloudflier" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
+        <entryLink id="49ad-8bdc-a37f-1ad1" name="Glass Cloudflyer" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfe3-14d7-8e4d-dec3" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c9f9-8a66-c193-d059" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c45c-41df-401e-f89d" name="Glass Cloudflier" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
+        <entryLink id="c45c-41df-401e-f89d" name="Glass Cloudflyer" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae47-99a1-b473-4fba" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e352-441c-d4e8-5ea8" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="887e-60ff-2d7b-c5cf" name="Glass Cloudflier" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
+        <entryLink id="887e-60ff-2d7b-c5cf" name="Glass Cloudflyer" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fced-c167-9ec3-bd45" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f10f-8e95-56c1-2fb8" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4b47-e6ab-0841-3185" name="Glass Cloudflier" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
+        <entryLink id="4b47-e6ab-0841-3185" name="Glass Cloudflyer" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de49-d711-09db-caa0" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="26dc-824e-7ae4-97bf" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5b79-b596-d4de-f60f" name="Glass Cloudflier" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
+        <entryLink id="5b79-b596-d4de-f60f" name="Glass Cloudflyer" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="53fe-db96-7fd4-c8da" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6903-1c25-40e5-8227" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="cd2f-bd95-29ca-c2ba" name="Glass Cloudflier" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
+        <entryLink id="cd2f-bd95-29ca-c2ba" name="Glass Cloudflyer" hidden="false" collective="false" import="true" targetId="115a-a169-cfd4-64eb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee27-1335-1ec7-7b51" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b186-9e96-fc5f-148b" type="max"/>
@@ -1929,7 +1929,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eef0-a519-9080-4bcb" name="Flag Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="eef0-a519-9080-4bcb" name="Flag Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2018,7 +2018,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="54c3-a8e0-7ac4-86e8" name="Line Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="54c3-a8e0-7ac4-86e8" name="Line Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <categoryLinks>
         <categoryLink id="55e8-f8b0-f1a5-bbc2" name="Line Battlegroups" hidden="false" targetId="8407-32c8-5444-80af" primary="false"/>
         <categoryLink id="a935-2040-5321-cebf" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
@@ -2128,7 +2128,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="76f3-b792-e842-b880" name="Pathfinder Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="76f3-b792-e842-b880" name="Pathfinder Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <categoryLinks>
         <categoryLink id="291a-7270-f42e-579a" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
         <categoryLink id="e505-2e25-1f65-2438" name="Pathfinder Battlegroups" hidden="false" targetId="b754-76e4-e1a6-8e7f" primary="false"/>
@@ -2224,7 +2224,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e0a7-3a9a-825f-cda0" name="Vanguard Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e0a7-3a9a-825f-cda0" name="Vanguard Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <categoryLinks>
         <categoryLink id="ad99-a180-b8d1-83db" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
         <categoryLink id="d94c-6cd4-7a70-50a8" name="Vanguard Battlegroups" hidden="false" targetId="973e-e4cf-bf42-e98f" primary="false"/>
@@ -2401,7 +2401,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c62f-3dcc-06eb-1208" name="Dreadnought Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c62f-3dcc-06eb-1208" name="Dreadnought Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2512,19 +2512,19 @@
     </selectionEntry>
     <selectionEntry id="7342-789a-2d68-6ae2" name="Gallium Bio-hazard Cutters" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
-        <entryLink id="fc9b-b154-1db9-16eb" name="Gallium Bio-Hazard Cutter" hidden="false" collective="false" import="true" targetId="7163-7a5a-b959-029b" type="selectionEntry">
+        <entryLink id="fc9b-b154-1db9-16eb" name="Gallium Bio-hazard Cutter" hidden="false" collective="false" import="true" targetId="7163-7a5a-b959-029b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8703-84d7-0561-cd06" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="465b-cf3d-ed7b-d7bc" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="812f-d785-bb7e-01af" name="Gallium Bio-Hazard Cutter" hidden="false" collective="false" import="true" targetId="7163-7a5a-b959-029b" type="selectionEntry">
+        <entryLink id="812f-d785-bb7e-01af" name="Gallium Bio-hazard Cutter" hidden="false" collective="false" import="true" targetId="7163-7a5a-b959-029b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2079-788c-601d-724b" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="696b-7aaf-dc7e-e5f2" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c9fc-1507-54eb-282f" name="Gallium Bio-Hazard Cutter" hidden="false" collective="false" import="true" targetId="7163-7a5a-b959-029b" type="selectionEntry">
+        <entryLink id="c9fc-1507-54eb-282f" name="Gallium Bio-hazard Cutter" hidden="false" collective="false" import="true" targetId="7163-7a5a-b959-029b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c94a-4d8c-8f26-6ac4" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="789f-077a-042d-6a7a" type="max"/>
@@ -2579,8 +2579,8 @@
         <entryLink id="39d9-ec6a-79c5-2c4a" name="Jet Heavy Cruiser" hidden="false" collective="false" import="true" targetId="bdc1-7092-1f03-175e" type="selectionEntry"/>
         <entryLink id="32f4-c772-2850-15f0" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="91db-c1d9-41b6-06f2" type="selectionEntry"/>
         <entryLink id="a76e-63b1-aa9d-aa0c" name="Goethite Battlecruiser" hidden="false" collective="false" import="true" targetId="d457-545b-a248-e049" type="selectionEntry"/>
-        <entryLink id="c742-7bf8-f8dc-8ca6" name="Haematite Battlecruiser" hidden="false" collective="false" import="true" targetId="a23d-59dd-1f62-da01" type="selectionEntry"/>
-        <entryLink id="3dc9-88e3-d498-fe41" name="Scoria Fleet Carrier" hidden="false" collective="false" import="true" targetId="bd5e-5169-d54b-bd02" type="selectionEntry"/>
+        <entryLink id="c742-7bf8-f8dc-8ca6" name="Hematite Battlecruiser" hidden="false" collective="false" import="true" targetId="a23d-59dd-1f62-da01" type="selectionEntry"/>
+        <entryLink id="3dc9-88e3-d498-fe41" name="Scoria Heavy Carrier" hidden="false" collective="false" import="true" targetId="bd5e-5169-d54b-bd02" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b898-ddd4-396a-0b68" name="Light Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="975a-65d5-9162-4093">
@@ -2594,13 +2594,13 @@
         <entryLink id="bfc0-1d35-cf38-86a4" name="Opal Frigates" hidden="false" collective="false" import="true" targetId="7ff5-00dc-6ed8-f9a8" type="selectionEntry"/>
         <entryLink id="da29-7e2d-03aa-dd4a" name="Amethyst Frigates" hidden="false" collective="false" import="true" targetId="eb41-9fcb-e40f-09c2" type="selectionEntry"/>
         <entryLink id="d460-3804-1cf5-fc56" name="Voidgates" hidden="false" collective="false" import="true" targetId="ff92-788b-ecb0-6863" type="selectionEntry"/>
-        <entryLink id="37d8-c2fb-3132-5686" name="Glass Cloudfliers" hidden="false" collective="false" import="true" targetId="cb8d-3459-87db-8d56" type="selectionEntry"/>
+        <entryLink id="37d8-c2fb-3132-5686" name="Glass Cloudflyers" hidden="false" collective="false" import="true" targetId="cb8d-3459-87db-8d56" type="selectionEntry"/>
         <entryLink id="0167-75ae-562b-7ad5" name="Chromium Destroyers" hidden="false" collective="false" import="true" targetId="2f7b-2d7d-c672-6b0b" type="selectionEntry"/>
         <entryLink id="17e2-dc42-cfcb-afad" name="Cobalt Homeships" hidden="false" collective="false" import="true" targetId="f05b-5b14-1fd0-9ce1" type="selectionEntry"/>
         <entryLink id="c024-097a-c825-7672" name="Mercury Destroyers" hidden="false" collective="false" import="true" targetId="edb9-14b1-c661-e19b" type="selectionEntry"/>
         <entryLink id="9c4d-5a72-8ab3-1fce" name="Silicon Monitors" hidden="false" collective="false" import="true" targetId="e7ac-010c-4bac-d318" type="selectionEntry"/>
         <entryLink id="7d65-3677-aa2f-4826" name="Selenium Heavy Voidgates" hidden="false" collective="false" import="true" targetId="86fd-75d8-a9d1-9c2c" type="selectionEntry"/>
-        <entryLink id="02ad-92ba-926c-5f65" name="Gallium Bio-Hazard Cutters" hidden="false" collective="false" import="true" targetId="7342-789a-2d68-6ae2" type="selectionEntry"/>
+        <entryLink id="02ad-92ba-926c-5f65" name="Gallium Bio-hazard Cutters" hidden="false" collective="false" import="true" targetId="7342-789a-2d68-6ae2" type="selectionEntry"/>
         <entryLink id="8076-0dba-eaae-8e57" name="Helium Voidflyers" hidden="false" collective="false" import="true" targetId="d9db-dbd1-0b7e-2637" type="selectionEntry"/>
         <entryLink id="8784-d1bc-4e23-8d70" name="Caesium Cutters" hidden="false" collective="false" import="true" targetId="24e7-77b9-da63-f1aa" type="selectionEntry"/>
         <entryLink import="true" name="Hyperyacht Aurorum" hidden="false" id="9b60-4268-ea52-c9a9" type="selectionEntry" targetId="abac-3155-16f2-3235"/>

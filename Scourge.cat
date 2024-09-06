@@ -974,13 +974,6 @@
     <selectionEntry id="ccb8-1df2-12a8-e962" name="Incubus Destroyer" hidden="false" collective="false" import="true" type="model" publicationId="cb98-b8e2-3a32-a3d7" page="33">
       <profiles>
         <profile id="6cc4-ee31-b165-7c52" name="Incubus" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
-          <modifiers>
-            <modifier type="set" field="4717-adad-0be5-3c60" value="Stealth, Partial Cloak">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f160-1a9d-ad3f-2780" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">5&quot;</characteristic>
@@ -1008,36 +1001,13 @@
         <entryLink import="true" name="Plasma Squall" hidden="false" id="2011-a3ca-4409-ce6c" type="selectionEntry" targetId="280b-b814-fff6-a723" sortIndex="3"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Stealth" id="2844-6ece-1ce6-9e58" hidden="true" targetId="8670-fbd9-e48c-da59" type="rule">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="f160-1a9d-ad3f-2780" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Partial Cloak" id="3b21-b65a-d41d-54b9" hidden="true" targetId="1390-6580-87b5-33ff" type="rule">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="f160-1a9d-ad3f-2780" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Stealth" id="2844-6ece-1ce6-9e58" hidden="true" targetId="8670-fbd9-e48c-da59" type="rule"/>
+        <infoLink name="Partial Cloak" id="3b21-b65a-d41d-54b9" hidden="true" targetId="1390-6580-87b5-33ff" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="b742-5992-28c9-d81a" name="Succubus Destroyer" hidden="false" collective="false" import="true" type="model" publicationId="cb98-b8e2-3a32-a3d7" page="34">
       <profiles>
         <profile id="17b0-57d1-fae2-88c2" name="Succubus" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
-          <modifiers>
-            <modifier type="set" field="4717-adad-0be5-3c60" value="Stealth, Partial Cloak">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f160-1a9d-ad3f-2780" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">5&quot;</characteristic>
@@ -1064,36 +1034,13 @@
         <entryLink import="true" name="Seekers" hidden="false" id="07b7-855c-5505-1798" type="selectionEntry" targetId="3ed3-c802-95b9-bd30" sortIndex="2"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Stealth" id="bc05-30dd-d016-84bd" hidden="true" targetId="8670-fbd9-e48c-da59" type="rule">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="f160-1a9d-ad3f-2780" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Partial Cloak" id="22bf-810c-d94c-6255" hidden="true" targetId="1390-6580-87b5-33ff" type="rule">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="f160-1a9d-ad3f-2780" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Stealth" id="bc05-30dd-d016-84bd" hidden="true" targetId="8670-fbd9-e48c-da59" type="rule"/>
+        <infoLink name="Partial Cloak" id="22bf-810c-d94c-6255" hidden="true" targetId="1390-6580-87b5-33ff" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="c49c-ab83-c5c2-15a2" name="Revenant Destroyer" hidden="false" collective="false" import="true" type="model" publicationId="cb98-b8e2-3a32-a3d7" page="35">
       <profiles>
         <profile id="52a3-b5f5-9386-a3b8" name="Revenant" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
-          <modifiers>
-            <modifier type="set" field="4717-adad-0be5-3c60" value="Stealth, Partial Cloak">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f160-1a9d-ad3f-2780" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">6&quot;</characteristic>
             <characteristic name="Sig" typeId="1402-313c-914d-f053">5&quot;</characteristic>
@@ -1121,24 +1068,8 @@
         <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="b2c7-0308-bbdb-65f9" type="selectionEntry" targetId="0620-a3c0-df38-2e12" sortIndex="3"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Stealth" id="6476-1729-b80c-9c5d" hidden="true" targetId="8670-fbd9-e48c-da59" type="rule">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="f160-1a9d-ad3f-2780" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Partial Cloak" id="b2f9-e9fd-0395-343c" hidden="true" targetId="1390-6580-87b5-33ff" type="rule">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="f160-1a9d-ad3f-2780" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Stealth" id="6476-1729-b80c-9c5d" hidden="true" targetId="8670-fbd9-e48c-da59" type="rule"/>
+        <infoLink name="Partial Cloak" id="b2f9-e9fd-0395-343c" hidden="true" targetId="1390-6580-87b5-33ff" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="8f8e-f221-49df-af0d" name="Wraith Cutter" hidden="false" collective="false" import="true" type="model" publicationId="cb98-b8e2-3a32-a3d7" page="36">
@@ -2174,7 +2105,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ba01-8bdf-2251-b138" name="Flag Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ba01-8bdf-2251-b138" name="Flag Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2252,7 +2183,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1373-9bea-e6ce-ed5f" name="Line Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1373-9bea-e6ce-ed5f" name="Line Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <categoryLinks>
         <categoryLink id="3004-97de-3ba3-da32" name="Line Battlegroups" hidden="false" targetId="8407-32c8-5444-80af" primary="false"/>
         <categoryLink id="27cb-ee41-f187-5487" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
@@ -2362,7 +2293,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa4c-86cf-be87-41a1" name="Pathfinder Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="aa4c-86cf-be87-41a1" name="Pathfinder Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <categoryLinks>
         <categoryLink id="4380-9ab2-100b-395e" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
         <categoryLink id="f895-9627-5d33-c3ab" name="Pathfinder Battlegroups" hidden="false" targetId="b754-76e4-e1a6-8e7f" primary="false"/>
@@ -2458,7 +2389,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ba61-df8a-0c03-49be" name="Vanguard Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ba61-df8a-0c03-49be" name="Vanguard Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <categoryLinks>
         <categoryLink id="5d55-e529-dd89-bbe3" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
         <categoryLink id="7074-23fa-66b6-d9d2" name="Vanguard Battlegroups" hidden="false" targetId="973e-e4cf-bf42-e98f" primary="false"/>
@@ -2554,7 +2485,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c6ce-9f9b-392e-9a19" name="Dreadnought Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c6ce-9f9b-392e-9a19" name="Dreadnought Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>

@@ -2288,7 +2288,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aaea-90f5-3f4d-226e" name="Flag Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="aaea-90f5-3f4d-226e" name="Flag Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2377,7 +2377,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="90bf-ff54-7eea-9298" name="Line Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="90bf-ff54-7eea-9298" name="Line Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <categoryLinks>
         <categoryLink id="902f-b6a6-0e54-e90f" name="Line Battlegroups" hidden="false" targetId="8407-32c8-5444-80af" primary="false"/>
         <categoryLink id="4a3c-8789-8ace-91fc" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
@@ -2487,7 +2487,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d8fe-4cfb-dd80-e5a6" name="Pathfinder Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d8fe-4cfb-dd80-e5a6" name="Pathfinder Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <categoryLinks>
         <categoryLink id="8527-e57b-2dd9-3853" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
         <categoryLink id="91cb-2781-0f46-cb11" name="Pathfinder Battlegroups" hidden="false" targetId="b754-76e4-e1a6-8e7f" primary="false"/>
@@ -2583,7 +2583,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ad3-2e53-b8be-473f" name="Vanguard Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8ad3-2e53-b8be-473f" name="Vanguard Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <categoryLinks>
         <categoryLink id="79b9-bf2d-b15a-cf6d" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="true"/>
         <categoryLink id="0ea7-520f-312f-f1c8" name="Vanguard Battlegroups" hidden="false" targetId="973e-e4cf-bf42-e98f" primary="false"/>
@@ -2679,7 +2679,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ee3d-39f3-5ebc-eef7" name="Dreadnought Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ee3d-39f3-5ebc-eef7" name="Dreadnought Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
