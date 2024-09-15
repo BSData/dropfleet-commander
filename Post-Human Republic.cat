@@ -1907,42 +1907,6 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d968-4132-6ee0-f2fe" name="Centurion Grand Cruisers" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="c8b5-bb8c-b909-c9d9" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="c8b5-bb8c-b909-c9d9" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c8b5-bb8c-b909-c9d9" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="9462-0279-6a54-94e2" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="89a6-df75-5363-cc91" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b0a-0625-fe52-83d5" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="1fe6-0fc7-bc6d-20ff" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f040-b159-4788-ab7b" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c76-a426-6cef-5d3b" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="2835-d9a7-5bf3-724a" name="Fleet" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="name" value="Clash Fleet">
@@ -2777,11 +2741,12 @@
         <entryLink id="0a30-8207-7d4e-cc42" name="Hector Heavy Cruiser" hidden="false" collective="false" import="true" targetId="7b6b-5c95-7afb-6bae" type="selectionEntry"/>
         <entryLink id="ef2f-5ece-ca35-a86b" name="Achilles Heavy Cruiser" hidden="false" collective="false" import="true" targetId="c968-bac5-2d15-bdd9" type="selectionEntry"/>
         <entryLink id="3835-58c8-56db-559d" name="Bellerophon Heavy Cruiser" hidden="false" collective="false" import="true" targetId="e8b4-d12b-4924-432f" type="selectionEntry"/>
-        <entryLink id="a844-6e4d-fd59-14b7" name="Centurion Grand Cruisers" hidden="false" collective="false" import="true" targetId="d968-4132-6ee0-f2fe" type="selectionEntry"/>
+        <entryLink id="a844-6e4d-fd59-14b7" name="Centurion Grand Cruisers" hidden="false" collective="false" import="true" targetId="0483-4ffa-7e63-bb82" type="selectionEntry"/>
         <entryLink id="8c28-79f2-54b9-e5d0" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="91db-c1d9-41b6-06f2" type="selectionEntry"/>
         <entryLink id="d3c5-a287-d18d-5e93" name="Agrippa Interference Cruiser" hidden="false" collective="false" import="true" targetId="dcc2-ab1d-5355-247b" type="selectionEntry"/>
         <entryLink id="b396-29b8-c8f7-c397" name="Pompeius Battlecruiser" hidden="false" collective="false" import="true" targetId="8da4-2001-875e-eadf" type="selectionEntry"/>
         <entryLink id="c223-3e19-d457-8c05" name="Sisyphus Heavy Cruiser" hidden="false" collective="false" import="true" targetId="fc69-660c-702c-b86d" type="selectionEntry"/>
+        <entryLink import="true" name="Palatine Command Barge" hidden="false" id="6d7a-fa94-17e5-00a2" type="selectionEntry" targetId="3f5b-d59d-96a0-d71d"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2e5c-fa09-313c-eb61" name="Dreadnought Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="d71e-cc2d-f889-9166">

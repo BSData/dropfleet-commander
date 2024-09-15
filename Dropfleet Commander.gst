@@ -1133,10 +1133,6 @@ If taken, your Admiral must be mounted in a Dreadnought.
 Standard Orders and Special Orders that allow a Dreadnought to fire one weapon system allow it to fire up to two weapon systems instead.
 Dreadnoughts use special Crippling Damage and Catastrophic Damage tables, shown in the damage section. In addition, roll on the Crippling Damage table when the ship is reduced to 18 Hull or less and 10 Hull or less instead of the usual 50% of original hull.</description>
     </rule>
-    <rule id="8b8a-54c8-b005-48e9" name="Elite Bridge Crew" publicationId="3955-5d68-187e-60e2" page="56" hidden="false">
-      <description>A Resistance Fleet ship may remove a Major Spike when on Standard Orders.
-In addition, when drawing Command Cards, Resistance players always draw 1 additional card, and then discard 1 card of their choice from their hand.</description>
-    </rule>
     <rule name="Elite Fighter Escort" id="c128-36c2-34a2-2915" hidden="false" publicationId="ba6e-24f5-358e-f7b2" page="1">
       <description>At the start of each turn, place 3 Elite Fighter tokens next to this ship. The controlling player may use any number of these Elite Fighter tokens to add 3 dice per token to this ships PD characteristic against a single attack from Launch Assets or Close Action weapons.
 The controlling player may use an Elite Fighter token to defend against enemy Bulk Landers and Dropships, counting as a Defence Battery against Bulk Landers and Dropships launched by a single Carrier.</description>
@@ -1176,6 +1172,8 @@ This special rule ceases to function while you do not control this station.</des
       <description>This weapon may only be fired X times in a game, so make your shots count! This can also apply to Launch Assets (typically to torpedoes), in which case the Asset may only be launched X times in a game.</description>
       <alias>L (1)</alias>
       <alias>L (2)</alias>
+      <alias>L (3)</alias>
+      <alias>L (4)</alias>
     </rule>
     <rule id="6af7-681c-b2c8-5acc" name="Launch" publicationId="3955-5d68-187e-60e2" page="51" hidden="false">
       <description>Ships with the Launch special rule are capable of carrying and using Launch Assets. Launch-capable ships will have their launch capacity noted in their descriptions along with the standard type load carried (i.e. Fighters, Bombers or Torpedoes as appropriate).</description>

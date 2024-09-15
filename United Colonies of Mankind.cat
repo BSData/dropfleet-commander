@@ -1800,42 +1800,6 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0483-4ffa-7e63-bb82" name="Centurion Grand Cruisers" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="99ef-5ef4-7b04-c75f" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="99ef-5ef4-7b04-c75f" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99ef-5ef4-7b04-c75f" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="8859-d27f-768c-e1fd" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b1f-fc31-9f2c-4c70" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87e1-843f-4e35-cc4d" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="97b1-24de-0149-1ce7" name="Centurion Grand Cruiser" hidden="false" collective="false" import="true" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2751-15d0-18bf-375e" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa37-2c3a-9c23-8dcb" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="5699-604a-8095-058b" name="Fleet" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="name" value="Clash Fleet">
@@ -2670,6 +2634,7 @@
         <entryLink id="9b8a-029c-61d9-a68c" name="Venice Command Battlecruiser" hidden="false" collective="false" import="true" targetId="ef3c-342d-5472-e41c" type="selectionEntry"/>
         <entryLink id="139f-b811-6078-2652" name="Rome Battlecruiser" hidden="false" collective="false" import="true" targetId="ca19-fb38-805b-1309" type="selectionEntry"/>
         <entryLink id="fd26-0f80-eb30-3473" name="Burnaby Battlestar Carrier" hidden="false" collective="false" import="true" targetId="477a-d6ab-6ba0-5bb9" type="selectionEntry"/>
+        <entryLink import="true" name="Palatine Command Barge" hidden="false" id="0978-ebbd-0f94-468e" type="selectionEntry" targetId="3f5b-d59d-96a0-d71d"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d522-9e26-e63b-3f8e" name="Medium Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="d36a-b988-3a90-21d1">

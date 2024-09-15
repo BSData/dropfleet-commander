@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="true" id="edb7-ec70-1989-b4b3" name="Multi-faction" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="17" revision="1" authorUrl="https://github.com/BSData/dropfleet-commander/issues" authorName="John Kemp" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="----- Ships -----" hidden="false" id="fb85-98fe-96c8-abd1"/>
     <selectionEntry type="model" import="true" name="Pungari Thresher Hive Ship" hidden="false" id="91db-c1d9-41b6-06f2" collective="false" publicationId="da17-7d78-79da-7077" page="18">
       <modifiers>
         <modifier type="set" value="3" field="7fce-c7be-f7fb-a7fe">
@@ -173,9 +174,255 @@
         </rule>
       </rules>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Palatine Command Barge" hidden="false" id="3f5b-d59d-96a0-d71d" publicationId="71d6-14ad-06a1-10e4" page="13">
+      <entryLinks>
+        <entryLink import="true" name="Flagship (H)" hidden="false" id="70d9-8681-c4b2-e829" type="selectionEntry" targetId="f413-1384-f5c6-44c1"/>
+        <entryLink import="true" name="N-12 Artillery Cannon Turrets" hidden="false" id="35ec-b288-0620-eb91" type="selectionEntry" targetId="25c7-49fc-4e95-1ca8" sortIndex="1"/>
+        <entryLink import="true" name="NC-3 Missiles" hidden="false" id="af02-335a-0888-57c4" type="selectionEntry" targetId="79ea-671f-2e64-5215" sortIndex="2"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Palatine" typeId="ecce-1380-e182-c89e" typeName="Ship" hidden="false" id="c8a4-d697-abb8-f286">
+          <characteristics>
+            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">12&quot;</characteristic>
+            <characteristic name="Sig" typeId="1402-313c-914d-f053">4&quot;</characteristic>
+            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">8&quot;</characteristic>
+            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">15</characteristic>
+            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">2+</characteristic>
+            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">12</characteristic>
+            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1</characteristic>
+            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">H</characteristic>
+            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Ablative Armour, Detector, Magellan Lifeboats, Advanced Artillery</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value=", Rare" field="4717-adad-0be5-3c60" join="">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Ablative Armour" id="cc5d-532d-b64e-1380" hidden="false" type="rule" targetId="38d0-f9e6-a208-1f17"/>
+        <infoLink name="Detector" id="cc67-533b-29e7-90fb" hidden="false" type="rule" targetId="d671-a199-2d13-3b64"/>
+        <infoLink name="Magellan Lifeboats" id="665a-50ff-a34c-926b" hidden="false" type="rule" targetId="d6e0-01b9-720a-7b9b"/>
+        <infoLink name="Advanced Artillery" id="cffa-94b5-98fd-977c" hidden="false" type="rule" targetId="aaea-4518-4296-0877"/>
+        <infoLink name="Rare" id="a71e-2f66-27af-de3d" hidden="true" type="rule" targetId="becc-b3c9-c26c-abde">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="185"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="10"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="1342-a92d-424c-140a" id="9860-3216-6d42-1139" primary="true" name="Heavy"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Centurion Grand Cruisers" hidden="false" id="0483-4ffa-7e63-bb82" collective="false">
+      <modifiers>
+        <modifier type="set" value="2" field="99ef-5ef4-7b04-c75f">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="3" field="99ef-5ef4-7b04-c75f">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="99ef-5ef4-7b04-c75f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Centurion Grand Cruiser" hidden="false" id="8859-d27f-768c-e1fd" collective="false" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="5b1f-fc31-9f2c-4c70" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="87e1-843f-4e35-cc4d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Centurion Grand Cruiser" hidden="false" id="97b1-24de-0149-1ce7" collective="false" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="2751-15d0-18bf-375e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fa37-2c3a-9c23-8dcb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="----- Weapons -----" hidden="false" id="5478-1361-3667-552d"/>
+    <selectionEntry type="upgrade" import="false" name="XN-31 Pair" hidden="false" id="ffb3-86e8-f46f-31cb" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d0d3-d0a3-50f4-3204" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a273-56e2-9859-3737" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="XN-31 Mass Driver Turret Pair" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="2c63-8941-df8e-fbaa">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>2+/2/1 F/S Fus(2)</comment>
+      <infoLinks>
+        <infoLink name="Fusillade (X)" id="e4a6-ca10-01c0-4bb0" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="N-31 Starboard" hidden="false" id="da50-f025-3ebe-5e2f" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb02-a682-45e3-1ba3" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad93-23a3-5dd5-48e7" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="N-31 Hybrid Gun Battery (Starboard)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="4e4d-3398-381f-636b">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>4+/8/1 S(R) Lnk(1)</comment>
+      <infoLinks>
+        <infoLink name="Linked (X)" id="beac-d24c-eea1-b2b3" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="N-31 Port" hidden="false" id="e44c-f2ed-607c-2feb" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7a3-daa0-9673-5e1c" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b189-8273-bd72-5312" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="N-31 Hybrid Gun Battery (Port)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="da2f-c7e5-c757-79e4">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>4+/8/1 S(L) Lnk(1)</comment>
+      <infoLinks>
+        <infoLink name="Linked (X)" id="5330-0352-b55b-a669" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="9K Snub" hidden="false" id="553a-a9dd-88cb-3bb2" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5896-f487-a766-901a" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52d7-aa92-0e31-b4c3" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="9K Snub Mass Drivers" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="15f5-8788-aabc-9fed">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>2+/4/1 F</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="NC-3 Missiles" hidden="false" id="79ea-671f-2e64-5215" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d08-0a44-5779-5cad" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ebd-4cd3-56e4-47e1" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="NC-3 Missiles" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="8693-69d0-96f7-d222">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>4+/2/1 F/S/R CA</comment>
+      <infoLinks>
+        <infoLink name="Close Action" id="7967-1ddc-31c1-0767" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="N-12 Artillery Cannon Turrets" hidden="false" id="25c7-49fc-4e95-1ca8" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a68f-93d1-3e4a-c0db" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5ce-f9df-7326-31b6" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="N-12 Artillery Cannon Turrets" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="1934-db39-588c-619b">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>4+/8/1 F</comment>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Resistance - Weapons" id="bbed-6906-5d48-1e07" targetId="ed7e-81bf-ed24-0dfb"/>
     <catalogueLink type="catalogue" name="Shaltari - Weapons" id="9360-07bd-126c-7cc0" targetId="ef31-352e-ede6-13ec"/>
   </catalogueLinks>
+  <sharedRules>
+    <rule name="Magellan Lifeboats" id="d6e0-01b9-720a-7b9b" hidden="false">
+      <description>If this ship is destroyed with an Admiral assigned to it, you may transfer your Admiral to another friendly ship of H or S Tonnage within 18”.</description>
+    </rule>
+    <rule name="Advanced Artillery" id="aaea-4518-4296-0877" hidden="false">
+      <description>This ship may fire its N-12 Artillery Cannons while on the Max Thrust and Silent Running Special Orders.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
