@@ -226,6 +226,36 @@
         <categoryLink targetId="1342-a92d-424c-140a" id="9860-3216-6d42-1139" primary="true" name="Heavy"/>
       </categoryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Pungari Thresher Hive Ship" hidden="false" id="3396-8933-0ee5-0c69" collective="false">
+      <modifiers>
+        <modifier type="set" value="2" field="ca2d-e32f-e7e9-bfbb">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="3" field="ca2d-e32f-e7e9-bfbb">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ca2d-e32f-e7e9-bfbb" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Pungari Thresher Hive Ship" hidden="false" id="f1db-a729-9333-58e1" collective="false" targetId="91db-c1d9-41b6-06f2" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="427b-d266-3545-e078" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7bb8-ca0c-6b65-ddbf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Centurion Grand Cruisers" hidden="false" id="0483-4ffa-7e63-bb82" collective="false">
       <modifiers>
         <modifier type="set" value="2" field="99ef-5ef4-7b04-c75f">
@@ -246,13 +276,55 @@
         <entryLink import="true" name="Centurion Grand Cruiser" hidden="false" id="8859-d27f-768c-e1fd" collective="false" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="5b1f-fc31-9f2c-4c70" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="87e1-843f-4e35-cc4d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="87e1-843f-4e35-cc4d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Centurion Grand Cruiser" hidden="false" id="97b1-24de-0149-1ce7" collective="false" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hyperyacht Aurorum" hidden="false" id="cc03-54c7-704d-d966" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="882a-c578-b1f0-48cb" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Hyperyacht Aurorum" hidden="false" id="b0e5-1740-1998-ba88" collective="false" targetId="abac-3155-16f2-3235" type="selectionEntry">
           <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="2751-15d0-18bf-375e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fa37-2c3a-9c23-8dcb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="57c1-93bf-2508-667a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="0173-475d-a941-ae22" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Palatine Command Barge" hidden="false" id="f037-c598-d6fe-3356" collective="false">
+      <modifiers>
+        <modifier type="set" value="2" field="d130-65b7-cd79-fe11">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="3" field="d130-65b7-cd79-fe11">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d130-65b7-cd79-fe11" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Palatine Command Barge" hidden="false" id="abe5-a7ca-5f0b-3896" collective="false" targetId="3f5b-d59d-96a0-d71d" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="36b7-8430-d0b0-1ee1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6d22-22df-c469-44ed" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
       </entryLinks>
