@@ -58,19 +58,17 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="10"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Boarding Pods (F)" hidden="false" id="55cf-bda5-6897-95eb" type="selectionEntry" targetId="468b-b193-3553-172e"/>
-        <entryLink import="true" name="Boarding Pods (St)" hidden="false" id="1268-e4ef-6ef8-f765" type="selectionEntry" targetId="4322-3e6b-1b0c-551c"/>
-        <entryLink import="true" name="Boarding Pods (Po)" hidden="false" id="65ed-1ae7-a2fa-80d5" type="selectionEntry" targetId="4513-d78c-46ba-04b1"/>
-        <entryLink import="true" name="Pungari Bulk Landers" hidden="false" id="9368-551c-38d1-a49d" type="selectionEntry" targetId="1b65-a31c-47e5-52cf"/>
-        <entryLink import="true" name="Pungari Bombers" hidden="false" id="454b-6911-36bc-ec10" type="selectionEntry" targetId="a2a5-6ba2-bb76-6f21"/>
+        <entryLink import="true" name="Boarding Pods (Front)" hidden="false" id="55cf-bda5-6897-95eb" type="selectionEntry" targetId="468b-b193-3553-172e" sortIndex="1"/>
+        <entryLink import="true" name="Boarding Pods (Stbd &amp; Port)" hidden="false" id="1268-e4ef-6ef8-f765" type="selectionEntry" targetId="4322-3e6b-1b0c-551c" sortIndex="2"/>
+        <entryLink import="true" name="Pungari Bulk Landers" hidden="false" id="9368-551c-38d1-a49d" type="selectionEntry" targetId="1b65-a31c-47e5-52cf" sortIndex="3"/>
+        <entryLink import="true" name="Pungari Bombers" hidden="false" id="454b-6911-36bc-ec10" type="selectionEntry" targetId="a2a5-6ba2-bb76-6f21" sortIndex="4"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Centurion Grand Cruiser" hidden="false" id="c2d4-cebd-6609-c177" publicationId="71d6-14ad-06a1-10e4" page="14">
       <entryLinks>
         <entryLink import="true" name="XN-31 Pair" hidden="false" id="cc5d-f775-b709-3fd9" type="selectionEntry" targetId="ffb3-86e8-f46f-31cb" sortIndex="1"/>
-        <entryLink import="true" name="N-31 Port" hidden="false" id="4c4d-4598-0032-1fed" type="selectionEntry" targetId="e44c-f2ed-607c-2feb" sortIndex="2"/>
-        <entryLink import="true" name="N-31 Starboard" hidden="false" id="dc56-60e7-676d-e609" type="selectionEntry" targetId="da50-f025-3ebe-5e2f" sortIndex="3"/>
-        <entryLink import="true" name="NC-3 Missiles" hidden="false" id="928e-7d57-a75f-abab" type="selectionEntry" targetId="79ea-671f-2e64-5215" sortIndex="4"/>
+        <entryLink import="true" name="N-31 Hybrid Battery (Port &amp; Stbd)" hidden="false" id="4c4d-4598-0032-1fed" type="selectionEntry" targetId="e44c-f2ed-607c-2feb" sortIndex="2"/>
+        <entryLink import="true" name="NC-3 Missiles" hidden="false" id="928e-7d57-a75f-abab" type="selectionEntry" targetId="79ea-671f-2e64-5215" sortIndex="3"/>
         <entryLink import="true" name="Flagship (H)" hidden="false" id="8a47-ee56-f4b7-96aa" type="selectionEntry" targetId="f413-1384-f5c6-44c1"/>
       </entryLinks>
       <profiles>
@@ -361,12 +359,21 @@
         <infoLink name="Fusillade (X)" id="e4a6-ca10-01c0-4bb0" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="N-31 Starboard" hidden="false" id="da50-f025-3ebe-5e2f" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="N-31 Hybrid Battery (Port &amp; Stbd)" hidden="false" id="e44c-f2ed-607c-2feb" defaultAmount="1" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb02-a682-45e3-1ba3" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad93-23a3-5dd5-48e7" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7a3-daa0-9673-5e1c" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b189-8273-bd72-5312" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="N-31 Hybrid Gun Battery (Port)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="da2f-c7e5-c757-79e4">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="N-31 Hybrid Gun Battery (Starboard)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="4e4d-3398-381f-636b">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -382,33 +389,7 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/8/1 S(R) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Linked (X)" id="beac-d24c-eea1-b2b3" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="N-31 Port" hidden="false" id="e44c-f2ed-607c-2feb" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7a3-daa0-9673-5e1c" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b189-8273-bd72-5312" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="N-31 Hybrid Gun Battery (Port)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="da2f-c7e5-c757-79e4">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/8/1 S(L) Lnk(1)</comment>
+      <comment>4+/8/1 S(L+R) Lnk(1)</comment>
       <infoLinks>
         <infoLink name="Linked (X)" id="5330-0352-b55b-a669" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
@@ -485,10 +466,121 @@
       </costs>
       <comment>4+/8/1 F</comment>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Boarding Pods (Front)" hidden="false" id="468b-b193-3553-172e" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e997-3363-1e22-7802" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0066-0f0b-4232-4005" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Boarding Pods (Front)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="3bd8-d32f-39f6-0eb5">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>4+/4/1 F Corr</comment>
+      <infoLinks>
+        <infoLink name="Corruptor" id="68e3-60d5-636f-2145" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Boarding Pods (Stbd &amp; Port)" hidden="false" id="4322-3e6b-1b0c-551c" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="30cd-fd55-dfba-602b" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3eb0-0f9d-0196-eb45" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Boarding Pods (Starboard)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="ec8b-fd9f-855a-72c1">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Boarding Pods (Port)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="c06b-dc18-863d-775d">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>4+/4/1 S(R+L) Corr Lnk(1)</comment>
+      <infoLinks>
+        <infoLink name="Corruptor" id="01f1-3980-0eb9-7ca7" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
+        <infoLink name="Linked (X)" id="ad24-d023-db2e-b3bb" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pungari Bombers" hidden="false" id="a2a5-6ba2-bb76-6f21" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="527a-04ac-aba2-a000" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0cdd-0eda-fcfe-42dd" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Pungari Bombers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="1c98-0f62-0c89-cb7b">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">4</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>4</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="2f37-7237-c950-9967" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="4" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pungari Bulk Landers" hidden="false" id="1b65-a31c-47e5-52cf" defaultAmount="1" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="400a-5db8-5d46-b1e7" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="272f-937a-54b7-e7a0" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Pungari Bulk Landers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="c201-2148-93b6-5daf">
+          <characteristics>
+            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">2</characteristic>
+            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+      <comment>2</comment>
+      <infoLinks>
+        <infoLink name="Launch" id="0bf7-c7e0-f311-f5f8" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="2" field="ac2f-9b71-e1c5-783a"/>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
-  <catalogueLinks>
-    <catalogueLink type="catalogue" name="Shaltari - Weapons" id="9360-07bd-126c-7cc0" targetId="ef31-352e-ede6-13ec"/>
-  </catalogueLinks>
   <sharedRules>
     <rule name="Magellan Lifeboats" id="d6e0-01b9-720a-7b9b" hidden="false">
       <description>If this ship is destroyed with an Admiral assigned to it, you may transfer your Admiral to another friendly ship of H or S Tonnage within 18”.</description>

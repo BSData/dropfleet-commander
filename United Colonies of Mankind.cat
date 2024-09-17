@@ -35,14 +35,12 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="0730-879b-81e6-055a" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="b338-59f9-6801-038a" type="selectionEntry"/>
-        <entryLink import="true" name="UF-9000 Starboard" hidden="false" id="028b-37cf-e4f8-f61c" type="selectionEntry" targetId="f8e3-76b9-67d2-5b69" sortIndex="1"/>
-        <entryLink import="true" name="UF-9000 Port" hidden="false" id="d69f-6433-415f-d6ab" type="selectionEntry" targetId="1d73-9791-29be-5099" sortIndex="2"/>
-        <entryLink import="true" name="UF-6400s Dorsal" hidden="false" id="e952-d8e6-77dd-57ee" type="selectionEntry" targetId="55c2-eea8-9203-9e7d" sortIndex="3"/>
-        <entryLink import="true" name="UF-6400s Ventral" hidden="false" id="689e-faeb-11a3-49d5" type="selectionEntry" targetId="77a7-e56a-304e-843a" sortIndex="4"/>
-        <entryLink import="true" name="UF-4200s Core" hidden="false" id="a7b7-6c5d-b65c-8799" type="selectionEntry" targetId="4736-7555-be6b-231a" sortIndex="5"/>
-        <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="d90d-8c09-ba72-70f9" type="selectionEntry" targetId="5b53-0462-196d-6991" sortIndex="6"/>
-        <entryLink import="true" name="UF-4200s Port" hidden="false" id="3b20-9d6f-f10d-f9b7" type="selectionEntry" targetId="04af-648f-cfe6-273a" sortIndex="7"/>
-        <entryLink import="true" name="Lev Missiles" hidden="false" id="4f8e-25f2-30b5-b997" type="selectionEntry" targetId="3ea8-1f3f-be42-86db" sortIndex="8"/>
+        <entryLink import="true" name="UF-9000 Turret (Stbd &amp; Port)" hidden="false" id="028b-37cf-e4f8-f61c" type="selectionEntry" targetId="f8e3-76b9-67d2-5b69" sortIndex="1"/>
+        <entryLink import="true" name="UF-6400 Turrets (Dorsal)" hidden="false" id="e952-d8e6-77dd-57ee" type="selectionEntry" targetId="55c2-eea8-9203-9e7d" sortIndex="2"/>
+        <entryLink import="true" name="UF-6400 Turrets (Ventral)" hidden="false" id="689e-faeb-11a3-49d5" type="selectionEntry" targetId="77a7-e56a-304e-843a" sortIndex="3"/>
+        <entryLink import="true" name="UF-4200 Turrets (Core)" hidden="false" id="a7b7-6c5d-b65c-8799" type="selectionEntry" targetId="4736-7555-be6b-231a" sortIndex="4"/>
+        <entryLink import="true" name="UF-4200 Turrets (Stbd &amp; Port)" hidden="false" id="d90d-8c09-ba72-70f9" type="selectionEntry" targetId="5b53-0462-196d-6991" sortIndex="5"/>
+        <entryLink import="true" name="Leviathan Missiles" hidden="false" id="4f8e-25f2-30b5-b997" type="selectionEntry" targetId="3ea8-1f3f-be42-86db" sortIndex="6"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="450"/>
@@ -75,13 +73,11 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="5065-bf81-ae89-0072" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="b338-59f9-6801-038a" type="selectionEntry"/>
-        <entryLink import="true" name="UF-9000 Starboard" hidden="false" id="38ba-b194-3956-9116" type="selectionEntry" targetId="f8e3-76b9-67d2-5b69" sortIndex="1"/>
-        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="9d85-4b36-d75d-8bc8" type="selectionEntry" targetId="128a-7ca7-f016-c265" sortIndex="7"/>
-        <entryLink import="true" name="UF-9000 Port" hidden="false" id="4555-3d87-55b8-27f2" type="selectionEntry" targetId="1d73-9791-29be-5099" sortIndex="2"/>
-        <entryLink import="true" name="UF-4200s Core" hidden="false" id="2f32-9654-f9b5-a76d" type="selectionEntry" targetId="4736-7555-be6b-231a" sortIndex="3"/>
-        <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="33cb-8cff-82a5-f27a" type="selectionEntry" targetId="5b53-0462-196d-6991" sortIndex="4"/>
-        <entryLink import="true" name="UF-4200s Port" hidden="false" id="b16c-dc7b-bd01-c6d2" type="selectionEntry" targetId="04af-648f-cfe6-273a" sortIndex="5"/>
-        <entryLink import="true" name="Lev Missiles" hidden="false" id="2795-a461-985c-961d" type="selectionEntry" targetId="3ea8-1f3f-be42-86db" sortIndex="6"/>
+        <entryLink import="true" name="UF-9000 Turret (Stbd &amp; Port)" hidden="false" id="38ba-b194-3956-9116" type="selectionEntry" targetId="f8e3-76b9-67d2-5b69" sortIndex="1"/>
+        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="9d85-4b36-d75d-8bc8" type="selectionEntry" targetId="128a-7ca7-f016-c265" sortIndex="5"/>
+        <entryLink import="true" name="UF-4200 Turrets (Core)" hidden="false" id="2f32-9654-f9b5-a76d" type="selectionEntry" targetId="4736-7555-be6b-231a" sortIndex="2"/>
+        <entryLink import="true" name="UF-4200 Turrets (Stbd &amp; Port)" hidden="false" id="33cb-8cff-82a5-f27a" type="selectionEntry" targetId="5b53-0462-196d-6991" sortIndex="3"/>
+        <entryLink import="true" name="Leviathan Missiles" hidden="false" id="2795-a461-985c-961d" type="selectionEntry" targetId="3ea8-1f3f-be42-86db" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="440"/>
@@ -111,10 +107,9 @@
       <entryLinks>
         <entryLink id="4f21-e00e-0476-be91" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="Python SH Laser" hidden="false" id="243a-e33a-d9f1-20f5" type="selectionEntry" targetId="dc27-f763-3416-e642" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200s Port" hidden="false" id="d2ea-b4f0-30c8-7a93" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="2"/>
-        <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="c6ca-713a-c446-b8c3" type="selectionEntry" targetId="da0c-62ea-e395-c09a" sortIndex="3"/>
-        <entryLink import="true" name="UF-6400s" hidden="false" id="09dc-c902-2d92-f5a1" type="selectionEntry" targetId="5aa1-5470-249f-6389" sortIndex="4"/>
-        <entryLink import="true" name="SwdFsh Missiles" hidden="false" id="ff93-4be3-5c1b-4308" type="selectionEntry" targetId="a803-5d32-d6a9-ec67" sortIndex="5"/>
+        <entryLink import="true" name="UF-4200 Turrets (Port &amp; Stbd)" hidden="false" id="d2ea-b4f0-30c8-7a93" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="2"/>
+        <entryLink import="true" name="UF-6400 Turrets" hidden="false" id="09dc-c902-2d92-f5a1" type="selectionEntry" targetId="5aa1-5470-249f-6389" sortIndex="3"/>
+        <entryLink import="true" name="Swordfish Missiles" hidden="false" id="ff93-4be3-5c1b-4308" type="selectionEntry" targetId="a803-5d32-d6a9-ec67" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="230"/>
@@ -143,11 +138,10 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="e904-ee8d-3c1b-5bd3" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
-        <entryLink import="true" name="UF-4200s Port" hidden="false" id="3fbc-f208-67ea-373f" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="b8a7-a407-70e4-86b3" type="selectionEntry" targetId="da0c-62ea-e395-c09a" sortIndex="2"/>
-        <entryLink import="true" name="Shark Missiles" hidden="false" id="8804-1ab0-a34a-5584" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
-        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="343e-2c1b-8adf-a22f" type="selectionEntry" targetId="db90-b0d9-b641-a876" sortIndex="4"/>
-        <entryLink import="true" name="Torpedo" hidden="false" id="9ca0-f92e-8702-5945" type="selectionEntry" targetId="8daa-d170-e81a-ef8b" sortIndex="5"/>
+        <entryLink import="true" name="UF-4200 Turrets (Port &amp; Stbd)" hidden="false" id="3fbc-f208-67ea-373f" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="1"/>
+        <entryLink import="true" name="Shark Missiles" hidden="false" id="8804-1ab0-a34a-5584" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="2"/>
+        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="343e-2c1b-8adf-a22f" type="selectionEntry" targetId="db90-b0d9-b641-a876" sortIndex="3"/>
+        <entryLink import="true" name="Torpedo" hidden="false" id="9ca0-f92e-8702-5945" type="selectionEntry" targetId="8daa-d170-e81a-ef8b" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="250"/>
@@ -177,16 +171,15 @@
       <entryLinks>
         <entryLink id="a0c5-bf88-e6cc-e04f" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="Python SH Laser" hidden="false" id="a784-4b21-adb7-d80b" type="selectionEntry" targetId="dc27-f763-3416-e642" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200s Port" hidden="false" id="245f-b8ce-a2e8-4d14" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="2"/>
-        <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="0ec7-9ce5-5cb7-74d1" type="selectionEntry" targetId="da0c-62ea-e395-c09a" sortIndex="3"/>
-        <entryLink import="true" name="B-8000" hidden="false" id="0b32-15b5-0493-994f" type="selectionEntry" targetId="487a-b8ba-1320-a199" sortIndex="4">
+        <entryLink import="true" name="UF-4200 Turrets (Port &amp; Stbd)" hidden="false" id="245f-b8ce-a2e8-4d14" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="2"/>
+        <entryLink import="true" name="UF-B-8000" hidden="false" id="0b32-15b5-0493-994f" type="selectionEntry" targetId="487a-b8ba-1320-a199" sortIndex="3">
           <modifiers>
             <modifier type="set" value="2" field="462d-2d48-bbfa-08b5-min"/>
             <modifier type="set" value="2" field="462d-2d48-bbfa-08b5-max"/>
             <modifier type="set" value="2" field="defaultAmount"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="SwdFsh Missiles" hidden="false" id="ea42-23ae-ffc6-48e9" type="selectionEntry" targetId="a803-5d32-d6a9-ec67" sortIndex="5"/>
+        <entryLink import="true" name="Swordfish Missiles" hidden="false" id="ea42-23ae-ffc6-48e9" type="selectionEntry" targetId="a803-5d32-d6a9-ec67" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="220"/>
@@ -215,11 +208,10 @@
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Flagship (S)" hidden="false" id="218f-7ac8-1a00-b6d9" collective="false" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
-        <entryLink import="true" name="UF-4200s Port" hidden="false" id="b099-eb95-29c4-cc0a" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="02a2-5b1e-5c55-809c" type="selectionEntry" targetId="da0c-62ea-e395-c09a" sortIndex="2"/>
-        <entryLink import="true" name="UF-6400s" hidden="false" id="3369-ec40-f09c-1a11" type="selectionEntry" targetId="cded-9dfb-e373-b902" sortIndex="3"/>
-        <entryLink import="true" name="Shark Missiles" hidden="false" id="77d7-85ac-e855-f3c6" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="4"/>
-        <entryLink import="true" name="Bulk Landers" hidden="false" id="76d6-aa08-d6dd-558f" type="selectionEntry" targetId="cceb-c35d-2166-c441" sortIndex="5"/>
+        <entryLink import="true" name="UF-4200 Turrets (Port &amp; Stbd)" hidden="false" id="b099-eb95-29c4-cc0a" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="1"/>
+        <entryLink import="true" name="UF-6400 Turrets" hidden="false" id="3369-ec40-f09c-1a11" type="selectionEntry" targetId="cded-9dfb-e373-b902" sortIndex="2"/>
+        <entryLink import="true" name="Shark Missiles" hidden="false" id="77d7-85ac-e855-f3c6" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
+        <entryLink import="true" name="Bulk Landers" hidden="false" id="76d6-aa08-d6dd-558f" type="selectionEntry" targetId="cceb-c35d-2166-c441" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="245"/>
@@ -248,10 +240,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Flagship (S)" hidden="false" id="1d89-7a0e-68b5-ba40" collective="false" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
-        <entryLink import="true" name="UF-12000" hidden="false" id="5000-d37f-fcf6-f8d1" type="selectionEntry" targetId="f034-a745-8a86-485b" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200s Port" hidden="false" id="94a1-049d-23ac-3f3f" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="2"/>
-        <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="16a8-2fba-1ce1-52cf" type="selectionEntry" targetId="da0c-62ea-e395-c09a" sortIndex="3"/>
-        <entryLink import="true" name="SwdFsh Missiles" hidden="false" id="06fd-3ec8-73ec-c286" type="selectionEntry" targetId="a803-5d32-d6a9-ec67" sortIndex="4"/>
+        <entryLink import="true" name="UF-12000 Twin" hidden="false" id="5000-d37f-fcf6-f8d1" type="selectionEntry" targetId="f034-a745-8a86-485b" sortIndex="1"/>
+        <entryLink import="true" name="UF-4200 Turrets (Port &amp; Stbd)" hidden="false" id="94a1-049d-23ac-3f3f" type="selectionEntry" targetId="2007-860e-719c-09e4" sortIndex="2"/>
+        <entryLink import="true" name="Swordfish Missiles" hidden="false" id="06fd-3ec8-73ec-c286" type="selectionEntry" targetId="a803-5d32-d6a9-ec67" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="250"/>
@@ -280,12 +271,11 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="9158-df9c-f5f7-590a" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="UF-4200 Port" hidden="false" id="661c-8b84-f1ab-71e8" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="101a-cdec-6d03-21c5" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
-        <entryLink import="true" name="UF-6400" hidden="false" id="058d-58a1-b3fc-6c16" type="selectionEntry" targetId="f60a-3a13-80f9-a2c8" sortIndex="3"/>
-        <entryLink import="true" name="UF-6400" hidden="false" id="67ff-6912-b8ec-df19" type="selectionEntry" targetId="8a7b-a63f-6655-1e64" sortIndex="4"/>
-        <entryLink import="true" name="Shark Missiles" hidden="false" id="97c9-8bf3-2618-28fb" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="5"/>
-        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="34ce-55f7-e1a3-c6ff" type="selectionEntry" targetId="45c2-3645-b3bd-2648" sortIndex="6"/>
+        <entryLink import="true" name="UF-4200 Turret (Port &amp; Stbd)" hidden="false" id="661c-8b84-f1ab-71e8" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
+        <entryLink import="true" name="UF-6400 Turret" hidden="false" id="058d-58a1-b3fc-6c16" type="selectionEntry" targetId="f60a-3a13-80f9-a2c8" sortIndex="2"/>
+        <entryLink import="true" name="UF-6400 Turret" hidden="false" id="67ff-6912-b8ec-df19" type="selectionEntry" targetId="8a7b-a63f-6655-1e64" sortIndex="3"/>
+        <entryLink import="true" name="Shark Missiles" hidden="false" id="97c9-8bf3-2618-28fb" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="4"/>
+        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="34ce-55f7-e1a3-c6ff" type="selectionEntry" targetId="45c2-3645-b3bd-2648" sortIndex="5"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="195"/>
@@ -315,9 +305,8 @@
       <entryLinks>
         <entryLink id="2ec4-7337-8e1c-fbc2" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="Viper SH Laser" hidden="false" id="4968-b5ee-8cfa-63aa" type="selectionEntry" targetId="2d5a-a909-0aa2-880e" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200s Port" hidden="false" id="1113-a8b5-51bc-c406" type="selectionEntry" targetId="42ba-2ec4-1f18-e8ce" sortIndex="2"/>
-        <entryLink import="true" name="UF-4200s Starboard" hidden="false" id="17b7-a824-6f96-9652" type="selectionEntry" targetId="eb81-0206-2ab7-9a5d" sortIndex="3"/>
-        <entryLink import="true" name="Shark Missiles" hidden="false" id="1a83-bb45-f4b3-0d1c" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="4"/>
+        <entryLink import="true" name="UF-4200 Turrets (Port &amp; Stbd)" hidden="false" id="17b7-a824-6f96-9652" type="selectionEntry" targetId="eb81-0206-2ab7-9a5d" sortIndex="2"/>
+        <entryLink import="true" name="Shark Missiles" hidden="false" id="1a83-bb45-f4b3-0d1c" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="195"/>
@@ -349,10 +338,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="6edc-17fc-cd8a-eaa7" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="UF-4200 Port" hidden="false" id="bee0-8939-db9e-17c3" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="63a9-f8ff-73f9-02f1" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
-        <entryLink import="true" name="Shark Missiles" hidden="false" id="cc8f-c5ed-443f-9020" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
-        <entryLink import="true" name="Heavy Torpedo" hidden="false" id="c9cf-4483-6754-4305" type="selectionEntry" targetId="7ee2-ff87-ef1c-d493" sortIndex="4">
+        <entryLink import="true" name="UF-4200 Turret (Port &amp; Stbd)" hidden="false" id="bee0-8939-db9e-17c3" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
+        <entryLink import="true" name="Shark Missiles" hidden="false" id="cc8f-c5ed-443f-9020" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="2"/>
+        <entryLink import="true" name="Heavy Torpedo" hidden="false" id="c9cf-4483-6754-4305" type="selectionEntry" targetId="7ee2-ff87-ef1c-d493" sortIndex="3">
           <modifiers>
             <modifier type="set" value="2" field="f2fe-7521-8c03-5287-min"/>
             <modifier type="set" value="2" field="f2fe-7521-8c03-5287-max"/>
@@ -398,9 +386,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="c82a-7542-2f02-ccb5" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="UF-4200 Port" hidden="false" id="12a8-b1e0-8b00-b98e" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="bc19-01e0-b94e-809d" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
-        <entryLink import="true" name="Shark Missiles" hidden="false" id="f930-c65e-6ef0-f9a7" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
+        <entryLink import="true" name="UF-4200 Turret (Port &amp; Stbd)" hidden="false" id="12a8-b1e0-8b00-b98e" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
+        <entryLink import="true" name="Shark Missiles" hidden="false" id="f930-c65e-6ef0-f9a7" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="2"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="200"/>
@@ -431,7 +418,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Cobra H Laser" hidden="false" id="994d-a720-6e43-447e" type="selectionEntry" targetId="245d-9808-483a-d36c" sortIndex="1"/>
-        <entryLink import="true" name="UF-6400s" hidden="false" id="1f90-7032-6a50-0d91" type="selectionEntry" targetId="cded-9dfb-e373-b902" sortIndex="2"/>
+        <entryLink import="true" name="UF-6400 Turrets" hidden="false" id="1f90-7032-6a50-0d91" type="selectionEntry" targetId="cded-9dfb-e373-b902" sortIndex="2"/>
         <entryLink import="true" name="Shark Missiles" hidden="false" id="1266-00f0-cefa-cb4f" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
         <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="0651-1804-f84c-ef44" type="selectionEntry" targetId="45c2-3645-b3bd-2648" sortIndex="4"/>
         <entryLink import="true" name="Flagship (H)" hidden="false" id="52ca-ecf5-585b-c8a9" collective="false" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
@@ -461,11 +448,10 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="459d-cf45-ca12-749d" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="UF-4200 Port" hidden="false" id="ca26-102b-3eb6-d462" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="06d2-7c7a-a1fd-5799" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
-        <entryLink import="true" name="UF-6400s" hidden="false" id="8ee6-09f5-4682-aaf8" type="selectionEntry" targetId="21c5-55a6-d824-4587" sortIndex="3"/>
-        <entryLink import="true" name="UF-6400s" hidden="false" id="485c-7a1f-d1fa-ae8c" type="selectionEntry" targetId="cded-9dfb-e373-b902" sortIndex="4"/>
-        <entryLink import="true" name="Shark Missiles" hidden="false" id="2d17-5f73-ff8f-7883" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="5"/>
+        <entryLink import="true" name="UF-4200 Turret (Port &amp; Stbd)" hidden="false" id="ca26-102b-3eb6-d462" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
+        <entryLink import="true" name="UF-6400 Turrets" hidden="false" id="8ee6-09f5-4682-aaf8" type="selectionEntry" targetId="21c5-55a6-d824-4587" sortIndex="2"/>
+        <entryLink import="true" name="UF-6400 Turrets" hidden="false" id="485c-7a1f-d1fa-ae8c" type="selectionEntry" targetId="cded-9dfb-e373-b902" sortIndex="3"/>
+        <entryLink import="true" name="Shark Missiles" hidden="false" id="2d17-5f73-ff8f-7883" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="150"/>
@@ -498,9 +484,8 @@
       <entryLinks>
         <entryLink id="713a-7866-cf66-c46b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="Cobra H Laser Pair" hidden="false" id="5833-c186-c0c6-dbb1" type="selectionEntry" targetId="0835-f51c-d3a0-8888" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200 Port" hidden="false" id="b268-d03c-e798-0b03" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="2"/>
-        <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="9b2c-3707-7bc3-584e" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="3"/>
-        <entryLink import="true" name="Shark Missiles" hidden="false" id="b389-c85b-abf8-2e98" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="4"/>
+        <entryLink import="true" name="UF-4200 Turret (Port &amp; Stbd)" hidden="false" id="b268-d03c-e798-0b03" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="2"/>
+        <entryLink import="true" name="Shark Missiles" hidden="false" id="b389-c85b-abf8-2e98" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="140"/>
@@ -529,10 +514,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="2064-7ccb-c71d-312c" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="UF-4200 Port" hidden="false" id="155c-f39f-0c6b-4905" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="f41f-b120-6b21-1cc9" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
-        <entryLink import="true" name="UF-6400s" hidden="false" id="8542-5f04-e6c5-3bac" type="selectionEntry" targetId="bf82-04d9-8a0e-7266" sortIndex="3"/>
-        <entryLink import="true" name="Shark Missiles" hidden="false" id="14cb-1dbd-b101-5f1c" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="4"/>
+        <entryLink import="true" name="UF-4200 Turret (Port &amp; Stbd)" hidden="false" id="155c-f39f-0c6b-4905" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
+        <entryLink import="true" name="UF-6400 Turrets" hidden="false" id="8542-5f04-e6c5-3bac" type="selectionEntry" targetId="bf82-04d9-8a0e-7266" sortIndex="2"/>
+        <entryLink import="true" name="Shark Missiles" hidden="false" id="14cb-1dbd-b101-5f1c" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="105"/>
@@ -562,9 +546,8 @@
       <entryLinks>
         <entryLink id="8171-5388-3378-1bd0" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="Cobra H Laser" hidden="false" id="aa74-b8c9-dd94-2a43" type="selectionEntry" targetId="245d-9808-483a-d36c" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200 Port" hidden="false" id="4c2d-e15f-2d4f-705e" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="2"/>
-        <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="dfa7-2c02-0e5f-daa8" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="3"/>
-        <entryLink import="true" name="Shark Missiles" hidden="false" id="dd9b-bc0c-ce9b-e14f" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="4"/>
+        <entryLink import="true" name="UF-4200 Turret (Port &amp; Stbd)" hidden="false" id="4c2d-e15f-2d4f-705e" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="2"/>
+        <entryLink import="true" name="Shark Missiles" hidden="false" id="dd9b-bc0c-ce9b-e14f" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="105"/>
@@ -593,10 +576,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="d44e-7d3a-fedd-792f" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="UF-4200 Port" hidden="false" id="561a-ce12-1c41-e233" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="a959-582b-c64d-2414" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
-        <entryLink import="true" name="B-8000" hidden="false" id="066d-9708-aa72-43ce" type="selectionEntry" targetId="18da-f374-06df-9958" sortIndex="3"/>
-        <entryLink import="true" name="Shark Missiles" hidden="false" id="eb8f-30e4-4a5a-7926" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="4"/>
+        <entryLink import="true" name="UF-4200 Turret (Port &amp; Stbd)" hidden="false" id="561a-ce12-1c41-e233" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
+        <entryLink import="true" name="UF-B-8000" hidden="false" id="066d-9708-aa72-43ce" type="selectionEntry" targetId="18da-f374-06df-9958" sortIndex="2"/>
+        <entryLink import="true" name="Shark Missiles" hidden="false" id="eb8f-30e4-4a5a-7926" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="79"/>
@@ -625,7 +607,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="dedc-ab05-dc7c-d71b" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="UF-6400s" hidden="false" id="a741-6f15-7272-e1d0" type="selectionEntry" targetId="cded-9dfb-e373-b902" sortIndex="1"/>
+        <entryLink import="true" name="UF-6400 Turrets" hidden="false" id="a741-6f15-7272-e1d0" type="selectionEntry" targetId="cded-9dfb-e373-b902" sortIndex="1"/>
         <entryLink import="true" name="Shark Missiles" hidden="false" id="7a6d-d00a-fc61-eaf9" type="selectionEntry" targetId="45e9-c67c-7c06-c84c" sortIndex="2"/>
         <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="96c4-53d4-b407-c84b" type="selectionEntry" targetId="45c2-3645-b3bd-2648" sortIndex="3"/>
       </entryLinks>
@@ -656,7 +638,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="ee52-403d-251a-8fe7" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="UF-6400s" hidden="false" id="44ba-950b-c34a-c060" type="selectionEntry" targetId="bf82-04d9-8a0e-7266" sortIndex="1"/>
+        <entryLink import="true" name="UF-6400 Turrets" hidden="false" id="44ba-950b-c34a-c060" type="selectionEntry" targetId="bf82-04d9-8a0e-7266" sortIndex="1"/>
         <entryLink import="true" name="Barracuda Missiles" hidden="false" id="c30e-077c-eb6e-827f" type="selectionEntry" targetId="3470-dc96-83a6-2aef" sortIndex="2"/>
       </entryLinks>
       <costs>
@@ -716,10 +698,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="f8ad-401f-fe73-2b47" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="UF-4200 Port" hidden="false" id="0d3d-9fd3-4658-c78a" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
-        <entryLink import="true" name="UF-4200 Starboard" hidden="false" id="60e8-2157-5c24-3f52" type="selectionEntry" targetId="c1a5-fe4d-f9e3-4437" sortIndex="2"/>
-        <entryLink import="true" name="Barracuda Missiles" hidden="false" id="4819-4b69-e755-5726" type="selectionEntry" targetId="3470-dc96-83a6-2aef" sortIndex="3"/>
-        <entryLink import="true" name="Bulk Landers" hidden="false" id="253b-ce07-f4fc-8df4" type="selectionEntry" targetId="659a-d36a-45d6-795f" sortIndex="4"/>
+        <entryLink import="true" name="UF-4200 Turret (Port &amp; Stbd)" hidden="false" id="0d3d-9fd3-4658-c78a" type="selectionEntry" targetId="85ef-c4b5-9eb2-0077" sortIndex="1"/>
+        <entryLink import="true" name="Barracuda Missiles" hidden="false" id="4819-4b69-e755-5726" type="selectionEntry" targetId="3470-dc96-83a6-2aef" sortIndex="2"/>
+        <entryLink import="true" name="Bulk Landers" hidden="false" id="253b-ce07-f4fc-8df4" type="selectionEntry" targetId="659a-d36a-45d6-795f" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="105"/>
@@ -781,7 +762,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="UF-2200" hidden="false" id="bad0-316e-a432-0769" type="selectionEntry" targetId="9ff8-5511-d0d4-48c2" sortIndex="1"/>
+        <entryLink import="true" name="UF-2200 Turret" hidden="false" id="bad0-316e-a432-0769" type="selectionEntry" targetId="9ff8-5511-d0d4-48c2" sortIndex="1"/>
         <entryLink import="true" name="Piranha Missiles" hidden="false" id="d99f-771c-6595-4720" type="selectionEntry" targetId="8a02-152a-962d-d9d5" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
@@ -813,7 +794,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="UF-2200" hidden="false" id="4602-8eda-cb73-7e1e" type="selectionEntry" targetId="9ff8-5511-d0d4-48c2" sortIndex="1"/>
+        <entryLink import="true" name="UF-2200 Turret" hidden="false" id="4602-8eda-cb73-7e1e" type="selectionEntry" targetId="9ff8-5511-d0d4-48c2" sortIndex="1"/>
         <entryLink import="true" name="Barracuda Missiles" hidden="false" id="687e-82a0-45cd-502b" type="selectionEntry" targetId="3470-dc96-83a6-2aef" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
@@ -862,7 +843,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="UF-2200" hidden="false" id="0400-bb9e-75a5-0da3" type="selectionEntry" targetId="9ff8-5511-d0d4-48c2" sortIndex="1"/>
+        <entryLink import="true" name="UF-2200 Turret" hidden="false" id="0400-bb9e-75a5-0da3" type="selectionEntry" targetId="9ff8-5511-d0d4-48c2" sortIndex="1"/>
         <entryLink import="true" name="Barracuda Missiles" hidden="false" id="3d0f-9b02-6a16-2d71" type="selectionEntry" targetId="3470-dc96-83a6-2aef" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
@@ -896,7 +877,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="UF-2200" hidden="false" id="bb24-de9b-dfb3-2a7f" type="selectionEntry" targetId="9ff8-5511-d0d4-48c2" sortIndex="1"/>
+        <entryLink import="true" name="UF-2200 Turret" hidden="false" id="bb24-de9b-dfb3-2a7f" type="selectionEntry" targetId="9ff8-5511-d0d4-48c2" sortIndex="1"/>
         <entryLink import="true" name="Barracuda Missiles" hidden="false" id="1b20-0037-71ab-7d2c" type="selectionEntry" targetId="3470-dc96-83a6-2aef" sortIndex="2"/>
         <entryLink import="true" name="Dropships" hidden="false" id="f471-2810-3691-4948" type="selectionEntry" targetId="931a-93fc-a36f-1955" sortIndex="3"/>
       </entryLinks>
@@ -929,9 +910,8 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="B-9000" hidden="false" id="9230-25ef-f38e-0c34" type="selectionEntry" targetId="8968-a328-f470-1bca" sortIndex="1"/>
-        <entryLink import="true" name="B-9000" hidden="false" id="b5be-d1e6-1b32-b626" type="selectionEntry" targetId="1519-4036-572d-a581" sortIndex="2"/>
-        <entryLink import="true" name="Barracuda Missiles" hidden="false" id="3f24-da65-6cf6-ca6e" type="selectionEntry" targetId="3470-dc96-83a6-2aef" sortIndex="3"/>
+        <entryLink import="true" name="UF-B-9000" hidden="false" id="b5be-d1e6-1b32-b626" type="selectionEntry" targetId="1519-4036-572d-a581" sortIndex="1"/>
+        <entryLink import="true" name="Barracuda Missiles" hidden="false" id="3f24-da65-6cf6-ca6e" type="selectionEntry" targetId="3470-dc96-83a6-2aef" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="8b61-e695-f012-dd95" name="Vienna Escort Frigate" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="34">

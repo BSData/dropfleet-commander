@@ -165,7 +165,7 @@
         <infoLink name="Flash" id="e89d-05b6-e87c-f673" hidden="false" type="rule" targetId="aa43-5926-e824-5cac"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="E. Glaive (St)" hidden="false" id="57a4-15c4-52fc-4782" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Energy Glaive Battery (Stbd &amp; Port)" hidden="false" id="57a4-15c4-52fc-4782" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="552f-129e-6975-bd1a" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="594b-bf66-b65e-1d23" includeChildSelections="false"/>
@@ -180,24 +180,6 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1), OC</characteristic>
           </characteristics>
         </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>3+/6/1 S(R) Lnk(1) OC</comment>
-      <infoLinks>
-        <infoLink name="Linked (X)" id="a39a-7bdc-18ea-32ea" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-        <infoLink name="Overcharge" id="d83a-df0e-0d7d-b9d1" hidden="false" type="rule" targetId="def9-d03d-747e-fd91"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="E. Glaive (Po)" hidden="false" id="9f4f-0405-ce9f-0462" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b024-674b-2356-944f" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="686f-85be-00cd-3bc4" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
         <profile name="Energy Glaive Battery, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="8b75-155a-d002-47f5">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
@@ -213,18 +195,27 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>3+/6/1 S(L) Lnk(2) OC</comment>
+      <comment>3+/6/1 S(R+L) Lnk(1//2) OC</comment>
       <infoLinks>
-        <infoLink name="Linked (X)" id="f3fe-abd8-612d-e850" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-        <infoLink name="Overcharge" id="a7ab-5e9c-d4dd-5091" hidden="false" type="rule" targetId="def9-d03d-747e-fd91"/>
+        <infoLink name="Linked (X)" id="a39a-7bdc-18ea-32ea" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+        <infoLink name="Overcharge" id="d83a-df0e-0d7d-b9d1" hidden="false" type="rule" targetId="def9-d03d-747e-fd91"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Heavy Cal Triple BS (St)" hidden="false" id="7dd3-6fa0-e7c7-97a5" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Heavy Calibre Triple BS (Port &amp; Stbd)" hidden="false" id="0cdc-cbb1-1d91-7066" defaultAmount="1" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="218e-7ecb-96e5-906c" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f82-d773-db23-101a" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1225-a8df-a95c-9765" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1885-2d8b-5151-59f5" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Heavy Calibre Triple Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="c1e0-9253-4f7f-4a4d">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (H&amp;S), Linked (1)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Heavy Calibre Triple Broadside, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="d39d-8f00-0502-ed40">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -240,45 +231,27 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/6/2 S(R) Cal(H&amp;S) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Calibre (X)" id="c270-79ce-08ea-68f2" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
-        <infoLink name="Linked (X)" id="b861-8850-f6ff-da05" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Heavy Cal Triple BS (Po)" hidden="false" id="0cdc-cbb1-1d91-7066" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1225-a8df-a95c-9765" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1885-2d8b-5151-59f5" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Heavy Calibre Triple Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="c1e0-9253-4f7f-4a4d">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">6</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (H&amp;S), Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/6/2 S(L) Cal(H&amp;S) Lnk(1)</comment>
+      <comment>4+/6/2 S(L+R) Cal(H&amp;S) Lnk(1)</comment>
       <infoLinks>
         <infoLink name="Calibre (X)" id="622b-9a9d-3837-3527" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
         <infoLink name="Linked (X)" id="0136-6eff-b381-0344" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Heavy Cal Double BS (St)" hidden="false" id="091f-23b5-e222-c065" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Heavy Calibre Double BS (Port &amp; Stbd)" hidden="false" id="3f8f-8e5d-e16f-ec6b" defaultAmount="1" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1214-a890-9eb2-9ed9" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1392-35a8-3df0-5492" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b37e-5d4f-9e27-7687" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0277-2159-4684-6caa" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Heavy Calibre Double Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="5d97-ebbd-af1f-9e3e">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (H&amp;S)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Heavy Calibre Double Broadside, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="4b0d-5d8a-6801-e013">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -294,43 +267,26 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/4/2 S(R) Cal(H&amp;S)</comment>
+      <comment>4+/4/2 S(L+R) Cal(H&amp;S)</comment>
       <infoLinks>
-        <infoLink name="Calibre (X)" id="853b-1d39-6ee5-329f" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
+        <infoLink name="Calibre (X)" id="2021-d4f0-5359-0601" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Heavy Cal Double BS (Po)" hidden="false" id="3f8f-8e5d-e16f-ec6b" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Heavy Calibre BS Array (Port &amp; Stbd)" hidden="false" id="ab25-27f0-b071-9548" defaultAmount="1" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b37e-5d4f-9e27-7687" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0277-2159-4684-6caa" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8051-43a2-891d-a232" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c609-7f20-10eb-b4a4" includeChildSelections="false"/>
       </constraints>
       <profiles>
-        <profile name="Heavy Calibre Double Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="5d97-ebbd-af1f-9e3e">
+        <profile name="Heavy Calibre Broadside Array, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="ac38-d95e-2678-7138">
           <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (H&amp;S)</characteristic>
           </characteristics>
         </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/4/2 S(L) Cal(H&amp;S)</comment>
-      <infoLinks>
-        <infoLink name="Calibre (X)" id="2021-d4f0-5359-0601" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Heavy Cal BS Array (St)" hidden="false" id="4c25-a2ef-0d13-0d46" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="61fe-486d-c736-3779" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a4c-cfc6-0068-8497" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
         <profile name="Heavy Calibre Broadside Array, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="72cf-d9f4-861a-2a2a">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
@@ -346,43 +302,26 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>3+/3/2 S(R) Cal(H&amp;S)</comment>
-      <infoLinks>
-        <infoLink name="Calibre (X)" id="7b85-414a-26b5-dc41" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Heavy Cal BS Array (Po)" hidden="false" id="ab25-27f0-b071-9548" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8051-43a2-891d-a232" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c609-7f20-10eb-b4a4" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Heavy Calibre Broadside Array, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="ac38-d95e-2678-7138">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (H&amp;S)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>3+/3/2 S(L) Cal(H&amp;S)</comment>
+      <comment>3+/3/2 S(L+R) Cal(H&amp;S)</comment>
       <infoLinks>
         <infoLink name="Calibre (X)" id="4443-91fc-2948-9e1a" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Heavy Cal BS (St)" hidden="false" id="aca8-6a22-916c-1466" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Heavy Calibre BS (Port &amp; Stbd)" hidden="false" id="f83c-4053-59df-e1cb" defaultAmount="1" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0c46-ec91-3298-9ffa" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72f5-ff37-f636-ecb9" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4da3-956d-cc3e-6196" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f7b-ce01-c83b-4fb2" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Heavy Calibre Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="f5ad-ec6b-728b-799c">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (H&amp;S), Linked (1)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Heavy Calibre Broadside, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="3737-c9cd-3be7-6114">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -398,45 +337,27 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/2/2 S(R) Cal(H&amp;S) Lnk(2)</comment>
-      <infoLinks>
-        <infoLink name="Calibre (X)" id="6ce3-a675-c9d5-99ac" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
-        <infoLink name="Linked (X)" id="9dd5-48a1-116d-d1e1" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Heavy Cal BS (Po)" hidden="false" id="f83c-4053-59df-e1cb" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4da3-956d-cc3e-6196" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f7b-ce01-c83b-4fb2" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Heavy Calibre Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="f5ad-ec6b-728b-799c">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (H&amp;S), Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/2/2 S(L) Cal(H&amp;S) Lnk(1)</comment>
+      <comment>4+/2/2 S(L+R) Cal(H&amp;S) Lnk(1//2)</comment>
       <infoLinks>
         <infoLink name="Calibre (X)" id="f292-b311-f981-792e" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
         <infoLink name="Linked (X)" id="c67d-541f-eb3a-9111" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Med Cal Double BS (St)" hidden="false" id="5ada-9f66-ca38-0aa8" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Med Calibre Double BS (Port &amp; Stbd)" hidden="false" id="971f-7441-9f88-1737" defaultAmount="1" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fee6-cadc-1866-03aa" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47a5-40a3-e8f2-ef1a" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1010-6547-14a7-92c0" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa40-8f54-b992-f98f" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Medium Calibre Double Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="2a69-14a7-909c-b3a9">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (M), Linked (1)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Medium Calibre Double Broadside, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="ce3b-ef3f-4750-f1f6">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -452,45 +373,27 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/8/1 S(R) Cal(M) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Calibre (X)" id="f03d-c8ef-50f5-a870" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
-        <infoLink name="Linked (X)" id="7eb2-f821-071f-e8e1" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Med Cal Double BS (Po)" hidden="false" id="971f-7441-9f88-1737" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1010-6547-14a7-92c0" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa40-8f54-b992-f98f" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Medium Calibre Double Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="2a69-14a7-909c-b3a9">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (M), Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/8/1 S(L) Cal(M) Lnk(1)</comment>
+      <comment>4+/8/1 S(L+R) Cal(M) Lnk(1)</comment>
       <infoLinks>
         <infoLink name="Calibre (X)" id="8ded-ddbd-100d-64b3" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
         <infoLink name="Linked (X)" id="f56f-6da2-a702-a32e" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Med Cal Double BS (St)" hidden="false" id="e82b-9e03-7342-99d9" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Med Calibre Double BS (Port &amp; Stbd)" hidden="false" id="2907-ea33-92ae-0323" defaultAmount="1" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9389-b0a1-4465-e584" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba21-4eef-5ae6-db47" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="18a9-1435-993a-8cd5" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ba6-1769-7cdb-a0b9" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Medium Calibre Double Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="e1e3-9d11-00c1-5f12">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (M), Linked (2)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Medium Calibre Double Broadside, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="3224-4c17-0a3f-998e">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -506,45 +409,27 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/8/1 S(R) Cal(M) Lnk(2)</comment>
-      <infoLinks>
-        <infoLink name="Calibre (X)" id="fadc-a049-8fb2-df0a" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
-        <infoLink name="Linked (X)" id="8803-2bc9-b165-39f9" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Med Cal Double BS (Po)" hidden="false" id="2907-ea33-92ae-0323" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="18a9-1435-993a-8cd5" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ba6-1769-7cdb-a0b9" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Medium Calibre Double Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="e1e3-9d11-00c1-5f12">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">8</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (M), Linked (2)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/8/1 S(L) Cal(M) Lnk(2)</comment>
+      <comment>4+/8/1 S(L+R) Cal(M) Lnk(2)</comment>
       <infoLinks>
         <infoLink name="Calibre (X)" id="3a11-feb0-853e-53c1" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
         <infoLink name="Linked (X)" id="be8f-488f-00a6-2d32" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Med Cal BS (St)" hidden="false" id="d7b3-c1e4-fca6-6487" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Med Calibre BS (Port &amp; Stbd)" hidden="false" id="d7b3-c1e4-fca6-6487" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e711-e0a3-f64c-cd11" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cffd-4367-e33a-a546" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Medium Calibre Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="766e-e10f-f102-04c4">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (M), Linked (1)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Medium Calibre Broadside, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="bab6-eedc-1626-8eb7">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -560,18 +445,27 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/4/1 S(R) Cal(M) Lnk(1)</comment>
+      <comment>4+/4/1 S(L+R) Cal(M) Lnk(1)</comment>
       <infoLinks>
         <infoLink name="Calibre (X)" id="2699-90c9-256f-1a99" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
         <infoLink name="Linked (X)" id="c036-e32b-ab80-b6e0" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Med Cal BS (St)" hidden="false" id="f0f1-77f6-1d63-e939" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Med Calibre BS (Port &amp; Stbd)" hidden="false" id="f0f1-77f6-1d63-e939" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b3b2-710d-06a1-5025" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15bc-b199-22d1-02ce" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Medium Calibre Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="e9c3-99bf-3a53-f5f2">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (M), Linked (1)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Medium Calibre Broadside, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="c980-faad-3616-1f13">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -587,45 +481,27 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/4/1 S(R) Cal(M) Lnk(2)</comment>
+      <comment>4+/4/1 S(L+R) Cal(M) Lnk(1//2)</comment>
       <infoLinks>
         <infoLink name="Calibre (X)" id="eaaa-efba-32ca-7b1e" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
         <infoLink name="Linked (X)" id="4a7f-310c-b417-374a" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Med Cal BS (Po)" hidden="false" id="03f9-f77b-0b57-d51a" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Med Calibre Bank (Port &amp; Stbd)" hidden="false" id="1d71-3ad9-932f-01a4" defaultAmount="1" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="74ff-e8bd-b99a-69b6" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33b1-6be4-1ac6-f101" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0a2e-7728-6a5a-e0ff" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d6b-ee75-745c-29fd" includeChildSelections="false"/>
       </constraints>
       <profiles>
-        <profile name="Medium Calibre Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="9be3-0a23-2231-91e5">
+        <profile name="Medium Calibre Bank, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="2cd3-6649-e13b-ab16">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
             <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
             <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (M), Linked (1)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
           </characteristics>
         </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/4/1 S(L) Cal(M) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Calibre (X)" id="e2b7-bca5-fefb-0a86" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
-        <infoLink name="Linked (X)" id="9260-1799-700e-2813" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Med Cal Bank (St)" hidden="false" id="b346-71bd-09bd-862d" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="731b-5ea1-b5a3-721b" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91ca-9094-b136-7b5f" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
         <profile name="Medium Calibre Bank, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="209a-adaa-ec48-03ca">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -641,38 +517,12 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/3/1 S(R) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Linked (X)" id="2414-559f-f080-e7cb" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Med Cal Bank (Po)" hidden="false" id="1d71-3ad9-932f-01a4" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0a2e-7728-6a5a-e0ff" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d6b-ee75-745c-29fd" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Medium Calibre Bank, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="2cd3-6649-e13b-ab16">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/3/1 S(L) Lnk(1)</comment>
+      <comment>4+/3/1 S(L+R) Lnk(1)</comment>
       <infoLinks>
         <infoLink name="Linked (X)" id="23e2-1a7a-ac73-0367" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Med Cal Turret" hidden="false" id="0390-6044-249d-1a19" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Med Calibre Turret" hidden="false" id="0390-6044-249d-1a19" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bc9a-b5a5-eebd-bcc1" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="988d-44dd-5f06-5d65" includeChildSelections="false"/>
@@ -695,7 +545,7 @@
       </costs>
       <comment>4+/3/1 F</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Med Cal Turret" hidden="false" id="3d25-71ce-1743-dfbb" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Med Calibre Turret" hidden="false" id="3d25-71ce-1743-dfbb" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d4a1-9039-a0e2-5f34" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a64-204f-aaa7-2a2e" includeChildSelections="false"/>
@@ -718,12 +568,21 @@
       </costs>
       <comment>4+/2/1 F</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Light Cal Double BS (St)" hidden="false" id="da5a-952b-0977-f0d5" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Light Calibre Double BS (Port &amp; Stbd)" hidden="false" id="e825-3062-f65b-4afa" defaultAmount="1" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c5ef-4c4f-abe1-77b6" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1721-860a-6786-5a89" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a967-92ab-723e-f98b" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fc0-8d54-a8ad-08a8" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Light Calibre Double Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="8d74-991f-1ada-1b2d">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">10</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (L), Linked (1)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Light Calibre Double Broadside, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="375f-2e24-f842-f24a">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -739,45 +598,27 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/10/1 S(R) Cal(L) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Calibre (X)" id="38d6-a247-2c49-51a9" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
-        <infoLink name="Linked (X)" id="bc69-2af8-b02b-089f" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Light Cal Double BS (Po)" hidden="false" id="e825-3062-f65b-4afa" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a967-92ab-723e-f98b" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fc0-8d54-a8ad-08a8" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Light Calibre Double Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="8d74-991f-1ada-1b2d">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">10</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (L), Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/10/1 S(L) Cal(L) Lnk(1)</comment>
+      <comment>4+/10/1 S(L+R) Cal(L) Lnk(1)</comment>
       <infoLinks>
         <infoLink name="Calibre (X)" id="a2d2-e2fd-1cfc-3cc3" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
         <infoLink name="Linked (X)" id="23c6-fb0c-ef08-0c3d" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Light Cal BS (St)" hidden="false" id="804b-ce06-207b-1a67" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Light Calibre BS (Port &amp; Stbd)" hidden="false" id="804b-ce06-207b-1a67" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fd40-5135-1755-2fbd" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5de0-334c-c918-6d02" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Light Calibre Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="0046-ce77-3a8c-26dd">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">5</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (L), Linked (1)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Light Calibre Broadside, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="cd4b-a346-44a1-9870">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -793,18 +634,27 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/5/1 S(R) Cal(L) Lnk(1)</comment>
+      <comment>4+/5/1 S(L+R) Cal(L) Lnk(1)</comment>
       <infoLinks>
         <infoLink name="Calibre (X)" id="2f9d-c5e4-d70a-6bd0" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
         <infoLink name="Linked (X)" id="3b5b-9c99-2915-a864" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Light Cal BS (St)" hidden="false" id="6afd-2f17-2392-fda9" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Light Calibre BS (Port &amp; Stbd)" hidden="false" id="6afd-2f17-2392-fda9" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bf43-8190-651c-7e5d" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e386-44ba-b38d-e387" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Light Calibre Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="15b9-af85-c3be-7bf6">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">5</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (L), Linked (1)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Light Calibre Broadside, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="24da-c455-2bc4-a10f">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -820,40 +670,13 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/5/1 S(R) Cal(L) Lnk(2)</comment>
+      <comment>4+/5/1 S(L+R) Cal(L) Lnk(1//2)</comment>
       <infoLinks>
         <infoLink name="Calibre (X)" id="7fb3-acf8-d83d-6ca8" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
         <infoLink name="Linked (X)" id="c7f1-ee70-9191-fda7" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Light Cal BS (Po)" hidden="false" id="db81-fb86-1d62-798b" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a55e-a731-9eaa-45f2" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49e1-19e8-5584-d26f" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Light Calibre Broadside, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="487c-8049-f6a1-a1fe">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">5</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Calibre (L), Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/5/1 S(L) Cal(L) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Calibre (X)" id="e1f7-6993-d124-4f9f" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
-        <infoLink name="Linked (X)" id="0505-ff15-1785-259a" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Twin Heavy Cals" hidden="false" id="61d4-e431-13bf-d6c0" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Twin Heavy Calibres" hidden="false" id="61d4-e431-13bf-d6c0" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f61e-6c7d-7bb7-f840" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81c5-660c-a485-7c6d" includeChildSelections="false"/>
@@ -879,7 +702,7 @@
         <infoLink name="Calibre (X)" id="feef-75f8-2823-be76" hidden="false" type="rule" targetId="3290-a288-d618-2403"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Heavy Quad Batt" hidden="false" id="3480-d285-563c-2f3f" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Heavy Quad Battery" hidden="false" id="3480-d285-563c-2f3f" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fec3-26a6-3e3c-9723" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4088-c7ab-c358-7a27" includeChildSelections="false"/>
@@ -906,7 +729,7 @@
         <infoLink name="Fusillade (X)" id="f46e-3867-327b-a8fe" hidden="false" type="rule" targetId="657f-18a5-dde4-5342"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Quad Batt" hidden="false" id="5f44-048e-a060-4f60" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Quad Battery" hidden="false" id="5f44-048e-a060-4f60" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea76-46dd-3f28-cddb" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="676a-27e4-7fd7-57ba" includeChildSelections="false"/>
@@ -1011,12 +834,21 @@
         <infoLink name="Bombardment Turret" id="56b5-3ea1-4bc9-74f0" hidden="false" type="rule" targetId="a6e1-144e-41cd-784a"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Holo Drones (St)" hidden="false" id="1aaf-0ee8-eadf-6884" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Holo Drones (Port &amp; Stbd)" hidden="false" id="6049-6b9a-eaf9-63ef" defaultAmount="1" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d25c-ba2e-500f-ca2d" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbb5-6f30-47f7-cc53" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60c2-4735-120f-4598" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46c2-8322-f92f-73e0" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Holographic Drones, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="f1b0-5358-6bcb-8a75">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">7</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action (Swarmer), Linked (1)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Holographic Drones, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="7d70-637a-2083-f5f7">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
@@ -1032,34 +864,7 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>5+/7/1 S(R) CA(SW) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Close Action (Swarmer)" id="c478-8708-3a34-2c1d" hidden="false" type="rule" targetId="5728-9541-723c-84a4"/>
-        <infoLink name="Linked (X)" id="6e6b-dc4d-0c56-8407" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Holo Drones (Po)" hidden="false" id="6049-6b9a-eaf9-63ef" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60c2-4735-120f-4598" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46c2-8322-f92f-73e0" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Holographic Drones, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="f1b0-5358-6bcb-8a75">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">5+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">7</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action (Swarmer), Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>5+/7/1 S(L) CA(SW) Lnk(1)</comment>
+      <comment>5+/7/1 S(L+R) CA(SW) Lnk(1)</comment>
       <infoLinks>
         <infoLink name="Close Action (Swarmer)" id="59d3-45b1-80c4-aa7e" hidden="false" type="rule" targetId="5728-9541-723c-84a4"/>
         <infoLink name="Linked (X)" id="7142-e2fb-78c3-c388" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>

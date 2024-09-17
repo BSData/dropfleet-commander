@@ -157,8 +157,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="f3f6-5b18-be77-7e03" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
-        <entryLink import="true" name="9K Mass Driver Turrets" hidden="false" id="90bc-72e1-5b41-4591" type="selectionEntry" targetId="3cca-d677-142a-eef5" sortIndex="1"/>
-        <entryLink import="true" name="N-12 Artillery Cannon Batteries" hidden="false" id="ba29-6938-ccf0-e475" type="selectionEntry" targetId="5695-7940-d3b8-3116" sortIndex="2"/>
+        <entryLink import="true" name="9K Mass Driver Turrets (Port &amp; Stbd)" hidden="false" id="90bc-72e1-5b41-4591" type="selectionEntry" targetId="3cca-d677-142a-eef5" sortIndex="1"/>
+        <entryLink import="true" name="N-12 Artillery Cannon Battery (Port &amp; Stbd)" hidden="false" id="ba29-6938-ccf0-e475" type="selectionEntry" targetId="5695-7940-d3b8-3116" sortIndex="2"/>
         <entryLink import="true" name="NC-16 Missiles" hidden="false" id="bb42-e895-4c50-58fb" type="selectionEntry" targetId="0ce0-fbb6-edb7-c856" sortIndex="3"/>
         <entryLink import="true" name="Torpedo" hidden="false" id="30a0-3ef8-50b7-a31c" type="selectionEntry" targetId="8cee-76e4-eb69-cdd8" sortIndex="4"/>
       </entryLinks>
@@ -192,8 +192,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="3b52-bcb8-a169-d2f9" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
-        <entryLink import="true" name="9K Mass Driver Turrets" hidden="false" id="0b6a-841b-449a-78a6" type="selectionEntry" targetId="3cca-d677-142a-eef5" sortIndex="1"/>
-        <entryLink import="true" name="Mega Vent Cannon Batteries" hidden="false" id="aaef-b8eb-88f5-8de9" type="selectionEntry" targetId="d14e-8e47-f5de-f8c1" sortIndex="2"/>
+        <entryLink import="true" name="9K Mass Driver Turrets (Port &amp; Stbd)" hidden="false" id="0b6a-841b-449a-78a6" type="selectionEntry" targetId="3cca-d677-142a-eef5" sortIndex="1"/>
+        <entryLink import="true" name="Mega Vent Cannon Battery (Port &amp; Stbd)" hidden="false" id="aaef-b8eb-88f5-8de9" type="selectionEntry" targetId="d14e-8e47-f5de-f8c1" sortIndex="2"/>
         <entryLink import="true" name="NC-16 Missiles" hidden="false" id="f416-d50a-00df-2784" type="selectionEntry" targetId="0ce0-fbb6-edb7-c856" sortIndex="3"/>
         <entryLink import="true" name="Torpedo" hidden="false" id="ba58-4285-9f40-e386" type="selectionEntry" targetId="8cee-76e4-eb69-cdd8" sortIndex="4"/>
       </entryLinks>
@@ -228,7 +228,7 @@
       <entryLinks>
         <entryLink id="ea17-c43a-cc65-8636" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="Spinal Mass Annihilator" hidden="false" id="2448-663f-266b-fb6e" type="selectionEntry" targetId="b602-2164-757a-33dc" sortIndex="1"/>
-        <entryLink import="true" name="Heavy Vent Cannon Turrets" hidden="false" id="b942-2e46-ba43-5328" type="selectionEntry" targetId="e8ad-7c17-e8b5-fe2d" sortIndex="2"/>
+        <entryLink import="true" name="Heavy Vent Cannon Turret (Port &amp; Stbd)" hidden="false" id="b942-2e46-ba43-5328" type="selectionEntry" targetId="e8ad-7c17-e8b5-fe2d" sortIndex="2"/>
         <entryLink import="true" name="NC-16 Missile Battery Turrets" hidden="false" id="ee8a-031a-4245-3d81" type="selectionEntry" targetId="c700-58e3-2c29-81eb" sortIndex="3"/>
       </entryLinks>
       <costs>
@@ -261,7 +261,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="9da3-ca99-9c24-0a9b" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
-        <entryLink import="true" name="N-12 Artillery Cannon Batteries" hidden="false" id="56b4-cd9c-8728-9c5f" type="selectionEntry" targetId="5695-7940-d3b8-3116" sortIndex="1"/>
+        <entryLink import="true" name="N-12 Artillery Cannon Battery (Port &amp; Stbd)" hidden="false" id="56b4-cd9c-8728-9c5f" type="selectionEntry" targetId="5695-7940-d3b8-3116" sortIndex="1"/>
         <entryLink import="true" name="NC-16 Missile Battery Turrets" hidden="false" id="1ec0-a482-41bd-eee9" type="selectionEntry" targetId="2eba-b0c7-ff9f-07e2" sortIndex="2"/>
         <entryLink import="true" name="Torpedo" hidden="false" id="7524-5f4b-004b-9ce3" type="selectionEntry" targetId="c637-bee7-3ba5-e084" sortIndex="3"/>
       </entryLinks>
@@ -297,7 +297,7 @@
       <entryLinks>
         <entryLink id="52a0-237a-2816-00cc" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="Heavy Vent Cannons" hidden="false" id="a02a-6c2d-2072-4d8f" type="selectionEntry" targetId="1395-6b11-2e89-5b23" sortIndex="1"/>
-        <entryLink import="true" name="N-12 Artillery Cannon Batteries" hidden="false" id="d7d3-d439-5a9c-7a8d" type="selectionEntry" targetId="5695-7940-d3b8-3116" sortIndex="2"/>
+        <entryLink import="true" name="N-12 Artillery Cannon Battery (Port &amp; Stbd)" hidden="false" id="d7d3-d439-5a9c-7a8d" type="selectionEntry" targetId="5695-7940-d3b8-3116" sortIndex="2"/>
         <entryLink import="true" name="NC-16 Missile Battery Turrets" hidden="false" id="fedc-7d3f-abd7-99b8" type="selectionEntry" targetId="2eba-b0c7-ff9f-07e2" sortIndex="3"/>
       </entryLinks>
       <costs>
@@ -331,7 +331,7 @@
       <entryLinks>
         <entryLink id="ba1d-5ed0-f4e6-04e8" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="9K Twin Mass Driver Turrets" hidden="false" id="1f8e-6578-4cc0-b3db" type="selectionEntry" targetId="3851-acfb-eb44-03bd"/>
-        <entryLink import="true" name="N-31 Hybrid Gun Long Batteries" hidden="false" id="6853-4bb9-a14b-965e" type="selectionEntry" targetId="5f34-b32d-003e-55dd"/>
+        <entryLink import="true" name="N-31 Hybrid Gun Long Battery (Port &amp; Stbd)" hidden="false" id="6853-4bb9-a14b-965e" type="selectionEntry" targetId="5f34-b32d-003e-55dd"/>
         <entryLink import="true" name="NC-4 Missiles" hidden="false" id="f0c1-41e5-4a77-9d4d" type="selectionEntry" targetId="fb49-a3d3-1633-d7a6"/>
       </entryLinks>
       <costs>
@@ -366,7 +366,7 @@
         <entryLink id="0aef-6e98-3cc2-c299" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="9K Mass Driver Turret" hidden="false" id="58df-181c-2c4a-e74d" type="selectionEntry" targetId="571a-1dbf-0614-b87e" sortIndex="1"/>
         <entryLink import="true" name="N-11 Twin Artillery Cannon Turrets" hidden="false" id="e71c-33f5-fcd6-a392" type="selectionEntry" targetId="b57f-4645-6f6d-fcce" sortIndex="2"/>
-        <entryLink import="true" name="NC-16 Missile Banks" hidden="false" id="2305-ab0f-c0cf-5749" type="selectionEntry" targetId="372c-c875-1cc8-f71c" sortIndex="3"/>
+        <entryLink import="true" name="NC-16 Missile Bank (Port &amp; Stbd)" hidden="false" id="2305-ab0f-c0cf-5749" type="selectionEntry" targetId="372c-c875-1cc8-f71c" sortIndex="3"/>
         <entryLink import="true" name="Bulk Lander &amp; Fire Ship" hidden="false" id="6e88-06fb-5df2-7b2d" type="selectionEntry" targetId="cac2-f06a-0996-30ac" sortIndex="4"/>
         <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="5ed2-d836-7225-6d15" type="selectionEntry" targetId="eca2-25c9-b599-daac" sortIndex="5"/>
       </entryLinks>
@@ -623,7 +623,7 @@
       <entryLinks>
         <entryLink id="63cc-d2f7-0f48-95e9" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="NC-3 Missiles" hidden="false" id="9bf1-ac27-292b-693f" type="selectionEntry" targetId="aeee-475f-614b-0a80" sortIndex="3"/>
-        <entryLink import="true" name="NC-16 Missile Banks" hidden="false" id="375a-e52a-e9a4-4eeb" type="selectionEntry" targetId="19b7-3558-e680-0509" sortIndex="1"/>
+        <entryLink import="true" name="NC-16 Missile Bank (Port &amp; Stbd)" hidden="false" id="375a-e52a-e9a4-4eeb" type="selectionEntry" targetId="19b7-3558-e680-0509" sortIndex="1"/>
         <entryLink import="true" name="Vent Cannon Turret" hidden="false" id="c721-2db9-c76a-41e8" type="selectionEntry" targetId="7e8e-dbec-e1ee-4d4c" sortIndex="2"/>
       </entryLinks>
       <costs>
@@ -2319,7 +2319,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Broadsides" id="814d-a010-b55b-5380" hidden="false" sortIndex="1">
           <entryLinks>
-            <entryLink import="true" name="N-31 Hybrid Gun Batteries" hidden="false" id="84b0-2f52-80cd-3ef5" type="selectionEntry" targetId="0691-c4c4-57e8-461c" sortIndex="1">
+            <entryLink import="true" name="N-31 Hybrid Gun Battery (Port &amp; Stbd)" hidden="false" id="84b0-2f52-80cd-3ef5" type="selectionEntry" targetId="0691-c4c4-57e8-461c" sortIndex="1">
               <modifiers>
                 <modifier type="increment" value="25" field="e888-2584-886f-7f2c">
                   <repeats>
@@ -2328,7 +2328,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="NC-16 Missile Batteries" hidden="false" id="68e9-70df-529d-153d" type="selectionEntry" targetId="6264-ef8a-3526-88ab" sortIndex="2">
+            <entryLink import="true" name="NC-16 Missile Battery (Port &amp; Stbd)" hidden="false" id="68e9-70df-529d-153d" type="selectionEntry" targetId="6264-ef8a-3526-88ab" sortIndex="2">
               <modifiers>
                 <modifier type="increment" value="15" field="e888-2584-886f-7f2c">
                   <repeats>
@@ -2486,7 +2486,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Broadsides" id="5a7a-e0a1-3bf6-3bac" hidden="false" sortIndex="1">
           <entryLinks>
-            <entryLink import="true" name="N-31 Hybrid Gun Banks" hidden="false" id="9c96-88dc-6607-edf7" type="selectionEntry" targetId="eb6c-0151-db07-db41" sortIndex="1">
+            <entryLink import="true" name="N-31 Hybrid Gun Bank (Port &amp; Stbd)" hidden="false" id="9c96-88dc-6607-edf7" type="selectionEntry" targetId="eb6c-0151-db07-db41" sortIndex="1">
               <modifiers>
                 <modifier type="increment" value="5" field="e888-2584-886f-7f2c">
                   <repeats>
@@ -2495,7 +2495,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="N-8 Artillery Cannon Banks" hidden="false" id="1662-3e33-0d1f-fb59" type="selectionEntry" targetId="2247-8a4e-6ef0-8ddf" sortIndex="2">
+            <entryLink import="true" name="N-8 Artillery Cannon Bank (Port &amp; Stbd)" hidden="false" id="1662-3e33-0d1f-fb59" type="selectionEntry" targetId="2247-8a4e-6ef0-8ddf" sortIndex="2">
               <modifiers>
                 <modifier type="increment" value="0" field="e888-2584-886f-7f2c">
                   <repeats>
@@ -2504,7 +2504,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="NC-16 Missile Banks" hidden="false" id="88ab-c9c1-352e-07cb" type="selectionEntry" targetId="f239-22a6-6599-965f" sortIndex="3">
+            <entryLink import="true" name="NC-16 Missile Bank (Port &amp; Stbd)" hidden="false" id="88ab-c9c1-352e-07cb" type="selectionEntry" targetId="f239-22a6-6599-965f" sortIndex="3">
               <modifiers>
                 <modifier type="increment" value="5" field="e888-2584-886f-7f2c">
                   <repeats>

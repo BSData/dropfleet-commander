@@ -162,7 +162,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Oculus Phalanx (St)" hidden="false" id="cc51-db53-c30b-46f1" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Oculus Phalanx (Port &amp; Stbd)" hidden="false" id="cc51-db53-c30b-46f1" defaultAmount="1">
       <infoLinks>
         <infoLink name="Scald" id="9cd7-cbc1-5e73-0c63" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
         <infoLink name="Linked (X)" id="12ca-7a80-6d77-2ce6" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
@@ -171,8 +171,17 @@
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a949-4222-7d39-9c5e" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1c5-8d49-6c5d-a177" includeChildSelections="false"/>
       </constraints>
-      <comment>3+/3/2 F/S(R) Lnk(1) Scald</comment>
+      <comment>3+/3/2 F/S(L+R) Lnk(1) Scald</comment>
       <profiles>
+        <profile name="Oculus Beam Phalanx, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="b90a-8a0c-046e-6417">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1), Scald</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Oculus Beam Phalanx, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="eeab-9351-4fd6-2e3b">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
@@ -184,16 +193,25 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Oculus Phalanx (St)" hidden="false" id="3cba-1f96-1162-c49d" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Oculus Phalanx (Port &amp; Stbd)" hidden="false" id="d430-28e1-ccd1-8b3a" defaultAmount="1">
       <infoLinks>
-        <infoLink name="Scald" id="d6b8-f5c1-e364-22ae" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
+        <infoLink name="Scald" id="26b9-eb8c-2eff-5fec" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
       </infoLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6352-e6d6-e66f-bda9" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e772-b4dd-0261-758d" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="06bc-99e6-b56f-17f8" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="842e-1826-6c57-12f3" includeChildSelections="false"/>
       </constraints>
-      <comment>3+/3/2 F/S(R) Scald</comment>
+      <comment>3+/3/2 F/S(L+R) Scald</comment>
       <profiles>
+        <profile name="Oculus Beam Phalanx, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="ba48-5b67-4f74-c3e3">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Oculus Beam Phalanx, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="f203-859a-c64d-fe23">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
@@ -205,52 +223,8 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Oculus Phalanx (Po)" hidden="false" id="7e5a-44e0-6ea1-d08e" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Oculus Array (Stbd &amp; Port)" hidden="false" id="b8fd-bf50-7e12-9a47" defaultAmount="2">
       <infoLinks>
-        <infoLink name="Scald" id="b4fe-8146-83bc-85b3" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
-        <infoLink name="Linked (X)" id="82ea-9cca-57ef-2058" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ecd9-7769-2ff5-b58b" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd81-6cbe-afea-b220" includeChildSelections="false"/>
-      </constraints>
-      <comment>3+/3/2 F/S(L) Lnk(1) Scald</comment>
-      <profiles>
-        <profile name="Oculus Beam Phalanx, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="cf63-0db0-af96-c632">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1), Scald</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Oculus Phalanx (Po)" hidden="false" id="d430-28e1-ccd1-8b3a" defaultAmount="1">
-      <infoLinks>
-        <infoLink name="Scald" id="26b9-eb8c-2eff-5fec" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
-      </infoLinks>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="06bc-99e6-b56f-17f8" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="842e-1826-6c57-12f3" includeChildSelections="false"/>
-      </constraints>
-      <comment>3+/3/2 F/S(L) Scald</comment>
-      <profiles>
-        <profile name="Oculus Beam Phalanx, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="ba48-5b67-4f74-c3e3">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Oculus Array (St)" hidden="false" id="b8fd-bf50-7e12-9a47" defaultAmount="2">
-      <infoLinks>
-        <infoLink name="Oculus Beam Array, Starboard" id="12bf-8d0a-85fa-e951" hidden="false" type="profile" targetId="69e3-34bb-0abf-ef92"/>
         <infoLink name="Scald" id="1677-fc48-e177-5e43" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
         <infoLink name="Linked (X)" id="c6f2-3610-7742-62f9" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
@@ -258,65 +232,57 @@
         <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7849-1462-26ff-8964-min" includeChildSelections="false"/>
         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7849-1462-26ff-8964-max" includeChildSelections="false"/>
       </constraints>
-      <comment>3+/2/2 F/S(R) Lnk(1) Scald (x2)</comment>
+      <comment>3+/2/2 F/S(R+L) Lnk(1//2) Scald</comment>
+      <profiles>
+        <profile name="Oculus Beam Array, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="69e3-34bb-0abf-ef92">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1), Scald</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Oculus Beam Array, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="11e0-c4c5-ecf4-9053">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (2), Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Oculus Array (St)" hidden="false" id="8bdc-23e7-33e0-60da" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Oculus Array (Port &amp; Stbd)" hidden="false" id="d0f8-a4e9-70e8-7dc3" defaultAmount="1">
       <infoLinks>
-        <infoLink name="Oculus Beam Array, Starboard" id="6dde-bab5-4ed4-0516" hidden="false" type="profile" targetId="69e3-34bb-0abf-ef92"/>
-        <infoLink name="Scald" id="ae55-319a-64b2-dd3d" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
-        <infoLink name="Linked (X)" id="8501-df62-e1a1-3af2" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb7e-e4ea-c812-836a" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd31-9140-7337-9330" includeChildSelections="false"/>
-      </constraints>
-      <comment>3+/2/2 F/S(R) Lnk(1) Scald</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Oculus Array (St)" hidden="false" id="d380-bea5-fe22-c77f" defaultAmount="1">
-      <infoLinks>
-        <infoLink name="Oculus Beam Array, Starboard" id="6911-0b1b-3105-0a74" hidden="false" type="profile" targetId="69e3-34bb-0abf-ef92"/>
-        <infoLink name="Scald" id="66de-604f-2a37-b268" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
-      </infoLinks>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1563-47f0-57a7-c120" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1466-8b6d-e3dd-5cdc" includeChildSelections="false"/>
-      </constraints>
-      <comment>3+/2/2 F/S(R) Scald</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Oculus Array (Po)" hidden="false" id="ea1b-1c76-7fa0-6fa6" defaultAmount="2">
-      <infoLinks>
-        <infoLink name="Oculus Beam Array, Port" id="f271-0d2f-82f5-078f" hidden="false" type="profile" targetId="11e0-c4c5-ecf4-9053"/>
-        <infoLink name="Scald" id="63bd-8975-0f1e-fcc7" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
-        <infoLink name="Linked (X)" id="37b4-606d-1224-989b" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-      <constraints>
-        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="06d4-23c5-c3e5-c800" includeChildSelections="false"/>
-        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4674-7e33-d1ab-ac93" includeChildSelections="false"/>
-      </constraints>
-      <comment>3+/2/2 F/S(L) Lnk(2) Scald (x2)</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Oculus Array (Po)" hidden="false" id="5895-1b0a-f5e7-fd0a" defaultAmount="1">
-      <infoLinks>
-        <infoLink name="Oculus Beam Array, Port" id="53ac-846b-2749-63fc" hidden="false" type="profile" targetId="11e0-c4c5-ecf4-9053"/>
-        <infoLink name="Scald" id="06f8-9120-1eea-5787" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
-        <infoLink name="Linked (X)" id="0521-b229-f6bc-1a83" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="22bb-5353-dfd3-7334" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68ee-fe09-0ce3-98d4" includeChildSelections="false"/>
-      </constraints>
-      <comment>3+/2/2 F/S(L) Lnk(2) Scald</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Oculus Array (Po)" hidden="false" id="d0f8-a4e9-70e8-7dc3" defaultAmount="1">
-      <infoLinks>
-        <infoLink name="Oculus Beam Array, Port" id="6030-2f7a-06ab-a943" hidden="false" type="profile" targetId="11e0-c4c5-ecf4-9053"/>
         <infoLink name="Scald" id="a5bc-8276-5283-9872" hidden="false" type="rule" targetId="c7fa-b054-49d7-e9d5"/>
       </infoLinks>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7702-fdd7-6c31-bed4" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72f0-2b0d-21e4-167c" includeChildSelections="false"/>
       </constraints>
-      <comment>3+/2/2 F/S(L) Scald</comment>
+      <comment>3+/2/2 F/S(L+R) Scald</comment>
+      <profiles>
+        <profile name="Oculus Beam Array, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="7934-d1ea-c447-090a">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Oculus Beam Array, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="af3c-18cd-fecd-0f9e">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Oculus Array" hidden="false" id="6295-a840-0d1b-b7c0" defaultAmount="1">
       <infoLinks>
@@ -731,7 +697,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Rev. Grav-Cannon" hidden="false" id="96e2-c563-0203-1910" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Reverse Grav-Cannon" hidden="false" id="96e2-c563-0203-1910" defaultAmount="1">
       <infoLinks>
         <infoLink name="Escape Velocity" id="bf64-952f-23c3-c4d8" hidden="false" type="rule" targetId="acfb-b2b0-1b53-d429"/>
       </infoLinks>
@@ -1056,26 +1022,6 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile name="Oculus Beam Array, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="69e3-34bb-0abf-ef92">
-      <characteristics>
-        <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-        <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-        <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
-        <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
-        <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
-      </characteristics>
-      <comment>3+/2/2 F/S(R) Lnk(1) Scald</comment>
-    </profile>
-    <profile name="Oculus Beam Array, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="11e0-c4c5-ecf4-9053">
-      <characteristics>
-        <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-        <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-        <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">2</characteristic>
-        <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(L)</characteristic>
-        <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Scald</characteristic>
-      </characteristics>
-      <comment>3+/2/2 F/S(L) Lnk(2) Scald</comment>
-    </profile>
     <profile name="Torpedo" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="d27f-0726-bc98-747f">
       <characteristics>
         <characteristic name="Launch" typeId="604b-2e24-d426-bf71">1</characteristic>

@@ -137,7 +137,7 @@
         <infoLink name="Flash" id="e561-671e-9ac8-91e1" hidden="false" type="rule" targetId="aa43-5926-e824-5cac"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-12000" hidden="false" id="f034-a745-8a86-485b" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-12000 Twin" hidden="false" id="f034-a745-8a86-485b" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="543f-054a-7670-2125-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="543f-054a-7670-2125-max" includeChildSelections="false"/>
@@ -163,7 +163,7 @@
         <infoLink name="Crippling" id="2bab-5251-3fc9-1c3d" hidden="false" type="rule" targetId="18ec-1b46-d0ed-e680"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-9000 Starboard" hidden="false" id="f8e3-76b9-67d2-5b69" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-9000 Turret (Stbd &amp; Port)" hidden="false" id="f8e3-76b9-67d2-5b69" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32d3-a295-b3d8-205c-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="32d3-a295-b3d8-205c-max" includeChildSelections="false"/>
@@ -178,23 +178,6 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade (2)</characteristic>
           </characteristics>
         </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>2+/2/1 F/S(R) Fus(2)</comment>
-      <infoLinks>
-        <infoLink name="Fusillade (X)" id="dc0d-f25c-aa34-4c39" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-9000 Port" hidden="false" id="1d73-9791-29be-5099" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f6d5-c6b6-b573-1030-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6d5-c6b6-b573-1030-max" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
         <profile name="UF-9000 Mass Driver Turret, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="1d2d-e693-fe83-bf26">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
@@ -210,9 +193,9 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>2+/2/1 F/S(L) Fus(2)</comment>
+      <comment>2+/2/1 F/S(R+L) Fus(2)</comment>
       <infoLinks>
-        <infoLink name="Fusillade (X)" id="bc13-88b0-58f9-02cb" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
+        <infoLink name="Fusillade (X)" id="dc0d-f25c-aa34-4c39" hidden="false" targetId="657f-18a5-dde4-5342" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="UF-9000 Twin" hidden="false" id="1a71-4341-0eae-58e4" defaultAmount="1" collective="true">
@@ -265,7 +248,7 @@
       </costs>
       <comment>3+/2/2 F(N)</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-6400s Dorsal" hidden="false" id="55c2-eea8-9203-9e7d" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-6400 Turrets (Dorsal)" hidden="false" id="55c2-eea8-9203-9e7d" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3f4-f110-bd63-1294-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3f4-f110-bd63-1294-max" includeChildSelections="false"/>
@@ -288,7 +271,7 @@
       </costs>
       <comment>3+/8/1 F/S</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-6400s Ventral" hidden="false" id="77a7-e56a-304e-843a" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-6400 Turrets (Ventral)" hidden="false" id="77a7-e56a-304e-843a" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60ae-06a1-0bde-221b-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60ae-06a1-0bde-221b-max" includeChildSelections="false"/>
@@ -311,7 +294,7 @@
       </costs>
       <comment>3+/8/1 F/S</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-6400s" hidden="false" id="5aa1-5470-249f-6389" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-6400 Turrets" hidden="false" id="5aa1-5470-249f-6389" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c023-8042-c2d9-4bf0-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c023-8042-c2d9-4bf0-max" includeChildSelections="false"/>
@@ -337,7 +320,7 @@
         <infoLink name="Linked (X)" id="3d6a-0155-06c0-5eff" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-6400s" hidden="false" id="21c5-55a6-d824-4587" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-6400 Turrets" hidden="false" id="21c5-55a6-d824-4587" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="17e7-532f-59d9-9a45-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17e7-532f-59d9-9a45-max" includeChildSelections="false"/>
@@ -363,7 +346,7 @@
         <infoLink name="Linked (X)" id="b06b-b834-df7e-c1d0" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-6400s" hidden="false" id="cded-9dfb-e373-b902" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-6400 Turrets" hidden="false" id="cded-9dfb-e373-b902" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="581e-2687-05f3-c597-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="581e-2687-05f3-c597-max" includeChildSelections="false"/>
@@ -386,7 +369,7 @@
       </costs>
       <comment>3+/4/1 F/S</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-6400" hidden="false" id="f60a-3a13-80f9-a2c8" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-6400 Turret" hidden="false" id="f60a-3a13-80f9-a2c8" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fd8d-da73-2ee7-9908-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd8d-da73-2ee7-9908-max" includeChildSelections="false"/>
@@ -412,7 +395,7 @@
         <infoLink name="Linked (X)" id="60cb-095a-bd6c-5fe4" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-6400s" hidden="false" id="bf82-04d9-8a0e-7266" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-6400 Turrets" hidden="false" id="bf82-04d9-8a0e-7266" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de89-322f-4fa3-5481-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de89-322f-4fa3-5481-max" includeChildSelections="false"/>
@@ -438,7 +421,7 @@
         <infoLink name="Squadron (X)" id="68ae-03bb-026b-a3ac" hidden="false" type="rule" targetId="27bd-1d4f-7ca7-8d43"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-6400" hidden="false" id="8a7b-a63f-6655-1e64" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-6400 Turret" hidden="false" id="8a7b-a63f-6655-1e64" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e15-5329-3284-6908-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e15-5329-3284-6908-max" includeChildSelections="false"/>
@@ -461,7 +444,7 @@
       </costs>
       <comment>3+/4/1 F/S</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-4200s Core" hidden="false" id="4736-7555-be6b-231a" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-4200 Turrets (Core)" hidden="false" id="4736-7555-be6b-231a" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="379f-a783-e258-0918-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="379f-a783-e258-0918-max" includeChildSelections="false"/>
@@ -484,7 +467,7 @@
       </costs>
       <comment>4+/12/1 F/S</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-4200s Starboard" hidden="false" id="5b53-0462-196d-6991" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-4200 Turrets (Stbd &amp; Port)" hidden="false" id="5b53-0462-196d-6991" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bde9-5ab8-54b3-1df8-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bde9-5ab8-54b3-1df8-max" includeChildSelections="false"/>
@@ -499,99 +482,6 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
           </characteristics>
         </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/4/1 F/S(R)</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-4200s Starboard" hidden="false" id="eb81-0206-2ab7-9a5d" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="39f7-e06c-b7ae-14c2-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39f7-e06c-b7ae-14c2-max" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="UF-4200 Mass Driver Turrets, Starboard Battery" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="9bee-ddcd-c36b-b542">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/4/1 F/S(R) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Linked (X)" id="db9a-8528-6d9a-fb38" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-4200s Starboard" hidden="false" id="da0c-62ea-e395-c09a" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e39b-5941-9f10-80ad-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e39b-5941-9f10-80ad-max" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="UF-4200 Mass Driver Turrets, Starboard Battery" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="665b-309c-dee3-b630">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade (2), Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/4/1 F/S(R) Fus(2) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Fusillade (X)" id="12e2-9193-61ad-d1b6" hidden="false" type="rule" targetId="657f-18a5-dde4-5342"/>
-        <infoLink name="Linked (X)" id="7628-21ec-7e64-559b" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-4200 Starboard" hidden="false" id="c1a5-fe4d-f9e3-4437" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4430-425a-1862-3499-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4430-425a-1862-3499-max" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="UF-4200 Mass Driver Turret, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="56cb-2ef7-324f-3ae1">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/2/1 F/S(R) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Linked (X)" id="4009-732c-f8c1-a210" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-4200s Port" hidden="false" id="04af-648f-cfe6-273a" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1aba-4522-8d42-297d-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1aba-4522-8d42-297d-max" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
         <profile name="UF-4200 Mass Driver Turrets, Port Battery" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="bf76-e3ad-28c3-6fcd">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
@@ -607,12 +497,12 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/4/1 F/S(L)</comment>
+      <comment>4+/4/1 F/S(R+L)</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-4200s Port" hidden="false" id="42ba-2ec4-1f18-e8ce" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-4200 Turrets (Port &amp; Stbd)" hidden="false" id="eb81-0206-2ab7-9a5d" defaultAmount="1" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d3b-b1cd-080d-d89b-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d3b-b1cd-080d-d89b-max" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="39f7-e06c-b7ae-14c2-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39f7-e06c-b7ae-14c2-max" includeChildSelections="false"/>
       </constraints>
       <profiles>
         <profile name="UF-4200 Mass Driver Turrets, Port Battery" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="4b3c-2292-1558-1c75">
@@ -624,18 +514,27 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
           </characteristics>
         </profile>
+        <profile name="UF-4200 Mass Driver Turrets, Starboard Battery" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="9bee-ddcd-c36b-b542">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/4/1 F/S(L) Lnk(1)</comment>
+      <comment>4+/4/1 F/S(L + R) Lnk(1)</comment>
       <infoLinks>
-        <infoLink name="Linked (X)" id="86b9-5e67-1dd7-e08c" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
+        <infoLink name="Linked (X)" id="db9a-8528-6d9a-fb38" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-4200s Port" hidden="false" id="2007-860e-719c-09e4" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-4200 Turrets (Port &amp; Stbd)" hidden="false" id="2007-860e-719c-09e4" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c37-dfba-0d44-0b44-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c37-dfba-0d44-0b44-max" includeChildSelections="false"/>
@@ -650,19 +549,28 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade (2), Linked (1)</characteristic>
           </characteristics>
         </profile>
+        <profile name="UF-4200 Mass Driver Turrets, Starboard Battery" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="665b-309c-dee3-b630">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Fusillade (2), Linked (1)</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/4/1 F/S(L) Fus(2) Lnk(1)</comment>
+      <comment>4+/4/1 F/S(L+R) Fus(2) Lnk(1)</comment>
       <infoLinks>
         <infoLink name="Fusillade (X)" id="2fe2-6bdc-6c56-5633" hidden="false" type="rule" targetId="657f-18a5-dde4-5342"/>
         <infoLink name="Linked (X)" id="817a-6735-dd57-eb5e" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-4200 Port" hidden="false" id="85ef-c4b5-9eb2-0077" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-4200 Turret (Port &amp; Stbd)" hidden="false" id="85ef-c4b5-9eb2-0077" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1827-8387-a950-4707-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1827-8387-a950-4707-max" includeChildSelections="false"/>
@@ -677,13 +585,22 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
           </characteristics>
         </profile>
+        <profile name="UF-4200 Mass Driver Turret, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="56cb-2ef7-324f-3ae1">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>4+/2/1 F/S(L) Lnk(1)</comment>
+      <comment>4+/2/1 F/S(L+R) Lnk(1)</comment>
       <infoLinks>
         <infoLink name="Linked (X)" id="a1b9-25dd-5066-5f97" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
@@ -714,7 +631,7 @@
         <infoLink name="Squadron (X)" id="e12d-ab2c-eb95-ddf4" hidden="false" type="rule" targetId="27bd-1d4f-7ca7-8d43"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="UF-2200" hidden="false" id="9ff8-5511-d0d4-48c2" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-2200 Turret" hidden="false" id="9ff8-5511-d0d4-48c2" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e63b-59e0-417a-52cf" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf8d-99d1-ff4c-0dbb" includeChildSelections="false"/>
@@ -737,12 +654,21 @@
       </costs>
       <comment>4+/1/1 F/S</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="B-9000" hidden="false" id="1519-4036-572d-a581" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-B-9000" hidden="false" id="1519-4036-572d-a581" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0472-0697-7b1c-48c9" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7292-0f7e-040b-52d8" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="UF-B-9000 Mass Driver" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="5d7f-669d-9829-59f4">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Alt-1</characteristic>
+          </characteristics>
+        </profile>
         <profile name="UF-B-9000 Mass Driver" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="0cea-f955-b49f-6c06">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
@@ -758,39 +684,13 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
-      <comment>2+/2/2 F Alt-1 Bmb</comment>
+      <comment>3+/3/1 F Alt-1 // 2+/2/2 F Alt-1 Bmb</comment>
       <infoLinks>
         <infoLink name="Alt-X" id="57e6-9c5f-a91a-7559" hidden="false" type="rule" targetId="bfbc-e83a-c2b7-eb15"/>
         <infoLink name="Bombardment" id="934e-2b0d-3c45-56b4" hidden="false" type="rule" targetId="9e06-f148-f8a3-26fb"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="B-9000" hidden="false" id="8968-a328-f470-1bca" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f63-bca2-6b74-bccc" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0a6-3eee-5d39-e3ec" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="UF-B-9000 Mass Driver" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="5d7f-669d-9829-59f4">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">3</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Alt-1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>3+/3/1 F Alt-1</comment>
-      <infoLinks>
-        <infoLink name="Alt-X" id="cfc6-312f-25a1-3215" hidden="false" type="rule" targetId="bfbc-e83a-c2b7-eb15"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="B-8000" hidden="false" id="18da-f374-06df-9958" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-B-8000" hidden="false" id="18da-f374-06df-9958" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="398a-2ebc-4cb0-85b2-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="398a-2ebc-4cb0-85b2-max" includeChildSelections="false"/>
@@ -816,7 +716,7 @@
         <infoLink name="Bombardment" id="218c-977a-d52f-65ce" hidden="false" type="rule" targetId="9e06-f148-f8a3-26fb"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="B-8000" hidden="false" id="487a-b8ba-1320-a199" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="UF-B-8000" hidden="false" id="487a-b8ba-1320-a199" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="462d-2d48-bbfa-08b5-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="462d-2d48-bbfa-08b5-max" includeChildSelections="false"/>
@@ -870,7 +770,7 @@
         <infoLink name="Haywire" id="e9d3-4af9-f6b3-414a" hidden="false" type="rule" targetId="5aa2-9fc6-3657-0b4c"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Lev Missiles" hidden="false" id="3ea8-1f3f-be42-86db" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Leviathan Missiles" hidden="false" id="3ea8-1f3f-be42-86db" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cc8d-ad6b-3892-afe1-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc8d-ad6b-3892-afe1-max" includeChildSelections="false"/>
@@ -896,7 +796,7 @@
         <infoLink name="Close Action" id="1dae-36ce-d06c-e43f" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="SwdFsh Missiles" hidden="false" id="a803-5d32-d6a9-ec67" defaultAmount="1" collective="true">
+    <selectionEntry type="upgrade" import="false" name="Swordfish Missiles" hidden="false" id="a803-5d32-d6a9-ec67" defaultAmount="1" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb67-ba09-aced-9099-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb67-ba09-aced-9099-max" includeChildSelections="false"/>

@@ -69,21 +69,14 @@
       <entryLinks>
         <entryLink id="f976-a5ad-1d11-4a94" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="b338-59f9-6801-038a" type="selectionEntry"/>
         <entryLink import="true" name="Hypernova Laser" hidden="false" id="e63c-ade3-90c5-4838" type="selectionEntry" targetId="aa05-f3bc-1707-e10b" sortIndex="1"/>
-        <entryLink import="true" name="E. Glaive (St)" hidden="false" id="1947-d05a-f8bd-0b58" type="selectionEntry" targetId="57a4-15c4-52fc-4782" sortIndex="2">
+        <entryLink import="true" name="Energy Glaive Battery (Stbd &amp; Port)" hidden="false" id="1947-d05a-f8bd-0b58" type="selectionEntry" targetId="57a4-15c4-52fc-4782" sortIndex="2">
           <modifiers>
             <modifier type="set" value="3" field="552f-129e-6975-bd1a"/>
             <modifier type="set" value="3" field="594b-bf66-b65e-1d23"/>
             <modifier type="set" value="3" field="defaultAmount"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="E. Glaive (Po)" hidden="false" id="40e1-fc46-b2a2-807e" type="selectionEntry" targetId="9f4f-0405-ce9f-0462" sortIndex="3">
-          <modifiers>
-            <modifier type="set" value="3" field="b024-674b-2356-944f"/>
-            <modifier type="set" value="3" field="686f-85be-00cd-3bc4"/>
-            <modifier type="set" value="3" field="defaultAmount"/>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Hornet Drones" hidden="false" id="d1af-efc5-a7fa-805e" type="selectionEntry" targetId="27f2-f6a4-5a8b-e4d0" sortIndex="4"/>
+        <entryLink import="true" name="Hornet Drones" hidden="false" id="d1af-efc5-a7fa-805e" type="selectionEntry" targetId="27f2-f6a4-5a8b-e4d0" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="500"/>
@@ -115,23 +108,16 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="0e4a-55f9-485c-e9aa" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="b338-59f9-6801-038a" type="selectionEntry"/>
-        <entryLink import="true" name="E. Glaive (St)" hidden="false" id="fea9-b293-bbfd-4dcd" type="selectionEntry" targetId="57a4-15c4-52fc-4782" sortIndex="1">
+        <entryLink import="true" name="Energy Glaive Battery (Stbd &amp; Port)" hidden="false" id="fea9-b293-bbfd-4dcd" type="selectionEntry" targetId="57a4-15c4-52fc-4782" sortIndex="1">
           <modifiers>
             <modifier type="set" value="2" field="552f-129e-6975-bd1a"/>
             <modifier type="set" value="2" field="594b-bf66-b65e-1d23"/>
             <modifier type="set" value="2" field="defaultAmount"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="E. Glaive (Po)" hidden="false" id="31b3-08aa-9873-5a5a" type="selectionEntry" targetId="9f4f-0405-ce9f-0462" sortIndex="2">
-          <modifiers>
-            <modifier type="set" value="2" field="b024-674b-2356-944f"/>
-            <modifier type="set" value="2" field="686f-85be-00cd-3bc4"/>
-            <modifier type="set" value="2" field="defaultAmount"/>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Apocalypse Cannon" hidden="false" id="01dd-2a99-a8b4-7310" type="selectionEntry" targetId="d65b-47cc-b8d9-7879" sortIndex="3"/>
-        <entryLink import="true" name="Hornet Drone Hive" hidden="false" id="b0ff-c654-5ef2-9b55" type="selectionEntry" targetId="a4cd-c25f-c2b8-4ca8" sortIndex="4"/>
-        <entryLink import="true" name="Torpedo" hidden="false" id="6924-32ba-8d34-d3fa" type="selectionEntry" targetId="74fc-ec1e-cbba-ffa5" sortIndex="5"/>
+        <entryLink import="true" name="Apocalypse Cannon" hidden="false" id="01dd-2a99-a8b4-7310" type="selectionEntry" targetId="d65b-47cc-b8d9-7879" sortIndex="2"/>
+        <entryLink import="true" name="Hornet Drone Hive" hidden="false" id="b0ff-c654-5ef2-9b55" type="selectionEntry" targetId="a4cd-c25f-c2b8-4ca8" sortIndex="3"/>
+        <entryLink import="true" name="Torpedo" hidden="false" id="6924-32ba-8d34-d3fa" type="selectionEntry" targetId="74fc-ec1e-cbba-ffa5" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="460"/>
@@ -161,9 +147,8 @@
       <entryLinks>
         <entryLink id="864e-cfea-1c99-781a" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="Dark Matter Cannon" hidden="false" id="06b4-1100-b28b-dbb5" type="selectionEntry" targetId="b3c3-5868-6125-da44" sortIndex="1"/>
-        <entryLink import="true" name="Heavy Cal Triple BS (Po)" hidden="false" id="9e49-8cf3-211e-476b" type="selectionEntry" targetId="0cdc-cbb1-1d91-7066" sortIndex="2"/>
-        <entryLink import="true" name="Heavy Cal Triple BS (St)" hidden="false" id="ac3a-78ec-288b-007f" type="selectionEntry" targetId="7dd3-6fa0-e7c7-97a5" sortIndex="3"/>
-        <entryLink import="true" name="Hornet Drones" hidden="false" id="060c-caae-bdde-496d" type="selectionEntry" targetId="27f2-f6a4-5a8b-e4d0" sortIndex="4"/>
+        <entryLink import="true" name="Heavy Calibre Triple BS (Port &amp; Stbd)" hidden="false" id="9e49-8cf3-211e-476b" type="selectionEntry" targetId="0cdc-cbb1-1d91-7066" sortIndex="2"/>
+        <entryLink import="true" name="Hornet Drones" hidden="false" id="060c-caae-bdde-496d" type="selectionEntry" targetId="27f2-f6a4-5a8b-e4d0" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="285"/>
@@ -192,10 +177,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="a4ad-e07f-70e2-7542" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
-        <entryLink import="true" name="Heavy Cal Triple BS (Po)" hidden="false" id="1f50-981e-b0a7-b093" type="selectionEntry" targetId="0cdc-cbb1-1d91-7066" sortIndex="1"/>
-        <entryLink import="true" name="Heavy Cal Triple BS (St)" hidden="false" id="5bcd-99cb-0521-5012" type="selectionEntry" targetId="7dd3-6fa0-e7c7-97a5" sortIndex="2"/>
-        <entryLink import="true" name="Neutron Missiles" hidden="false" id="d3cf-c1c8-4fd8-4ee7" type="selectionEntry" targetId="0e29-f146-75a7-2cbd" sortIndex="3"/>
-        <entryLink import="true" name="Torpedo" hidden="false" id="b9f9-071a-ef37-421e" type="selectionEntry" targetId="6e0a-a952-5789-8c8f" sortIndex="4">
+        <entryLink import="true" name="Heavy Calibre Triple BS (Port &amp; Stbd)" hidden="false" id="1f50-981e-b0a7-b093" type="selectionEntry" targetId="0cdc-cbb1-1d91-7066" sortIndex="1"/>
+        <entryLink import="true" name="Neutron Missiles" hidden="false" id="d3cf-c1c8-4fd8-4ee7" type="selectionEntry" targetId="0e29-f146-75a7-2cbd" sortIndex="2"/>
+        <entryLink import="true" name="Torpedo" hidden="false" id="b9f9-071a-ef37-421e" type="selectionEntry" targetId="6e0a-a952-5789-8c8f" sortIndex="3">
           <modifiers>
             <modifier type="set" value="2" field="7fb1-e1d0-aead-8454"/>
             <modifier type="set" value="2" field="e565-6e25-6dd1-f703"/>
@@ -260,10 +244,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="b7cf-7909-d76b-6e1b" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
-        <entryLink import="true" name="Heavy Cal BS Array (Po)" hidden="false" id="384e-4e79-1c55-5b90" type="selectionEntry" targetId="ab25-27f0-b071-9548" sortIndex="1"/>
-        <entryLink import="true" name="Heavy Cal BS Array (St)" hidden="false" id="2b11-531a-b06b-6489" type="selectionEntry" targetId="4c25-a2ef-0d13-0d46" sortIndex="2"/>
-        <entryLink import="true" name="Neutron Missiles" hidden="false" id="13d2-cd2f-590f-643f" type="selectionEntry" targetId="0e29-f146-75a7-2cbd" sortIndex="3"/>
-        <entryLink import="true" name="Hornet Drone Hive" hidden="false" id="ddf3-9987-3407-a18e" type="selectionEntry" targetId="a4cd-c25f-c2b8-4ca8" sortIndex="4"/>
+        <entryLink import="true" name="Heavy Calibre BS Array (Port &amp; Stbd)" hidden="false" id="384e-4e79-1c55-5b90" type="selectionEntry" targetId="ab25-27f0-b071-9548" sortIndex="1"/>
+        <entryLink import="true" name="Neutron Missiles" hidden="false" id="13d2-cd2f-590f-643f" type="selectionEntry" targetId="0e29-f146-75a7-2cbd" sortIndex="2"/>
+        <entryLink import="true" name="Hornet Drone Hive" hidden="false" id="ddf3-9987-3407-a18e" type="selectionEntry" targetId="a4cd-c25f-c2b8-4ca8" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="295"/>
@@ -323,23 +306,15 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="6afd-d030-f84e-0827" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="Light Cal BS (Po)" hidden="false" id="a98d-0483-c30e-ea16" type="selectionEntry" targetId="db81-fb86-1d62-798b" sortIndex="1">
-          <modifiers>
-            <modifier type="set" value="2" field="a55e-a731-9eaa-45f2"/>
-            <modifier type="set" value="2" field="49e1-19e8-5584-d26f"/>
-            <modifier type="set" value="2" field="defaultAmount"/>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Light Cal BS (St)" hidden="false" id="0224-6924-1d20-8636" type="selectionEntry" targetId="804b-ce06-207b-1a67" sortIndex="2">
+        <entryLink import="true" name="Light Calibre BS (Port &amp; Stbd)" hidden="false" id="0224-6924-1d20-8636" type="selectionEntry" targetId="804b-ce06-207b-1a67" sortIndex="1">
           <modifiers>
             <modifier type="set" value="2" field="fd40-5135-1755-2fbd"/>
             <modifier type="set" value="2" field="5de0-334c-c918-6d02"/>
             <modifier type="set" value="2" field="defaultAmount"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Med Cal Double BS (Po)" hidden="false" id="f8da-cf09-3dc6-f60f" type="selectionEntry" targetId="2907-ea33-92ae-0323" sortIndex="3"/>
-        <entryLink import="true" name="Med Cal Double BS (St)" hidden="false" id="3470-4d36-0f4b-82cc" type="selectionEntry" targetId="e82b-9e03-7342-99d9" sortIndex="4"/>
-        <entryLink import="true" name="Hornet Drones" hidden="false" id="64c3-fd5b-fa90-3f93" type="selectionEntry" targetId="27f2-f6a4-5a8b-e4d0" sortIndex="5"/>
+        <entryLink import="true" name="Med Calibre Double BS (Port &amp; Stbd)" hidden="false" id="f8da-cf09-3dc6-f60f" type="selectionEntry" targetId="2907-ea33-92ae-0323" sortIndex="2"/>
+        <entryLink import="true" name="Hornet Drones" hidden="false" id="64c3-fd5b-fa90-3f93" type="selectionEntry" targetId="27f2-f6a4-5a8b-e4d0" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="185"/>
@@ -371,8 +346,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="f0ac-0b6a-23c1-12e8" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="Holo Drones (Po)" hidden="false" id="6cea-b82f-d7a0-673e" type="selectionEntry" targetId="6049-6b9a-eaf9-63ef" sortIndex="1"/>
-        <entryLink import="true" name="Holo Drones (St)" hidden="false" id="292d-8563-693f-5861" type="selectionEntry" targetId="1aaf-0ee8-eadf-6884" sortIndex="2"/>
+        <entryLink import="true" name="Holo Drones (Port &amp; Stbd)" hidden="false" id="6cea-b82f-d7a0-673e" type="selectionEntry" targetId="6049-6b9a-eaf9-63ef"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="175"/>
@@ -401,22 +375,15 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="5d81-ddfd-2540-7683" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="Light Cal BS (Po)" hidden="false" id="9c26-7c84-7421-620e" type="selectionEntry" targetId="db81-fb86-1d62-798b" sortIndex="1">
-          <modifiers>
-            <modifier type="set" value="2" field="a55e-a731-9eaa-45f2"/>
-            <modifier type="set" value="2" field="49e1-19e8-5584-d26f"/>
-            <modifier type="set" value="2" field="defaultAmount"/>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Light Cal BS (St)" hidden="false" id="891a-0ce3-e002-ebcb" type="selectionEntry" targetId="804b-ce06-207b-1a67" sortIndex="2">
+        <entryLink import="true" name="Light Calibre BS (Port &amp; Stbd)" hidden="false" id="891a-0ce3-e002-ebcb" type="selectionEntry" targetId="804b-ce06-207b-1a67" sortIndex="1">
           <modifiers>
             <modifier type="set" value="2" field="fd40-5135-1755-2fbd"/>
             <modifier type="set" value="2" field="5de0-334c-c918-6d02"/>
             <modifier type="set" value="2" field="defaultAmount"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Hornet Drones" hidden="false" id="b851-f3d6-dfe8-3f51" type="selectionEntry" targetId="27f2-f6a4-5a8b-e4d0" sortIndex="3"/>
-        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="683f-6a23-17e3-a23f" type="selectionEntry" targetId="151c-5900-e21f-6f04" sortIndex="4"/>
+        <entryLink import="true" name="Hornet Drones" hidden="false" id="b851-f3d6-dfe8-3f51" type="selectionEntry" targetId="27f2-f6a4-5a8b-e4d0" sortIndex="2"/>
+        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="683f-6a23-17e3-a23f" type="selectionEntry" targetId="151c-5900-e21f-6f04" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="200"/>
@@ -445,7 +412,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="b861-6e64-55c9-02f4" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="Heavy Quad Batt" hidden="false" id="3e4b-eb5d-a09f-d278" type="selectionEntry" targetId="3480-d285-563c-2f3f" sortIndex="1"/>
+        <entryLink import="true" name="Heavy Quad Battery" hidden="false" id="3e4b-eb5d-a09f-d278" type="selectionEntry" targetId="3480-d285-563c-2f3f" sortIndex="1"/>
         <entryLink import="true" name="Hornet Drones" hidden="false" id="930b-1e2b-964f-4ec5" type="selectionEntry" targetId="27f2-f6a4-5a8b-e4d0" sortIndex="2"/>
       </entryLinks>
       <costs>
@@ -475,10 +442,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="59a9-4742-b2c1-fb51" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="Heavy Cal Double BS (Po)" hidden="false" id="b0fd-89c4-f979-d604" type="selectionEntry" targetId="3f8f-8e5d-e16f-ec6b" sortIndex="1"/>
-        <entryLink import="true" name="Heavy Cal Double BS (St)" hidden="false" id="91c4-f7b8-47af-29ce" type="selectionEntry" targetId="091f-23b5-e222-c065" sortIndex="2"/>
-        <entryLink import="true" name="Wasp Drones" hidden="false" id="bad2-3ad8-80bc-7572" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="3"/>
-        <entryLink import="true" name="Torpedo" hidden="false" id="8ba8-bc9d-50e8-7877" type="selectionEntry" targetId="6e0a-a952-5789-8c8f" sortIndex="4"/>
+        <entryLink import="true" name="Heavy Calibre Double BS (Port &amp; Stbd)" hidden="false" id="b0fd-89c4-f979-d604" type="selectionEntry" targetId="3f8f-8e5d-e16f-ec6b" sortIndex="1"/>
+        <entryLink import="true" name="Wasp Drones" hidden="false" id="bad2-3ad8-80bc-7572" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="2"/>
+        <entryLink import="true" name="Torpedo" hidden="false" id="8ba8-bc9d-50e8-7877" type="selectionEntry" targetId="6e0a-a952-5789-8c8f" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="165"/>
@@ -539,9 +505,8 @@
       <entryLinks>
         <entryLink id="7f41-ad80-7d9e-a4c0" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="Twin Supernova Laser" hidden="false" id="b1dd-b91b-e54d-2002" type="selectionEntry" targetId="4646-c24a-6e2d-f1d1" sortIndex="1"/>
-        <entryLink import="true" name="Med Cal Double BS (Po)" hidden="false" id="fa6a-0155-67c1-ef1d" type="selectionEntry" targetId="971f-7441-9f88-1737" sortIndex="2"/>
-        <entryLink import="true" name="Med Cal Double BS (St)" hidden="false" id="97c1-30c0-2801-63c3" type="selectionEntry" targetId="5ada-9f66-ca38-0aa8" sortIndex="3"/>
-        <entryLink import="true" name="Wasp Drones" hidden="false" id="64eb-6463-7c31-20b0" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="4"/>
+        <entryLink import="true" name="Med Calibre Double BS (Port &amp; Stbd)" hidden="false" id="fa6a-0155-67c1-ef1d" type="selectionEntry" targetId="971f-7441-9f88-1737" sortIndex="2"/>
+        <entryLink import="true" name="Wasp Drones" hidden="false" id="64eb-6463-7c31-20b0" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="155"/>
@@ -571,10 +536,9 @@
       <entryLinks>
         <entryLink id="fa8c-4cdb-b9f4-c465" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="Bombardment Battery" hidden="false" id="9d12-12d2-a336-062a" type="selectionEntry" targetId="e9e6-f931-5634-fbe9" sortIndex="1"/>
-        <entryLink import="true" name="Light Cal BS (Po)" hidden="false" id="f922-dd70-be7f-0487" type="selectionEntry" targetId="db81-fb86-1d62-798b" sortIndex="2"/>
-        <entryLink import="true" name="Light Cal BS (St)" hidden="false" id="d6ee-66a7-80f1-359d" type="selectionEntry" targetId="804b-ce06-207b-1a67" sortIndex="3"/>
-        <entryLink import="true" name="Wasp Drones" hidden="false" id="41fe-d139-d927-3076" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="4"/>
-        <entryLink import="true" name="Torpedo" hidden="false" id="306c-3ddc-313b-1980" type="selectionEntry" targetId="6e0a-a952-5789-8c8f" sortIndex="5"/>
+        <entryLink import="true" name="Light Calibre BS (Port &amp; Stbd)" hidden="false" id="d6ee-66a7-80f1-359d" type="selectionEntry" targetId="804b-ce06-207b-1a67" sortIndex="2"/>
+        <entryLink import="true" name="Wasp Drones" hidden="false" id="41fe-d139-d927-3076" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="3"/>
+        <entryLink import="true" name="Torpedo" hidden="false" id="306c-3ddc-313b-1980" type="selectionEntry" targetId="6e0a-a952-5789-8c8f" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="140"/>
@@ -604,10 +568,9 @@
       <entryLinks>
         <entryLink id="977d-0c2a-c00b-8a57" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="Supernova Laser" hidden="false" id="4e81-4ec3-893b-e43a" type="selectionEntry" targetId="2346-d26b-3502-2156" sortIndex="1"/>
-        <entryLink import="true" name="Light Cal Double BS (Po)" hidden="false" id="1673-2a15-9073-1933" type="selectionEntry" targetId="e825-3062-f65b-4afa" sortIndex="2"/>
-        <entryLink import="true" name="Light Cal Double BS (St)" hidden="false" id="65a3-8b42-c1ea-69f7" type="selectionEntry" targetId="da5a-952b-0977-f0d5" sortIndex="3"/>
-        <entryLink import="true" name="Wasp Drones" hidden="false" id="425c-b1c2-9e6e-5fa5" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="4"/>
-        <entryLink import="true" name="Bulk Landers" hidden="false" id="881e-934e-849a-6159" type="selectionEntry" targetId="9585-1b69-edca-a826" sortIndex="5"/>
+        <entryLink import="true" name="Light Calibre Double BS (Port &amp; Stbd)" hidden="false" id="1673-2a15-9073-1933" type="selectionEntry" targetId="e825-3062-f65b-4afa" sortIndex="2"/>
+        <entryLink import="true" name="Wasp Drones" hidden="false" id="425c-b1c2-9e6e-5fa5" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="3"/>
+        <entryLink import="true" name="Bulk Landers" hidden="false" id="881e-934e-849a-6159" type="selectionEntry" targetId="9585-1b69-edca-a826" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="135"/>
@@ -637,11 +600,10 @@
       <entryLinks>
         <entryLink id="969a-107e-26c1-af3b" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="Bombardment Battery" hidden="false" id="49ee-50fc-2dd8-378b" type="selectionEntry" targetId="e9e6-f931-5634-fbe9" sortIndex="1"/>
-        <entryLink import="true" name="Med Cal BS (Po)" hidden="false" id="0814-ac6a-4960-57ae" type="selectionEntry" targetId="03f9-f77b-0b57-d51a" sortIndex="2"/>
-        <entryLink import="true" name="Med Cal BS (St)" hidden="false" id="2510-0ee7-ddfc-d53d" type="selectionEntry" targetId="d7b3-c1e4-fca6-6487" sortIndex="3"/>
-        <entryLink import="true" name="Med Cal Turret" hidden="false" id="5239-e74a-3ca6-f705" type="selectionEntry" targetId="0390-6044-249d-1a19" sortIndex="4"/>
-        <entryLink import="true" name="Wasp Drones" hidden="false" id="5e69-e22d-857f-c778" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="5"/>
-        <entryLink import="true" name="Bulk Landers" hidden="false" id="385f-6313-295b-5532" type="selectionEntry" targetId="9585-1b69-edca-a826" sortIndex="6"/>
+        <entryLink import="true" name="Med Calibre BS (Port &amp; Stbd)" hidden="false" id="2510-0ee7-ddfc-d53d" type="selectionEntry" targetId="d7b3-c1e4-fca6-6487" sortIndex="2"/>
+        <entryLink import="true" name="Med Calibre Turret" hidden="false" id="5239-e74a-3ca6-f705" type="selectionEntry" targetId="0390-6044-249d-1a19" sortIndex="3"/>
+        <entryLink import="true" name="Wasp Drones" hidden="false" id="5e69-e22d-857f-c778" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="4"/>
+        <entryLink import="true" name="Bulk Landers" hidden="false" id="385f-6313-295b-5532" type="selectionEntry" targetId="9585-1b69-edca-a826" sortIndex="5"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="135"/>
@@ -671,21 +633,14 @@
       <entryLinks>
         <entryLink id="7702-16bd-117b-6a6e" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="Supernova Laser" hidden="false" id="c5c9-d77f-894f-0bb6" type="selectionEntry" targetId="2346-d26b-3502-2156" sortIndex="1"/>
-        <entryLink import="true" name="Light Cal BS (Po)" hidden="false" id="5b70-7482-2b4d-2211" type="selectionEntry" targetId="db81-fb86-1d62-798b" sortIndex="2">
-          <modifiers>
-            <modifier type="set" value="2" field="a55e-a731-9eaa-45f2"/>
-            <modifier type="set" value="2" field="49e1-19e8-5584-d26f"/>
-            <modifier type="set" value="2" field="defaultAmount"/>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Light Cal BS (St)" hidden="false" id="d076-2c74-7d32-d7ea" type="selectionEntry" targetId="804b-ce06-207b-1a67" sortIndex="3">
+        <entryLink import="true" name="Light Calibre BS (Port &amp; Stbd)" hidden="false" id="d076-2c74-7d32-d7ea" type="selectionEntry" targetId="804b-ce06-207b-1a67" sortIndex="2">
           <modifiers>
             <modifier type="set" value="2" field="fd40-5135-1755-2fbd"/>
             <modifier type="set" value="2" field="5de0-334c-c918-6d02"/>
             <modifier type="set" value="2" field="defaultAmount"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Wasp Drones" hidden="false" id="1cfd-eedc-a991-3ead" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="4"/>
+        <entryLink import="true" name="Wasp Drones" hidden="false" id="1cfd-eedc-a991-3ead" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="95"/>
@@ -714,12 +669,10 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="31ac-567d-667c-b346" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="Light Cal BS (Po)" hidden="false" id="c7b7-dede-9c6c-dff9" type="selectionEntry" targetId="db81-fb86-1d62-798b" sortIndex="1"/>
-        <entryLink import="true" name="Light Cal BS (St)" hidden="false" id="36fb-b274-8db2-4cbf" type="selectionEntry" targetId="6afd-2f17-2392-fda9" sortIndex="2"/>
-        <entryLink import="true" name="Heavy Cal BS (Po)" hidden="false" id="c0d8-c41d-f256-c332" type="selectionEntry" targetId="f83c-4053-59df-e1cb" sortIndex="3"/>
-        <entryLink import="true" name="Heavy Cal BS (St)" hidden="false" id="1877-6224-5776-1565" type="selectionEntry" targetId="aca8-6a22-916c-1466" sortIndex="4"/>
-        <entryLink import="true" name="Med Cal Turret" hidden="false" id="d5f1-2ef9-8969-5fe1" type="selectionEntry" targetId="0390-6044-249d-1a19" sortIndex="5"/>
-        <entryLink import="true" name="Wasp Drones" hidden="false" id="ca65-1008-341b-af9c" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="6"/>
+        <entryLink import="true" name="Light Calibre BS (Port &amp; Stbd)" hidden="false" id="36fb-b274-8db2-4cbf" type="selectionEntry" targetId="6afd-2f17-2392-fda9" sortIndex="1"/>
+        <entryLink import="true" name="Heavy Calibre BS (Port &amp; Stbd)" hidden="false" id="c0d8-c41d-f256-c332" type="selectionEntry" targetId="f83c-4053-59df-e1cb" sortIndex="2"/>
+        <entryLink import="true" name="Med Calibre Turret" hidden="false" id="d5f1-2ef9-8969-5fe1" type="selectionEntry" targetId="0390-6044-249d-1a19" sortIndex="3"/>
+        <entryLink import="true" name="Wasp Drones" hidden="false" id="ca65-1008-341b-af9c" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="105"/>
@@ -748,10 +701,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="b902-c832-f160-e60f" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="Med Cal Double BS (Po)" hidden="false" id="95b3-4ced-83ae-3f78" type="selectionEntry" targetId="971f-7441-9f88-1737" sortIndex="1"/>
-        <entryLink import="true" name="Med Cal Double BS (St)" hidden="false" id="ef9d-be01-cef1-1c0b" type="selectionEntry" targetId="5ada-9f66-ca38-0aa8" sortIndex="2"/>
-        <entryLink import="true" name="Med Cal Turret" hidden="false" id="638f-3d0e-188b-3d59" type="selectionEntry" targetId="0390-6044-249d-1a19" sortIndex="3"/>
-        <entryLink import="true" name="Wasp Drones" hidden="false" id="d020-fcd0-d703-1a38" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="4"/>
+        <entryLink import="true" name="Med Calibre Double BS (Port &amp; Stbd)" hidden="false" id="95b3-4ced-83ae-3f78" type="selectionEntry" targetId="971f-7441-9f88-1737" sortIndex="1"/>
+        <entryLink import="true" name="Med Calibre Turret" hidden="false" id="638f-3d0e-188b-3d59" type="selectionEntry" targetId="0390-6044-249d-1a19" sortIndex="2"/>
+        <entryLink import="true" name="Wasp Drones" hidden="false" id="d020-fcd0-d703-1a38" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="107"/>
@@ -780,11 +732,10 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="6a26-9e9a-c222-3608" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="Med Cal BS (Po)" hidden="false" id="302d-ca49-281b-9a8e" type="selectionEntry" targetId="03f9-f77b-0b57-d51a" sortIndex="1"/>
-        <entryLink import="true" name="Med Cal BS (St)" hidden="false" id="c82f-1c22-9023-6a4e" type="selectionEntry" targetId="d7b3-c1e4-fca6-6487" sortIndex="2"/>
-        <entryLink import="true" name="Med Cal Turret" hidden="false" id="5e18-b04e-b0df-1aa1" type="selectionEntry" targetId="0390-6044-249d-1a19" sortIndex="3"/>
-        <entryLink import="true" name="Wasp Drones" hidden="false" id="3260-5541-3ed1-3220" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="4"/>
-        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="04c1-8286-33a6-031d" type="selectionEntry" targetId="1c44-ba56-8716-14e3" sortIndex="5"/>
+        <entryLink import="true" name="Med Calibre BS (Port &amp; Stbd)" hidden="false" id="c82f-1c22-9023-6a4e" type="selectionEntry" targetId="d7b3-c1e4-fca6-6487" sortIndex="1"/>
+        <entryLink import="true" name="Med Calibre Turret" hidden="false" id="5e18-b04e-b0df-1aa1" type="selectionEntry" targetId="0390-6044-249d-1a19" sortIndex="2"/>
+        <entryLink import="true" name="Wasp Drones" hidden="false" id="3260-5541-3ed1-3220" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="3"/>
+        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="04c1-8286-33a6-031d" type="selectionEntry" targetId="1c44-ba56-8716-14e3" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="115"/>
@@ -813,11 +764,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="8cca-6df8-8eac-96dd" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="Light Cal BS (Po)" hidden="false" id="b80a-47c6-a055-64ab" type="selectionEntry" targetId="db81-fb86-1d62-798b" sortIndex="1"/>
-        <entryLink import="true" name="Light Cal BS (St)" hidden="false" id="f23b-2d9a-f398-e9e6" type="selectionEntry" targetId="6afd-2f17-2392-fda9" sortIndex="2"/>
-        <entryLink import="true" name="Med Cal BS (Po)" hidden="false" id="2b49-e6b8-7fc0-fcea" type="selectionEntry" targetId="03f9-f77b-0b57-d51a" sortIndex="3"/>
-        <entryLink import="true" name="Med Cal BS (St)" hidden="false" id="efc1-b186-d9c6-dbd1" type="selectionEntry" targetId="f0f1-77f6-1d63-e939" sortIndex="4"/>
-        <entryLink import="true" name="Wasp Drones" hidden="false" id="216b-0d49-dd18-367a" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="5"/>
+        <entryLink import="true" name="Light Calibre BS (Port &amp; Stbd)" hidden="false" id="f23b-2d9a-f398-e9e6" type="selectionEntry" targetId="6afd-2f17-2392-fda9" sortIndex="1"/>
+        <entryLink import="true" name="Med Calibre BS (Port &amp; Stbd)" hidden="false" id="efc1-b186-d9c6-dbd1" type="selectionEntry" targetId="f0f1-77f6-1d63-e939" sortIndex="2"/>
+        <entryLink import="true" name="Wasp Drones" hidden="false" id="216b-0d49-dd18-367a" type="selectionEntry" targetId="9e9e-da92-c6a1-3a5e" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="90"/>
@@ -850,9 +799,8 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Med Cal Bank (Po)" hidden="false" id="17ea-e3ce-df96-224f" type="selectionEntry" targetId="1d71-3ad9-932f-01a4" sortIndex="1"/>
-        <entryLink import="true" name="Med Cal Bank (St)" hidden="false" id="ff6b-ef97-ad36-a758" type="selectionEntry" targetId="b346-71bd-09bd-862d" sortIndex="2"/>
-        <entryLink import="true" name="Mosquito Drones" hidden="false" id="13a9-14de-556a-b14b" type="selectionEntry" targetId="b320-a127-4283-d183" sortIndex="3"/>
+        <entryLink import="true" name="Med Calibre Bank (Port &amp; Stbd)" hidden="false" id="17ea-e3ce-df96-224f" type="selectionEntry" targetId="1d71-3ad9-932f-01a4" sortIndex="1"/>
+        <entryLink import="true" name="Mosquito Drones" hidden="false" id="13a9-14de-556a-b14b" type="selectionEntry" targetId="b320-a127-4283-d183" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="f823-2b7c-6374-b8e6" name="Pandora Frigate" hidden="false" collective="false" import="true" type="model" publicationId="6b9b-4137-d953-56b1" page="28">
@@ -1027,7 +975,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Quad Batt" hidden="false" id="70d2-02d1-fe43-c28d" type="selectionEntry" targetId="5f44-048e-a060-4f60" sortIndex="1"/>
+        <entryLink import="true" name="Quad Battery" hidden="false" id="70d2-02d1-fe43-c28d" type="selectionEntry" targetId="5f44-048e-a060-4f60" sortIndex="1"/>
         <entryLink import="true" name="Mosquito Drones" hidden="false" id="fdc7-9ae8-e476-6c27" type="selectionEntry" targetId="b320-a127-4283-d183" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
@@ -1087,7 +1035,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="2"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Twin Heavy Cals" hidden="false" id="b77d-273e-5e1b-9624" type="selectionEntry" targetId="61d4-e431-13bf-d6c0" sortIndex="1"/>
+        <entryLink import="true" name="Twin Heavy Calibres" hidden="false" id="b77d-273e-5e1b-9624" type="selectionEntry" targetId="61d4-e431-13bf-d6c0" sortIndex="1"/>
         <entryLink import="true" name="Mosquito Drones" hidden="false" id="e8a8-fb7b-4e12-5e87" type="selectionEntry" targetId="b320-a127-4283-d183" sortIndex="2"/>
         <entryLink import="true" name="Bulk Lander" hidden="false" id="13ae-2ff9-8368-1d49" type="selectionEntry" targetId="e2bf-6d23-2797-8c00" sortIndex="3"/>
       </entryLinks>
@@ -1117,7 +1065,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="2"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Twin Heavy Cals" hidden="false" id="57bc-3a63-58c7-898e" type="selectionEntry" targetId="61d4-e431-13bf-d6c0" sortIndex="1">
+        <entryLink import="true" name="Twin Heavy Calibres" hidden="false" id="57bc-3a63-58c7-898e" type="selectionEntry" targetId="61d4-e431-13bf-d6c0" sortIndex="1">
           <modifiers>
             <modifier type="set" value="2" field="f61e-6c7d-7bb7-f840"/>
             <modifier type="set" value="2" field="81c5-660c-a485-7c6d"/>
@@ -1175,7 +1123,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="2"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Twin Heavy Cals" hidden="false" id="d72e-e431-df81-3062" type="selectionEntry" targetId="61d4-e431-13bf-d6c0" sortIndex="1"/>
+        <entryLink import="true" name="Twin Heavy Calibres" hidden="false" id="d72e-e431-df81-3062" type="selectionEntry" targetId="61d4-e431-13bf-d6c0" sortIndex="1"/>
         <entryLink import="true" name="Kingfisher Drones" hidden="false" id="e7db-eaa8-cdf4-9d15" type="selectionEntry" targetId="605f-f1c5-8e16-a7e6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
@@ -1323,7 +1271,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Med Cal Turret" hidden="false" id="f7e5-5737-a6ee-4579" type="selectionEntry" targetId="3d25-71ce-1743-dfbb" sortIndex="1"/>
+        <entryLink import="true" name="Med Calibre Turret" hidden="false" id="f7e5-5737-a6ee-4579" type="selectionEntry" targetId="3d25-71ce-1743-dfbb" sortIndex="1"/>
         <entryLink import="true" name="Vespa Drones" hidden="false" id="f57c-3b07-f00c-37f7" type="selectionEntry" targetId="3e7c-7059-dae8-3f04" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>

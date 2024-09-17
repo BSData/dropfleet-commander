@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="true" id="ef31-352e-ede6-13ec" name="Shaltari - Weapons" gameSystemId="bb34-1413-3527-b957" gameSystemRevision="17" revision="1" authorUrl="https://github.com/BSData/dropfleet-commander/issues" authorName="John Kemp" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Oblit Cannon" hidden="false" id="4bf3-d930-dc6f-805a" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Obliterator Cannon" hidden="false" id="4bf3-d930-dc6f-805a" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="607a-4d00-ac03-60ad" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a955-31eb-4be7-b413" includeChildSelections="false"/>
@@ -178,7 +178,7 @@
         <infoLink name="Particle" id="e54c-ff84-7d0a-9781" hidden="false" type="rule" targetId="06c5-88e4-6e75-a056"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Disintegrator Batt" hidden="false" id="3bbd-cbc5-f103-dbd3" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Disintegrator Battery" hidden="false" id="3bbd-cbc5-f103-dbd3" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="167d-c683-b834-4290" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e18d-716c-e84e-a6c0" includeChildSelections="false"/>
@@ -196,46 +196,7 @@
       </profiles>
       <comment>3+/4/1 F</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Disintegrator Batt (St)" hidden="false" id="7a01-19a9-fbd3-1a2a" collective="true" defaultAmount="1">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="79bc-bb22-42db-cb3c" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b65-3769-5b8f-d6d4" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Disintegrator Battery, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="cfd0-2b45-9284-cb74">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <comment>3+/4/1 F/S(R) Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Linked (X)" id="916c-1866-e7f3-5a95" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Disintegrator Batt (St)" hidden="false" id="698d-bf22-f6b4-707b" collective="true" defaultAmount="1">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f888-cddb-9662-a5a8" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15cb-7808-92ad-1d7b" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Disintegrator Battery, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="5b89-2612-b009-cb60">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <comment>3+/4/1 F/S(R)</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Disintegrator Batt (Po)" hidden="false" id="f53f-291f-3614-c11e" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Disintegrator Battery (Port &amp; Stbd)" hidden="false" id="f53f-291f-3614-c11e" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e489-214c-bdb9-eecf" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3a0-1e96-3f37-ca2e" includeChildSelections="false"/>
@@ -250,18 +211,36 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
           </characteristics>
         </profile>
+        <profile name="Disintegrator Battery, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="8d00-fb3a-06e6-f312">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
-      <comment>3+/4/1 F/S(L) Lnk(1)</comment>
+      <comment>3+/4/1 F/S(L+R) Lnk(1)</comment>
       <infoLinks>
         <infoLink name="Linked (X)" id="7f61-5bc9-b685-f856" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Disintegrator Batt (Po)" hidden="false" id="1168-ad6e-a111-94c1" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Disintegrator Battery (Stbd &amp; Port)" hidden="false" id="1168-ad6e-a111-94c1" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e9a4-bccd-c458-34ca" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f4d-99d4-72b7-28fe" includeChildSelections="false"/>
       </constraints>
       <profiles>
+        <profile name="Disintegrator Battery, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="a5fb-cdd8-3595-30ff">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Linked (1)</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Disintegrator Battery, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="d870-ae36-afec-81ca">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
@@ -272,12 +251,12 @@
           </characteristics>
         </profile>
       </profiles>
-      <comment>3+/4/1 F/S(L) Lnk(2)</comment>
+      <comment>3+/4/1 F/S(R+L) Lnk(1//2)</comment>
       <infoLinks>
         <infoLink name="Linked (X)" id="fcb2-0b81-cb34-a30e" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Disintegrator Batt (Po)" hidden="false" id="a213-1bf5-4a7e-e86d" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Disintegrator Battery (Port &amp; Stbd)" hidden="false" id="a213-1bf5-4a7e-e86d" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2e5-c2ea-0d6c-9839" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30a8-ac4a-71c7-8e1f" includeChildSelections="false"/>
@@ -292,8 +271,17 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
           </characteristics>
         </profile>
+        <profile name="Disintegrator Battery, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="5b89-2612-b009-cb60">
+          <characteristics>
+            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
+            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
+            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
+            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S(R)</characteristic>
+            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1"/>
+          </characteristics>
+        </profile>
       </profiles>
-      <comment>3+/4/1 F/S(L)</comment>
+      <comment>3+/4/1 F/S(L+R)</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Disintegrator Bank" hidden="false" id="a158-62e3-15e7-5fc0" collective="true" defaultAmount="1">
       <constraints>
@@ -397,7 +385,7 @@
         <infoLink name="Close Action" id="2652-0eab-fccb-3065" hidden="false" type="rule" targetId="5816-87fd-bf61-2418"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Pulse Ion Batt" hidden="false" id="9adb-92b7-c244-fba5" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Pulse Ioniser Battery" hidden="false" id="9adb-92b7-c244-fba5" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="299d-d65f-eda1-4a0e" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55e1-2cc5-297e-6cc7" includeChildSelections="false"/>
@@ -420,7 +408,7 @@
         <infoLink name="Mauler" id="6fe8-c88e-f51c-498e" hidden="false" type="rule" targetId="f6ec-da54-fd6f-2579"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Pulse Ion Bank" hidden="false" id="47b1-9fc2-1322-c77a" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Pulse Ioniser Bank" hidden="false" id="47b1-9fc2-1322-c77a" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1808-ad51-a7dc-3469" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6dfd-b242-4c0d-b8cc" includeChildSelections="false"/>
@@ -570,7 +558,7 @@
         <infoLink name="Close Action (Beam)" id="919f-9284-4e94-a8c2" hidden="false" type="rule" targetId="b190-a6a9-c262-b6d0"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Microwave Bank (Po)" hidden="false" id="185b-3b36-d7de-87fc" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Microwave Bank (Port &amp; Stbd)" hidden="false" id="185b-3b36-d7de-87fc" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f07a-cb7a-b247-6ebc" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c63-3510-b0f4-e6a8" includeChildSelections="false"/>
@@ -585,18 +573,6 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action (Beam)</characteristic>
           </characteristics>
         </profile>
-      </profiles>
-      <comment>3+/4/1 S(L) CA(B)</comment>
-      <infoLinks>
-        <infoLink name="Close Action (Beam)" id="972c-4c62-745e-9109" hidden="false" type="rule" targetId="b190-a6a9-c262-b6d0"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Microwave Bank (St)" hidden="false" id="8128-f0e2-5e2e-caf6" collective="true" defaultAmount="1">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7126-110b-caed-d556" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2557-5d27-d5ce-2abe" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
         <profile name="Microwave Array Bank, Starboard" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="b67a-3546-d723-310f">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">3+</characteristic>
@@ -607,12 +583,12 @@
           </characteristics>
         </profile>
       </profiles>
-      <comment>3+/4/1 S(R) CA(B)</comment>
+      <comment>3+/4/1 S(L+R) CA(B)</comment>
       <infoLinks>
-        <infoLink name="Close Action (Beam)" id="c03a-6028-f7f0-0772" hidden="false" type="rule" targetId="b190-a6a9-c262-b6d0"/>
+        <infoLink name="Close Action (Beam)" id="972c-4c62-745e-9109" hidden="false" type="rule" targetId="b190-a6a9-c262-b6d0"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Grav Beamer" hidden="false" id="c673-3ac1-496c-a23b" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Gravitic Beamer" hidden="false" id="c673-3ac1-496c-a23b" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6890-6d6e-1b9a-f41a" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c0a-2af9-7786-9f3e" includeChildSelections="false"/>
@@ -699,7 +675,7 @@
         <infoLink name="Burnthrough (X)" id="a8ff-686c-1d56-1329" hidden="false" type="rule" targetId="bae8-9e71-edf0-b246"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ion Aura" hidden="false" id="b9c0-7329-7e68-4edb" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Ion Aura &amp; Ion Storm" hidden="false" id="b9c0-7329-7e68-4edb" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d05c-8ce4-89ad-6a51" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f7e-d9ba-5a0a-28ab" includeChildSelections="false"/>
@@ -714,20 +690,7 @@
             <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Alt-1, Close Action (Beam)</characteristic>
           </characteristics>
         </profile>
-      </profiles>
-      <comment>3+/6/1 F/S/R Alt-1 CA(B)</comment>
-      <infoLinks>
-        <infoLink name="Alt-X" id="92a1-76d1-b83c-47e4" hidden="false" type="rule" targetId="bfbc-e83a-c2b7-eb15"/>
-        <infoLink name="Close Action (Beam)" id="d62a-1ae4-ed5c-b771" hidden="false" type="rule" targetId="b190-a6a9-c262-b6d0"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ion Storm" hidden="false" id="fa8f-ddd0-649c-aa3f" collective="true" defaultAmount="1">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a9ee-3c29-910d-68fc" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="721c-fc26-90ae-80fc" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Ion Storm" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="6bf1-08d9-3d54-6694">
+        <profile name="Ion Storm" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="4c5f-3f9d-4e15-47f8">
           <characteristics>
             <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">2+</characteristic>
             <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
@@ -737,13 +700,14 @@
           </characteristics>
         </profile>
       </profiles>
-      <comment>2+/4/1 F/S/R Alt-1 Bmb</comment>
+      <comment>3+/6/1 F/S/R Alt-1 CA(B) // 2+/4/1 F/S/R Alt-1 Bmb</comment>
       <infoLinks>
-        <infoLink name="Alt-X" id="cd8e-289b-efea-ab82" hidden="false" type="rule" targetId="bfbc-e83a-c2b7-eb15"/>
-        <infoLink name="Bombardment" id="3af2-d321-ce89-5f49" hidden="false" type="rule" targetId="9e06-f148-f8a3-26fb"/>
+        <infoLink name="Alt-X" id="92a1-76d1-b83c-47e4" hidden="false" type="rule" targetId="bfbc-e83a-c2b7-eb15"/>
+        <infoLink name="Close Action (Beam)" id="d62a-1ae4-ed5c-b771" hidden="false" type="rule" targetId="b190-a6a9-c262-b6d0"/>
+        <infoLink name="Bombardment" id="64b6-fcfc-bd65-1bfd" hidden="false" type="rule" targetId="9e06-f148-f8a3-26fb"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Grav Coils" hidden="false" id="513e-5019-b564-840d" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Gravity Coils" hidden="false" id="513e-5019-b564-840d" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a9f-abe3-48f9-eac8" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11b0-6c4b-5819-ebb3" includeChildSelections="false"/>
@@ -903,7 +867,7 @@
         <infoLink name="Air-to-Air" id="f1e1-29b8-1257-19aa" hidden="false" type="rule" targetId="c3e1-6bee-9e1e-8f27"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bio Atom Array" hidden="false" id="b6e1-57d4-1777-b748" collective="true" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Bio Atomiser Array" hidden="false" id="b6e1-57d4-1777-b748" collective="true" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f512-9ad0-60e7-bc6b" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4893-7ddb-b99e-dcd0" includeChildSelections="false"/>
@@ -1053,138 +1017,6 @@
       </infoLinks>
       <modifiers>
         <modifier type="increment" value="4" field="ac2f-9b71-e1c5-783a"/>
-      </modifiers>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Boarding Pods (F)" hidden="false" id="468b-b193-3553-172e" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e997-3363-1e22-7802" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0066-0f0b-4232-4005" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Boarding Pods (Front)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="3bd8-d32f-39f6-0eb5">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/4/1 F Corr</comment>
-      <infoLinks>
-        <infoLink name="Corruptor" id="68e3-60d5-636f-2145" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Boarding Pods (St)" hidden="false" id="4322-3e6b-1b0c-551c" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="30cd-fd55-dfba-602b" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3eb0-0f9d-0196-eb45" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Boarding Pods (Starboard)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="ec8b-fd9f-855a-72c1">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(R)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/4/1 S(R) Corr Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Corruptor" id="01f1-3980-0eb9-7ca7" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
-        <infoLink name="Linked (X)" id="ad24-d023-db2e-b3bb" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Boarding Pods (Po)" hidden="false" id="4513-d78c-46ba-04b1" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2ef-11c8-2385-1698" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ce7-d02a-b556-5d07" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Boarding Pods (Port)" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="c06b-dc18-863d-775d">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">4</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">S(L)</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Corruptor, Linked (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4+/4/1 S(L) Corr Lnk(1)</comment>
-      <infoLinks>
-        <infoLink name="Corruptor" id="d8cb-85b1-87e9-1d5e" hidden="false" type="rule" targetId="c334-0240-1cae-8db7"/>
-        <infoLink name="Linked (X)" id="69a4-a9ee-3887-c4a7" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Pungari Bombers" hidden="false" id="a2a5-6ba2-bb76-6f21" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="527a-04ac-aba2-a000" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0cdd-0eda-fcfe-42dd" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Pungari Bombers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="1c98-0f62-0c89-cb7b">
-          <characteristics>
-            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">4</characteristic>
-            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>4</comment>
-      <infoLinks>
-        <infoLink name="Launch" id="2f37-7237-c950-9967" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
-      </infoLinks>
-      <modifiers>
-        <modifier type="increment" value="4" field="ac2f-9b71-e1c5-783a"/>
-      </modifiers>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Pungari Bulk Landers" hidden="false" id="1b65-a31c-47e5-52cf" defaultAmount="1" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="400a-5db8-5d46-b1e7" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="272f-937a-54b7-e7a0" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Pungari Bulk Landers" typeId="f174-1347-6969-af9b" typeName="Load" hidden="false" id="c201-2148-93b6-5daf">
-          <characteristics>
-            <characteristic name="Launch" typeId="604b-2e24-d426-bf71">2</characteristic>
-            <characteristic name="Special" typeId="0574-9897-4dc9-48e8"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-      <comment>2</comment>
-      <infoLinks>
-        <infoLink name="Launch" id="0bf7-c7e0-f311-f5f8" hidden="false" type="rule" targetId="6af7-681c-b2c8-5acc"/>
-      </infoLinks>
-      <modifiers>
-        <modifier type="increment" value="2" field="ac2f-9b71-e1c5-783a"/>
       </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>

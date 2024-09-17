@@ -71,14 +71,11 @@
       <entryLinks>
         <entryLink id="2c10-0444-8ab8-9ce4" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="b338-59f9-6801-038a" type="selectionEntry"/>
         <entryLink import="true" name="Oculus S. Phalanx" hidden="false" id="a8ba-b928-0afd-afbe" type="selectionEntry" targetId="8ebf-113e-0644-3b45" sortIndex="1"/>
-        <entryLink import="true" name="Oculus Array (St)" hidden="false" id="86ac-c07b-86d0-44f7" type="selectionEntry" targetId="b8fd-bf50-7e12-9a47" sortIndex="2">
+        <entryLink import="true" name="Oculus Array (Stbd &amp; Port)" hidden="false" id="86ac-c07b-86d0-44f7" type="selectionEntry" targetId="b8fd-bf50-7e12-9a47" sortIndex="2">
           <comment>x2</comment>
         </entryLink>
-        <entryLink import="true" name="Oculus Array (Po)" hidden="false" id="76fa-4d51-d823-b030" type="selectionEntry" targetId="ea1b-1c76-7fa0-6fa6" sortIndex="3">
-          <comment>x2</comment>
-        </entryLink>
-        <entryLink import="true" name="Plasma Flood" hidden="false" id="05e0-8023-72df-5389" type="selectionEntry" targetId="6d3e-ad09-4da0-4658" sortIndex="4"/>
-        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="f73f-5613-23a8-c954" type="selectionEntry" targetId="5939-e496-5521-3404" sortIndex="5"/>
+        <entryLink import="true" name="Plasma Flood" hidden="false" id="05e0-8023-72df-5389" type="selectionEntry" targetId="6d3e-ad09-4da0-4658" sortIndex="3"/>
+        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="f73f-5613-23a8-c954" type="selectionEntry" targetId="5939-e496-5521-3404" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="460"/>
@@ -118,14 +115,11 @@
       <entryLinks>
         <entryLink import="true" name="Flagship (S2)" hidden="false" id="6ce0-a550-452e-b7f9" type="selectionEntry" targetId="b338-59f9-6801-038a"/>
         <entryLink import="true" name="Furnace Triad" hidden="false" id="f273-609f-6dcb-d3ae" type="selectionEntry" targetId="ae7a-6ca0-82fb-d063" sortIndex="1"/>
-        <entryLink import="true" name="Oculus Array (St)" hidden="false" id="533b-50cb-ed49-410f" type="selectionEntry" targetId="b8fd-bf50-7e12-9a47" sortIndex="2">
+        <entryLink import="true" name="Oculus Array (Stbd &amp; Port)" hidden="false" id="533b-50cb-ed49-410f" type="selectionEntry" targetId="b8fd-bf50-7e12-9a47" sortIndex="2">
           <comment>x2</comment>
         </entryLink>
-        <entryLink import="true" name="Oculus Array (Po)" hidden="false" id="598b-9b4a-61ac-45c3" type="selectionEntry" targetId="ea1b-1c76-7fa0-6fa6" sortIndex="3">
-          <comment>x2</comment>
-        </entryLink>
-        <entryLink import="true" name="Plasma Cyclone" hidden="false" id="9774-2657-af79-1623" type="selectionEntry" targetId="b919-b196-794e-7836" sortIndex="4"/>
-        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="22a9-a5ec-1482-1f0f" type="selectionEntry" targetId="5939-e496-5521-3404" sortIndex="5"/>
+        <entryLink import="true" name="Plasma Cyclone" hidden="false" id="9774-2657-af79-1623" type="selectionEntry" targetId="b919-b196-794e-7836" sortIndex="3"/>
+        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="22a9-a5ec-1482-1f0f" type="selectionEntry" targetId="5939-e496-5521-3404" sortIndex="4"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="c58e-ee47-aeb2-d677" name="Daemon Battleship" hidden="false" collective="false" import="true" type="model" publicationId="cb98-b8e2-3a32-a3d7" page="3">
@@ -151,9 +145,8 @@
         <entryLink id="4e34-b128-21d4-2271" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="Furnace Fangs" hidden="false" id="182c-a829-b04f-9908" type="selectionEntry" targetId="481d-2a15-8a2f-89c4" sortIndex="1"/>
         <entryLink import="true" name="Oculus Array" hidden="false" id="0d1a-50a9-0150-8ce2" type="selectionEntry" targetId="6295-a840-0d1b-b7c0" sortIndex="2"/>
-        <entryLink import="true" name="Oculus Phalanx (Po)" hidden="false" id="ef23-5823-e470-247a" type="selectionEntry" targetId="7e5a-44e0-6ea1-d08e" sortIndex="3"/>
-        <entryLink import="true" name="Oculus Phalanx (St)" hidden="false" id="a9fe-f6d1-6c6e-a370" type="selectionEntry" targetId="cc51-db53-c30b-46f1" sortIndex="4"/>
-        <entryLink import="true" name="Plasma Cyclone" hidden="false" id="681f-5f19-e58f-09c3" type="selectionEntry" targetId="b919-b196-794e-7836" sortIndex="5"/>
+        <entryLink import="true" name="Oculus Phalanx (Port &amp; Stbd)" hidden="false" id="a9fe-f6d1-6c6e-a370" type="selectionEntry" targetId="cc51-db53-c30b-46f1" sortIndex="3"/>
+        <entryLink import="true" name="Plasma Cyclone" hidden="false" id="681f-5f19-e58f-09c3" type="selectionEntry" targetId="b919-b196-794e-7836" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="260"/>
@@ -316,9 +309,8 @@
       <entryLinks>
         <entryLink id="8cfb-e963-bc2b-30f0" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="Oculus Array" hidden="false" id="5c9f-9e84-301f-414f" type="selectionEntry" targetId="fc65-1224-a0e6-3cd0" sortIndex="1"/>
-        <entryLink import="true" name="Oculus Phalanx (Po)" hidden="false" id="c53e-cccd-6b6d-279f" type="selectionEntry" targetId="d430-28e1-ccd1-8b3a" sortIndex="2"/>
-        <entryLink import="true" name="Oculus Phalanx (St)" hidden="false" id="6ca6-fc93-98b8-c64d" type="selectionEntry" targetId="3cba-1f96-1162-c49d" sortIndex="3"/>
-        <entryLink import="true" name="Plasma Storm" hidden="false" id="a5b0-825f-efe3-0519" type="selectionEntry" targetId="8760-e59b-8673-6655" sortIndex="4"/>
+        <entryLink import="true" name="Oculus Phalanx (Port &amp; Stbd)" hidden="false" id="c53e-cccd-6b6d-279f" type="selectionEntry" targetId="d430-28e1-ccd1-8b3a" sortIndex="2"/>
+        <entryLink import="true" name="Plasma Storm" hidden="false" id="a5b0-825f-efe3-0519" type="selectionEntry" targetId="8760-e59b-8673-6655" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="215"/>
@@ -452,9 +444,8 @@
       <entryLinks>
         <entryLink id="0eb3-7118-3502-b440" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="Oculus Array" hidden="false" id="835c-2e5c-364f-5e62" type="selectionEntry" targetId="fc65-1224-a0e6-3cd0" sortIndex="1"/>
-        <entryLink import="true" name="Oculus Array (Po)" hidden="false" id="d28c-882e-07f0-980a" type="selectionEntry" targetId="d0f8-a4e9-70e8-7dc3" sortIndex="2"/>
-        <entryLink import="true" name="Oculus Array (St)" hidden="false" id="9694-e982-74be-9e92" type="selectionEntry" targetId="d380-bea5-fe22-c77f" sortIndex="3"/>
-        <entryLink import="true" name="Plasma Storm" hidden="false" id="4c00-422b-4b23-0a53" type="selectionEntry" targetId="8760-e59b-8673-6655" sortIndex="4"/>
+        <entryLink import="true" name="Oculus Array (Port &amp; Stbd)" hidden="false" id="d28c-882e-07f0-980a" type="selectionEntry" targetId="d0f8-a4e9-70e8-7dc3" sortIndex="2"/>
+        <entryLink import="true" name="Plasma Storm" hidden="false" id="4c00-422b-4b23-0a53" type="selectionEntry" targetId="8760-e59b-8673-6655" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="160"/>
@@ -550,9 +541,8 @@
       <entryLinks>
         <entryLink id="ca3d-a52c-50ee-d159" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="Oculus Beams" hidden="false" id="e234-c6a7-06d3-f918" type="selectionEntry" targetId="cbb7-b787-73f8-cf8f" sortIndex="1"/>
-        <entryLink import="true" name="Oculus Array (Po)" hidden="false" id="52fe-5bad-ac43-c689" type="selectionEntry" targetId="d0f8-a4e9-70e8-7dc3" sortIndex="2"/>
-        <entryLink import="true" name="Oculus Array (St)" hidden="false" id="3077-81a8-46a6-eb7b" type="selectionEntry" targetId="d380-bea5-fe22-c77f" sortIndex="3"/>
-        <entryLink import="true" name="Plasma Storm" hidden="false" id="995e-66ae-2a1e-4a8a" type="selectionEntry" targetId="8760-e59b-8673-6655" sortIndex="4"/>
+        <entryLink import="true" name="Oculus Array (Port &amp; Stbd)" hidden="false" id="52fe-5bad-ac43-c689" type="selectionEntry" targetId="d0f8-a4e9-70e8-7dc3" sortIndex="2"/>
+        <entryLink import="true" name="Plasma Storm" hidden="false" id="995e-66ae-2a1e-4a8a" type="selectionEntry" targetId="8760-e59b-8673-6655" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="115"/>
@@ -734,9 +724,8 @@
       <entryLinks>
         <entryLink id="56b5-961f-8c5c-2c50" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
         <entryLink import="true" name="Oculus Beams" hidden="false" id="b397-749a-3edf-8c6c" type="selectionEntry" targetId="cbb7-b787-73f8-cf8f" sortIndex="1"/>
-        <entryLink import="true" name="Oculus Array (Po)" hidden="false" id="10a6-3fca-c88c-52c7" type="selectionEntry" targetId="d0f8-a4e9-70e8-7dc3" sortIndex="2"/>
-        <entryLink import="true" name="Oculus Array (St)" hidden="false" id="5a0a-ad52-a6ea-e06f" type="selectionEntry" targetId="d380-bea5-fe22-c77f" sortIndex="3"/>
-        <entryLink import="true" name="Plasma Storm" hidden="false" id="10e5-0766-bd16-de1d" type="selectionEntry" targetId="8760-e59b-8673-6655" sortIndex="4"/>
+        <entryLink import="true" name="Oculus Array (Port &amp; Stbd)" hidden="false" id="10a6-3fca-c88c-52c7" type="selectionEntry" targetId="d0f8-a4e9-70e8-7dc3" sortIndex="2"/>
+        <entryLink import="true" name="Plasma Storm" hidden="false" id="10e5-0766-bd16-de1d" type="selectionEntry" targetId="8760-e59b-8673-6655" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="95"/>
@@ -870,7 +859,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Oculus Rays" hidden="false" id="3531-bd22-f2ff-aac6" type="selectionEntry" targetId="0915-dc82-7a46-0874" sortIndex="1"/>
-        <entryLink import="true" name="Rev. Grav-Cannon" hidden="false" id="ac21-4b24-399a-cc84" type="selectionEntry" targetId="96e2-c563-0203-1910" sortIndex="2"/>
+        <entryLink import="true" name="Reverse Grav-Cannon" hidden="false" id="ac21-4b24-399a-cc84" type="selectionEntry" targetId="96e2-c563-0203-1910" sortIndex="2"/>
         <entryLink import="true" name="Plasma Cloud" hidden="false" id="097c-59e7-62b8-22db" type="selectionEntry" targetId="db14-e05c-f636-5c4c" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>

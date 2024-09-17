@@ -39,22 +39,15 @@
         <entryLink id="1065-1c9e-9ae8-361e" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="b338-59f9-6801-038a" type="selectionEntry"/>
         <entryLink import="true" name="Distortion Cannons" hidden="false" id="8399-0439-2d75-a424" type="selectionEntry" targetId="87c0-e994-a796-6945" sortIndex="1"/>
         <entryLink import="true" name="Twin P. Lance Turret" hidden="false" id="ec48-e99d-fd3b-f872" type="selectionEntry" targetId="5d15-58c7-e614-c320" sortIndex="2"/>
-        <entryLink import="true" name="Disintegrator Batt (St)" hidden="false" id="2b52-fadb-4dfa-cd15" type="selectionEntry" targetId="7a01-19a9-fbd3-1a2a" sortIndex="3">
-          <modifiers>
-            <modifier type="set" value="2" field="79bc-bb22-42db-cb3c"/>
-            <modifier type="set" value="2" field="0b65-3769-5b8f-d6d4"/>
-            <modifier type="set" value="2" field="defaultAmount"/>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Disintegrator Batt (Po)" hidden="false" id="9b35-d675-7690-77d9" type="selectionEntry" targetId="1168-ad6e-a111-94c1" sortIndex="4">
+        <entryLink import="true" name="Disintegrator Battery (Stbd &amp; Port)" hidden="false" id="9b35-d675-7690-77d9" type="selectionEntry" targetId="1168-ad6e-a111-94c1" sortIndex="3">
           <modifiers>
             <modifier type="set" value="2" field="e9a4-bccd-c458-34ca"/>
             <modifier type="set" value="2" field="3f4d-99d4-72b7-28fe"/>
             <modifier type="set" value="2" field="defaultAmount"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Harpoon Deluge" hidden="false" id="53d8-ea27-e4a5-782d" type="selectionEntry" targetId="f72e-fabf-d483-d230" sortIndex="5"/>
-        <entryLink import="true" name="Gates" hidden="false" id="a65d-6745-5c2b-0afc" type="selectionEntry" targetId="e969-e0a6-aefc-a0d1" sortIndex="6"/>
+        <entryLink import="true" name="Harpoon Deluge" hidden="false" id="53d8-ea27-e4a5-782d" type="selectionEntry" targetId="f72e-fabf-d483-d230" sortIndex="4"/>
+        <entryLink import="true" name="Gates" hidden="false" id="a65d-6745-5c2b-0afc" type="selectionEntry" targetId="e969-e0a6-aefc-a0d1" sortIndex="5"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="520"/>
@@ -85,24 +78,17 @@
         <categoryLink id="8fc7-691f-efa8-7079" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Pulse Ion Batt" hidden="false" id="f8ab-c169-ee9b-2f7a" type="selectionEntry" targetId="9adb-92b7-c244-fba5" sortIndex="1"/>
+        <entryLink import="true" name="Pulse Ioniser Battery" hidden="false" id="f8ab-c169-ee9b-2f7a" type="selectionEntry" targetId="9adb-92b7-c244-fba5" sortIndex="1"/>
         <entryLink import="true" name="Microwave Turret" hidden="false" id="8374-8d7c-10f8-b7df" type="selectionEntry" targetId="23c9-5de6-2d33-4bb2" sortIndex="2"/>
-        <entryLink import="true" name="Disintegrator Batt (St)" hidden="false" id="34fc-e02e-375d-e7e1" type="selectionEntry" targetId="7a01-19a9-fbd3-1a2a" sortIndex="3">
-          <modifiers>
-            <modifier type="set" value="2" field="79bc-bb22-42db-cb3c"/>
-            <modifier type="set" value="2" field="0b65-3769-5b8f-d6d4"/>
-            <modifier type="set" value="2" field="defaultAmount"/>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Disintegrator Batt (Po)" hidden="false" id="4b6f-b255-c9ee-7601" type="selectionEntry" targetId="1168-ad6e-a111-94c1" sortIndex="4">
+        <entryLink import="true" name="Disintegrator Battery (Stbd &amp; Port)" hidden="false" id="4b6f-b255-c9ee-7601" type="selectionEntry" targetId="1168-ad6e-a111-94c1" sortIndex="3">
           <modifiers>
             <modifier type="set" value="2" field="e9a4-bccd-c458-34ca"/>
             <modifier type="set" value="2" field="3f4d-99d4-72b7-28fe"/>
             <modifier type="set" value="2" field="defaultAmount"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Harpoon Deluge" hidden="false" id="2faa-41f6-db04-fca8" type="selectionEntry" targetId="f72e-fabf-d483-d230" sortIndex="5"/>
-        <entryLink import="true" name="Gates" hidden="false" id="b1c6-eeac-34e8-6667" type="selectionEntry" targetId="e969-e0a6-aefc-a0d1" sortIndex="6"/>
+        <entryLink import="true" name="Harpoon Deluge" hidden="false" id="2faa-41f6-db04-fca8" type="selectionEntry" targetId="f72e-fabf-d483-d230" sortIndex="4"/>
+        <entryLink import="true" name="Gates" hidden="false" id="b1c6-eeac-34e8-6667" type="selectionEntry" targetId="e969-e0a6-aefc-a0d1" sortIndex="5"/>
         <entryLink id="6e7f-0f81-8f1d-997c" name="Flagship (S2)" hidden="false" collective="false" import="true" targetId="b338-59f9-6801-038a" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -132,11 +118,10 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="7751-72ba-a427-8036" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
-        <entryLink import="true" name="Disintegrator Batt (Po)" hidden="false" id="7f26-a95e-c530-cb40" type="selectionEntry" targetId="a213-1bf5-4a7e-e86d" sortIndex="1"/>
-        <entryLink import="true" name="Disintegrator Batt (St)" hidden="false" id="d22f-b485-c83a-0117" type="selectionEntry" targetId="698d-bf22-f6b4-707b" sortIndex="2"/>
-        <entryLink import="true" name="P. Lance Triad" hidden="false" id="1591-45c4-e634-931f" type="selectionEntry" targetId="8273-5a64-5a4e-4be8" sortIndex="3"/>
-        <entryLink import="true" name="Harpoon Torrent" hidden="false" id="7ffc-469a-4f81-b8b1" type="selectionEntry" targetId="7ad5-54fb-f305-044a" sortIndex="4"/>
-        <entryLink import="true" name="Gates" hidden="false" id="72f0-8f86-aac3-f7c0" type="selectionEntry" targetId="277e-a439-ee7a-1705" sortIndex="5"/>
+        <entryLink import="true" name="Disintegrator Battery (Port &amp; Stbd)" hidden="false" id="7f26-a95e-c530-cb40" type="selectionEntry" targetId="a213-1bf5-4a7e-e86d" sortIndex="1"/>
+        <entryLink import="true" name="P. Lance Triad" hidden="false" id="1591-45c4-e634-931f" type="selectionEntry" targetId="8273-5a64-5a4e-4be8" sortIndex="2"/>
+        <entryLink import="true" name="Harpoon Torrent" hidden="false" id="7ffc-469a-4f81-b8b1" type="selectionEntry" targetId="7ad5-54fb-f305-044a" sortIndex="3"/>
+        <entryLink import="true" name="Gates" hidden="false" id="72f0-8f86-aac3-f7c0" type="selectionEntry" targetId="277e-a439-ee7a-1705" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="290"/>
@@ -165,11 +150,10 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="3ddf-c85b-0856-fba5" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
-        <entryLink import="true" name="Disintegrator Batt (Po)" hidden="false" id="ad1e-671a-19de-543c" type="selectionEntry" targetId="a213-1bf5-4a7e-e86d" sortIndex="1"/>
-        <entryLink import="true" name="Disintegrator Batt (St)" hidden="false" id="916f-8353-e54d-a825" type="selectionEntry" targetId="698d-bf22-f6b4-707b" sortIndex="2"/>
-        <entryLink import="true" name="Harpoon Deluge" hidden="false" id="a6e2-5526-4364-6598" type="selectionEntry" targetId="f72e-fabf-d483-d230" sortIndex="3"/>
-        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="3154-d4bb-3b86-2bcc" type="selectionEntry" targetId="f38a-8d3b-93dc-9e6b" sortIndex="4"/>
-        <entryLink import="true" name="Gates" hidden="false" id="656d-9dc0-31c0-0380" type="selectionEntry" targetId="277e-a439-ee7a-1705" sortIndex="5"/>
+        <entryLink import="true" name="Disintegrator Battery (Port &amp; Stbd)" hidden="false" id="ad1e-671a-19de-543c" type="selectionEntry" targetId="a213-1bf5-4a7e-e86d" sortIndex="1"/>
+        <entryLink import="true" name="Harpoon Deluge" hidden="false" id="a6e2-5526-4364-6598" type="selectionEntry" targetId="f72e-fabf-d483-d230" sortIndex="2"/>
+        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="3154-d4bb-3b86-2bcc" type="selectionEntry" targetId="f38a-8d3b-93dc-9e6b" sortIndex="3"/>
+        <entryLink import="true" name="Gates" hidden="false" id="656d-9dc0-31c0-0380" type="selectionEntry" targetId="277e-a439-ee7a-1705" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="270"/>
@@ -197,11 +181,10 @@
         <categoryLink id="f9f2-4186-b2ba-7964" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="2844-909e-d84a-3671" type="selectionEntry" targetId="f38a-8d3b-93dc-9e6b" sortIndex="4"/>
-        <entryLink import="true" name="Gates" hidden="false" id="101a-54d2-97f1-c243" type="selectionEntry" targetId="277e-a439-ee7a-1705" sortIndex="5"/>
+        <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="2844-909e-d84a-3671" type="selectionEntry" targetId="f38a-8d3b-93dc-9e6b" sortIndex="3"/>
+        <entryLink import="true" name="Gates" hidden="false" id="101a-54d2-97f1-c243" type="selectionEntry" targetId="277e-a439-ee7a-1705" sortIndex="4"/>
         <entryLink import="true" name="Ion Cannonade" hidden="false" id="9916-e373-a811-d135" type="selectionEntry" targetId="f263-5342-5eff-e2b4" sortIndex="1"/>
-        <entryLink import="true" name="Microwave Bank (Po)" hidden="false" id="376d-bf88-6169-baaf" type="selectionEntry" targetId="185b-3b36-d7de-87fc" sortIndex="2"/>
-        <entryLink import="true" name="Microwave Bank (St)" hidden="false" id="b568-f52d-f2e9-04a6" type="selectionEntry" targetId="8128-f0e2-5e2e-caf6" sortIndex="3"/>
+        <entryLink import="true" name="Microwave Bank (Port &amp; Stbd)" hidden="false" id="376d-bf88-6169-baaf" type="selectionEntry" targetId="185b-3b36-d7de-87fc" sortIndex="2"/>
         <entryLink id="1165-cdc7-9dea-5eb1" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -231,10 +214,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="da86-bd4e-e95e-a8fc" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
-        <entryLink import="true" name="Oblit Cannon" hidden="false" id="613b-f042-dda8-7281" type="selectionEntry" targetId="4bf3-d930-dc6f-805a" sortIndex="1"/>
-        <entryLink import="true" name="Grav Beamer" hidden="false" id="ddf9-b6c5-0451-e721" type="selectionEntry" targetId="c673-3ac1-496c-a23b" sortIndex="2"/>
-        <entryLink import="true" name="Microwave Bank (Po)" hidden="false" id="00a9-142f-3bfa-cc3e" type="selectionEntry" targetId="185b-3b36-d7de-87fc" sortIndex="3"/>
-        <entryLink import="true" name="Microwave Bank (St)" hidden="false" id="5625-d879-5fd3-259d" type="selectionEntry" targetId="8128-f0e2-5e2e-caf6" sortIndex="4"/>
+        <entryLink import="true" name="Obliterator Cannon" hidden="false" id="613b-f042-dda8-7281" type="selectionEntry" targetId="4bf3-d930-dc6f-805a" sortIndex="1"/>
+        <entryLink import="true" name="Gravitic Beamer" hidden="false" id="ddf9-b6c5-0451-e721" type="selectionEntry" targetId="c673-3ac1-496c-a23b" sortIndex="2"/>
+        <entryLink import="true" name="Microwave Bank (Port &amp; Stbd)" hidden="false" id="00a9-142f-3bfa-cc3e" type="selectionEntry" targetId="185b-3b36-d7de-87fc" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="295"/>
@@ -264,9 +246,8 @@
       <entryLinks>
         <entryLink id="1ffb-9695-d161-316a" name="Flagship (S)" hidden="false" collective="false" import="true" targetId="5985-0d00-1fcc-b8be" type="selectionEntry"/>
         <entryLink import="true" name="Ion Cannonade" hidden="false" id="d201-2df6-98a3-4361" type="selectionEntry" targetId="f263-5342-5eff-e2b4" sortIndex="1"/>
-        <entryLink import="true" name="Grav Beamer" hidden="false" id="963e-debf-eb15-e4c8" type="selectionEntry" targetId="c673-3ac1-496c-a23b" sortIndex="2"/>
-        <entryLink import="true" name="Microwave Bank (Po)" hidden="false" id="931a-0d8b-249d-e84e" type="selectionEntry" targetId="185b-3b36-d7de-87fc" sortIndex="3"/>
-        <entryLink import="true" name="Microwave Bank (St)" hidden="false" id="e509-c80b-e05f-3ca9" type="selectionEntry" targetId="8128-f0e2-5e2e-caf6" sortIndex="4"/>
+        <entryLink import="true" name="Gravitic Beamer" hidden="false" id="963e-debf-eb15-e4c8" type="selectionEntry" targetId="c673-3ac1-496c-a23b" sortIndex="2"/>
+        <entryLink import="true" name="Microwave Bank (Port &amp; Stbd)" hidden="false" id="931a-0d8b-249d-e84e" type="selectionEntry" targetId="185b-3b36-d7de-87fc" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="285"/>
@@ -357,9 +338,8 @@
       <entryLinks>
         <entryLink id="3fdf-8076-b7bc-f0ad" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
         <entryLink import="true" name="P. Lance Pair" hidden="false" id="7c5a-9702-64f3-caa0" type="selectionEntry" targetId="e703-0bdd-6140-c8cc" sortIndex="1"/>
-        <entryLink import="true" name="Disintegrator Batt (Po)" hidden="false" id="6aa2-e58b-9f4e-f01a" type="selectionEntry" targetId="a213-1bf5-4a7e-e86d" sortIndex="2"/>
-        <entryLink import="true" name="Disintegrator Batt (St)" hidden="false" id="eedd-32d3-cd96-1f71" type="selectionEntry" targetId="698d-bf22-f6b4-707b" sortIndex="3"/>
-        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="ee96-5fb3-b145-b6a3" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="4"/>
+        <entryLink import="true" name="Disintegrator Battery (Port &amp; Stbd)" hidden="false" id="6aa2-e58b-9f4e-f01a" type="selectionEntry" targetId="a213-1bf5-4a7e-e86d" sortIndex="2"/>
+        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="ee96-5fb3-b145-b6a3" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="200"/>
@@ -391,10 +371,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="0ac0-aa2d-3b02-d3dd" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="Ion Aura" hidden="false" id="f5ff-23bb-8423-a137" type="selectionEntry" targetId="b9c0-7329-7e68-4edb" sortIndex="1"/>
-        <entryLink import="true" name="Ion Storm" hidden="false" id="edc6-dece-7e67-e8f5" type="selectionEntry" targetId="fa8f-ddd0-649c-aa3f" sortIndex="2"/>
-        <entryLink import="true" name="Grav Coils" hidden="false" id="af80-2871-bea9-7b73" type="selectionEntry" targetId="513e-5019-b564-840d" sortIndex="3"/>
-        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="7cb6-2f87-41ad-7350" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="4"/>
+        <entryLink import="true" name="Ion Aura &amp; Ion Storm" hidden="false" id="f5ff-23bb-8423-a137" type="selectionEntry" targetId="b9c0-7329-7e68-4edb" sortIndex="1"/>
+        <entryLink import="true" name="Gravity Coils" hidden="false" id="af80-2871-bea9-7b73" type="selectionEntry" targetId="513e-5019-b564-840d" sortIndex="2"/>
+        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="7cb6-2f87-41ad-7350" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="175"/>
@@ -423,10 +402,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="ecb9-e672-c63b-5374" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="Ion Aura" hidden="false" id="0280-eddf-f658-b675" type="selectionEntry" targetId="b9c0-7329-7e68-4edb" sortIndex="1"/>
-        <entryLink import="true" name="Ion Storm" hidden="false" id="81e3-c75d-5840-5564" type="selectionEntry" targetId="fa8f-ddd0-649c-aa3f" sortIndex="2"/>
-        <entryLink import="true" name="Disintegrator Batt" hidden="false" id="ba6e-e26a-dd19-d2f1" type="selectionEntry" targetId="3bbd-cbc5-f103-dbd3" sortIndex="3"/>
-        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="46fc-0f6f-ab78-7eeb" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="4"/>
+        <entryLink import="true" name="Ion Aura &amp; Ion Storm" hidden="false" id="0280-eddf-f658-b675" type="selectionEntry" targetId="b9c0-7329-7e68-4edb" sortIndex="1"/>
+        <entryLink import="true" name="Disintegrator Battery" hidden="false" id="ba6e-e26a-dd19-d2f1" type="selectionEntry" targetId="3bbd-cbc5-f103-dbd3" sortIndex="2"/>
+        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="46fc-0f6f-ab78-7eeb" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="145"/>
@@ -492,10 +470,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="d7e0-8982-db63-d890" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="Disintegrator Batt" hidden="false" id="c1db-7833-89c4-a0c7" type="selectionEntry" targetId="3bbd-cbc5-f103-dbd3" sortIndex="1"/>
-        <entryLink import="true" name="Disintegrator Batt (Po)" hidden="false" id="042a-c7de-9de7-f987" type="selectionEntry" targetId="f53f-291f-3614-c11e" sortIndex="2"/>
-        <entryLink import="true" name="Disintegrator Batt (St)" hidden="false" id="7387-52b5-a470-b292" type="selectionEntry" targetId="7a01-19a9-fbd3-1a2a" sortIndex="3"/>
-        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="5706-5277-6b8f-0c66" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="4"/>
+        <entryLink import="true" name="Disintegrator Battery" hidden="false" id="c1db-7833-89c4-a0c7" type="selectionEntry" targetId="3bbd-cbc5-f103-dbd3" sortIndex="1"/>
+        <entryLink import="true" name="Disintegrator Battery (Port &amp; Stbd)" hidden="false" id="042a-c7de-9de7-f987" type="selectionEntry" targetId="f53f-291f-3614-c11e" sortIndex="2"/>
+        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="5706-5277-6b8f-0c66" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="3"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="165"/>
@@ -542,7 +519,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="3dfe-7c8f-38b1-6b2b" name="Flagship (H)" hidden="false" collective="false" import="true" targetId="f413-1384-f5c6-44c1" type="selectionEntry"/>
-        <entryLink import="true" name="Disintegrator Batt" hidden="false" id="391c-2cf2-6a98-e9f3" type="selectionEntry" targetId="3bbd-cbc5-f103-dbd3" sortIndex="1"/>
+        <entryLink import="true" name="Disintegrator Battery" hidden="false" id="391c-2cf2-6a98-e9f3" type="selectionEntry" targetId="3bbd-cbc5-f103-dbd3" sortIndex="1"/>
         <entryLink import="true" name="P. Lance Pair" hidden="false" id="963b-ae51-67a7-b348" type="selectionEntry" targetId="e703-0bdd-6140-c8cc" sortIndex="2"/>
         <entryLink import="true" name="Harpoon Cascade" hidden="false" id="f2e9-fb7b-eb62-50ef" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="3"/>
         <entryLink import="true" name="Fighters &amp; Bombers" hidden="false" id="9959-93ae-1ed4-f53f" type="selectionEntry" targetId="35d9-c70f-2d0c-45eb" sortIndex="4"/>
@@ -574,9 +551,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="2478-b512-555c-6754" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="Disintegrator Batt (Po)" hidden="false" id="42ae-b4b7-3dd8-9260" type="selectionEntry" targetId="a213-1bf5-4a7e-e86d" sortIndex="1"/>
-        <entryLink import="true" name="Disintegrator Batt (St)" hidden="false" id="e334-18be-c219-ace4" type="selectionEntry" targetId="698d-bf22-f6b4-707b" sortIndex="2"/>
-        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="93fb-11e4-db14-3523" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="3"/>
+        <entryLink import="true" name="Disintegrator Battery (Port &amp; Stbd)" hidden="false" id="42ae-b4b7-3dd8-9260" type="selectionEntry" targetId="a213-1bf5-4a7e-e86d" sortIndex="1"/>
+        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="93fb-11e4-db14-3523" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="2"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="110"/>
@@ -641,9 +617,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="5fa2-f72c-3100-7632" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="Ion Aura" hidden="false" id="d66c-958e-f08c-18ac" type="selectionEntry" targetId="b9c0-7329-7e68-4edb" sortIndex="1"/>
-        <entryLink import="true" name="Ion Storm" hidden="false" id="cc75-e1cb-f107-5c81" type="selectionEntry" targetId="fa8f-ddd0-649c-aa3f" sortIndex="2"/>
-        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="9d53-951c-e50b-6865" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="3"/>
+        <entryLink import="true" name="Ion Aura &amp; Ion Storm" hidden="false" id="d66c-958e-f08c-18ac" type="selectionEntry" targetId="b9c0-7329-7e68-4edb" sortIndex="1"/>
+        <entryLink import="true" name="Harpoon Cascade" hidden="false" id="9d53-951c-e50b-6865" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="2"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="115"/>
@@ -770,7 +745,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="bd49-fe7b-af0e-d1d0" name="Flagship (M)" hidden="false" collective="false" import="true" targetId="7876-1198-be24-9d63" type="selectionEntry"/>
-        <entryLink import="true" name="Grav Coils" hidden="false" id="6d1e-320c-531a-e2ef" type="selectionEntry" targetId="513e-5019-b564-840d" sortIndex="1"/>
+        <entryLink import="true" name="Gravity Coils" hidden="false" id="6d1e-320c-531a-e2ef" type="selectionEntry" targetId="513e-5019-b564-840d" sortIndex="1"/>
         <entryLink import="true" name="Harpoon Cascade" hidden="false" id="888a-afb1-03c1-e2fe" type="selectionEntry" targetId="3798-7df9-37e7-1239" sortIndex="2"/>
       </entryLinks>
       <costs>
@@ -1033,7 +1008,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Disruption Beamers" hidden="false" id="9f03-0c06-6267-17f9" type="selectionEntry" targetId="a614-8f95-edf3-f842" sortIndex="1"/>
-        <entryLink import="true" name="Pulse Ion Bank" hidden="false" id="2648-b5aa-7e79-8f77" type="selectionEntry" targetId="47b1-9fc2-1322-c77a" sortIndex="2"/>
+        <entryLink import="true" name="Pulse Ioniser Bank" hidden="false" id="2648-b5aa-7e79-8f77" type="selectionEntry" targetId="47b1-9fc2-1322-c77a" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="c1c9-136e-d065-a11b" name="Cobalt Homeship" hidden="false" collective="false" import="true" type="model" publicationId="da17-7d78-79da-7077" page="36">
@@ -1127,7 +1102,7 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="1"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Bio Atom Array" hidden="false" id="1f05-22b1-9878-499c" type="selectionEntry" targetId="b6e1-57d4-1777-b748"/>
+        <entryLink import="true" name="Bio Atomiser Array" hidden="false" id="1f05-22b1-9878-499c" type="selectionEntry" targetId="b6e1-57d4-1777-b748"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="7185-ff23-a79a-02e9" name="Voidgate" hidden="false" collective="false" import="true" type="model" publicationId="da17-7d78-79da-7077" page="39">
@@ -2614,6 +2589,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
+    <catalogueLink type="catalogue" name="Shaltari - Weapons" id="d259-afa1-bc10-eb54" targetId="ef31-352e-ede6-13ec"/>
     <catalogueLink type="catalogue" name="Multi-faction" id="7bff-243f-f28b-bcfc" targetId="edb7-ec70-1989-b4b3"/>
   </catalogueLinks>
   <sharedRules>

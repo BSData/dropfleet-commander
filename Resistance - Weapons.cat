@@ -50,7 +50,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fa2-fca5-3bec-1e0f" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="9K Mass Driver Turrets" hidden="false" id="3cca-d677-142a-eef5">
+    <selectionEntry type="upgrade" import="true" name="9K Mass Driver Turrets (Port &amp; Stbd)" hidden="false" id="3cca-d677-142a-eef5">
       <profiles>
         <profile name="9K Mass Driver Turrets, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="f52b-3e7d-29bc-2d6c">
           <characteristics>
@@ -118,7 +118,7 @@
         <infoLink name="Fusillade (X)" id="4f06-810f-e000-679c" hidden="false" type="rule" targetId="657f-18a5-dde4-5342"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="N-8 Artillery Cannon Banks" hidden="false" id="2247-8a4e-6ef0-8ddf">
+    <selectionEntry type="upgrade" import="true" name="N-8 Artillery Cannon Bank (Port &amp; Stbd)" hidden="false" id="2247-8a4e-6ef0-8ddf">
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
@@ -188,7 +188,7 @@
         <infoLink name="Low Power" id="7a82-f86f-8520-ae82" hidden="false" type="rule" targetId="99fd-3b81-01a1-e916"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="N-12 Artillery Cannon Batteries" hidden="false" id="5695-7940-d3b8-3116">
+    <selectionEntry type="upgrade" import="true" name="N-12 Artillery Cannon Battery (Port &amp; Stbd)" hidden="false" id="5695-7940-d3b8-3116">
       <profiles>
         <profile name="N-12 Artillery Cannon Battery, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="26b7-aa67-6eff-e6f4">
           <characteristics>
@@ -240,7 +240,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a872-40a6-5e98-0c98" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="N-31 Hybrid Gun Batteries" hidden="false" id="0691-c4c4-57e8-461c">
+    <selectionEntry type="upgrade" import="true" name="N-31 Hybrid Gun Battery (Port &amp; Stbd)" hidden="false" id="0691-c4c4-57e8-461c">
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
@@ -271,7 +271,7 @@
         <infoLink name="Linked (X)" id="4823-8d08-74b7-9e5f" hidden="false" type="rule" targetId="08ea-9db1-110b-0150"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="N-31 Hybrid Gun Long Batteries" hidden="false" id="5f34-b32d-003e-55dd">
+    <selectionEntry type="upgrade" import="true" name="N-31 Hybrid Gun Long Battery (Port &amp; Stbd)" hidden="false" id="5f34-b32d-003e-55dd">
       <profiles>
         <profile name="N-31 Hybrid Gun Long Battery, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="10da-0adb-b0f4-8be0">
           <characteristics>
@@ -301,7 +301,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d161-5c4c-1043-948a" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="N-31 Hybrid Gun Banks" hidden="false" id="eb6c-0151-db07-db41">
+    <selectionEntry type="upgrade" import="true" name="N-31 Hybrid Gun Bank (Port &amp; Stbd)" hidden="false" id="eb6c-0151-db07-db41">
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
@@ -519,7 +519,7 @@
       </infoLinks>
       <comment>3+/3/1 F/S/R CA</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="NC-16 Missile Batteries" hidden="false" id="6264-ef8a-3526-88ab">
+    <selectionEntry type="upgrade" import="true" name="NC-16 Missile Battery (Port &amp; Stbd)" hidden="false" id="6264-ef8a-3526-88ab">
       <profiles>
         <profile name="NC-16 Missile Battery, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="a7d3-f4be-8672-0266">
           <characteristics>
@@ -546,7 +546,7 @@
       </infoLinks>
       <comment>[NL] 3+/8/1 S(L+R) CA Lnk(2)</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="NC-16 Missile Banks" hidden="false" id="372c-c875-1cc8-f71c">
+    <selectionEntry type="upgrade" import="true" name="NC-16 Missile Bank (Port &amp; Stbd)" hidden="false" id="372c-c875-1cc8-f71c">
       <profiles>
         <profile name="NC-16 Missile Bank, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="9367-e25f-663f-9653">
           <characteristics>
@@ -576,7 +576,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88bc-0917-055a-fa06-max" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="NC-16 Missile Banks" hidden="false" id="f239-22a6-6599-965f">
+    <selectionEntry type="upgrade" import="true" name="NC-16 Missile Bank (Port &amp; Stbd)" hidden="false" id="f239-22a6-6599-965f">
       <profiles>
         <profile name="NC-16 Missile Bank, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="b6ca-537a-c9d8-062d">
           <characteristics>
@@ -603,7 +603,7 @@
       </infoLinks>
       <comment>[NL] 3+/5/1 S(L+R) CA Lnk(3)</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="NC-16 Missile Banks" hidden="false" id="19b7-3558-e680-0509">
+    <selectionEntry type="upgrade" import="true" name="NC-16 Missile Bank (Port &amp; Stbd)" hidden="false" id="19b7-3558-e680-0509">
       <profiles>
         <profile name="NC-16 Missile Bank, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="8f72-dab6-7c0b-ef2f">
           <characteristics>
@@ -791,7 +791,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6991-8b17-2bf7-7e37-max" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Heavy Vent Cannon Turrets" hidden="false" id="e8ad-7c17-e8b5-fe2d">
+    <selectionEntry type="upgrade" import="true" name="Heavy Vent Cannon Turret (Port &amp; Stbd)" hidden="false" id="e8ad-7c17-e8b5-fe2d">
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
@@ -828,7 +828,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b459-6709-5dca-d122-max" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Mega Vent Cannon Batteries" hidden="false" id="d14e-8e47-f5de-f8c1">
+    <selectionEntry type="upgrade" import="true" name="Mega Vent Cannon Battery (Port &amp; Stbd)" hidden="false" id="d14e-8e47-f5de-f8c1">
       <profiles>
         <profile name="Mega Vent Cannon Battery, Port" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon" hidden="false" id="5e14-6da5-8659-8bb8">
           <characteristics>
