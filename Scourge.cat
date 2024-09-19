@@ -6,42 +6,7 @@
     <entryLink id="9847-182a-8bdc-cd25" name="Pathfinder Battlegroup" hidden="false" collective="false" import="true" targetId="aa4c-86cf-be87-41a1" type="selectionEntry"/>
     <entryLink id="75aa-dbbe-8d71-0309" name="Line Battlegroup" hidden="false" collective="false" import="true" targetId="1373-9bea-e6ce-ed5f" type="selectionEntry"/>
     <entryLink id="1f0f-dff4-8b9f-454b" name="Vanguard Battlegroup" hidden="false" collective="false" import="true" targetId="ba61-df8a-0c03-49be" type="selectionEntry"/>
-    <entryLink id="2ff4-3a56-cf8f-48f2" name="Akuma Battlecruiser" hidden="false" collective="false" import="true" targetId="da89-562a-3675-4689" type="selectionEntry"/>
-    <entryLink id="199b-ed33-da4c-0c05" name="Banshee Battlecruiser" hidden="false" collective="false" import="true" targetId="6bd9-987b-9795-b1dd" type="selectionEntry"/>
-    <entryLink id="b845-ac1d-85df-a96c" name="Charybdis Frigate" hidden="false" collective="false" import="true" targetId="bc61-a1ed-2218-5d4c" type="selectionEntry"/>
-    <entryLink id="60f8-4928-a1e8-2ddf" name="Chimera Troopship" hidden="false" collective="false" import="true" targetId="2a50-a76a-30a1-a553" type="selectionEntry"/>
-    <entryLink id="ac52-6eb9-bd7d-df18" name="Daemon Battleship" hidden="false" collective="false" import="true" targetId="c58e-ee47-aeb2-d677" type="selectionEntry"/>
-    <entryLink id="92c9-8df2-e475-5790" name="Djinn Frigate" hidden="false" collective="false" import="true" targetId="cb0d-cbc8-906e-1098" type="selectionEntry"/>
-    <entryLink id="9654-a747-8379-d022" name="Dragon Battleship" hidden="false" collective="false" import="true" targetId="8c08-f80d-5587-a306" type="selectionEntry"/>
-    <entryLink id="a337-411b-b510-179a" name="Gargoyle Strike Carrier" hidden="false" collective="false" import="true" targetId="9c97-53cb-83d1-0861" type="selectionEntry"/>
-    <entryLink id="6fb9-b2ce-ae30-90be" name="Harpy Frigate" hidden="false" collective="false" import="true" targetId="1ba7-6e1b-c5fa-07dc" type="selectionEntry"/>
-    <entryLink id="264b-53fe-d511-5ded" name="Hydra Fleet Carrier" hidden="false" collective="false" import="true" targetId="8a26-8114-9987-17d8" type="selectionEntry"/>
-    <entryLink id="cddd-aff7-7cf2-fe5c" name="Ifrit Cruiser" hidden="false" collective="false" import="true" targetId="577f-04a8-6eca-1609" type="selectionEntry"/>
-    <entryLink id="6749-e5a7-d066-8356" name="Nickar Hunter-Killer" hidden="false" collective="false" import="true" targetId="81e6-f256-92fc-fd26" type="selectionEntry"/>
-    <entryLink id="ac2f-048e-0a64-2bef" name="Raiju Heavy Cruiser" hidden="false" collective="false" import="true" targetId="ff3e-2a27-6bdc-0a74" type="selectionEntry"/>
-    <entryLink id="e357-8989-fd64-24c2" name="Scylla Frigate" hidden="false" collective="false" import="true" targetId="3f41-ccad-3aeb-1c33" type="selectionEntry"/>
-    <entryLink id="8ca9-c149-49fb-1be4" name="Shenlong Heavy Cruiser" hidden="false" collective="false" import="true" targetId="10d2-3e64-d28e-1b5c" type="selectionEntry"/>
-    <entryLink id="02c7-dfd0-41af-a463" name="Sphinx Cruiser" hidden="false" collective="false" import="true" targetId="de77-e620-9cd8-500a" type="selectionEntry"/>
-    <entryLink id="3554-4a6c-b3b4-f13b" name="Strix Light Cruiser" hidden="false" collective="false" import="true" targetId="4357-a35e-5edf-83fe" type="selectionEntry"/>
-    <entryLink id="bdf6-bed2-ba11-13d9" name="Wyvern Cruiser" hidden="false" collective="false" import="true" targetId="d7c5-9808-4896-c61c" type="selectionEntry"/>
-    <entryLink id="59e6-2889-342e-d436" name="Yokai Light Cruiser" hidden="false" collective="false" import="true" targetId="442e-7106-de3f-994d" type="selectionEntry"/>
-    <entryLink id="db24-91f5-e0be-d755" name="Incubus Destroyer" hidden="false" collective="false" import="true" targetId="ccb8-1df2-12a8-e962" type="selectionEntry"/>
-    <entryLink id="3ea8-e5ee-a2ae-bb84" name="Revenant Destroyer" hidden="false" collective="false" import="true" targetId="c49c-ab83-c5c2-15a2" type="selectionEntry"/>
-    <entryLink id="6979-c0a0-de13-f7c6" name="Succubus Destroyer" hidden="false" collective="false" import="true" targetId="b742-5992-28c9-d81a" type="selectionEntry"/>
-    <entryLink id="4f48-658d-77c6-8aa0" name="Cthulhu Dreadnought" hidden="false" collective="false" import="true" targetId="2fe7-3a5b-0caa-7980" type="selectionEntry"/>
-    <entryLink id="6f45-f746-12ac-7107" name="Nosferatu Dreadnought" hidden="false" collective="false" import="true" targetId="4f87-c199-ef63-6f5e" type="selectionEntry"/>
     <entryLink id="ae6d-8e57-addc-c8f2" name="Dreadnought Battlegroup" hidden="false" collective="false" import="true" targetId="c6ce-9f9b-392e-9a19" type="selectionEntry"/>
-    <entryLink id="21b0-0108-ae6e-64b8" name="Shedu Monitor" hidden="false" collective="false" import="true" targetId="90ae-a279-2561-2bdf" type="selectionEntry"/>
-    <entryLink id="1085-4371-f729-976d" name="Lamassu Barge" hidden="false" collective="false" import="true" targetId="42e1-cee4-875e-8d20" type="selectionEntry"/>
-    <entryLink id="3a5a-12e9-5e23-757b" name="Pungari Thresher Hive Ship" hidden="false" collective="false" import="true" targetId="91db-c1d9-41b6-06f2" type="selectionEntry"/>
-    <entryLink id="286a-0e4f-6291-cb34" name="Parasite Radiation Leech" hidden="false" collective="false" import="true" targetId="e4c6-c8c2-cd38-80dd" type="selectionEntry"/>
-    <entryLink id="a832-c944-9005-dbdf" name="Hiruko Boarding Cutter" hidden="false" collective="false" import="true" targetId="7be2-34ad-09a6-7dd4" type="selectionEntry"/>
-    <entryLink id="38b3-7888-ae73-6063" name="Hiruko Boarding Cutter" hidden="false" collective="false" import="true" targetId="7be2-34ad-09a6-7dd4" type="selectionEntry"/>
-    <entryLink id="686a-6b30-4ae3-b32b" name="Umbra Battlecruiser" hidden="false" collective="false" import="true" targetId="31ee-da6c-8d1a-0f5f" type="selectionEntry"/>
-    <entryLink id="80a2-5164-abd4-d115" name="Shadow Battlecruiser" hidden="false" collective="false" import="true" targetId="06c7-df51-eb6e-4b64" type="selectionEntry"/>
-    <entryLink import="true" name="Beelzebub Battleship" hidden="false" id="f704-83e1-fd84-eb10" targetId="e8b6-8615-6aac-6fbf" type="selectionEntry"/>
-    <entryLink import="true" name="Devil Battleship" hidden="false" id="82f5-a49b-89a5-2fc1" targetId="4f20-9435-592e-f072" type="selectionEntry"/>
-    <entryLink import="true" name="Lucifer Battleship" hidden="false" id="1452-91ec-238a-f7b2" targetId="4d2a-0778-867b-5981" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4f87-c199-ef63-6f5e" name="Nosferatu Dreadnought" hidden="false" collective="false" import="true" type="model" publicationId="cb98-b8e2-3a32-a3d7" page="1">
@@ -1191,18 +1156,222 @@
         <entryLink import="true" name="Plasma Torch" hidden="false" id="5ceb-7a37-5e94-0641" type="selectionEntry" targetId="399f-0954-9837-4a6f"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="9542-0dd8-9071-72c4" name="Nosferatu Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="4e3e-75aa-7e06-1a78" name="Nosferatu Dreadnought" hidden="false" collective="false" import="true" targetId="4f87-c199-ef63-6f5e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b201-98df-1b63-1eff" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="35da-8350-49ea-281d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e20-1ff4-8afe-2ef9" name="Cthulhu Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="3394-281c-221f-014f" name="Cthulhu Dreadnought" hidden="false" collective="false" import="true" targetId="2fe7-3a5b-0caa-7980" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4051-7384-72d7-9e6d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f1ed-a078-3231-5a5d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec46-50a5-a2e0-b914" name="Daemon Battleship" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="2487-7dd6-51bf-d918" name="Daemon Battleship" hidden="false" collective="false" import="true" targetId="c58e-ee47-aeb2-d677" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6399-39c5-7536-faf8" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3456-04dd-ba38-f99c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8c8-8083-3359-d667" name="Dragon Battleship" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="d0be-a2bb-290e-106b" name="Dragon Battleship" hidden="false" collective="false" import="true" targetId="8c08-f80d-5587-a306" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a608-b03b-a093-35c1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="307c-3617-3f18-73ff" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="119c-601d-320f-27f3" name="Beelzebub Battleship" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="74c0-7387-4ab8-092e" name="Beelzebub Battleship" hidden="false" collective="false" import="true" targetId="e8b6-8615-6aac-6fbf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2298-e642-409e-a6e0" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e202-dc5d-ed6f-6ee1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e703-4701-9629-190e" name="Devil Battleship" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="3b23-870d-50a1-034a" name="Devil Battleship" hidden="false" collective="false" import="true" targetId="4f20-9435-592e-f072" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a962-2394-c412-983e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef36-87f7-9c02-e498" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a181-713c-f3e3-f075" name="Lucifer Battleship" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="de53-7e2a-bc9d-cfb8" name="Lucifer Battleship" hidden="false" collective="false" import="true" targetId="4d2a-0778-867b-5981" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="deb0-641b-e1fa-dc5f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c2f6-abfb-43c6-582c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="811d-9b15-4eb6-c5b0" name="Akuma Battlecruiser" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="2f0a-8646-9240-9e69" name="Akuma Battlecruiser" hidden="false" collective="false" import="true" targetId="da89-562a-3675-4689" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad51-7ebe-9577-940f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba07-7b21-e8bd-9107" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="13ea-7708-717b-4b3c" name="Banshee Battlecruiser" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="0cd5-c975-6a24-efa9" name="Banshee Battlecruiser" hidden="false" collective="false" import="true" targetId="6bd9-987b-9795-b1dd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="07a9-60aa-9e67-15a4" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8d09-80ca-feb7-ad68" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c4c-71cd-f4d9-4282" name="Shadow Battlecruiser" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="1d89-2a23-f4ba-8381" name="Shadow Battlecruiser" hidden="false" collective="false" import="true" targetId="06c7-df51-eb6e-4b64" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fceb-f70f-5e25-4de5" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d68b-f10a-4441-b947" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4978-76ff-e456-9bb3" name="Umbra Battlecruiser" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="e172-9746-ecb7-83db" name="Umbra Battlecruiser" hidden="false" collective="false" import="true" targetId="31ee-da6c-8d1a-0f5f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="637f-cebc-67a4-dd42" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64d4-c851-4780-3154" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b95-c338-1bc0-d6b7" name="Shenlong Heavy Cruiser" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="9f75-1994-9ec1-7c62" name="Shenlong Heavy Cruiser" hidden="false" collective="false" import="true" targetId="10d2-3e64-d28e-1b5c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3fcc-c8d8-547f-41ea" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6c5-14c8-8795-03ab" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5120-d527-1d70-fe96" name="Raiju Heavy Cruiser" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="a3e8-9eb4-8bb3-cd7a" name="Raiju Heavy Cruiser" hidden="false" collective="false" import="true" targetId="ff3e-2a27-6bdc-0a74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff63-cf52-af0f-6b10" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="17e8-8e2f-f6ab-ec75" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="efc5-83e2-8a5c-b6e7" name="Kulshedra Vilestar Carrier" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="9f5a-d905-31ec-e963" name="Kulshedra Vilestar Carrier" hidden="false" collective="false" import="true" targetId="f1e8-1811-03e1-b088" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8002-e54a-9e7a-f113" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7527-6415-b46c-75c1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="1485-61c2-ce61-40d7" name="Sphinx Cruisers" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
         <entryLink id="5c4b-130d-b8ae-89ea" name="Sphinx Cruiser" hidden="false" collective="false" import="true" targetId="de77-e620-9cd8-500a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6dd5-2ffd-3a19-19b7" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad6f-e4cd-3dca-ee85" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="6139-d27a-4f51-367b" name="Sphinx Cruiser" hidden="false" collective="false" import="true" targetId="de77-e620-9cd8-500a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6fa1-0b5b-bd43-2704" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9750-ddb8-5dc6-bc0a" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad6f-e4cd-3dca-ee85" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1217,13 +1386,7 @@
         <entryLink id="e486-162a-980a-3c9f" name="Wyvern Cruiser" hidden="false" collective="false" import="true" targetId="d7c5-9808-4896-c61c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4d1b-2c46-7020-276e" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f1d9-b01d-20ce-38e2" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="a660-1439-0d18-d0d7" name="Wyvern Cruiser" hidden="false" collective="false" import="true" targetId="d7c5-9808-4896-c61c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59ef-c6cc-a958-7c63" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c763-db64-5da7-a299" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f1d9-b01d-20ce-38e2" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1238,13 +1401,37 @@
         <entryLink id="1266-fc10-d649-ba57" name="Ifrit Cruiser" hidden="false" collective="false" import="true" targetId="577f-04a8-6eca-1609" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="81ba-8538-d0ae-4100" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1801-b39d-1f97-fcd5" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1801-b39d-1f97-fcd5" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b519-1514-4388-66cd" name="Ifrit Cruiser" hidden="false" collective="false" import="true" targetId="577f-04a8-6eca-1609" type="selectionEntry">
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e782-6319-f4e7-025f" name="Hydra Fleet Carrier" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="7965-5e59-aa18-e44d" name="Hydra Fleet Carrier" hidden="false" collective="false" import="true" targetId="8a26-8114-9987-17d8" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c5a4-9bea-cd07-c391" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e40-ad23-b5a3-c7d1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a1f4-764b-971a-afc2" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="48e9-f4b8-5813-4481" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
+        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
+        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b55-bb4a-fecc-080c" name="Chimera Troopship" hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="171b-a036-e4d7-2664" name="Chimera Troopship" hidden="false" collective="false" import="true" targetId="2a50-a76a-30a1-a553" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7f19-1b4f-5288-d07b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="676d-8b34-55a0-ae5f" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1258,20 +1445,8 @@
       <entryLinks>
         <entryLink id="71d8-184f-1203-1d0f" name="Strix Light Cruiser" hidden="false" collective="false" import="true" targetId="4357-a35e-5edf-83fe" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="579c-a430-9bed-73d3" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="792c-d0f4-255b-0d8c" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="9517-fdbb-7c44-153c" name="Strix Light Cruiser" hidden="false" collective="false" import="true" targetId="4357-a35e-5edf-83fe" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b4a-56ce-4b29-12fc" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="edf4-e33c-f263-556e" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="d259-64a4-bc51-975f" name="Strix Light Cruiser" hidden="false" collective="false" import="true" targetId="4357-a35e-5edf-83fe" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af3d-4c04-48aa-84dd" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dbc9-01d1-2748-01f8" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="579c-a430-9bed-73d3" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="792c-d0f4-255b-0d8c" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1285,20 +1460,8 @@
       <entryLinks>
         <entryLink id="e7fb-25b1-c753-c184" name="Yokai Light Cruiser" hidden="false" collective="false" import="true" targetId="442e-7106-de3f-994d" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7494-7b84-3693-72c1" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c426-80e1-bca0-7c48" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="6161-5a3a-6383-19a2" name="Yokai Light Cruiser" hidden="false" collective="false" import="true" targetId="442e-7106-de3f-994d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c00b-54da-901e-5253" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cbf5-fc3c-ab44-61d5" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="1a71-ae9c-c568-c293" name="Yokai Light Cruiser" hidden="false" collective="false" import="true" targetId="442e-7106-de3f-994d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="970d-7243-2922-3d0d" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9977-46ce-fa1b-bfd8" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7494-7b84-3693-72c1" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c426-80e1-bca0-7c48" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1312,26 +1475,8 @@
       <entryLinks>
         <entryLink id="dd32-3805-d3c1-b9f5" name="Harpy Frigate" hidden="false" collective="false" import="true" targetId="1ba7-6e1b-c5fa-07dc" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ad2-45d1-eaa5-dffc" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1f0-f9c7-31b5-01ea" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="2109-c6cd-2436-6b66" name="Harpy Frigate" hidden="false" collective="false" import="true" targetId="1ba7-6e1b-c5fa-07dc" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ff8-6e9b-512f-8dbb" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1fc7-c91a-3ca7-7e56" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="357f-7658-8f2e-a71f" name="Harpy Frigate" hidden="false" collective="false" import="true" targetId="1ba7-6e1b-c5fa-07dc" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0107-73fe-aeb0-104f" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9257-20e1-3d61-b71f" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="70fb-0467-a503-e2ba" name="Harpy Frigate" hidden="false" collective="false" import="true" targetId="1ba7-6e1b-c5fa-07dc" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef2c-663c-2ade-f4f6" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e24d-fb85-8530-ef08" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ad2-45d1-eaa5-dffc" type="min"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1f0-f9c7-31b5-01ea" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1345,38 +1490,8 @@
       <entryLinks>
         <entryLink id="22fe-e605-689a-28dc" name="Djinn Frigate" hidden="false" collective="false" import="true" targetId="cb0d-cbc8-906e-1098" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ed6b-d32d-f79d-2d0c" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5477-861a-c806-df80" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="20f0-9637-1aec-6d14" name="Djinn Frigate" hidden="false" collective="false" import="true" targetId="cb0d-cbc8-906e-1098" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="afdc-3f7a-1697-21fa" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f56b-2a5b-bf26-d961" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="2259-a1e2-4a1b-6b02" name="Djinn Frigate" hidden="false" collective="false" import="true" targetId="cb0d-cbc8-906e-1098" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="50d4-c4e6-79dc-357d" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b834-72de-6dd3-2791" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="a8e5-a2dd-7e59-7d10" name="Djinn Frigate" hidden="false" collective="false" import="true" targetId="cb0d-cbc8-906e-1098" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0754-c6b2-6e9c-bae9" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a474-82e7-2b22-482a" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="dff8-b0a9-f6e5-8cb5" name="Djinn Frigate" hidden="false" collective="false" import="true" targetId="cb0d-cbc8-906e-1098" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9acf-8700-ec69-819c" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0320-4718-00fd-9f42" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="fd2e-9a35-c782-9a75" name="Djinn Frigate" hidden="false" collective="false" import="true" targetId="cb0d-cbc8-906e-1098" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="613a-5955-5b6c-37f7" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d7d-fce5-8cba-f5f8" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ed6b-d32d-f79d-2d0c" type="min"/>
+            <constraint field="selections" scope="parent" value="6" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5477-861a-c806-df80" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1390,26 +1505,8 @@
       <entryLinks>
         <entryLink id="2477-ad25-b55d-19e0" name="Charybdis Frigate" hidden="false" collective="false" import="true" targetId="bc61-a1ed-2218-5d4c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3f1d-5d06-4d8b-1106" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e5c-e790-688f-cb04" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="2c9b-3ba3-5be8-9e67" name="Charybdis Frigate" hidden="false" collective="false" import="true" targetId="bc61-a1ed-2218-5d4c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ffb-4867-2f19-f1fc" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="719b-bf5e-f07c-6b5f" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="f498-38f1-d9eb-d2e0" name="Charybdis Frigate" hidden="false" collective="false" import="true" targetId="bc61-a1ed-2218-5d4c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="88c0-86a1-644c-e57d" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="35d1-4c5f-503c-bb18" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="bfc6-9ff6-8622-332f" name="Charybdis Frigate" hidden="false" collective="false" import="true" targetId="bc61-a1ed-2218-5d4c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d99e-07d1-0460-732c" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="02bc-90ba-bb88-3172" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3f1d-5d06-4d8b-1106" type="min"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e5c-e790-688f-cb04" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1423,26 +1520,8 @@
       <entryLinks>
         <entryLink id="edb4-5940-825f-223f" name="Scylla Frigate" hidden="false" collective="false" import="true" targetId="3f41-ccad-3aeb-1c33" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d2b8-bcef-a865-444d" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="326c-4f8b-14fe-aeb8" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="9b31-7bec-04a7-ecdf" name="Scylla Frigate" hidden="false" collective="false" import="true" targetId="3f41-ccad-3aeb-1c33" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="68e9-5481-3ffa-25ab" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="32d5-d749-8e69-764b" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="8d5e-0982-ed27-251e" name="Scylla Frigate" hidden="false" collective="false" import="true" targetId="3f41-ccad-3aeb-1c33" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="09e3-7fbf-02d0-70c4" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="032b-452f-8949-58af" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="57c6-fc08-c937-62ec" name="Scylla Frigate" hidden="false" collective="false" import="true" targetId="3f41-ccad-3aeb-1c33" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1f31-ab32-42d9-eb71" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8aee-88f7-4fd7-cb8f" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d2b8-bcef-a865-444d" type="min"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="326c-4f8b-14fe-aeb8" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1457,13 +1536,7 @@
         <entryLink id="a50c-a856-3e22-a192" name="Gargoyle Strike Carrier" hidden="false" collective="false" import="true" targetId="9c97-53cb-83d1-0861" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="31ef-e4d8-45e0-637a" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="54ea-d095-b336-8caf" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="6001-502a-1be9-ab41" name="Gargoyle Strike Carrier" hidden="false" collective="false" import="true" targetId="9c97-53cb-83d1-0861" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d900-e9e7-e267-5c76" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5398-df03-fe64-d693" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="54ea-d095-b336-8caf" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1477,20 +1550,8 @@
       <entryLinks>
         <entryLink id="121e-9eca-3d91-92ad" name="Shedu Monitor" hidden="false" collective="false" import="true" targetId="90ae-a279-2561-2bdf" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9998-62d0-f9e1-8697" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1110-683c-7199-3899" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="8f00-bffb-7838-7d21" name="Shedu Monitor" hidden="false" collective="false" import="true" targetId="90ae-a279-2561-2bdf" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8953-fbab-1e12-7847" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="32f0-eafc-750c-0498" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="5960-6cff-1563-166c" name="Shedu Monitor" hidden="false" collective="false" import="true" targetId="90ae-a279-2561-2bdf" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5cfe-4ab5-8d95-c229" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4fc9-9e35-1904-38d0" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9998-62d0-f9e1-8697" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1110-683c-7199-3899" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1500,24 +1561,12 @@
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="800d-c199-12fc-3319" name="Lamassu Barges" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="800d-c199-12fc-3319" name="Lamassu Barges" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
         <entryLink id="ebcc-f733-62a0-0235" name="Lamassu Barge" hidden="false" collective="false" import="true" targetId="42e1-cee4-875e-8d20" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c21e-291c-8a29-d2fb" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6fcc-34da-6561-8892" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="d2c1-e733-81dc-1ad5" name="Lamassu Barge" hidden="false" collective="false" import="true" targetId="42e1-cee4-875e-8d20" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c796-9311-54c4-601f" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e6c-dea3-76a1-fdd1" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="7152-36df-76f9-6b93" name="Lamassu Barge" hidden="false" collective="false" import="true" targetId="42e1-cee4-875e-8d20" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d8a6-82ce-8d9d-8d33" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2306-f81d-6cca-2816" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6fcc-34da-6561-8892" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1531,20 +1580,8 @@
       <entryLinks>
         <entryLink id="452e-5db0-ee9d-aece" name="Incubus Destroyer" hidden="false" collective="false" import="true" targetId="ccb8-1df2-12a8-e962" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c16-4fa8-bbeb-da13" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c03-49e8-b270-e464" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="39e6-ad1a-f609-5c35" name="Incubus Destroyer" hidden="false" collective="false" import="true" targetId="ccb8-1df2-12a8-e962" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e24-e750-ebe2-438d" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9503-7966-e4f1-9b26" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="316c-dc57-c95c-f37b" name="Incubus Destroyer" hidden="false" collective="false" import="true" targetId="ccb8-1df2-12a8-e962" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="627f-faae-1278-5d35" type="max"/>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="73d2-4002-52d2-75a4" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c03-49e8-b270-e464" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c16-4fa8-bbeb-da13" type="max"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Cloaking Crest" hidden="false" id="7dd2-f296-2d6d-dd11" type="selectionEntry" targetId="f160-1a9d-ad3f-2780"/>
@@ -1559,20 +1596,8 @@
       <entryLinks>
         <entryLink id="bc3c-0886-0abc-77f3" name="Succubus Destroyer" hidden="false" collective="false" import="true" targetId="b742-5992-28c9-d81a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6cb-3445-6113-f8d4" type="max"/>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f7cb-8c98-0041-24f8" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="9dc4-9823-29c1-a3ab" name="Succubus Destroyer" hidden="false" collective="false" import="true" targetId="b742-5992-28c9-d81a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb83-92a2-5d60-f494" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8d7b-90c8-db38-6cf0" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="bb00-7897-23f1-7103" name="Succubus Destroyer" hidden="false" collective="false" import="true" targetId="b742-5992-28c9-d81a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a941-f121-5074-8da6" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1762-4e0e-3794-4106" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f7cb-8c98-0041-24f8" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6cb-3445-6113-f8d4" type="max"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Cloaking Crest" hidden="false" id="f04a-0b27-e44c-6823" type="selectionEntry" targetId="f160-1a9d-ad3f-2780"/>
@@ -1587,26 +1612,8 @@
       <entryLinks>
         <entryLink id="e825-6489-1e2a-f67e" name="Revenant Destroyer" hidden="false" collective="false" import="true" targetId="c49c-ab83-c5c2-15a2" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0bd7-a7cb-3cc8-757d" type="max"/>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc6c-5c91-bd05-205d" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="932d-abae-f630-6262" name="Revenant Destroyer" hidden="false" collective="false" import="true" targetId="c49c-ab83-c5c2-15a2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e608-73a4-9fff-5da8" type="max"/>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9bd2-a73e-84f1-4a45" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="a773-8503-9b34-8fa7" name="Revenant Destroyer" hidden="false" collective="false" import="true" targetId="c49c-ab83-c5c2-15a2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1509-7b48-c431-7eb5" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c72-0ca9-82bf-c22b" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="da38-cb6c-8a18-9e0a" name="Revenant Destroyer" hidden="false" collective="false" import="true" targetId="c49c-ab83-c5c2-15a2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c567-da17-3130-9882" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="42b6-ad6a-9fe9-69fa" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc6c-5c91-bd05-205d" type="min"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0bd7-a7cb-3cc8-757d" type="max"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Cloaking Crest" hidden="false" id="c44d-71df-0509-5ff4" type="selectionEntry" targetId="f160-1a9d-ad3f-2780"/>
@@ -1621,20 +1628,8 @@
       <entryLinks>
         <entryLink id="80a1-a377-6e7b-dd9a" name="Wraith Cutter" hidden="false" collective="false" import="true" targetId="8f8e-f221-49df-af0d" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7181-5690-3c91-51ad" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6667-10ce-834a-d2ff" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="942e-cd49-623d-e1ff" name="Wraith Cutter" hidden="false" collective="false" import="true" targetId="8f8e-f221-49df-af0d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6310-45ef-620e-3ea9" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f791-9548-fac6-5954" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="45c0-a65d-6471-6615" name="Wraith Cutter" hidden="false" collective="false" import="true" targetId="8f8e-f221-49df-af0d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d01-92a3-1b42-9879" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6fd3-2cbb-1fd5-e1f6" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7181-5690-3c91-51ad" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6667-10ce-834a-d2ff" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1651,11 +1646,6 @@
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="837f-d552-5e0e-8604" value="-1">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-          </conditions>
-        </modifier>
         <modifier type="set" field="837f-d552-5e0e-8604" value="2">
           <conditions>
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
@@ -1668,20 +1658,8 @@
       <entryLinks>
         <entryLink id="d534-84ab-2b37-41e4" name="Parasite Radiation Leech" hidden="false" collective="false" import="true" targetId="e4c6-c8c2-cd38-80dd" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dbdc-97fe-40fb-28fd" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c52d-f9bc-d43e-fa45" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="4cd3-8d86-587c-192d" name="Parasite Radiation Leech" hidden="false" collective="false" import="true" targetId="e4c6-c8c2-cd38-80dd" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8aeb-e1b4-5c0b-2633" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc6e-21c5-3db3-f299" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="bc39-333e-c224-74ba" name="Parasite Radiation Leech" hidden="false" collective="false" import="true" targetId="e4c6-c8c2-cd38-80dd" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c4c-891b-d055-5a84" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c24a-a07c-79b1-7c84" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dbdc-97fe-40fb-28fd" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c52d-f9bc-d43e-fa45" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1696,19 +1674,7 @@
         <entryLink id="cd30-345a-bae6-9e88" name="Nickar Hunter-Killer" hidden="false" collective="false" import="true" targetId="81e6-f256-92fc-fd26" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bd67-dfad-7598-5c79" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2890-249e-342e-1cb2" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="c63e-e92f-d0fb-9c92" name="Nickar Hunter-Killer" hidden="false" collective="false" import="true" targetId="81e6-f256-92fc-fd26" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="065b-07ae-cfc0-e86c" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d69e-20f6-b0d1-e991" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="1899-49af-8093-31df" name="Nickar Hunter-Killer" hidden="false" collective="false" import="true" targetId="81e6-f256-92fc-fd26" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b547-5f51-e74c-fa22" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae82-ba81-6bfb-445f" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2890-249e-342e-1cb2" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1723,19 +1689,7 @@
         <entryLink id="3f6e-3bbd-7841-9efb" name="Hiruko Boarding Cutter" hidden="false" collective="false" import="true" targetId="7be2-34ad-09a6-7dd4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cf9d-5609-55b6-38a2" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c740-a4a3-a217-482d" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="9051-6d9a-0633-1863" name="Hiruko Boarding Cutter" hidden="false" collective="false" import="true" targetId="7be2-34ad-09a6-7dd4" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eda2-68d5-d526-10a6" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="10e2-6f09-9a5e-fb3f" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="db57-9e25-9a7b-250e" name="Hiruko Boarding Cutter" hidden="false" collective="false" import="true" targetId="7be2-34ad-09a6-7dd4" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc96-b76f-6c7c-039b" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64bb-37c3-18bc-d5eb" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c740-a4a3-a217-482d" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1761,16 +1715,6 @@
           <conditions>
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45c0-0980-7ede-27b1" type="instanceOf"/>
           </conditions>
-        </modifier>
-        <modifier type="set" field="eae7-00db-18b3-2c6c" value="0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74ec-9165-2793-0744" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="053e-95bc-5ec1-51c5" type="instanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -2107,7 +2051,7 @@
         <categoryLink id="82ba-3706-7bd2-de4a" name="Flag Battlegroups" hidden="false" targetId="343b-c1c3-5b31-5799" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="50ae-990c-0d11-6966" name="Dreadnought Group" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="50ae-990c-0d11-6966" name="Dreadnought Group" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9643-881a-63b9-38a1" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99d0-18ad-c6b3-4605" type="max"/>
@@ -2155,7 +2099,7 @@
             <constraint field="e888-2584-886f-7f2c" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da65-bcc2-d2e9-3d2b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ca71-5ebb-623a-f6d0" name="Light Group" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="ca71-5ebb-623a-f6d0" name="Light Group" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb69-293d-da95-0780" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8d0-13ed-c567-36ed" type="max"/>
@@ -2169,7 +2113,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4b93-c412-d9b4-ab78" name="Super Heavy Group 1" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="4b93-c412-d9b4-ab78" name="Super Heavy Group 1" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f51-2a93-073e-14c9" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b5f-84cc-0b18-1dfe" type="max"/>
@@ -2183,7 +2127,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="69db-f727-4529-1f19" name="Super Heavy Group 2" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="69db-f727-4529-1f19" name="Super Heavy Group 2" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3370-d24e-ea8d-794a" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1055-eb7d-7e63-47fc" type="max"/>
@@ -2237,7 +2181,7 @@
             <constraint field="e888-2584-886f-7f2c" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ef-0c02-aab8-2ae9" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="90f2-62c2-335f-bf05" name="Light Group" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="90f2-62c2-335f-bf05" name="Light Group" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d51e-8990-bb35-5294" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1718-0335-891c-0571" type="max"/>
@@ -2251,7 +2195,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e0cd-81c9-1e58-c05d" name="Medium Group" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="e0cd-81c9-1e58-c05d" name="Medium Group" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2380-655f-827a-3cd1" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e00-d055-5bd9-b057" type="max"/>
@@ -2265,7 +2209,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e8b1-b8ba-a8a7-a82f" name="Heavy Group 1" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="e8b1-b8ba-a8a7-a82f" name="Heavy Group 1" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9b5-0e81-24ab-f58a" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f295-20e5-b642-e7e9" type="max"/>
@@ -2279,7 +2223,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f449-adb3-66e3-de88" name="Heavy Group 2" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="f449-adb3-66e3-de88" name="Heavy Group 2" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1618-cb27-4dbb-dc77" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7af2-904a-8db2-2c2b" type="max"/>
@@ -2333,7 +2277,7 @@
             <constraint field="e888-2584-886f-7f2c" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa20-4b68-fa5c-fb3d" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ef9a-c86f-ce8b-2f91" name="Light Group 1" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="ef9a-c86f-ce8b-2f91" name="Light Group 1" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e29-aadc-ae13-fbd7" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faff-c8a1-4853-32ca" type="max"/>
@@ -2347,7 +2291,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d7d6-636f-6129-16f0" name="Light Group 2" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="d7d6-636f-6129-16f0" name="Light Group 2" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18bd-ba2e-ea5e-8b4a" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="016b-4398-1bad-ae95" type="max"/>
@@ -2361,7 +2305,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="149b-1226-f594-50c0" name="Medium Group 1" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="149b-1226-f594-50c0" name="Medium Group 1" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe46-3082-ad78-ef24" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbbc-f87b-f06f-d9d4" type="max"/>
@@ -2375,7 +2319,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1108-7881-c7cb-797f" name="Medium Group 2" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="1108-7881-c7cb-797f" name="Medium Group 2" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2678-791d-325f-2748" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7f2-8422-242a-409b" type="max"/>
@@ -2389,7 +2333,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d114-ff70-4f93-0e4a" name="Medium Group 3" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="d114-ff70-4f93-0e4a" name="Medium Group 3" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf2c-f7c4-1a60-6ee6" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7796-230e-0da8-6f9e" type="max"/>
@@ -2443,7 +2387,7 @@
             <constraint field="e888-2584-886f-7f2c" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8192-a861-c0d7-6166" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="b3d4-8d5f-b451-66fe" name="Light Group 1" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="b3d4-8d5f-b451-66fe" name="Light Group 1" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c0e-4d6a-010e-dae1" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a2f-3d96-8a64-80c1" type="max"/>
@@ -2457,7 +2401,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0b8f-9645-af11-caef" name="Light Group 2" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="0b8f-9645-af11-caef" name="Light Group 2" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e929-c457-bf16-ee0f" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b663-6872-2a65-c832" type="max"/>
@@ -2471,7 +2415,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6d85-5807-2373-7464" name="Light Group 3" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="6d85-5807-2373-7464" name="Light Group 3" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6000-b212-2668-987e" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3be0-6e08-83a2-4aee" type="max"/>
@@ -2485,7 +2429,7 @@
                 <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9c36-ad83-6dbf-fe26" name="Medium Group" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="9c36-ad83-6dbf-fe26" name="Medium Group" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d003-ef9a-c1d2-9335" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bad3-0be2-39d4-d623" type="max"/>
@@ -2583,8 +2527,8 @@
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d952-7766-2360-76fc" type="min"/>
       </constraints>
       <entryLinks>
-        <entryLink id="46d3-78d5-9c3d-6c1b" name="Cthulhu Dreadnought" hidden="false" collective="false" import="true" targetId="2fe7-3a5b-0caa-7980" type="selectionEntry"/>
-        <entryLink id="5827-dbdb-497a-dbb5" name="Nosferatu Dreadnought" hidden="false" collective="false" import="true" targetId="4f87-c199-ef63-6f5e" type="selectionEntry"/>
+        <entryLink id="46d3-78d5-9c3d-6c1b" name="Cthulhu Dreadnought" hidden="false" collective="false" import="true" targetId="3e20-1ff4-8afe-2ef9" type="selectionEntry"/>
+        <entryLink id="5827-dbdb-497a-dbb5" name="Nosferatu Dreadnought" hidden="false" collective="false" import="true" targetId="9542-0dd8-9071-72c4" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
