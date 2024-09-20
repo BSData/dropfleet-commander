@@ -14,11 +14,6 @@
             <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </conditions>
         </modifier>
-        <modifier type="set" value="-1" field="7fce-c7be-f7fb-a7fe">
-          <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="force" childId="74ec-9165-2793-0744" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7fce-c7be-f7fb-a7fe" percentValue="false" includeChildSelections="true" includeChildForces="false"/>

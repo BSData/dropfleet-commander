@@ -2490,7 +2490,7 @@
         <entryLink id="87d4-15d4-cae5-3cb6" name="Parasite Radiation Leeches" hidden="false" collective="false" import="true" targetId="c20c-da3b-dc35-ff87" type="selectionEntry"/>
         <entryLink id="0fab-6bf7-537a-4ea9" name="Hiruko Boarding Cutters" hidden="false" collective="false" import="true" targetId="e62e-ab17-ba04-671b" type="selectionEntry"/>
         <entryLink id="631c-8a93-2e47-fbc5" name="Wraith Cutters" hidden="false" collective="false" import="true" targetId="7a74-4876-aefb-71af" type="selectionEntry"/>
-        <entryLink import="true" name="Hyperyacht Aurorum" hidden="false" id="d0b0-e771-ea5b-2196" type="selectionEntry" targetId="abac-3155-16f2-3235"/>
+        <entryLink import="true" name="Hyperyacht Aurorum" hidden="false" id="d0b0-e771-ea5b-2196" type="selectionEntry" targetId="cc03-54c7-704d-d966"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6e3f-fd7e-dcc9-21e8" name="Medium Ships" hidden="false" collective="false" import="true" defaultSelectionEntryId="249e-4e6b-e849-71c7">
