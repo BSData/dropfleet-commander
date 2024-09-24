@@ -1641,14 +1641,14 @@
     </selectionEntry>
     <selectionEntry id="c20c-da3b-dc35-ff87" name="Parasite Radiation Leeches" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="837f-d552-5e0e-8604" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
         <modifier type="set" field="837f-d552-5e0e-8604" value="2">
           <conditions>
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="837f-d552-5e0e-8604" value="3">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>

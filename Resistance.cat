@@ -386,21 +386,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a842-593c-51f5-9c0d" name="Triumvir Repair Cruiser" hidden="false" collective="false" import="true" type="model" publicationId="71d6-14ad-06a1-10e4" page="12">
-      <modifiers>
-        <modifier type="set" field="5e06-7a44-d802-a2f8" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="5e06-7a44-d802-a2f8" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e06-7a44-d802-a2f8" type="max"/>
-      </constraints>
       <profiles>
         <profile id="fcd9-88f3-5423-abf8" name="Triumvir" publicationId="07fb-79fc-ad90-6f9e" page="208" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -1195,17 +1180,32 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ef6a-8664-3466-0978" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="ef6a-8664-3466-0978">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="3" field="ef6a-8664-3466-0978">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="ee12-1bad-78e3-c0e8" name="Gladiator Grand Cruisers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="7d4d-8655-0bd0-1f04" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
         <modifier type="set" field="7d4d-8655-0bd0-1f04" value="2">
           <conditions>
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="7d4d-8655-0bd0-1f04" value="3">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>

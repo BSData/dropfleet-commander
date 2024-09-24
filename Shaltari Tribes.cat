@@ -481,21 +481,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="bd5e-5169-d54b-bd02" name="Scoria Heavy Carrier" hidden="false" collective="false" import="true" type="model" publicationId="da17-7d78-79da-7077" page="17">
-      <modifiers>
-        <modifier type="set" field="db03-4801-74c4-794e" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="db03-4801-74c4-794e" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db03-4801-74c4-794e" type="max"/>
-      </constraints>
       <profiles>
         <profile id="788c-102d-2be9-7ce1" name="Scoria" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -812,21 +797,6 @@
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="26c1-9c23-f51a-6d07" name="Opal Frigate" hidden="false" collective="false" import="true" type="model" publicationId="da17-7d78-79da-7077" page="30">
-      <modifiers>
-        <modifier type="set" field="aaa1-5582-3ebc-ded4" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="aaa1-5582-3ebc-ded4" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aaa1-5582-3ebc-ded4" type="max"/>
-      </constraints>
       <profiles>
         <profile id="081e-bd22-b0a4-bd0f" name="Opal" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -1428,6 +1398,21 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e9b5-7b93-c663-d57c" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="e9b5-7b93-c663-d57c">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="3" field="e9b5-7b93-c663-d57c">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="dae4-232a-237d-54b3" name="Amber Cruisers" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>

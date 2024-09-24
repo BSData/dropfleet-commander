@@ -798,21 +798,6 @@
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="cfc2-8315-a376-453f" name="Calypso Frigate" hidden="false" collective="false" import="true" type="model" publicationId="6b9b-4137-d953-56b1" page="29">
-      <modifiers>
-        <modifier type="set" field="adb3-30b9-9e20-c089" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="adb3-30b9-9e20-c089" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="adb3-30b9-9e20-c089" type="max"/>
-      </constraints>
       <profiles>
         <profile id="815b-6afd-fd6f-9100" name="Calypso" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -1036,21 +1021,6 @@
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="a0fd-8cb1-f394-f926" name="Jason Blockade Runner" hidden="false" collective="false" import="true" type="model" publicationId="6b9b-4137-d953-56b1" page="36">
-      <modifiers>
-        <modifier type="set" field="5959-2476-6610-1aea" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="5959-2476-6610-1aea" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5959-2476-6610-1aea" type="max"/>
-      </constraints>
       <profiles>
         <profile id="45b4-bd1d-08d4-f329" name="Jason" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -1083,21 +1053,6 @@
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="6c2f-5699-9bea-fd8f" name="Odysseus Blockade Runner" hidden="false" collective="false" import="true" type="model" publicationId="6b9b-4137-d953-56b1" page="37">
-      <modifiers>
-        <modifier type="set" field="aea6-ffc6-ebf7-feb4" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="aea6-ffc6-ebf7-feb4" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aea6-ffc6-ebf7-feb4" type="max"/>
-      </constraints>
       <profiles>
         <profile id="844a-5f8c-033c-7002" name="Odysseus" page="" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -1739,14 +1694,14 @@
     </selectionEntry>
     <selectionEntry id="7fc9-e943-9036-4b3e" name="Jason Blockade Runners" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="f696-9626-e8c1-fde8" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
         <modifier type="set" field="f696-9626-e8c1-fde8" value="2">
           <conditions>
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="f696-9626-e8c1-fde8" value="3">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1769,14 +1724,14 @@
     </selectionEntry>
     <selectionEntry id="ea69-b5fa-67aa-92ff" name="Odysseus Blockade Runners" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="6203-4c65-2d5c-9229" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
         <modifier type="set" field="6203-4c65-2d5c-9229" value="2">
           <conditions>
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="6203-4c65-2d5c-9229" value="3">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1814,14 +1769,14 @@
     </selectionEntry>
     <selectionEntry id="7f4c-a918-65c1-dd1f" name="Ourania Swiftlinks" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="9ee6-efab-3dd8-1a96" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
         <modifier type="set" field="9ee6-efab-3dd8-1a96" value="2">
           <conditions>
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="9ee6-efab-3dd8-1a96" value="3">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>

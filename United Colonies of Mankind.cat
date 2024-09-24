@@ -799,21 +799,6 @@
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="dba1-e056-6281-9562" name="Lima Frigate" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="31">
-      <modifiers>
-        <modifier type="increment" field="bbf7-bde8-3363-1385" value="1">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="bbf7-bde8-3363-1385" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bbf7-bde8-3363-1385" type="max"/>
-      </constraints>
       <profiles>
         <profile id="26e9-ee7d-0444-365b" name="Lima" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -947,21 +932,6 @@
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="6ebc-e179-855e-e295" name="Havana Destroyer" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="35">
-      <modifiers>
-        <modifier type="increment" field="6ddc-1ff9-cd87-2832" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="6ddc-1ff9-cd87-2832" value="1">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ddc-1ff9-cd87-2832" type="max"/>
-      </constraints>
       <profiles>
         <profile id="cdd9-18f1-4398-1abe" name="Havana" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -1148,21 +1118,6 @@
       </entryLinks>
     </selectionEntry>
     <selectionEntry id="4022-3e27-f25e-7ace" name="Lysander Stealth Lighter" hidden="false" collective="false" import="true" type="model" publicationId="f185-0072-424b-ef19" page="41">
-      <modifiers>
-        <modifier type="increment" field="2ba9-9dd4-ea8f-6163" value="1">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="2ba9-9dd4-ea8f-6163" value="2">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ba9-9dd4-ea8f-6163" type="max"/>
-      </constraints>
       <profiles>
         <profile id="9bf9-d7c9-9e29-afea" name="Lysander" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
           <characteristics>
@@ -1407,6 +1362,21 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="aa6c-e19c-048e-3c82" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="aa6c-e19c-048e-3c82">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="3" field="aa6c-e19c-048e-3c82">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="332a-1b73-07e3-00b0" name="Rio Cruisers" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
@@ -1635,14 +1605,14 @@
     </selectionEntry>
     <selectionEntry id="4264-ebbd-c34f-4057" name="Havana Destroyers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="2825-5c45-b5e7-1732" value="3">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
-          </conditions>
-        </modifier>
         <modifier type="set" field="2825-5c45-b5e7-1732" value="2">
           <conditions>
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b897-0836-3935-a949" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="2825-5c45-b5e7-1732" value="3">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddf7-2d82-8a0f-adbd" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1752,6 +1722,21 @@
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
         <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1ea1-26bf-78a3-c56c" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="1ea1-26bf-78a3-c56c">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="3" field="1ea1-26bf-78a3-c56c">
+          <conditions>
+            <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="5699-604a-8095-058b" name="Fleet" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>

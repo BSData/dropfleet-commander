@@ -3,21 +3,6 @@
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="----- Ships -----" hidden="false" id="fb85-98fe-96c8-abd1"/>
     <selectionEntry type="model" import="true" name="Pungari Thresher Hive Ship" hidden="false" id="91db-c1d9-41b6-06f2" collective="false" publicationId="da17-7d78-79da-7077" page="18">
-      <modifiers>
-        <modifier type="set" value="3" field="7fce-c7be-f7fb-a7fe">
-          <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="2" field="7fce-c7be-f7fb-a7fe">
-          <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7fce-c7be-f7fb-a7fe" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-      </constraints>
       <profiles>
         <profile name="Thresher" typeId="ecce-1380-e182-c89e" typeName="Ship" hidden="false" id="82ac-a7b2-6ea1-103e">
           <characteristics>
@@ -251,19 +236,39 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Centurion Grand Cruisers" hidden="false" id="0483-4ffa-7e63-bb82" collective="false">
       <modifiers>
-        <modifier type="set" value="2" field="99ef-5ef4-7b04-c75f">
-          <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </conditions>
+        <modifier type="set" value="1" field="dfc2-18b6-0204-17a1">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true"/>
+                <condition type="instanceOf" value="0" field="selections" scope="force" childId="45c0-0980-7ede-27b1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
-        <modifier type="set" value="3" field="99ef-5ef4-7b04-c75f">
-          <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </conditions>
+        <modifier type="set" value="2" field="dfc2-18b6-0204-17a1">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true"/>
+                <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="3" field="dfc2-18b6-0204-17a1">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true"/>
+                <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="99ef-5ef4-7b04-c75f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="dfc2-18b6-0204-17a1" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Centurion Grand Cruiser" hidden="false" id="8859-d27f-768c-e1fd" collective="false" targetId="c2d4-cebd-6609-c177" type="selectionEntry">
@@ -299,19 +304,39 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Palatine Command Barge" hidden="false" id="f037-c598-d6fe-3356" collective="false">
       <modifiers>
+        <modifier type="set" value="1" field="d130-65b7-cd79-fe11">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true"/>
+                <condition type="instanceOf" value="0" field="selections" scope="force" childId="45c0-0980-7ede-27b1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set" value="2" field="d130-65b7-cd79-fe11">
-          <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true"/>
+                <condition type="instanceOf" value="0" field="selections" scope="force" childId="b897-0836-3935-a949" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" value="3" field="d130-65b7-cd79-fe11">
-          <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5810-52c0-23f0-8f9f" shared="true"/>
+                <condition type="instanceOf" value="0" field="selections" scope="force" childId="ddf7-2d82-8a0f-adbd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d130-65b7-cd79-fe11" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="d130-65b7-cd79-fe11" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Palatine Command Barge" hidden="false" id="abe5-a7ca-5f0b-3896" collective="false" targetId="3f5b-d59d-96a0-d71d" type="selectionEntry">

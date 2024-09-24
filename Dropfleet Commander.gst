@@ -149,7 +149,6 @@
         </categoryLink>
         <categoryLink id="8842-9427-6db6-ee5f" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e09a-442f-b6be-46a6" type="min"/>
             <constraint field="selections" scope="force" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded0-42a3-8028-ab68" type="max"/>
           </constraints>
         </categoryLink>
@@ -176,7 +175,6 @@
       <categoryLinks>
         <categoryLink id="6a2a-9f3c-229a-d9b9" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a9a-9267-1a27-6238" type="min"/>
             <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fab4-8742-d000-2dc1" type="max"/>
           </constraints>
         </categoryLink>
@@ -227,7 +225,6 @@
       <categoryLinks>
         <categoryLink id="b547-7e3b-4681-a6b9" name="Battlegroups" hidden="false" targetId="bb7a-03b7-dbdf-c542" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af9c-53f1-772b-6639" type="min"/>
             <constraint field="selections" scope="force" value="7" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="098a-da2c-210a-8330" type="max"/>
           </constraints>
         </categoryLink>
@@ -269,14 +266,6 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="74ec-9165-2793-0744" name="Ship Browser" hidden="false">
-      <categoryLinks>
-        <categoryLink id="4177-e92e-86a9-e3de" name="Light" hidden="false" targetId="627b-146d-b78d-af3c" primary="false"/>
-        <categoryLink id="4bc3-5c24-dd8e-2754" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="false"/>
-        <categoryLink id="26ee-9231-c27d-734b" name="Heavy" hidden="false" targetId="1342-a92d-424c-140a" primary="false"/>
-        <categoryLink id="c53f-9a01-0fce-973e" name="Super Heavy" hidden="false" targetId="a74f-2082-f5bf-33a5" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
     <forceEntry id="053e-95bc-5ec1-51c5" name="Terrain" hidden="false">
       <categoryLinks>
         <categoryLink id="20ce-a80a-d9a5-c1b4" name="Clusters" hidden="false" targetId="d454-56c9-ca87-79ce" primary="false"/>
@@ -293,7 +282,6 @@
     <entryLink id="faad-aa0b-0103-280f" name="Medium Space Station" hidden="false" collective="false" import="true" targetId="3f23-ae01-996c-9dbd" type="selectionEntry"/>
     <entryLink id="fd9a-a334-d290-3a4e" name="Small Cluster" hidden="false" collective="false" import="true" targetId="9ea0-2d05-f377-5ab0" type="selectionEntry"/>
     <entryLink id="e5dd-ad97-0a06-4e2f" name="Small Space Station" hidden="false" collective="false" import="true" targetId="df4f-4a71-603a-020b" type="selectionEntry"/>
-    <entryLink id="110b-1c70-7f28-18fa" name="Princess Cruise Liner" hidden="false" collective="false" import="true" targetId="ba37-0d61-31f8-abf7" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink id="648d-ece4-2019-6ade" name="Notes" hidden="false" targetId="4b38-af5a-5bb1-7260" type="rule"/>
@@ -836,79 +824,6 @@
       <infoLinks>
         <infoLink id="c38e-31ce-89fc-fbc4" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ba37-0d61-31f8-abf7" name="Princess Cruise Liner" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="b139-6ffc-ebbd-4fbc" name="Princess Cruise Liner" publicationId="bb34-1413-pubN71061" hidden="false" typeId="ecce-1380-e182-c89e" typeName="Ship">
-          <characteristics>
-            <characteristic name="Scan" typeId="a704-f2fa-371d-9dab">4&quot;</characteristic>
-            <characteristic name="Sig" typeId="1402-313c-914d-f053">3&quot;</characteristic>
-            <characteristic name="Thrust" typeId="5033-56fa-1878-bbff">10&quot;</characteristic>
-            <characteristic name="Hull" typeId="6277-95e1-d5cd-6d06">12</characteristic>
-            <characteristic name="A" typeId="41bf-5c81-5b4b-0aec">4+</characteristic>
-            <characteristic name="PD" typeId="47c4-a3c6-1e57-306b">2</characteristic>
-            <characteristic name="G" typeId="7396-9d6c-953f-4c4b">1-4</characteristic>
-            <characteristic name="T" typeId="5c7d-d46b-9c5f-4ac3">M</characteristic>
-            <characteristic name="Special" typeId="4717-adad-0be5-3c60">Atmospheric, Civilian Transport, Full Cloak</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="eb76-fd92-67ca-edc8" name="Princess Cruise Liner A - Asteroid Clearance Lasers" hidden="false" typeId="1ddb-c7dc-57a9-b97f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Lock" typeId="b264-7fc5-348d-06c0">4+</characteristic>
-            <characteristic name="Attacks" typeId="00d0-7374-e403-ad78">2</characteristic>
-            <characteristic name="Damage" typeId="ae4d-c88d-138f-1fcf">1</characteristic>
-            <characteristic name="Arc" typeId="61a9-ead3-7b97-32ed">F/S/R</characteristic>
-            <characteristic name="Special" typeId="008a-e561-1ceb-a0f1">Close Action</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="c6e7-ea20-dd6e-98e7" name="Civilian Transport" hidden="false" targetId="2fb8-a8c6-77da-bbb9" type="rule"/>
-        <infoLink id="c25f-ecf0-d95a-ba97" name="Atmospheric" hidden="false" targetId="32d9-8628-d42c-4ddd" type="rule"/>
-        <infoLink id="efde-998b-7bf1-5b6a" name="Full Cloak" hidden="false" targetId="7429-7752-92a3-2a9c" type="rule"/>
-        <infoLink id="0cc5-f7b9-5e2e-243b" name="Close Action" hidden="false" targetId="5816-87fd-bf61-2418" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="4852-9207-42bd-b709" name="Medium" hidden="false" targetId="d45f-e753-7ba7-3084" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
-        <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
-        <cost name="SR" typeId="c0c3-cb79-19ac-1dbc" value="5"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f6fa-6fbd-c97c-f541" name="Princess Cruise Liners" hidden="false" collective="false" import="true" type="unit">
-      <entryLinks>
-        <entryLink id="7c9c-5553-c80e-836f" name="Princess Cruise Liner" hidden="false" collective="false" import="true" targetId="ba37-0d61-31f8-abf7" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fea8-0e48-216d-8d7e" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2708-2121-e721-163f" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="0736-c512-2f98-e170" name="Princess Cruise Liner" hidden="false" collective="false" import="true" targetId="ba37-0d61-31f8-abf7" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfed-c8c2-cf2f-c326" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb72-e004-3540-5c9f" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="fff3-fe8d-494a-31a7" name="Princess Cruise Liner" hidden="false" collective="false" import="true" targetId="ba37-0d61-31f8-abf7" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ed2f-a0ab-1502-f034" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5943-19db-79c6-d289" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="4d0a-34d1-bdfd-ccc8" name="Princess Cruise Liner" hidden="false" collective="false" import="true" targetId="ba37-0d61-31f8-abf7" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8691-64c7-7812-b7e8" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a896-4546-0513-87c0" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="e888-2584-886f-7f2c" value="0"/>
         <cost name="Launch" typeId="ac2f-9b71-e1c5-783a" value="0"/>
